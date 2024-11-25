@@ -66,7 +66,7 @@ curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-comp
 
 # ppp - bump version
 git clone https://github.com/pmkol/package_network_services_ppp ppp
-rm -rf ppp/.git
+rm -rf ppp/{.git,patches/900-fix-build-with-gcc14.patch}
 
 # zlib - bump version
 mv openwrt-master/package/libs/zlib ./
