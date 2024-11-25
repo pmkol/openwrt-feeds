@@ -68,5 +68,8 @@ curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-comp
 git clone https://github.com/pmkol/package_network_services_ppp ppp
 rm -rf ppp/.git
 
+# zlib - bump version
+mv openwrt-master/package/libs/zlib ./
+
 rm -rf openwrt-master openwrt-23.05 luci-23.05
 ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
