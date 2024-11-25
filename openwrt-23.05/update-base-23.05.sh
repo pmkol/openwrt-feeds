@@ -64,5 +64,9 @@ sed -i '/Requires hardware NAT support./{N;N;s/1/2/}' luci-app-firewall/htdocs/l
 mkdir -p bash-completion
 curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-completion/Makefile
 
+# ppp - bump version
+git clone https://github.com/pmkol/package_network_services_ppp ppp
+rm -rf ppp/.git
+
 rm -rf openwrt-master openwrt-23.05 luci-23.05
 ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
