@@ -65,8 +65,7 @@ mkdir -p bash-completion
 curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-completion/Makefile
 
 # ppp - bump version
-git clone https://github.com/pmkol/package_network_services_ppp ppp
-rm -rf ppp/.git
+mv openwrt-master/package/network/services/ppp ./
 
 # zlib - bump version
 mv openwrt-master/package/libs/zlib ./
