@@ -64,6 +64,18 @@ sed -i '/Requires hardware NAT support./{N;N;s/1/2/}' luci-app-firewall/htdocs/l
 mkdir -p bash-completion
 curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-completion/Makefile
 
+# nghttp3
+git clone https://github.com/sbwml/package_libs_nghttp3 nghttp3
+rm -rf nghttp3/.git
+
+# ngtcp2
+git clone https://github.com/sbwml/package_libs_ngtcp2 ngtcp2
+rm -rf ngtcp2/.git
+
+# curl
+git clone https://github.com/sbwml/feeds_packages_net_curl curl
+rm -rf curl/.git
+
 # ppp - bump version
 mv openwrt-master/package/network/services/ppp ./
 
