@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # backup feeds
 shopt -s extglob
@@ -75,6 +75,10 @@ rm -rf ngtcp2/.git
 # curl
 git clone https://github.com/sbwml/feeds_packages_net_curl curl
 rm -rf curl/.git
+
+# netkit-ftp
+git clone https://github.com/sbwml/package_new_ftp ftp
+rm -rf ftp/.git
 
 # ppp - bump version
 mv openwrt-master/package/network/services/ppp ./
