@@ -80,6 +80,10 @@ rm -rf curl/.git
 git clone https://github.com/sbwml/package_new_ftp ftp
 rm -rf ftp/.git
 
+# nethogs
+git clone https://github.com/sbwml/package_new_nethogs nethogs
+rm -rf nethogs/.git
+
 # ppp - bump version
 mv openwrt-master/package/network/services/ppp ./
 
