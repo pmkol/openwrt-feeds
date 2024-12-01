@@ -90,8 +90,8 @@ sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-s
 # luci-app-frpc & luci-app-frps & frp
 mv openwrt/luci/applications/luci-app-frpc ./
 mv openwrt/luci/applications/luci-app-frps ./
-curl -s https://$mirror/openwrt/patch/frpc/0001-luci-app-frpc-hide-token.patch | patch -p2
-curl -s https://$mirror/openwrt/patch/frpc/0002-luci-app-frpc-add-enable-flag.patch | patch -p2
+curl -s https://$mirror/openwrt-23.05/patch/frpc/0001-luci-app-frpc-hide-token.patch | patch -p2
+curl -s https://$mirror/openwrt-23.05/patch/frpc/0002-luci-app-frpc-add-enable-flag.patch | patch -p2
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frpc/Makefile
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frps/Makefile
 sed -i 's,frp 客户端,FRP 客户端,g' luci-app-frpc/po/zh_Hans/frpc.po
@@ -123,7 +123,7 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-upnp/Makefile
 
 # luci-app-natmap
 mv openwrt/luci/applications/luci-app-natmap ./
-curl -s https://$mirror/openwrt/patch/natmap/0001-luci-app-natmap-add-default-STUN-server-lists.patch | patch -p2
+curl -s https://$mirror/openwrt-23.05/patch/natmap/0001-luci-app-natmap-add-default-STUN-server-lists.patch | patch -p2
 
 # luci-app-aria2
 mv openwrt-aria2/*/ ./
