@@ -48,6 +48,10 @@ mkdir -p nftables/patches
 curl -s https://$mirror/openwrt-23.05/patch/firewall4/nftables/002-nftables-add-fullcone-expression-support.patch > nftables/patches/002-nftables-add-fullcone-expression-support.patch
 curl -s https://$mirror/openwrt-23.05/patch/firewall4/nftables/003-nftables-add-brcm-fullconenat-support.patch > nftables/patches/003-nftables-add-brcm-fullconenat-support.patch
 
+# iproute2
+git clone https://github.com/pmkol/package_network_utils_iproute2 iproute2 --depth 1
+rm -rf iproute2/.git
+
 # patch luci add nft_fullcone/bcm_fullcone & shortcut-fe & ipv6-nat & custom nft command option
 mv luci-23.05/applications/luci-app-firewall ./
 rm -rf luci-app-firewall/po/!(templates|zh_Hans)
@@ -65,23 +69,23 @@ mkdir -p bash-completion
 curl -s https://$mirror/openwrt-23.05/patch/bash-completion/Makefile > bash-completion/Makefile
 
 # nghttp3
-git clone https://github.com/sbwml/package_libs_nghttp3 nghttp3
+git clone https://github.com/sbwml/package_libs_nghttp3 nghttp3 --depth 1
 rm -rf nghttp3/.git
 
 # ngtcp2
-git clone https://github.com/sbwml/package_libs_ngtcp2 ngtcp2
+git clone https://github.com/sbwml/package_libs_ngtcp2 ngtcp2 --depth 1
 rm -rf ngtcp2/.git
 
 # curl
-git clone https://github.com/sbwml/feeds_packages_net_curl curl
+git clone https://github.com/sbwml/feeds_packages_net_curl curl --depth 1
 rm -rf curl/.git
 
 # netkit-ftp
-git clone https://github.com/sbwml/package_new_ftp ftp
+git clone https://github.com/sbwml/package_new_ftp ftp --depth 1
 rm -rf ftp/.git
 
 # nethogs
-git clone https://github.com/sbwml/package_new_nethogs nethogs
+git clone https://github.com/sbwml/package_new_nethogs nethogs --depth 1
 rm -rf nethogs/.git
 
 # ppp - bump version
