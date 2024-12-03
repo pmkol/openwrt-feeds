@@ -52,6 +52,13 @@ curl -s https://$mirror/openwrt-23.05/patch/firewall4/nftables/003-nftables-add-
 git clone https://github.com/pmkol/package_network_utils_iproute2 iproute2 --depth 1
 rm -rf iproute2/.git
 
+# libunwind
+mkdir -p libunwind/patches
+curl -s https://raw.githubusercontent.com/openwrt/openwrt/f9e3fb59c7e1835c4003457636a5ea269f6ec06d/package/libs/libunwind/Makefile > libunwind/Makefile
+curl -s https://raw.githubusercontent.com/openwrt/openwrt/f9e3fb59c7e1835c4003457636a5ea269f6ec06d/package/libs/libunwind/patches/002-fix-building-getcontext_S.patch > libunwind/patches/002-fix-building-getcontext_S.patch
+curl -s https://raw.githubusercontent.com/openwrt/openwrt/f9e3fb59c7e1835c4003457636a5ea269f6ec06d/package/libs/libunwind/patches/003-fix-missing-ef_reg-defs-with-musl.patch > libunwind/patches/003-fix-missing-ef_reg-defs-with-musl.patch
+curl -s https://raw.githubusercontent.com/openwrt/openwrt/f9e3fb59c7e1835c4003457636a5ea269f6ec06d/package/libs/libunwind/patches/004-ppc-musl.patch > libunwind/patches/004-ppc-musl.patch
+
 # patch luci add nft_fullcone/bcm_fullcone & shortcut-fe & ipv6-nat & custom nft command option
 mv luci-23.05/applications/luci-app-firewall ./
 rm -rf luci-app-firewall/po/!(templates|zh_Hans)
