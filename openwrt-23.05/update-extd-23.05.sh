@@ -183,6 +183,9 @@ sed -i 's/syslog/none/g' netdata/files/netdata.conf
 mv immortalwrt/packages/net/iperf3 ./
 sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" iperf3/Makefile
 
+# openssh
+mv immortalwrt/packages/net/openssh ./
+
 # screen
 mv immortalwrt/packages/utils/screen ./
 
