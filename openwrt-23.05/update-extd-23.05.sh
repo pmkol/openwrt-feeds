@@ -147,6 +147,7 @@ sed -i 's/解除网易云音乐播放限制/网易云音乐解锁/g' luci-app-un
 # luci-theme-argon
 mv openwrt-argon/*/ ./
 rm -rf openwrt-argon
+rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
 
 # luci-app-mosdns
 mv openwrt-mosdns/*/ ./
