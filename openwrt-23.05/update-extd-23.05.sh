@@ -172,6 +172,9 @@ mv immortalwrt/packages/net/ddns-scripts ./
 mv immortalwrt/packages/utils/docker-composes ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' docker-composes/Makefile
 
+# lsof
+mv immortalwrt/packages/utils/lsof ./
+
 # netdata
 mv immortalwrt/packages/admin/netdata ./
 sed -i 's/syslog/none/g' netdata/files/netdata.conf
