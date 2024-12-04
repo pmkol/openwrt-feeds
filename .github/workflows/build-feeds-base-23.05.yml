@@ -97,6 +97,8 @@ jobs:
         run: |
           mkdir -p /tmp/openwrt_base/${{ matrix.arch }}/
           mv bin/packages/${{ matrix.arch }}/packages_lite/* /tmp/openwrt_base/${{ matrix.arch }}
+          curl -sO https://raw.githubusercontent.com/${{ github.repository }}/main/openwrt-23.05/generate-index-23.05.sh
+          bash generate-index-23.05.sh /tmp/openwrt_base/${{ matrix.arch }}
           tar -cJvf /tmp/openwrt_base/packages-base-${{ matrix.arch }}.tar.xz -C /tmp/openwrt_base ${{ matrix.arch }}
 
       - name: Create release
