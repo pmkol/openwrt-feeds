@@ -1,0 +1,2686 @@
+Package: airconnect
+Version: 1.8.3-1
+Depends: libc
+License: MIT
+Section: multimedia
+Architecture: aarch64_generic
+Installed-Size: 3744617
+Filename: airconnect_1.8.3-1_aarch64_generic.ipk
+Size: 3731912
+SHA256sum: 4c9ef85f7b14e39a197e49c74cc420802fb7dee83f64a6591ed54aee08dc9178
+Description:  Use AirPlay to stream to UPnP/Sonos & Chromecast devices
+
+Package: appfilter
+Version: 5.0.2-1
+Depends: libc, kmod-oaf, libubox20230523, libubus20230605, libuci20130104, libpthread, libjson-c5, libblobmsg-json20230523
+Section: Derry Apps
+Architecture: aarch64_generic
+Installed-Size: 22459
+Filename: appfilter_5.0.2-1_aarch64_generic.ipk
+Size: 23013
+SHA256sum: c416a274d2dc5f4fe08999b78c949e1a9caaa7db43352784d920a94037b03a82
+Description:  open appfilter app
+
+Package: aria2
+Version: 1.37.0-1
+Depends: libc, zlib, libstdcpp6, libopenssl3
+License: GPLv2
+Section: net
+CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
+Architecture: aarch64_generic
+Installed-Size: 609777
+Filename: aria2_1.37.0-1_aarch64_generic.ipk
+Size: 609724
+SHA256sum: 26e5b681ee2119c9b74e4120d33ecc40b04ab9c7562c2164957186db35a500f4
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: coremark
+Version: 2023.01.25~d5fad6bd-1
+Depends: libc
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 16744
+Filename: coremark_2023.01.25~d5fad6bd-1_aarch64_generic.ipk
+Size: 17362
+SHA256sum: f4e6d8650b60bee3a5253d8d8fc8c5b27217142217c917424618cd90dc9d33a3
+Description:  Embedded Microprocessor Benchmark
+
+Package: ddns-go
+Version: 6.7.6-1
+Depends: libc, ca-bundle
+License: AGPL-3.0-only
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 3870196
+Filename: ddns-go_6.7.6-1_aarch64_generic.ipk
+Size: 3860615
+SHA256sum: d77cf7400aa0b047afa5a9ae0f4f7ecdac242caf70e405a1ab27a35a3382e136
+Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
+ support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
+
+Package: ddns-scripts-aliyun
+Version: 1.0.3-6
+Depends: libc, ddns-scripts, curl, jsonfilter, openssl-util
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 2829
+Filename: ddns-scripts-aliyun_1.0.3-6_all.ipk
+Size: 3658
+SHA256sum: 35b8cf1a852cb4d26e9b6a1865d978fb67df12b2f9dfb542d79596099219f0c9
+Description:  Dynamic DNS Client scripts extension for AliYun.com
+
+Package: ddns-scripts-cloudflare
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+Provides: ddns-scripts_cloudflare.com-v4
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 3260
+Filename: ddns-scripts-cloudflare_2.8.2-52_all.ipk
+Size: 4063
+SHA256sum: 56a0233e555f42ffc2fe2e0c52a3297c4bc8da4fde8815b8e7313eed937ba22a
+Description:  Dynamic DNS Client scripts extension for cloudflare.com API v4 (require curl)
+
+Package: ddns-scripts-cnkuai
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl, giflib-utils
+Provides: ddns-scripts_cnkuai_cn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1302
+Filename: ddns-scripts-cnkuai_2.8.2-52_all.ipk
+Size: 2206
+SHA256sum: e44fe1b15e1499b13ba9f439e32fb2b7268eb2590577b7ef96f203e7c9dcc054
+Description:  Dynamic DNS Client scripts extension for 'cnkuai.cn'.
+ It requires:
+ 'option username' to be a valid CnKuai control panel id
+ 'option password' to be the matching CnKuai control panel password
+ 'option domain' to contain the domain
+
+Package: ddns-scripts-digitalocean
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+Provides: ddns-scripts_digitalocean.com-v2
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1129
+Filename: ddns-scripts-digitalocean_2.8.2-52_all.ipk
+Size: 2175
+SHA256sum: 13a9c6dcd838b652ecd1bcf093aacb687c509847c9630d49679c8e4beceb86e0
+Description:  Dynamic DNS Client scripts extension for digitalocean.com API v2.
+ The script directly updates a DNS record using the DO API.
+ It requires:
+ 'option dns_server' to be set to the server to be used by nsupdate.
+ 'option domain' the dns domain to update the record for (eg. A-record: home.<example.com>)
+ 'option username' the dns record name to update (eg. A-record: <home>.example.com)
+ 'option param_opt' the id of the dns record to update (check using chrome inspector in the DO dns tab)
+ 'option password' the api token generated in the DO panel
+
+Package: ddns-scripts-dnspod
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2102
+Filename: ddns-scripts-dnspod_2.8.2-52_all.ipk
+Size: 2875
+SHA256sum: bc2342aefa968a51eeb5463ebb9e330348b383a2f5d7ff9d07bccb6873a62370
+Description:  Dynamic DNS Client scripts extension for dnspod.cn API (require curl)
+
+Package: ddns-scripts-freedns
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+Provides: ddns-scripts_freedns_42_pl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1035
+Filename: ddns-scripts-freedns_2.8.2-52_all.ipk
+Size: 1848
+SHA256sum: cb310afc30cebb4817ffaacb85741e60e9453340809ad386654bdbfd650be35f
+Description:  Dynamic DNS Client scripts extension for 'freedns.42.pl'.
+
+Package: ddns-scripts-gandi
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 991
+Filename: ddns-scripts-gandi_2.8.2-52_all.ipk
+Size: 1831
+SHA256sum: 5c4078cd67c215fa8b4f84ac2752135c1e4f7696fa89ce0e1435322ddcc5a4f7
+Description:  Dynamic DNS Client scripts extension for 'gandi.net'.
+ It requires:
+ 'option username' to be a valid subdomain for gandi.net
+ 'option password' to be a valid API key for gandi.net
+
+Package: ddns-scripts-gcp
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 3782
+Filename: ddns-scripts-gcp_2.8.2-52_all.ipk
+Size: 4583
+SHA256sum: 18bbdf6207b5815a985a036babcf9f766bdc9a1bad87fb89d1c0ae057cbbfcf5
+Description:  Dynamic DNS Client scripts extension for Google Cloud DNS API v1 (requires curl)
+
+Package: ddns-scripts-godaddy
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+Provides: ddns-scripts_godaddy.com-v1
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2824
+Filename: ddns-scripts-godaddy_2.8.2-52_all.ipk
+Size: 3611
+SHA256sum: 5a73afe4e1fa68cf6ee120d4fbed0255e5e1cdae60d06f72b7405c58d87282b2
+Description:  Dynamic DNS Client scripts extension for 'godaddy.com API v1'.
+
+Package: ddns-scripts-huaweicloud
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2265
+Filename: ddns-scripts-huaweicloud_2.8.2-52_all.ipk
+Size: 3059
+SHA256sum: ce78fd14764f21c25fc4ef7df164f41d22fc4895192c4a3a697895d0c60e73d5
+Description:  Dynamic DNS Client scripts extension for huaweicloud.com API (require curl and openssl)
+
+Package: ddns-scripts-luadns
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2964
+Filename: ddns-scripts-luadns_2.8.2-52_all.ipk
+Size: 3739
+SHA256sum: 903706946623a779cc51683ac627af9f5926700a84fc3e9dd76f15a5379c78c3
+Description:  Dynamic DNS Client scripts extension for LuaDNS API v1 (require curl)
+
+Package: ddns-scripts-noip
+Version: 2.8.2-52
+Depends: libc, ddns-scripts
+Provides: ddns-scripts_no-ip_com
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1187
+Filename: ddns-scripts-noip_2.8.2-52_all.ipk
+Size: 2001
+SHA256sum: f95633f3d41c9a90652f4f825da0d730f70dfdd929f0af61295df2f0511842f1
+Description:  Dynamic DNS Client scripts extension for 'no-ip.com'.
+
+Package: ddns-scripts-ns1
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1077
+Filename: ddns-scripts-ns1_2.8.2-52_all.ipk
+Size: 1924
+SHA256sum: e0c2f3dd296a8d9e442d4ba8bd9b74a8788a93616b01f138ef7a1acefafbe846
+Description:  Dynamic DNS Client scripts extension for 'ns1.com'.
+ It requires:
+ 'option username' to be a valid zone for ns1.com
+ 'option password' to be a valid API key for ns1.com
+
+Package: ddns-scripts-nsupdate
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, bind-client
+Provides: ddns-scripts_nsupdate
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1171
+Filename: ddns-scripts-nsupdate_2.8.2-52_all.ipk
+Size: 2132
+SHA256sum: f104664e6d6aad95b2a8b881db437ec921c875d4cb95d0d1b685c245b1e3629c
+Description:  Dynamic DNS Client scripts extension for direct updates using bind nsupdate
+ The script directly updates a PowerDNS (or maybe bind server) via nsupdate
+ from bind-client package.
+ It requires:
+ 'option dns_server' to be set to the server to be used by nsupdate.
+ 'option username' should be set to the key name and
+ 'option password' to the base64 encoded shared secret.
+
+Package: ddns-scripts-one
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1601
+Filename: ddns-scripts-one_2.8.2-52_all.ipk
+Size: 2392
+SHA256sum: 02fda657a50f34afa6fc9e61a6589da411a8ce44390ca256b36a11c3b266fb9a
+Description:  Extension for one.com Control Panel
+
+Package: ddns-scripts-pdns
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1093
+Filename: ddns-scripts-pdns_2.8.2-52_all.ipk
+Size: 1998
+SHA256sum: c0a8e54c554b5c3f73d18170fb8f916f52dda8d406e40e721d6207bff1d7dc4d
+Description:  Dynamic DNS Client scripts extension for 'PowerDNS' via API.
+ It requires:
+ 'option param_opt(Optional Parameter)' to be a valid root URL for the PowerDNS webserver
+ 'option username' to be a valid subdomain for the PowerDNS domain
+ 'option password' to be a valid API key for the PowerDNS webserver
+
+Package: ddns-scripts-porkbun
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl
+Provides: ddns-scripts_porkbun.com-v3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2088
+Filename: ddns-scripts-porkbun_2.8.2-52_all.ipk
+Size: 2971
+SHA256sum: 8b7aa7af5aa51c084fced4233e6c4fdb9a13c43a73c2ee67d77b88cc7bba6068
+Description:  Dynamic DNS Client scripts extension for porkbun.com API v3 (require curl)
+ It requires:
+ 'option username' to be a Porkbun API key
+ 'option password' to be the corresponding Porkbun API secret key
+ 'option domain' to be the FQDN for which to configure DDNS
+
+Package: ddns-scripts-route53
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl, openssl-util
+Provides: ddns-scripts_route53-v1
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1737
+Filename: ddns-scripts-route53_2.8.2-52_all.ipk
+Size: 2699
+SHA256sum: cf7c0ba3da9679effab9dca9e0886b231d22b154d4f03d5c021c683900ee63e8
+Description:  Dynamic DNS Client scripts extension for Amazon AWS 'route53 API v1'.
+ Note: You must also install ca-certificate or ca-bundle.
+ It requires:
+ 'option username' to be a valid AWS access key id
+ 'option password' to be the matching AWS secret key id
+ 'option domain' to contain the hosted zone ID
+
+Package: ddns-scripts-services
+Version: 2.8.2-52
+Depends: libc
+Provides: ddns-scripts_service
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 3979
+Filename: ddns-scripts-services_2.8.2-52_all.ipk
+Size: 4597
+SHA256sum: 5e3c10faa01b24ad9810b461116abf615bec00ff77fe1f3810df1f628435718e
+Description:  Dynamic DNS Client definitions for supported services
+
+Package: ddns-scripts-transip
+Version: 2.8.2-52
+Depends: libc, ddns-scripts, curl, openssl-util, coreutils-mktemp
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1891
+Filename: ddns-scripts-transip_2.8.2-52_all.ipk
+Size: 2829
+SHA256sum: 7d67bdccf8f7290ce1bb88786b3bc1ca5f85ab43ad1891121c5c4aabbfbc5584
+Description:  Dynamic DNS Client scripts extension for 'transip.nl'.
+ Note: You must also install ca-certificate or ca-bundle.
+ It requires:
+ 'option username' to be a valid username for transip.nl
+ 'option password' to be a valid matching private key
+ 'option domain' to contain the base domain
+ 'option param_enc' to contain the name of the DNS record to update
+ 'option param_opt' to contain the TTL of the DNS record to update
+
+Package: ddns-scripts-utils
+Version: 2.8.2-52
+Depends: libc, ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1755
+Filename: ddns-scripts-utils_2.8.2-52_all.ipk
+Size: 2478
+SHA256sum: 7789fd3a445ca97c3a52aee12070aef662add0c31b9158c3f95625b985d74c20
+Description:  Dynamic DNS Client utility scripts for config files
+
+Package: ddns-scripts
+Version: 2.8.2-52
+Depends: libc, ddns-scripts-services
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 23911
+Filename: ddns-scripts_2.8.2-52_all.ipk
+Size: 24915
+SHA256sum: 1ed8ddbe488c0c6761874f894a6447e72908c8a5e0ec5beaa628a594ea78a2c2
+Description:  Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-52
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: dufs
+Version: 0.42.0-2
+Depends: libc, liblzma
+License: Apache-2.0 MIT
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 1750557
+Filename: dufs_0.42.0-2_aarch64_generic.ipk
+Size: 1740337
+SHA256sum: e48d60072ead8ce8e76b13215dec94169fbbe56b3c62c8e14440a5b83ef4bb77
+Description:  Dufs is a distinctive utility file server that supports static
+ serving, uploading, searching, accessing control, webdav...
+
+Package: einat-ebpf
+Version: 0.1.4-5
+Depends: libc, kmod-sched-core, kmod-sched-bpf
+Provides: einat
+License: GPL-2.0-or-later GPL-2.0-only
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 914075
+Filename: einat-ebpf_0.1.4-5_aarch64_generic.ipk
+Size: 901972
+SHA256sum: ff7fce404794b49fd4e83060fbfbd2fc597c6f5aa8ff5731486d44a1b6b1b2a3
+Description:  This eBPF application implements an "Endpoint-Independent Mapping" and
+ "Endpoint-Independent Filtering" NAT(network address translation) on
+ TC egress and ingress hooks.
+
+Package: filebrowser
+Version: 2.31.2-1
+Depends: libc
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 7726202
+Filename: filebrowser_2.31.2-1_aarch64_generic.ipk
+Size: 7711436
+SHA256sum: ef0a086d22a2be85478a17776a4bbb31e7273bfb461a388c677d8ad0a7d6d522
+Description:  File Browser is a create-your-own-cloud-kind of software where you can install it on a server
+
+Package: frpc
+Version: 0.51.3-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 5167640
+Filename: frpc_0.51.3-1_aarch64_generic.ipk
+Size: 5148821
+SHA256sum: 78dc5dd1906194cf6c1e4b7f5982b8c915ed20982361d25f5a9df61f5bb32e0f
+Description:  frpc is a fast reverse proxy client to help you expose a local server behind
+ a NAT or firewall to the internet.
+
+Package: frps
+Version: 0.51.3-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 5999355
+Filename: frps_0.51.3-1_aarch64_generic.ipk
+Size: 5978639
+SHA256sum: 57d19185b4e579433f766087993fb939259e665005613ba4ef90948a08d7117c
+Description:  frps is a fast reverse proxy server to help you expose a local server behind
+ a NAT or firewall to the internet.
+
+Package: fw_download_tool
+Version: 1
+Depends: libc, libcurl4
+License: GPL-3.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 3013
+Filename: fw_download_tool_1_aarch64_generic.ipk
+Size: 3608
+SHA256sum: cfae4da6f350c61b272149ffeb71a68d71f6c30c0a786d33a209b010878ef2ea
+Description:  Firmware downloader
+
+Package: gowebdav
+Version: 0.0.8-1
+Depends: libc
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 2290199
+Filename: gowebdav_0.0.8-1_aarch64_generic.ipk
+Size: 2285815
+SHA256sum: 02890af4922d0075b44b8e3bc4bab5916507048d524df9fb3913992209de7c9f
+Description:  A simple WebDav server written in Go
+
+Package: iperf3-ssl
+Version: 3.17.1-4
+Depends: libc, libopenssl3, libatomic1
+Conflicts: iperf3
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:es:iperf3
+Architecture: aarch64_generic
+Installed-Size: 63260
+Filename: iperf3-ssl_3.17.1-4_aarch64_generic.ipk
+Size: 63996
+SHA256sum: a3861fd65f4bef2267e2289c23d841aeac01ed024c779e19ad730b9a721a806c
+Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
+
+Package: iperf3
+Version: 3.17.1-4
+Depends: libc, libiperf3
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:es:iperf3
+Architecture: aarch64_generic
+Installed-Size: 2449
+Filename: iperf3_3.17.1-4_aarch64_generic.ipk
+Size: 3126
+SHA256sum: a5dea0503d668765109d2cdfbe52ce652fe4735451416691b78e15062946cb70
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ksmbd-avahi-service
+Version: 3.5.2-1
+Depends: libc, avahi-daemon
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 349
+Filename: ksmbd-avahi-service_3.5.2-1_aarch64_generic.ipk
+Size: 1174
+SHA256sum: 93149373e43ac4c875f526fbf2e8c95d41dc0c2873e17d29fdd0a93af5de2f5f
+Description:  installs: smb.service
+ 
+ This package contains the service definition for announcing the
+ Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
+
+Package: ksmbd-hotplug
+Version: 3.5.2-1
+Depends: libc, blockd
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 675
+Filename: ksmbd-hotplug_3.5.2-1_aarch64_generic.ipk
+Size: 1411
+SHA256sum: d045f081d56028c7dfe794034d2ab29271bbbc746c6b66ebccc09b85a065f4d3
+Description:  Kernel SMB hotplug script for auto sharing
+
+Package: ksmbd-server
+Version: 3.5.2-1
+Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 128975
+Filename: ksmbd-server_3.5.2-1_aarch64_generic.ipk
+Size: 127532
+SHA256sum: a029bf9931ba355723620ebed6f09007f6782c0901a9910d5acad75a128eb75c
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
+
+Package: libQt6Concurrent
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 7805
+Filename: libQt6Concurrent_6.8.1-1_aarch64_generic.ipk
+Size: 8431
+SHA256sum: a41a9db2e1907e6b9d9a23efa64c16a87e8b934577d22005d0e716aae65cdae1
+Description:  This package provides the Qt6 Concurrent v6.8.1 library.
+
+Package: libQt6Core
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 2606511
+Filename: libQt6Core_6.8.1-1_aarch64_generic.ipk
+Size: 2599163
+SHA256sum: c9b4007e236823c876babd5bf4eb38aef0d76f2076edb1b9608dea6ce337ec17
+Description:  This package provides the Qt6 Core v6.8.1 library.
+
+Package: libQt6DBus
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 336363
+Filename: libQt6DBus_6.8.1-1_aarch64_generic.ipk
+Size: 336492
+SHA256sum: 3483fc61e771092b0075504daf7ae724b0fbeed0351be7fea623702d807f5bc0
+Description:  This package provides the Qt6 DBus v6.8.1 library.
+
+Package: libQt6Gui
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 2965350
+Filename: libQt6Gui_6.8.1-1_aarch64_generic.ipk
+Size: 2960571
+SHA256sum: 7449aa39682dcc9955b8c34aa654c01e8d586d2138df1a5c984627aaa443468c
+Description:  This package provides the Qt6 Gui v6.8.1 library.
+
+Package: libQt6Network
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 912031
+Filename: libQt6Network_6.8.1-1_aarch64_generic.ipk
+Size: 910931
+SHA256sum: afb4ece89c8662c4420afe1b21a87221c392c58e238cfd58b53f2809dc9c7119
+Description:  This package provides the Qt6 Network v6.8.1 library.
+
+Package: libQt6PrintSupport
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Widgets
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 167299
+Filename: libQt6PrintSupport_6.8.1-1_aarch64_generic.ipk
+Size: 167099
+SHA256sum: 4bc531759746fd9ede2d2ca19bb40ad023cdd5e6bf1d0a51ee78356f34aed7aa
+Description:  This package provides the Qt6 PrintSupport v6.8.1 library.
+
+Package: libQt6Sql
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 89398
+Filename: libQt6Sql_6.8.1-1_aarch64_generic.ipk
+Size: 89925
+SHA256sum: 03f93f9c62cbdce2ab47a49962f38a7449c7a810adf6cec8cd929020f3361626
+Description:  This package provides the Qt6 Sql v6.8.1 library.
+
+Package: libQt6Test
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 145767
+Filename: libQt6Test_6.8.1-1_aarch64_generic.ipk
+Size: 146320
+SHA256sum: f4f4da4c26bda23c67b26711ac34f238406f22d6160b1187c6b5ed7578ce8905
+Description:  This package provides the Qt6 Test v6.8.1 library.
+
+Package: libQt6Widgets
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 3384613
+Filename: libQt6Widgets_6.8.1-1_aarch64_generic.ipk
+Size: 3377553
+SHA256sum: c555d6db7673f0cbc89b32b15c1ad915cbf065fd8242b160c04a9ff34a5af48c
+Description:  This package provides the Qt6 Widgets v6.8.1 library.
+
+Package: libQt6Xml
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 68838
+Filename: libQt6Xml_6.8.1-1_aarch64_generic.ipk
+Size: 69588
+SHA256sum: 15eddb7b63a6c5d27015a66ccea7357d9162d9a0c17fc0167d1c110cf30a3fb1
+Description:  This package provides the Qt6 Xml v6.8.1 library.
+
+Package: libiperf3
+Version: 3.17.1-4
+Depends: libc, libatomic1
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:es:iperf3
+Architecture: aarch64_generic
+Installed-Size: 74859
+Filename: libiperf3_3.17.1-4_aarch64_generic.ipk
+Size: 75524
+SHA256sum: 15093fc6bd7fda2ff6e90f2fd12e9399566d36a2a00b68281f83160bd1dc9c81
+Description:  Libiperf is a library providing an API for iperf3 functionality.
+
+Package: liburing
+Version: 2.7-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 8199
+Filename: liburing_2.7-1_aarch64_generic.ipk
+Size: 8999
+SHA256sum: 50ff1d5bde0c68a17ea83b4b9c3b4b895bee7c3e1acf3ff63c09b6790e1637ba
+Description:  liburing provides helpers to setup and teardown io_uring instances,
+ and also a simplified interface for applications that don't need
+ (or want) to deal with the full kernel side implementation.
+ For more info on io_uring, please see: https://kernel.dk/io_uring.pdf
+
+Package: libzstd
+Version: 1.5.6-1
+Depends: libc
+License: GPL-2.0-or-later
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 332694
+Filename: libzstd_1.5.6-1_aarch64_generic.ipk
+Size: 333059
+SHA256sum: 9e990b4cf5d2b4af59e23e1b40ece3a8b08c6b66ed6d90ccf42406c2b9e1ea3e
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lshw
+Version: 2023-03-20-b4e06730-1
+Depends: libc, libstdcpp6
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 343084
+Filename: lshw_2023-03-20-b4e06730-1_aarch64_generic.ipk
+Size: 342482
+SHA256sum: 80656192df084d7e686ea803405d95761102920364a04c51bdcb420f91e66caf
+Description:  HardWare LiSter for Linux
+
+Package: lsof
+Version: 4.99.3-1
+Depends: libc, libtirpc
+License: lsof
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 76454
+Filename: lsof_4.99.3-1_aarch64_generic.ipk
+Size: 76866
+SHA256sum: 899b895e52a870a7256da6e8d7fe17eee218ec268678264f3e20c3615336223f
+Description:  LiSt Open Files - a diagnostic tool
+
+Package: luci-app-adguardhome
+Version: 1.8-20221120
+Depends: libc, curl, adguardhome, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 90094
+Filename: luci-app-adguardhome_1.8-20221120_all.ipk
+Size: 91284
+SHA256sum: 02c7bea5b03b648a4514e75ce73a0d2597bb06e99f4d2e9be9b2161eb14d76cb
+Description:  LuCI support for adguardhome
+
+Package: luci-app-airconnect
+Version: 1.0.2
+Depends: libc, airconnect
+Section: luci
+Architecture: all
+Installed-Size: 1768
+Filename: luci-app-airconnect_1.0.2_all.ipk
+Size: 2570
+SHA256sum: 3725759cfa7c80baaa7a8f29f6e0b1410809dc70e3f640e9bea2ddb54aa935cc
+Description:  LuCI support for AirConnect
+
+Package: luci-app-airplay2
+Version: 1.0.0
+Depends: libc, alsa-utils, shairport-sync-openssl, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3924
+Filename: luci-app-airplay2_1.0.0_all.ipk
+Size: 4786
+SHA256sum: a852a9b751a3162073278acc707faf33fab66804882eacfd466020a652ae3d78
+Description:  Luci for Airplay2 Player
+
+Package: luci-app-argon-config
+Version: 1.0
+Depends: libc, luci-theme-argon
+Section: luci
+Architecture: all
+Installed-Size: 3197
+Filename: luci-app-argon-config_1.0_all.ipk
+Size: 4045
+SHA256sum: 477d7d7a276eb6e5b9cdddf8de7009428db9c2696a513a1ef079986017a54633
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-app-aria2
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-compat, aria2, luci-lib-ipkg, luci-lua-runtime
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9002
+Filename: luci-app-aria2_git-24.339.62641-5a78f39_all.ipk
+Size: 9864
+SHA256sum: 4451e0030a3862d13030e7d12d0174897032056477d89b4ca5b6c5984eb6f23c
+Description:  LuCI Support for Aria2
+
+Package: luci-app-autoreboot
+Version: 1.0
+Depends: libc, luci, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 1432
+Filename: luci-app-autoreboot_1.0_all.ipk
+Size: 2255
+SHA256sum: 51f15dd553603490a71bd62e49943efbd7e5c08230ea648823ca17473d83adcb
+Description:  LuCI support for Scheduled Reboot
+
+Package: luci-app-cpufreq
+Version: 1.1
+Depends: libc, irqbalance, luci-compat, kmod-hwmon-pwmfan, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 8966
+Filename: luci-app-cpufreq_1.1_all.ipk
+Size: 9741
+SHA256sum: f222efb9aed85e5c730f1facc688304e9c92369eed197bfe7b26a7fe9090fc3c
+Description:  LuCI for CPU Freq Setting
+
+Package: luci-app-ddns-go
+Version: 1.4.5
+Depends: libc, ddns-go, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 5553
+Filename: luci-app-ddns-go_1.4.5_all.ipk
+Size: 6429
+SHA256sum: 0dbd62402698bdb9cd7ce624293b64513ee0cf7f99cd0907beaec0384da6acac
+Description:  LuCI Support for Dynamic ddns-go Client
+
+Package: luci-app-diskman
+Version: v0.2.13
+Depends: libc, e2fsprogs, parted, smartmontools, blkid, swap-utils, btrfs-progs, lsblk, luci-lua-runtime
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 20670
+Filename: luci-app-diskman_v0.2.13_all.ipk
+Size: 21562
+SHA256sum: 762c84f361f7642446accf56520c2f70366c9e79fbfad725ee4922f2c40c5f6d
+Description:  Disk Manager interface for LuCI
+
+Package: luci-app-dufs
+Version: git-24.339.62641-5a78f39
+Depends: libc, dufs
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1911
+Filename: luci-app-dufs_git-24.339.62641-5a78f39_all.ipk
+Size: 2729
+SHA256sum: ae0c802e07208c14b9d0f4ac09095ce5f5b120181147e9dfb4130fb1d4286e33
+Description:  LuCI support for dufs
+
+Package: luci-app-einat
+Version: git-24.339.62641-5a78f39
+Depends: libc
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 2191
+Filename: luci-app-einat_git-24.339.62641-5a78f39_all.ipk
+Size: 3039
+SHA256sum: d9cc740539b689443eee63797118f6d336aab3c4a5d2099f46f812923befc323
+Description:  eBPF-based Endpoint-Independent NAT
+
+Package: luci-app-eqos
+Version: git-24.339.62641-5a78f39
+Depends: libc, tc, kmod-sched-core, kmod-ifb
+Section: luci
+Architecture: all
+Installed-Size: 2627
+Filename: luci-app-eqos_git-24.339.62641-5a78f39_all.ipk
+Size: 3448
+SHA256sum: c7cc4b93c83a82ff66ddc3ea0dd962c58d5c6a370ee6af1b4f21121b1a4f6a98
+Description:  LuCI support for Easy QoS
+
+Package: luci-app-eqosplus
+Version: 1.2.5
+Depends: libc, bash, tc, kmod-sched-core, kmod-ifb, kmod-sched, iptables-mod-filter, iptables-mod-nat-extra, luci-lua-runtime
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6166
+Filename: luci-app-eqosplus_1.2.5_all.ipk
+Size: 7153
+SHA256sum: edd993241d6af3383805894a2d1862dc94f4a5eb130991f9dd57f6a6f83768de
+Description:  LuCI support for Easy eqosplus(Support speed limit based on IP address).
+
+Package: luci-app-filebrowser-go
+Version: 1.1
+Depends: libc, filebrowser, luci-compat, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3284
+Filename: luci-app-filebrowser-go_1.1_all.ipk
+Size: 4111
+SHA256sum: c1560dff45eeabb32068d1b32baaf5e5a0d254a16b1d5e5fdeac5f09ec553657
+Description:  LuCI support for FileBrowser
+
+Package: luci-app-filemanager
+Version: 1.0.0
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 9537
+Filename: luci-app-filemanager_1.0.0_all.ipk
+Size: 10358
+SHA256sum: 28315eba77369656a30df5948db1315b13a5d07d306c35343d8178381ebe0a7d
+Description:  LuCI File Manager module
+
+Package: luci-app-frpc
+Version: git-24.339.62641-5a78f39
+Depends: libc, frpc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4351
+Filename: luci-app-frpc_git-24.339.62641-5a78f39_all.ipk
+Size: 5158
+SHA256sum: cd46b8832483a5be8612845c1a59a29abde7e0361465d888674fe32f6c90d9d8
+Description:  LuCI Support for frp client
+
+Package: luci-app-frps
+Version: git-24.339.62641-5a78f39
+Depends: libc, frps
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3403
+Filename: luci-app-frps_git-24.339.62641-5a78f39_all.ipk
+Size: 4240
+SHA256sum: 3a5d8a9babf5f4b6b234cdf671a7ace2c5b4b0345a8620d88fee08c959540644
+Description:  LuCI Support for frp server
+
+Package: luci-app-gowebdav
+Version: 1.0
+Depends: libc, gowebdav, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 2598
+Filename: luci-app-gowebdav_1.0_all.ipk
+Size: 3425
+SHA256sum: ad2a4230e0596e30945a46b4f77236c0b7a23cf385a4553151bc4d48d774cade
+Description:  LuCI support for GoWebDav
+
+Package: luci-app-ksmbd
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-base, ksmbd-server
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2048
+Filename: luci-app-ksmbd_git-24.339.62641-5a78f39_all.ipk
+Size: 2897
+SHA256sum: 9213c5da24c762bd508e58ab9de2f020f31cc601e1d30c2612da4b4b4369d8a2
+Description:  Network Shares - Ksmbd the SMB kernel fileserver
+
+Package: luci-app-mentohust
+Version: 1.0.2
+Depends: libc, mentohust
+Section: luci
+Architecture: all
+Installed-Size: 2213
+Filename: luci-app-mentohust_1.0.2_all.ipk
+Size: 3030
+SHA256sum: 8d90005dcc2f5b962c8246a51bbade40da453cd5c423ec8ecde7c2e7a129e2d2
+Description:  LuCI support for MentoHUST
+
+Package: luci-app-mosdns
+Version: 1.6.7
+Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
+Section: luci
+Architecture: all
+Installed-Size: 102612
+Filename: luci-app-mosdns_1.6.7_all.ipk
+Size: 103536
+SHA256sum: 69c6d1a29ad332c1b616a88e72bbd3161ea9cc767e3a321161143d8159b40d15
+Description:  LuCI Support for mosdns
+
+Package: luci-app-msd_lite
+Version: git-24.339.62641-5a78f39
+Depends: libc, msd_lite
+Section: luci
+Architecture: all
+Installed-Size: 1282
+Filename: luci-app-msd_lite_git-24.339.62641-5a78f39_all.ipk
+Size: 2109
+SHA256sum: 57caf0b075bfb69e3053234d07432257982a248f465f04bc96822454af8d1c93
+Description:  LuCI support for Multi stream daemon lite
+
+Package: luci-app-netdata
+Version: 1.0
+Depends: libc, netdata, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 631
+Filename: luci-app-netdata_1.0_all.ipk
+Size: 1452
+SHA256sum: b3acbe3c8a9ceedede9b5aea85e21dc6ae9293c4394da55922ccd4f9011d85e6
+Description:  LuCI support for Netdata
+
+Package: luci-app-netspeedtest
+Version: 1.0
+Depends: libc, iperf3, speedtest-cli, curl, jsonfilter, taskset, bash
+Section: luci
+Architecture: all
+Installed-Size: 7905
+Filename: luci-app-netspeedtest_1.0_all.ipk
+Size: 8763
+SHA256sum: e2a4606fe97d15eccb055524cf0ff5604c0fb7a57cc8ca1d72c1cd40e774f3a5
+Description:  LuCI Net Speedtest
+
+Package: luci-app-nlbwmon
+Version: git-24.339.62641-5a78f39
+Depends: libc, nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 20970
+Filename: luci-app-nlbwmon_git-24.339.62641-5a78f39_all.ipk
+Size: 21796
+SHA256sum: ce58e2ca0d5dfb24383d84dd79d1544a3c81f0d37d04b01685c35f9f2d7b93ba
+Description:  Netlink based bandwidth accounting
+
+Package: luci-app-oaf
+Version: 5.0.2
+Depends: libc, appfilter, luci-compat, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 268553
+Filename: luci-app-oaf_5.0.2_all.ipk
+Size: 269465
+SHA256sum: 63689c5e468537fed3d2c2280681d42ba2c30eae4d00350dc0f50ad6ec4ed63f
+Description:  Open App Filter Module
+
+Package: luci-app-ota
+Version: 1.2
+Depends: libc, fw_download_tool, jsonfilter, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 10180
+Filename: luci-app-ota_1.2_all.ipk
+Size: 11004
+SHA256sum: 999b61c766255c0fc9d69778da44c0031126698c187b0126d8172888f53e1a3d
+Description:  LuCI for OTA upgrade
+
+Package: luci-app-qbittorrent
+Version: 1.0.1
+Depends: libc, qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 1812
+Filename: luci-app-qbittorrent_1.0.1_all.ipk
+Size: 2614
+SHA256sum: a8a2a0ff4cc5257d91370b944971a44da8df7100e4bd4f06eff2d691bf8c7887
+Description:  LuCI support for qBittorrent
+
+Package: luci-app-qosmate
+Version: 1.0.7
+Depends: libc, luci-lua-runtime, qosmate
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 13332
+Filename: luci-app-qosmate_1.0.7_all.ipk
+Size: 14168
+SHA256sum: 617e579cf671a8dd4ca78c92a0eb60a805c3a5e4efdeccd6514720e3d1c83e9e
+Description:  LuCI support for QoSmate
+
+Package: luci-app-ramfree
+Version: 1.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 753
+Filename: luci-app-ramfree_1.0_all.ipk
+Size: 1550
+SHA256sum: 25cca3a7df134925fd1faf1f84ee6662b73ae1a8d3ef73924d41802f5db41ff9
+Description:  LuCI support for ramfree
+
+Package: luci-app-samba4
+Version: git-24.339.62641-5a78f39
+Depends: libc, samba4-server
+Section: luci
+Architecture: all
+Installed-Size: 2356
+Filename: luci-app-samba4_git-24.339.62641-5a78f39_all.ipk
+Size: 3197
+SHA256sum: d787d8ec499433c2bfea73016d33b31a4fb4dfbeeca874934d2563b250c8ac45
+Description:  Network Shares - Samba 4 SMB/CIFS fileserver
+
+Package: luci-app-socat
+Version: 1.0
+Depends: libc, socat, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3596
+Filename: luci-app-socat_1.0_all.ipk
+Size: 4399
+SHA256sum: cd373dccf0ff74184f6faae063cc9599400c1068430db2bc2c946d76cee51c1a
+Description:  LuCI support for Socat
+
+Package: luci-app-tailscale
+Version: 1.2.3
+Depends: libc, tailscale
+Section: luci
+Architecture: all
+Installed-Size: 7744
+Filename: luci-app-tailscale_1.2.3_all.ipk
+Size: 8580
+SHA256sum: dc2e8ea22e514b1fa4f5f95c5f0ecd29d0256b7908e6aa0fbb66fd6510e30c76
+Description:  LuCI for Tailscale
+
+Package: luci-app-ttyd
+Version: git-24.339.62641-5a78f39
+Depends: libc, ttyd
+Section: luci
+Architecture: all
+Installed-Size: 2224
+Filename: luci-app-ttyd_git-24.339.62641-5a78f39_all.ipk
+Size: 3067
+SHA256sum: b7690bfa9243dc64bf78d19e14201c00e7967f8303db43cf8e544e2d7441a005
+Description:  ttyd - Command-line tool for sharing terminal over the web
+
+Package: luci-app-unblockneteasemusic
+Version: 3.3
+Depends: libc, dnsmasq-full, node, ipset
+Section: luci
+Architecture: all
+Installed-Size: 13754
+Filename: luci-app-unblockneteasemusic_3.3_all.ipk
+Size: 14631
+SHA256sum: b727a8a64dbbe8e1743602fe122e77400528f143262b9113aea2e4d628eddf64
+Description:  LuCI support for UnblockNeteaseMusic (JavaScript)
+
+Package: luci-app-upnp
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4202
+Filename: luci-app-upnp_git-24.339.62641-5a78f39_all.ipk
+Size: 5086
+SHA256sum: 80857a85a7c55f451cd95060fd2a49619a63bf4dde59dd311cf73c56d6585aac
+Description:  Universal Plug and Play (UPnP IGD) & PCP/NAT-PMP configuration module
+
+Package: luci-app-usb-printer
+Version: 1.0
+Depends: libc, p910nd, kmod-usb-printer, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3298
+Filename: luci-app-usb-printer_1.0_all.ipk
+Size: 4125
+SHA256sum: 05283ad2c68ad6245cfdd03c062ed3c196921ff0f22c3d33a702f2ddb985ece7
+Description:  USB Printer Share via TCP/IP
+
+Package: luci-app-vlmcsd
+Version: 1.0
+Depends: libc, vlmcsd, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 1876
+Filename: luci-app-vlmcsd_1.0_all.ipk
+Size: 2697
+SHA256sum: 81fe75ebd0d07a9c3372e299bf506122a09b6df3626aab8ec5e02eaf1dacf0d2
+Description:  LuCI support for KMS
+
+Package: luci-app-vsftpd
+Version: git-24.339.62641-5a78f39
+Depends: libc, vsftpd, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3043
+Filename: luci-app-vsftpd_git-24.339.62641-5a78f39_all.ipk
+Size: 3881
+SHA256sum: 3d5b33504fb5f042a175a9bef6c621b05ea995f94d50e158c593ec420ad1efe0
+Description:  LuCI support for VSFTPD
+
+Package: luci-app-wolplus
+Version: 1.0
+Depends: libc, etherwake, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 2203
+Filename: luci-app-wolplus_1.0_all.ipk
+Size: 3041
+SHA256sum: d3bbc2013c71b2aa07f2bc7cc58825ddbb0e23131c987134f4cd6689604975f4
+Description:  LuCI support for wolplus From sundaqiang
+
+Package: luci-app-zerotier
+Version: 1.0.0
+Depends: libc, zerotier, jsonfilter, ucode
+Section: luci
+Architecture: all
+Installed-Size: 3967
+Filename: luci-app-zerotier_1.0.0_all.ipk
+Size: 4777
+SHA256sum: 338838641fa9e7e2748b16b43d22bfa3a42bec4c1e5418e6b4e16e94f7281d98
+Description:  LuCI for Zerotier
+
+Package: luci-i18n-adguardhome-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 2657
+Filename: luci-i18n-adguardhome-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 3423
+SHA256sum: e41b262e5572fcaa2c6819c045577fe6bb899a6bf2e9f94557b502cbe9563414
+Description:  Translation for luci-app-adguardhome - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-airconnect-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-airconnect
+Section: luci
+Architecture: all
+Installed-Size: 648
+Filename: luci-i18n-airconnect-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1423
+SHA256sum: 55b70c1a086f92450c0af5e638eac9e4f6811402a18579bb7ebf9079b70d2210
+Description:  Translation for luci-app-airconnect - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-airplay2-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-airplay2
+Section: luci
+Architecture: all
+Installed-Size: 983
+Filename: luci-i18n-airplay2-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1732
+SHA256sum: 8f5fa90391dedd289ee1759923140dd7646a8b93ac93d16beb3e11719d9e78a7
+Description:  Translation for luci-app-airplay2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-argon-config-es
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-argon-config
+Section: luci
+Architecture: all
+Installed-Size: 684
+Filename: luci-i18n-argon-config-es_git-24.339.62641-5a78f39_all.ipk
+Size: 1446
+SHA256sum: 76a7af5ad7ed204277a58b37b14edbd391c7412caba5b9576b2a258ad31066c6
+Description:  Translation for luci-app-argon-config - Español (Spanish)
+
+Package: luci-i18n-argon-config-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-argon-config
+Section: luci
+Architecture: all
+Installed-Size: 1459
+Filename: luci-i18n-argon-config-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2253
+SHA256sum: 2b9ef0b61c7238762f9a9f4979afff6fe18e9f3b174b236d40576bc9d81ad5e6
+Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-argon-config-zh-tw
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-argon-config
+Section: luci
+Architecture: all
+Installed-Size: 692
+Filename: luci-i18n-argon-config-zh-tw_git-24.339.62641-5a78f39_all.ipk
+Size: 1470
+SHA256sum: e928e1bfc4c758d52307d1bd284ae289548a191315238b3a94af0da9fe2b6f5f
+Description:  Translation for luci-app-argon-config - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-aria2-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-aria2
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5682
+Filename: luci-i18n-aria2-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 6460
+SHA256sum: b00eacaf0a0cf99f4ab75b4fd82d26391fe5dde6485b745af7ce206a1bd3c0ca
+Description:  Translation for luci-app-aria2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-autoreboot-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-autoreboot
+Section: luci
+Architecture: all
+Installed-Size: 520
+Filename: luci-i18n-autoreboot-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1274
+SHA256sum: be6adefd996f44db5dd06e294192f935b3041b6703ec6d0044dc569124991eb2
+Description:  Translation for luci-app-autoreboot - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-cpufreq-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-cpufreq
+Section: luci
+Architecture: all
+Installed-Size: 1758
+Filename: luci-i18n-cpufreq-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2520
+SHA256sum: fe8cec588af69489958ea8db5bdbb2ce629d42e232305d7feb2264a3a9c6e2d6
+Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ddns-go-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ddns-go
+Section: luci
+Architecture: all
+Installed-Size: 943
+Filename: luci-i18n-ddns-go-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1706
+SHA256sum: 43bee8d1239c0a9aa1d9216f2f79d97f690569047947eb07e126e5a63f304a9f
+Description:  Translation for luci-app-ddns-go - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-diskman-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-diskman
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 1895
+Filename: luci-i18n-diskman-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2693
+SHA256sum: d6a646716410edafefd6236e8b39937e7d7b5560f92791c54e30c17d156d38ed
+Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-dufs-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-dufs
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1099
+Filename: luci-i18n-dufs-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1907
+SHA256sum: 5257953b04a8d5f921967d79c2228c31cd3e82127d42f69d6a5045699dcf92ca
+Description:  Translation for luci-app-dufs - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-einat-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-einat
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 992
+Filename: luci-i18n-einat-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1799
+SHA256sum: 04233fa08e18e0520dfa300855c34268491581eb79fdd7f7d7965273f9b5b679
+Description:  Translation for luci-app-einat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-eqos-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-eqos
+Section: luci
+Architecture: all
+Installed-Size: 727
+Filename: luci-i18n-eqos-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1519
+SHA256sum: e359a39bcaa8bee63eb73a7c9d4b4dd7ff93d3331282cda195ea39954fd8f013
+Description:  Translation for luci-app-eqos - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-eqosplus-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-eqosplus
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 992
+Filename: luci-i18n-eqosplus-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1801
+SHA256sum: 8028c0a85d1da167ea507b3e4bb67a2858196c5ad9f34ead8a752769c945db2d
+Description:  Translation for luci-app-eqosplus - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-filebrowser-go-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-filebrowser-go
+Section: luci
+Architecture: all
+Installed-Size: 925
+Filename: luci-i18n-filebrowser-go-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1681
+SHA256sum: a49651600337a803bede893313fef5d576a8b2ce940ce4ca998b317b85c81481
+Description:  Translation for luci-app-filebrowser-go - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-filemanager-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-filemanager
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1775
+Filename: luci-i18n-filemanager-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2585
+SHA256sum: 96d41d1e9736cb7cba4d1f5f8986d5964233e2be7df3f65b89ce161647d28c41
+Description:  Translation for luci-app-filemanager - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-frpc-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-frpc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3314
+Filename: luci-i18n-frpc-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 4094
+SHA256sum: 980d997b2c0655b1983d0eb6eff4ea8597e0f5fc4623eae34c91b05b774ff669
+Description:  Translation for luci-app-frpc - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-frps-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-frps
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2885
+Filename: luci-i18n-frps-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 3658
+SHA256sum: ea964c39ed469af1798081b8723f0516fccce8103c092dea084b287bb0e84389
+Description:  Translation for luci-app-frps - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-gowebdav-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-gowebdav
+Section: luci
+Architecture: all
+Installed-Size: 934
+Filename: luci-i18n-gowebdav-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1732
+SHA256sum: ac744c44ff098c4e4a9d9d8318b2ffef6100464dd437ac59619aa6b43f14e5d5
+Description:  Translation for luci-app-gowebdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ksmbd-ar
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 567
+Filename: luci-i18n-ksmbd-ar_git-24.339.62641-5a78f39_all.ipk
+Size: 1358
+SHA256sum: 0523ebec5a40638182b7db09350d774e520cb22d23aedf4e186ab9ffb8140c79
+Description:  Translation for luci-app-ksmbd - العربية (Arabic)
+
+Package: luci-i18n-ksmbd-bg
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 652
+Filename: luci-i18n-ksmbd-bg_git-24.339.62641-5a78f39_all.ipk
+Size: 1453
+SHA256sum: ee82eb333d839d8fb8066bd5348bf7a6eac7394782dd502236f9a745a132073f
+Description:  Translation for luci-app-ksmbd - български (Bulgarian)
+
+Package: luci-i18n-ksmbd-bn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 536
+Filename: luci-i18n-ksmbd-bn_git-24.339.62641-5a78f39_all.ipk
+Size: 1327
+SHA256sum: 9362fc9dbe01ddb308256c988a4fca93b3830d02ea30a07cebcbc1b17ba916df
+Description:  Translation for luci-app-ksmbd - বাংলা (Bengali)
+
+Package: luci-i18n-ksmbd-ca
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 480
+Filename: luci-i18n-ksmbd-ca_git-24.339.62641-5a78f39_all.ipk
+Size: 1250
+SHA256sum: fcfbfdb58fccac814a983c187d79581fe73a1bbfc8f74f487fb67b23c99d161b
+Description:  Translation for luci-app-ksmbd - Català (Catalan)
+
+Package: luci-i18n-ksmbd-cs
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1307
+Filename: luci-i18n-ksmbd-cs_git-24.339.62641-5a78f39_all.ipk
+Size: 2093
+SHA256sum: 8206c09806e421cb1c8cfd351f4730081cc5bd9d9c5c8ba89b7fb4f93fca2982
+Description:  Translation for luci-app-ksmbd - Čeština (Czech)
+
+Package: luci-i18n-ksmbd-da
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1190
+Filename: luci-i18n-ksmbd-da_git-24.339.62641-5a78f39_all.ipk
+Size: 1966
+SHA256sum: 6bc9d2df05d86074e729255937e30d4be65ab9ff60ba90bc77d222acc6c7c9f7
+Description:  Translation for luci-app-ksmbd - Dansk (Danish)
+
+Package: luci-i18n-ksmbd-de
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1298
+Filename: luci-i18n-ksmbd-de_git-24.339.62641-5a78f39_all.ipk
+Size: 2079
+SHA256sum: a70e8ce6bd015737a81457bfb196267ffacb2c93211ba90862c44abe49a6207c
+Description:  Translation for luci-app-ksmbd - Deutsch (German)
+
+Package: luci-i18n-ksmbd-el
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 579
+Filename: luci-i18n-ksmbd-el_git-24.339.62641-5a78f39_all.ipk
+Size: 1367
+SHA256sum: 58acbd3e5039db2ee075b6d224922786baa1eeeb635cb07d885de9009f7879a1
+Description:  Translation for luci-app-ksmbd - Ελληνικά (Greek)
+
+Package: luci-i18n-ksmbd-es
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1252
+Filename: luci-i18n-ksmbd-es_git-24.339.62641-5a78f39_all.ipk
+Size: 2034
+SHA256sum: 4a0526e45bbe4e8dde8235916cc3b8c79306d1e0145373236dcfcfc4d3ac51f0
+Description:  Translation for luci-app-ksmbd - Español (Spanish)
+
+Package: luci-i18n-ksmbd-fi
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 765
+Filename: luci-i18n-ksmbd-fi_git-24.339.62641-5a78f39_all.ipk
+Size: 1534
+SHA256sum: 6d00c6f665051e8123ed6648640eb3eb2a7982d318e102be248a033e995683fe
+Description:  Translation for luci-app-ksmbd - Suomi (Finnish)
+
+Package: luci-i18n-ksmbd-fr
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1271
+Filename: luci-i18n-ksmbd-fr_git-24.339.62641-5a78f39_all.ipk
+Size: 2054
+SHA256sum: 017d673f0b6faff8018ebaff0b0b88915d92e93a4eae53d3d6925510a4dcd5ab
+Description:  Translation for luci-app-ksmbd - Français (French)
+
+Package: luci-i18n-ksmbd-he
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 533
+Filename: luci-i18n-ksmbd-he_git-24.339.62641-5a78f39_all.ipk
+Size: 1328
+SHA256sum: 4f8cd3bb666fe8cefd0ae357341af4d3c862e15b4d32340006637e13e05e6a91
+Description:  Translation for luci-app-ksmbd - עִבְרִית (Hebrew)
+
+Package: luci-i18n-ksmbd-hi
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-ksmbd-hi_git-24.339.62641-5a78f39_all.ipk
+Size: 1103
+SHA256sum: b02d5be3cc3739f1549c97572071d8e89691e2a1fa0594116129f29e41acc9ea
+Description:  Translation for luci-app-ksmbd - हिंदी (Hindi)
+
+Package: luci-i18n-ksmbd-hu
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1295
+Filename: luci-i18n-ksmbd-hu_git-24.339.62641-5a78f39_all.ipk
+Size: 2078
+SHA256sum: 1c4e8e26693061e371ea713cca41ace9756f6fa8e3cf84cb15fe6c111b27bcc9
+Description:  Translation for luci-app-ksmbd - Magyar (Hungarian)
+
+Package: luci-i18n-ksmbd-it
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 737
+Filename: luci-i18n-ksmbd-it_git-24.339.62641-5a78f39_all.ipk
+Size: 1503
+SHA256sum: bd31b5f1cd8d607717b3987f0b5db11a83f7ea23f09faf15d2a1c02fc4469023
+Description:  Translation for luci-app-ksmbd - Italiano (Italian)
+
+Package: luci-i18n-ksmbd-ja
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1342
+Filename: luci-i18n-ksmbd-ja_git-24.339.62641-5a78f39_all.ipk
+Size: 2140
+SHA256sum: 97824d9d5ace9a84b1543654e0aa1ecdb13952fabdd35789e0fb022a2f2c23a7
+Description:  Translation for luci-app-ksmbd - 日本語 (Japanese)
+
+Package: luci-i18n-ksmbd-ko
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 740
+Filename: luci-i18n-ksmbd-ko_git-24.339.62641-5a78f39_all.ipk
+Size: 1520
+SHA256sum: bdd167718d2a333f57de88f9022fcdb94d695268a43e23967155a87831ec85d4
+Description:  Translation for luci-app-ksmbd - 한국어 (Korean)
+
+Package: luci-i18n-ksmbd-lt
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1467
+Filename: luci-i18n-ksmbd-lt_git-24.339.62641-5a78f39_all.ipk
+Size: 2250
+SHA256sum: 0008a4364cf2df7c5b7b082db545a856bb2125475f4b28c46109f7a667a946de
+Description:  Translation for luci-app-ksmbd - Lietuvių (Lithuanian)
+
+Package: luci-i18n-ksmbd-mr
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1280
+Filename: luci-i18n-ksmbd-mr_git-24.339.62641-5a78f39_all.ipk
+Size: 2071
+SHA256sum: 9203fd5859204feef577c396ef4365ed3285e970488f0e28dbd3be4a52fe0f09
+Description:  Translation for luci-app-ksmbd - Marāṭhī (Marathi)
+
+Package: luci-i18n-ksmbd-ms
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 439
+Filename: luci-i18n-ksmbd-ms_git-24.339.62641-5a78f39_all.ipk
+Size: 1204
+SHA256sum: a6ac527614f0cb4b2a725235d6c4dcab1b7b76fd3dd0d8bddde4d19e2bfe2cb5
+Description:  Translation for luci-app-ksmbd - Bahasa Melayu (Malay)
+
+Package: luci-i18n-ksmbd-nl
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1205
+Filename: luci-i18n-ksmbd-nl_git-24.339.62641-5a78f39_all.ipk
+Size: 1980
+SHA256sum: 2aa2c1b63797cad5ea64100808496122a5ceef7044588845b45badfcb4b9ff61
+Description:  Translation for luci-app-ksmbd - Nederlands (Dutch)
+
+Package: luci-i18n-ksmbd-no
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 503
+Filename: luci-i18n-ksmbd-no_git-24.339.62641-5a78f39_all.ipk
+Size: 1267
+SHA256sum: c7bd94352153c3533231b04c7ce2319c924759ca497b02ae88f6d5aa7739a7a2
+Description:  Translation for luci-app-ksmbd - Norsk (Norwegian)
+
+Package: luci-i18n-ksmbd-pl
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1355
+Filename: luci-i18n-ksmbd-pl_git-24.339.62641-5a78f39_all.ipk
+Size: 2135
+SHA256sum: 8dc0f7f2263ff55a63dfa51d75bf5339c9abcf8f88a1c01e64700fe7a83c632e
+Description:  Translation for luci-app-ksmbd - Polski (Polish)
+
+Package: luci-i18n-ksmbd-pt-br
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1279
+Filename: luci-i18n-ksmbd-pt-br_git-24.339.62641-5a78f39_all.ipk
+Size: 2075
+SHA256sum: de6bb65061d1428651ec17cf3fb86b097d0b5568200bdef25d04a4c0f8afe05e
+Description:  Translation for luci-app-ksmbd - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-ksmbd-pt
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1243
+Filename: luci-i18n-ksmbd-pt_git-24.339.62641-5a78f39_all.ipk
+Size: 2028
+SHA256sum: c01ac3d082d1ec6119abf2a1a1b868e21505a0fdbbf005d12241c78d667fa0af
+Description:  Translation for luci-app-ksmbd - Português (Portuguese)
+
+Package: luci-i18n-ksmbd-ro
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1287
+Filename: luci-i18n-ksmbd-ro_git-24.339.62641-5a78f39_all.ipk
+Size: 2074
+SHA256sum: 9ca36176363b40ffc43bdf51f06f7ab74e0d9e38117d6a5f89f4ec1bf5b62000
+Description:  Translation for luci-app-ksmbd - Română (Romanian)
+
+Package: luci-i18n-ksmbd-ru
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1536
+Filename: luci-i18n-ksmbd-ru_git-24.339.62641-5a78f39_all.ipk
+Size: 2331
+SHA256sum: ea3e14957f739c3af73a482b9b2909c3d5b1fd345b34984186ba2e1d13a7d43b
+Description:  Translation for luci-app-ksmbd - Русский (Russian)
+
+Package: luci-i18n-ksmbd-sk
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1317
+Filename: luci-i18n-ksmbd-sk_git-24.339.62641-5a78f39_all.ipk
+Size: 2104
+SHA256sum: 2596d6c0265d1dd6c6315d5fc85c7c83abfd28340c56c30024ff16723addc4de
+Description:  Translation for luci-app-ksmbd - Slovenčina (Slovak)
+
+Package: luci-i18n-ksmbd-sv
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 959
+Filename: luci-i18n-ksmbd-sv_git-24.339.62641-5a78f39_all.ipk
+Size: 1731
+SHA256sum: a5dad8393ad3b30aef24d878c296e000d23ed629615ae70c27c83e3ad86c3d94
+Description:  Translation for luci-app-ksmbd - Svenska (Swedish)
+
+Package: luci-i18n-ksmbd-tr
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1269
+Filename: luci-i18n-ksmbd-tr_git-24.339.62641-5a78f39_all.ipk
+Size: 2055
+SHA256sum: 9f617f29b93c0fe5bf6c9d42af4f0f793a8ec045f17ff27ceb8d2ef857348bd3
+Description:  Translation for luci-app-ksmbd - Türkçe (Turkish)
+
+Package: luci-i18n-ksmbd-uk
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1512
+Filename: luci-i18n-ksmbd-uk_git-24.339.62641-5a78f39_all.ipk
+Size: 2319
+SHA256sum: ebc3c5de969bf81088206234cf5fcdc773daaf605bdbf7cd2d6733665483a4e4
+Description:  Translation for luci-app-ksmbd - Українська (Ukrainian)
+
+Package: luci-i18n-ksmbd-vi
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1377
+Filename: luci-i18n-ksmbd-vi_git-24.339.62641-5a78f39_all.ipk
+Size: 2174
+SHA256sum: 7fbf2df9b04041b0d1ed79b3873d9cc44610bfba50e720af157941217c903fc5
+Description:  Translation for luci-app-ksmbd - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-ksmbd-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1237
+Filename: luci-i18n-ksmbd-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2051
+SHA256sum: 710a4dceaa418d8604427f6d254d9b2f3881557f2b1028d3f36c30680eaf152f
+Description:  Translation for luci-app-ksmbd - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ksmbd-zh-tw
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ksmbd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1225
+Filename: luci-i18n-ksmbd-zh-tw_git-24.339.62641-5a78f39_all.ipk
+Size: 2030
+SHA256sum: fae2c69caa5d0b9f5ed14533651abcdf0dfb5fa7821386c9aa471c4f2ee8db15
+Description:  Translation for luci-app-ksmbd - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-mentohust-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-mentohust
+Section: luci
+Architecture: all
+Installed-Size: 1197
+Filename: luci-i18n-mentohust-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1987
+SHA256sum: 9832a616098b5088b654bc5e73f2c04a72eaa16cd87f468c318f88023120600f
+Description:  Translation for luci-app-mentohust - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-mosdns-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-mosdns
+Section: luci
+Architecture: all
+Installed-Size: 4367
+Filename: luci-i18n-mosdns-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 5118
+SHA256sum: 2bcea5fd48ae6ac77f8bca4e0be130dbc4b3f9b37522ccbb91e1e738b649db97
+Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-msd_lite-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-msd_lite
+Section: luci
+Architecture: all
+Installed-Size: 1071
+Filename: luci-i18n-msd_lite-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1830
+SHA256sum: 6ab1acb7a128ebf57d971a5476d8f986f4e65ed1c7165f2e53548ed1a992566a
+Description:  Translation for luci-app-msd_lite - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-netdata-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-netdata
+Section: luci
+Architecture: all
+Installed-Size: 410
+Filename: luci-i18n-netdata-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1152
+SHA256sum: 2181372b79b6e46d4f83594dcbc6c9650572edfb44af151a333665e198a21686
+Description:  Translation for luci-app-netdata - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-netspeedtest-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-netspeedtest
+Section: luci
+Architecture: all
+Installed-Size: 796
+Filename: luci-i18n-netspeedtest-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1556
+SHA256sum: 7886340dc31afffcd21ad15415e04449ec6d51119a56953e19aef337e0948eb3
+Description:  Translation for luci-app-netspeedtest - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-nlbwmon-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3660
+Filename: luci-i18n-nlbwmon-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 4391
+SHA256sum: 0e1f4ceb8025fb1a2e3a669f5ab5e7ec174a2eb53be41f4a89b13c8757925bb3
+Description:  Translation for luci-app-nlbwmon - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-oaf-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-oaf
+Section: luci
+Architecture: all
+Installed-Size: 1809
+Filename: luci-i18n-oaf-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2563
+SHA256sum: b4dfbfbe5d6f60b690cbcda3453493b692060b1c43eb4be6b15a12523af4ceec
+Description:  Translation for luci-app-oaf - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ota-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ota
+Section: luci
+Architecture: all
+Installed-Size: 767
+Filename: luci-i18n-ota-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1548
+SHA256sum: a91d78f8f905077bc85d1e5f4a2d815400980af533c971aae8b2b182f01fe630
+Description:  Translation for luci-app-ota - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 685
+Filename: luci-i18n-qbittorrent-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1439
+SHA256sum: 5e7cbaa2a51f425a71258518d382302f8b22ba7e976ca240a267113c387db1ca
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-qosmate-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-qosmate
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 5099
+Filename: luci-i18n-qosmate-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 5884
+SHA256sum: b2490db0e7988357b3fc956a31cd74a02cdcf9485d9454c7705a1acf8789e44f
+Description:  Translation for luci-app-qosmate - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 408
+Filename: luci-i18n-ramfree-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1155
+SHA256sum: 9e79eba563f7571f20d1cdaca90ef156adb34b99f34b603331364da1486cd0b3
+Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-samba4-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-samba4
+Section: luci
+Architecture: all
+Installed-Size: 1686
+Filename: luci-i18n-samba4-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2444
+SHA256sum: 3d17d7b047b76ea358a1b0ea0c7c82014830d528b6a6cbf4b3988e871714549f
+Description:  Translation for luci-app-samba4 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-socat-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-socat
+Section: luci
+Architecture: all
+Installed-Size: 819
+Filename: luci-i18n-socat-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1600
+SHA256sum: f5f030bccb0225be2a87b8883f04df92771e65e53f275de67b4429bed9dd894b
+Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-tailscale-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-tailscale
+Section: luci
+Architecture: all
+Installed-Size: 2007
+Filename: luci-i18n-tailscale-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2773
+SHA256sum: 36cb30eb1a6adbabfe8ecc898cdac975bd6536bb30bcf9e17b5b09228d973ff9
+Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ttyd-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-ttyd
+Section: luci
+Architecture: all
+Installed-Size: 1912
+Filename: luci-i18n-ttyd-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2672
+SHA256sum: 35a514dc926e3df33172aec913f2cd55f011bb6f9fff219c3cf8532569a2342d
+Description:  Translation for luci-app-ttyd - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-upnp
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1643
+Filename: luci-i18n-upnp-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2448
+SHA256sum: 3a01a2c641b7b15bbeb9d6c8be184dad93bcaab2cd3f09d159d548b67a37f476
+Description:  Translation for luci-app-upnp - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-usb-printer-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-usb-printer
+Section: luci
+Architecture: all
+Installed-Size: 839
+Filename: luci-i18n-usb-printer-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1599
+SHA256sum: 96b6fb7d722ec46c5f7fe145ea7773ba42731f1e329800dfae2a6140919e3172
+Description:  Translation for luci-app-usb-printer - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-vlmcsd-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-vlmcsd
+Section: luci
+Architecture: all
+Installed-Size: 711
+Filename: luci-i18n-vlmcsd-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1463
+SHA256sum: beb88942dbe1c42927d8139ed58d6b44eda8b38de4a3ed585fa87586b3db884e
+Description:  Translation for luci-app-vlmcsd - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-vsftpd-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-vsftpd
+Section: luci
+Architecture: all
+Installed-Size: 1930
+Filename: luci-i18n-vsftpd-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 2683
+SHA256sum: f272a6af0568544f81db95ef34dba8dea10d204ff3ad67e605fd69de621b6a01
+Description:  Translation for luci-app-vsftpd - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-wolplus-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-wolplus
+Section: luci
+Architecture: all
+Installed-Size: 620
+Filename: luci-i18n-wolplus-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1384
+SHA256sum: d6d3f679c43a5e03d79de908794615b17f7fbce2f81e0b98945ebad087a9954f
+Description:  Translation for luci-app-wolplus - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-zerotier-zh-cn
+Version: git-24.339.62641-5a78f39
+Depends: libc, luci-app-zerotier
+Section: luci
+Architecture: all
+Installed-Size: 877
+Filename: luci-i18n-zerotier-zh-cn_git-24.339.62641-5a78f39_all.ipk
+Size: 1636
+SHA256sum: 5303c051dbb4b426682e004b2170df0ad5e8b41908b30edf6bf8d57d5d5970e8
+Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
+
+Package: luci-theme-argon
+Version: 2.3.1
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 773067
+Filename: luci-theme-argon_2.3.1_all.ipk
+Size: 773889
+SHA256sum: fadad8faa6b3130ba07483fb3d70dedf03f76a3ef8f2766de77989a8f0b5c2fb
+Description:  Argon Theme
+
+Package: mentohust
+Version: 0.3.1-2
+Depends: libc, libpcap1
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 81354
+Filename: mentohust_0.3.1-2_aarch64_generic.ipk
+Size: 82069
+SHA256sum: d2513a947c209936e20a0e66e03716c229f47e8df69abe6125d63e50aa671151
+Description:  A Ruijie Client Daemon,
+ Most usually used in Chinese universities.
+
+Package: miniupnpd-iptables
+Version: 2.3.7-1
+Depends: libc, libcap-ng, libmnl0, libuuid1, ip6tables, libip6tc2, iptables, libip4tc2, libnetfilter-conntrack3
+Provides: miniupnpd
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_generic
+Installed-Size: 77803
+Filename: miniupnpd-iptables_2.3.7-1_aarch64_generic.ipk
+Size: 78548
+SHA256sum: 7526274f13ed8838c139adfc359828c29ea7fb6c752e180d8ef8e80606a8283c
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
+
+Package: miniupnpd-nftables
+Version: 2.3.7-1
+Depends: libc, libcap-ng, libmnl0, libuuid1, libnftnl11
+Conflicts: miniupnpd-iptables
+Provides: miniupnpd
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_generic
+Installed-Size: 87696
+Filename: miniupnpd-nftables_2.3.7-1_aarch64_generic.ipk
+Size: 88512
+SHA256sum: 5412755b729022e058607ba91ebb11220244eca8ae9b82f33ce030419a26a06d
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
+
+Package: mosdns
+Version: 5.3.3-2
+Depends: libc, ca-bundle
+License: GPL-3.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 6156519
+Filename: mosdns_5.3.3-2_aarch64_generic.ipk
+Size: 6137837
+SHA256sum: 4f41a787c16d2572c6b7d21cb9a5f9b5d534e45e512d700a6fbc18d76423d45d
+Description:  A plug-in DNS forwarder/splitter
+
+Package: msd_lite
+Version: 2024-04-29-db583386-1
+Depends: libc
+License: BSD-2-Clause
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 72909
+Filename: msd_lite_2024-04-29-db583386-1_aarch64_generic.ipk
+Size: 73762
+SHA256sum: 0511461d9953dff2543ffa4866d6e1619b547e874e91b3a1444f128d4877431b
+Description:  msd_lite - Multi stream daemon lite. The lightweight version of
+ Multi Stream daemon (msd) Program for organizing IP TV streaming
+ on the network via HTTP.
+
+Package: netdata
+Version: 1.38.1-3
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5, libopenssl3, libstdcpp6, libatomic1, protobuf, openssl-util, curl, bash
+License: GPL-3.0-or-later
+Section: admin
+CPE-ID: cpe:/a:my-netdata:netdata
+Architecture: aarch64_generic
+Installed-Size: 9729479
+Filename: netdata_1.38.1-3_aarch64_generic.ipk
+Size: 9696310
+SHA256sum: 8c5866a6a100b04e865090e26dee2d9580460d2df5643b58aecb5fa9b45b7246
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20230523, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 21501
+Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_generic.ipk
+Size: 22168
+SHA256sum: 407e149e8822a5f80e6de59769f65b085f5177fb3df48f66e09c7c6af9690036
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: openssh-client-utils
+Version: 9.9_p1-1
+Depends: libc, libopenssl3, zlib, openssh-client, openssh-keygen
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 730994
+Filename: openssh-client-utils_9.9_p1-1_aarch64_generic.ipk
+Size: 729603
+SHA256sum: b1a7e55f8429e3487ca9c2a104ce4f0cbe2a7e9048405c07fcb0dac0d24158b8
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 9.9_p1-1
+Depends: libc, libopenssl3, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/libexec/ssh-openssh, 200:/usr/bin/scp:/usr/libexec/scp-openssh
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 476735
+Filename: openssh-client_9.9_p1-1_aarch64_generic.ipk
+Size: 476499
+SHA256sum: 2208f531567c10e0fb96c8bd26baf720fd8583f3f0efc8fcc3a3545cabe82fe8
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 9.9_p1-1
+Depends: libc, libopenssl3, zlib
+Alternatives: 200:/usr/bin/ssh-keygen:/usr/libexec/ssh-keygen-openssh
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 212095
+Filename: openssh-keygen_9.9_p1-1_aarch64_generic.ipk
+Size: 212553
+SHA256sum: ffcc3dfae78702d974110a5f6a207deb4c635eecb242620ef332305aa76f8d6b
+Description:  OpenSSH keygen.
+
+Package: openssh-moduli
+Version: 9.9_p1-1
+Depends: libc, openssh-keygen
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 17417
+Filename: openssh-moduli_9.9_p1-1_aarch64_generic.ipk
+Size: 16121
+SHA256sum: d73dd10f8d3e3262e72d8f20a8bdda1e26780e03a98e4c022b80009a34104658
+Description:  OpenSSH server moduli file.
+
+Package: openssh-server-pam
+Version: 9.9_p1-1
+Depends: libc, libopenssl3, zlib, libpthread, openssh-keygen, libpam
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 620146
+Filename: openssh-server-pam_9.9_p1-1_aarch64_generic.ipk
+Size: 619373
+SHA256sum: e3f6f3e851d1b4233ec2b7c420a4ef16ce0bf74d382645929debb801a73a2be2
+Description:  OpenSSH server (with PAM support).
+
+Package: openssh-server
+Version: 9.9_p1-1
+Depends: libc, libopenssl3, zlib, openssh-keygen, libfido2-1
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 607353
+Filename: openssh-server_9.9_p1-1_aarch64_generic.ipk
+Size: 606775
+SHA256sum: b61b1ad5145645ca9f522c3794a310064b9be8addc2744c49d23a431a206c760
+Description:  OpenSSH server.
+
+Package: openssh-sftp-avahi-service
+Version: 9.9_p1-1
+Depends: libc, openssh-sftp-server, avahi-daemon
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 365
+Filename: openssh-sftp-avahi-service_9.9_p1-1_aarch64_generic.ipk
+Size: 1230
+SHA256sum: 6dff7557611a9b629da44942aacd260b985c1368fba4252ade4438a378b2ddaf
+Description:  This package contains the service definition for announcing
+ SFTP support via mDNS/DNS-SD.
+
+Package: openssh-sftp-client
+Version: 9.9_p1-1
+Depends: libc
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 89986
+Filename: openssh-sftp-client_9.9_p1-1_aarch64_generic.ipk
+Size: 90482
+SHA256sum: 9895c12aebe326d2406181288439e1db04bc4f5345ea6e153371b1c5424bfda1
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 9.9_p1-1
+Depends: libc
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: aarch64_generic
+Installed-Size: 62209
+Filename: openssh-sftp-server_9.9_p1-1_aarch64_generic.ipk
+Size: 62891
+SHA256sum: cc11d0cdd7bca39dbe267d6140beec3d927d1159eb978371cc3ed84448a6b834
+Description:  OpenSSH SFTP server.
+
+Package: qbittorrent
+Version: 5.0.2-1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+Provides: qBittorrent
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: aarch64_generic
+Installed-Size: 7808643
+Filename: qbittorrent_5.0.2-1_aarch64_generic.ipk
+Size: 7802405
+SHA256sum: 746b50001a236eff16e37657d3649e22ca992c95ada0b9ec64c6f476491cc1a2
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qosmate
+Version: 0.5.31-1
+Depends: libc, firewall4, ip-full, tc-full, kmod-veth, kmod-netem, kmod-sched, kmod-sched-ctinfo, kmod-sched-cake, kmod-ifb
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 13554
+Filename: qosmate_0.5.31-1_aarch64_generic.ipk
+Size: 14395
+SHA256sum: 234ca077809782e28b369720b95fcac34fb2a66f7b517b65408e5635bcc3a348
+Description:  QoSmate is a Quality of Service management tool for OpenWrt
+
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 38839
+Filename: qt6-plugin-libqcertonlybackend_6.8.1-1_aarch64_generic.ipk
+Size: 39441
+SHA256sum: c087af6b1a6495c610c9f5f3c61daf59fa5ed2e8467901b4b9d741b1699ba39d
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 10092
+Filename: qt6-plugin-libqminimal_6.8.1-1_aarch64_generic.ipk
+Size: 10629
+SHA256sum: b07d94079a9a78e79568c459e8d3412a3f10430c0429727c246fcb4538c1dabd
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libQt6Network
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 27966
+Filename: qt6-plugin-libqnetworkmanager_6.8.1-1_aarch64_generic.ipk
+Size: 28468
+SHA256sum: 06ad8c534bab83a27e6c61e62e9e8a55c3b5f633df900652bee4f49b2ad35bad
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 38712
+Filename: qt6-plugin-libqoffscreen_6.8.1-1_aarch64_generic.ipk
+Size: 39244
+SHA256sum: f4d3e679cad898f592fe0e7d1f28d7bebb4b824ee1535fcc11c1bda952e46cdb
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 120716
+Filename: qt6-plugin-libqopensslbackend_6.8.1-1_aarch64_generic.ipk
+Size: 120861
+SHA256sum: 48f11fa0db7bbfee202f8681529eb3241253515d5e3053f6c8fbfab82c162695
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 980488
+Filename: qt6-plugin-libqsqlite_6.8.1-1_aarch64_generic.ipk
+Size: 980546
+SHA256sum: 96376998061f744d375a84c78eeba8384ac204bd2d1018a72f335ee6a9a2e500
+Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui, libQt6Network
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 37723
+Filename: qt6-plugin-libqtuiotouchplugin_6.8.1-1_aarch64_generic.ipk
+Size: 38358
+SHA256sum: f598a8e3783bf42b2908a07523738ddbee5d2968bfeeb5abb00f917737dde1d4
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.8.1-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 45365
+Filename: qt6-plugin-libqxdgdesktopportal_6.8.1-1_aarch64_generic.ipk
+Size: 46064
+SHA256sum: d422be26b2b9e1ff14fbc7979ab7b2b6912cd7dde398851b4e8bcb2db8f398fb
+Description:  Qt6 Plugin libqxdgdesktopportal
+
+Package: rblibtorrent2.0
+Version: 2.0.10-1
+Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
+Provides: rblibtorrent
+License: BSD
+Section: libs
+ABIVersion: 2.0
+Architecture: aarch64_generic
+Installed-Size: 1367083
+Filename: rblibtorrent2.0_2.0.10-1_aarch64_generic.ipk
+Size: 1364210
+SHA256sum: 8383881f23445f7a2a59124db481a096ca4162eef9b68358fa4bfbc7f3d1a35a
+Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
+ all the other bittorrent implementations around. It is a library and not a
+ full featured client, although it comes with a working example client.
+
+Package: samba4-admin
+Version: 4.21.2-1
+Depends: libc, samba4-libs
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_generic
+Installed-Size: 1005709
+Filename: samba4-admin_4.21.2-1_aarch64_generic.ipk
+Size: 997489
+SHA256sum: b118968e15526005a9bbadddfca43ccbe0e98f706fe9f78c13acef91b0e0088d
+Description:  installs: net smbcontrol profiles rpcclient dbwrap_tool eventlogadm
+ ldbadd ldbdel ldbedit ldbmodify ldbrename ldbsearch
+ tdbbackup tdbdump tdbrestore tdbtool
+ 
+ Administration tools collection
+
+Package: samba4-client
+Version: 4.21.2-1
+Depends: libc, samba4-libs
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_generic
+Installed-Size: 103051
+Filename: samba4-client_4.21.2-1_aarch64_generic.ipk
+Size: 103401
+SHA256sum: 7de89f2e008c8d7f4cfc6f0c817dcb34aa7613c8962c1a967a1bfb842ef8e3fd
+Description:  installs: cifsdd smbclient smbget
+ 
+ The smbclient program implements a simple ftp-like client for accessing SMB shares
+
+Package: samba4-libs
+Version: 4.21.2-1
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl3, libpthread, liburing, libpam, attr, libavahi-client
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_generic
+Installed-Size: 9633223
+Filename: samba4-libs_4.21.2-1_aarch64_generic.ipk
+Size: 9548042
+SHA256sum: f9f8c3b2bde948d82ebc744115aa159c77136556488ab926e25a1ee078a37d50
+Description:  Samba 4.21.2 libs
+
+Package: samba4-server
+Version: 4.21.2-1
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_generic
+Installed-Size: 257770
+Filename: samba4-server_4.21.2-1_aarch64_generic.ipk
+Size: 257702
+SHA256sum: a72fb4c540a851b4fa8964a2db5b51372662d3211edb1c5222646ba6177d386e
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: samba4-utils
+Version: 4.21.2-1
+Depends: libc, samba4-libs
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_generic
+Installed-Size: 34439
+Filename: samba4-utils_4.21.2-1_aarch64_generic.ipk
+Size: 34800
+SHA256sum: 2d344957b4b284ba91d9f81a1bee541afc04232ceaed870869d355e91f9de8c8
+Description:  installs: smbstatus smbtree mvxattr smbtar (smbcquotas)
+ 
+ Utilities collection
+
+Package: screen
+Version: 4.9.1-2
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:screen
+Architecture: aarch64_generic
+Installed-Size: 187107
+Filename: screen_4.9.1-2_aarch64_generic.ipk
+Size: 187550
+SHA256sum: 5a4a2f4bbe3dd894d730befbcc75c1133440da2723e843e07aef739d99051861
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: speedtest-cli
+Version: 1.2.0-1
+Depends: libc, ca-certificates
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 1076215
+Filename: speedtest-cli_1.2.0-1_aarch64_generic.ipk
+Size: 1075645
+SHA256sum: fc4f54298c6d3d93fee2e2182f84eb0e61575fa62ba12e41d2702e087d18da5f
+Description:  The Global Broadband Speed Test
+
+Package: tailscale
+Version: 1.76.6-1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 8655299
+Filename: tailscale_1.76.6-1_aarch64_generic.ipk
+Size: 8633685
+SHA256sum: 01021c65e884befda4622cb9ade2b184148d943db2da031f4517096a575044a6
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: aarch64_generic
+Installed-Size: 119474
+Filename: unzip_6.0-8_aarch64_generic.ipk
+Size: 119899
+SHA256sum: d0dee9ffc0fa6a115d6ad41c60968e3b6657397beb431bbb72b8a407401722c4
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: v2dat
+Version: 2022-12-15-47b8ee51-1
+Depends: libc
+License: GPL-3.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 2817494
+Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
+Size: 2809244
+SHA256sum: 92aa6526d01ec0234102a235cc408a666a7c35ab95291ca418c7e7a4d15d42ba
+Description:  V2ray geo/ip data unpack tools
+
+Package: vim-full
+Version: 9.0-2
+Depends: libc, libncurses6
+Conflicts: vim
+Provides: vim
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 1212969
+Filename: vim-full_9.0-2_aarch64_generic.ipk
+Size: 1212401
+SHA256sum: 74ae11f15ed0e155beed79f837e65c6cffb6a52386c040606b3edccf260bc081
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: vim-fuller
+Version: 9.0-2
+Depends: libc, libncurses6
+Conflicts: vim, vim-full
+Provides: vim, vim-full
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 3525458
+Filename: vim-fuller_9.0-2_aarch64_generic.ipk
+Size: 3520914
+SHA256sum: 72cc255dc537556c5f9246203bbf89a44f27f76211f5ed8d99def599e00e94fc
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Big build)
+
+Package: vim-help
+Version: 9.0-2
+Depends: libc, libncurses6
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 2837366
+Filename: vim-help_9.0-2_aarch64_generic.ipk
+Size: 2837916
+SHA256sum: 8ffa2b70609f505aa881db89b801308d776c9bfff5365f26e068789cd3a6e550
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Help files)
+
+Package: vim-runtime
+Version: 9.0-2
+Depends: libc, libncurses6
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 2284119
+Filename: vim-runtime_9.0-2_aarch64_generic.ipk
+Size: 2280593
+SHA256sum: 98d87df346cd21c27e53378c4f20d4a2cf5afeb82a4268bb975fa348335ac8f1
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Runtime files)
+
+Package: vim
+Version: 9.0-2
+Depends: libc, libncurses6
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 554819
+Filename: vim_9.0-2_aarch64_generic.ipk
+Size: 554723
+SHA256sum: 2574bcf03c27448aceb6707bbc5a206318c61481bebe6beee196c34484b5efe2
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+
+Package: vlmcsd
+Version: svn1113-4
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 24581
+Filename: vlmcsd_svn1113-4_aarch64_generic.ipk
+Size: 25256
+SHA256sum: 18b7ac5b75c3582429173dc214923c93f1a3818e91a23a43f454bee1723f996b
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xxd
+Version: 9.0-2
+Depends: libc
+License: Vim
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: aarch64_generic
+Installed-Size: 6349
+Filename: xxd_9.0-2_aarch64_generic.ipk
+Size: 7133
+SHA256sum: 221b7cf8aed12c500956e6d21abde02f132290047a522ae1d837d7cdbd217a8e
+Description:  xxd creates a hex dump of a given file or standard input, it can also convert
+ a hex dump back to its original binary form.
+
+Package: zip
+Version: 3.0-4
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 224768
+Filename: zip_3.0-4_aarch64_generic.ipk
+Size: 224630
+SHA256sum: 6afbc1343163facc88c7d0a0d8f804b57f11d91c0975ce74c227302d67282122
+Description:  This is InfoZIP's zip program. It produces files that are fully
+ compatible with the popular PKZIP program; however, the command line
+ options are not identical. In other words, the end result is the same,
+ but the methods differ.
+
+Package: zstd
+Version: 1.5.6-1
+Depends: libc, libzstd
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 77409
+Filename: zstd_1.5.6-1_aarch64_generic.ipk
+Size: 77898
+SHA256sum: 9febd7a2b9067746d4eb089341d8909ae6b9caef533a6e96b6e2b345243f5412
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides the zstd binaries.
+
