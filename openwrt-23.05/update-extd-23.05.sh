@@ -24,6 +24,8 @@ git clone https://github.com/sbwml/feeds_packages_net_samba4 samba4 --depth 1
 git clone https://github.com/sbwml/feeds_packages_utils_unzip unzip --depth 1
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic --depth 1
 git clone https://github.com/asvow/luci-app-tailscale --depth 1
+git clone https://github.com/muink/openwrt-einat-ebpf einat-ebpf --depth 1
+git clone https://github.com/muink/luci-app-einat --depth 1
 git clone https://github.com/pmkol/openwrt-aria2 --depth 1
 git clone https://github.com/pmkol/openwrt-eqosplus --depth 1
 git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
@@ -38,6 +40,8 @@ rm -rf samba4/{.git,README.md}
 rm -rf unzip/.git
 rm -rf luci-app-unblockneteasemusic/{.git,.github,LICENSE,README.md}
 rm -rf luci-app-tailscale/{.git,.gitignore,LICENSE,README.md,po/zh_Hant}
+rm -rf einat-ebpf/{.git,.github,LICENSE,README.md}
+rm -rf luci-app-einat/{.git,LICENSE,README.md,po/zh_Hant}
 rm -rf miniupnpd/{.git,.github}
 rm -rf luci-app-upnp/{.git,.github}
 rm -rf qosmate/{.git,LICENSE,README.md}
