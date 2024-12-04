@@ -183,6 +183,9 @@ sed -i 's/syslog/none/g' netdata/files/netdata.conf
 mv immortalwrt/packages/net/iperf3 ./
 sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" iperf3/Makefile
 
+# screen
+mv immortalwrt/packages/utils/screen ./
+
 # tailscale
 mv immortalwrt/packages/net/tailscale ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
