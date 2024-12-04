@@ -1,0 +1,929 @@
+Package: chinadns-ng
+Version: 2024.11.17-1
+Depends: libc, ipset
+Source: /feed/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 272704
+Filename: chinadns-ng_2024.11.17-1_x86_64.ipk
+Size: 273042
+SHA256sum: 88b352ab294a60e9ba2416f4de950e623c509cb4319d67303db346e788fe6e2e
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /feed/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: ghostmaker
+Architecture: x86_64
+Installed-Size: 10349
+Filename: dns2socks_2.1-2_x86_64.ipk
+Size: 11101
+SHA256sum: 257b78e9336e40affb1d54404fbf4f74b1cfe324a1891008ff40d4207eed17ad
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.2-1
+Depends: libc
+Source: /feed/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 10365
+Filename: dns2tcp_1.1.2-1_x86_64.ipk
+Size: 11103
+SHA256sum: 00ad98ae1850dc9bbaab2da9158505f6eb6c8506331b0cb750bd2c70d310462f
+Description:  utility to convert dns query from udp to tcp
+
+Package: geoview
+Version: 0.0.7-1
+Depends: libc
+Source: /feed/geoview
+SourceName: geoview
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: snowie2000
+Architecture: x86_64
+Installed-Size: 1689002
+Filename: geoview_0.0.7-1_x86_64.ipk
+Size: 1686909
+SHA256sum: 7836072110a5b46f5fee026971a7d40d3dfa7b949090a19a045ffe92f49a2254
+Description:  geoview is a handy tool to extract useful information from geo* files.
+ 
+ This package contains the geoview.
+
+Package: halog
+Version: 3.0.6-1
+Depends: libc, haproxy
+Source: /feed/haproxy
+SourceName: halog
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: x86_64
+Installed-Size: 14726
+Filename: halog_3.0.6-1_x86_64.ipk
+Size: 15488
+SHA256sum: 5ec90929b1d19d03007cf93a556abb8d28807bde1bb05985eb5c0cc5dbde1979
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 3.0.6-1
+Depends: libc, libpcre2, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
+Conflicts: haproxy
+Source: /feed/haproxy
+SourceName: haproxy-nossl
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: x86_64
+Installed-Size: 1100935
+Filename: haproxy-nossl_3.0.6-1_x86_64.ipk
+Size: 1101559
+SHA256sum: 8b379a2e5c51eaa0f7b7fd146cd1f02be069219342bf2ff2c6fd625396725a5f
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 3.0.6-1
+Depends: libc, libpcre2, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl3, libncurses6, libreadline8, libatomic1
+Source: /feed/haproxy
+SourceName: haproxy
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: x86_64
+Installed-Size: 1373122
+Filename: haproxy_3.0.6-1_x86_64.ipk
+Size: 1373009
+SHA256sum: d181984e20ce8d7ed83c219e32e27e85e572071e33e43dad5f811324be8a3111
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: hysteria
+Version: 2.6.0-1
+Depends: libc, ca-bundle
+Source: /feed/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 7165991
+Filename: hysteria_2.6.0-1_x86_64.ipk
+Size: 7150146
+SHA256sum: 6f47a49e4252ed9e8eb2194b596928bb38e432e024f65bb142e87bcd1243783c
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.4-3
+Depends: libc, libpthread
+Source: /feed/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 26347
+Filename: ipt2socks_1.1.4-3_x86_64.ipk
+Size: 27036
+SHA256sum: bcf82bb0a760902d9eb5b8507c5a0f75be520afb0f46060c7bfa6a43b53a54f1
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: /feed/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4531
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5301
+SHA256sum: 4f3975d6390adfde2944feb3edeb81aecce4bd6c5fd406e3369dddc9b8743634
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-mihomo
+Version: 1.13.2
+Depends: libc, luci-base, mihomo
+Source: /feed/luci-app-mihomo
+SourceName: luci-app-mihomo
+Section: luci
+SourceDateEpoch: 1733333034
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7034
+Filename: luci-app-mihomo_1.13.2_all.ipk
+Size: 7869
+SHA256sum: 7baa9942834fcaff416e3e321877553736fb43535a7b54b6e96bdee3034a5a9c
+Description:  LuCI Support for mihomo
+
+Package: luci-app-openclash
+Version: 0.46.050-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Source: /feed/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1733333034
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 7653024
+Filename: luci-app-openclash_0.46.050-beta_all.ipk
+Size: 7614890
+SHA256sum: 9dbdee87fa9a747fbdce4f46e47694e25b30e42e4788ffab4256ae8cfcc39fea
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall2
+Version: 24.11.19
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Source: /feed/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1733333034
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 235539
+Filename: luci-app-passwall2_24.11.19_all.ipk
+Size: 236531
+SHA256sum: 9531a58aaeca3d62f06e9204370fb31f8b289826056801d4b86c8c45cc484747
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 24.12.1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
+Source: /feed/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1733333034
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 828024
+Filename: luci-app-passwall_24.12.1_all.ipk
+Size: 828732
+SHA256sum: 9fef029addfa8f6a19366eae696028103402b414ee300aa932d364761cd3d0b7
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 189
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, curl, xray-core, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, luci-lua-runtime
+Source: /feed/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1733333034
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 281288
+Filename: luci-app-ssr-plus_189_all.ipk
+Size: 281495
+SHA256sum: 791df7c98e46b2f88e8ecaf5d77706a14cc388dd0a7ecdd1708d637570125ddd
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/TUIC/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
+
+Package: luci-i18n-mihomo-zh-cn
+Version: git-24.339.62634-887ee5d
+Depends: libc, luci-app-mihomo
+Source: /feed/luci-app-mihomo
+SourceName: luci-i18n-mihomo-zh-cn
+Section: luci
+SourceDateEpoch: 1733333034
+Architecture: all
+Installed-Size: 3142
+Filename: luci-i18n-mihomo-zh-cn_git-24.339.62634-887ee5d_all.ipk
+Size: 3857
+SHA256sum: 4f26a9000fe65687d594a798a0423f777044c32f8754cf0d20e70c87a9ff9b1c
+Description:  Translation for luci-app-mihomo - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall-zh-cn
+Version: git-24.339.62634-887ee5d
+Depends: libc, luci-app-passwall
+Source: /feed/luci-app-passwall
+SourceName: luci-i18n-passwall-zh-cn
+Section: luci
+SourceDateEpoch: 1733333034
+Architecture: all
+Installed-Size: 13883
+Filename: luci-i18n-passwall-zh-cn_git-24.339.62634-887ee5d_all.ipk
+Size: 14609
+SHA256sum: 1db1af676eea4ec7295343ea10e558fae8401bd44cf015ac5f055ef24fd547b4
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall2-zh-cn
+Version: git-24.339.62634-887ee5d
+Depends: libc, luci-app-passwall2
+Source: /feed/luci-app-passwall2
+SourceName: luci-i18n-passwall2-zh-cn
+Section: luci
+SourceDateEpoch: 1733333034
+Architecture: all
+Installed-Size: 12790
+Filename: luci-i18n-passwall2-zh-cn_git-24.339.62634-887ee5d_all.ipk
+Size: 13512
+SHA256sum: dcede242d801a4835310ff6d5f241e7d6e0530ffa0925d5e5c02e079f11e5fee
+Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-24.339.62634-887ee5d
+Depends: libc, luci-app-ssr-plus
+Source: /feed/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1733333034
+Architecture: all
+Installed-Size: 8177
+Filename: luci-i18n-ssr-plus-zh-cn_git-24.339.62634-887ee5d_all.ipk
+Size: 8933
+SHA256sum: f708badb371ea1171f1276e87b69d3d56574e01b44251634d2262a5d3ba6543a
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: microsocks
+Version: 1.0.4-1
+Depends: libc, libpthread
+Source: /feed/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: lean
+Architecture: x86_64
+Installed-Size: 5429
+Filename: microsocks_1.0.4-1_x86_64.ipk
+Size: 6225
+SHA256sum: 0d2df9dde5c8f8236ee6ca299440eaadb6fb6b12c888eed4defb1cf0389e97d9
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: mihomo
+Version: 2024-11-30-9de9f1ef-1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-tproxy, kmod-tun
+Source: /feed/mihomo
+SourceName: mihomo
+License: MIT
+Section: net
+Require-User: root:mihomo=7890
+SourceDateEpoch: 1733333034
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 11068362
+Filename: mihomo_2024-11-30-9de9f1ef-1_x86_64.ipk
+Size: 11038747
+SHA256sum: d6f31604cd7f69961a5a47e4f003f43e7e3d8701536ac31000d385a241f7aefc
+Description:  A rule based proxy in Go.
+
+Package: naiveproxy
+Version: 131.0.6778.86-1
+Depends: libc, libatomic1
+Source: /feed/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 3192550
+Filename: naiveproxy_131.0.6778.86-1_x86_64.ipk
+Size: 3190529
+SHA256sum: 88bdd5223ccd694a329e4e47f86d369461439391d72f6a48a4f027ae5e8a4a2c
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /feed/pdnsd
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 92976
+Filename: pdnsd-alt_1.2.9b-par-3_x86_64.ipk
+Size: 93997
+SHA256sum: 4cd40366634ef969f6483e762fa303931e4303b8165a3ed95f04f8542e776918
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.70-1
+Depends: libc, libevent2-7, libopenssl3
+Source: /feed/redsocks2
+SourceName: redsocks2
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: x86_64
+Installed-Size: 58020
+Filename: redsocks2_0.70-1_x86_64.ipk
+Size: 58903
+SHA256sum: b5a82f83e6e6b1823ecab31ab1dd1324147ac4407eaf33d5f40371f60c003538
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: shadow-tls
+Version: 0.2.25-1
+Depends: libc
+Source: /feed/shadow-tls
+SourceName: shadow-tls
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: FluffyTigerFear
+Architecture: x86_64
+Installed-Size: 2125580
+Filename: shadow-tls_0.2.25-1_x86_64.ipk
+Size: 2109440
+SHA256sum: 7d5f5ba437237fe567856644fe3934478f1daa65cc33f71e3fa052dd4f348a1a
+Description:  A proxy to expose real tls handshake to the firewall.
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-12
+Depends: libc
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 2892
+Filename: shadowsocks-libev-config_3.3.5-12_x86_64.ipk
+Size: 3686
+SHA256sum: f36f1a338a4117b6ae603b48b32a25d4b56c9ee83f9ca9c83a41d60a212c95a5
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-12
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre2
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 50923
+Filename: shadowsocks-libev-ss-local_3.3.5-12_x86_64.ipk
+Size: 51805
+SHA256sum: a3b521dcbceda51fed694121f0593bee739bb80aa2b2672c03e09ff3a17fb940
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-12
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 45327
+Filename: shadowsocks-libev-ss-redir_3.3.5-12_x86_64.ipk
+Size: 46151
+SHA256sum: 71b9e39eda58f0274ca391e69f0e3ecb188ec53b31760f842153af22c67a5de2
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-12
+Depends: libc, firewall4, ip, resolveip, ucode, ucode-mod-fs, shadowsocks-libev-ss-redir, shadowsocks-libev-config, kmod-nft-tproxy
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 1890
+Filename: shadowsocks-libev-ss-rules_3.3.5-12_x86_64.ipk
+Size: 2690
+SHA256sum: ca46c151292df4569802ffef5fc089a7b6588119f3cb560f7307fef031bfa568
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-12
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre2
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 55983
+Filename: shadowsocks-libev-ss-server_3.3.5-12_x86_64.ipk
+Size: 56817
+SHA256sum: 02845d2b25a3cab18906299605133b1bc9e15ed93ef2a4e12b836eaacddcdef7
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-12
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: /feed/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 43512
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-12_x86_64.ipk
+Size: 44408
+SHA256sum: 703244e10e955f335b40879f9cc55b7f552626b5b22ec055ecc5f04f01496caf
+Description:  shadowsocks-libev ss-tunnel
+
+Package: shadowsocks-rust-sslocal
+Version: 1.21.2-1
+Depends: libc
+Source: /feed/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5497423
+Filename: shadowsocks-rust-sslocal_1.21.2-1_x86_64.ipk
+Size: 5457024
+SHA256sum: 7d600319652d41aa62cf1ca80f8762f45f74d2b18f9d46634ce7055c104105df
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.21.2-1
+Depends: libc
+Source: /feed/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 3860225
+Filename: shadowsocks-rust-ssmanager_1.21.2-1_x86_64.ipk
+Size: 3826339
+SHA256sum: a7c92c0866e345af9c663f3fb06e8d11bd879f1d9af61a08531b4b79da3f2337
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.21.2-1
+Depends: libc
+Source: /feed/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 3775158
+Filename: shadowsocks-rust-ssserver_1.21.2-1_x86_64.ipk
+Size: 3742815
+SHA256sum: f3614d18e3f81f45fc9cba8d3e78850d5eed04f9e34f17769a42c1e102f2f050
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.21.2-1
+Depends: libc
+Source: /feed/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5753461
+Filename: shadowsocks-rust-ssservice_1.21.2-1_x86_64.ipk
+Size: 5711667
+SHA256sum: 875e1e92135b78f3179c9cb64ed5c086d3a00786e29d8424dccd0c78477811bc
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.21.2-1
+Depends: libc
+Source: /feed/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1317325
+Filename: shadowsocks-rust-ssurl_1.21.2-1_x86_64.ipk
+Size: 1302548
+SHA256sum: a9664a805bee2b876da4ec38913c9d9e391a3955aed6323abf8bcdb6e37a62bc
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib, libopenssl-legacy
+Source: /feed/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 2336
+Filename: shadowsocksr-libev-ssr-check_2.5.6-11_x86_64.ipk
+Size: 3065
+SHA256sum: c868fd1831733dbbecc72a9fc542bac65e11bbe1ddc217d1163a2d23b7518fe0
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib, libopenssl-legacy
+Source: /feed/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 62959
+Filename: shadowsocksr-libev-ssr-local_2.5.6-11_x86_64.ipk
+Size: 63819
+SHA256sum: d6c0f423598ee0ec108d96b144a75835f85789927c847aa2709512a2b8e46922
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib, libopenssl-legacy
+Source: /feed/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 2228
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-11_x86_64.ipk
+Size: 2979
+SHA256sum: 62e456b2937d7510d2481840a25d7268ee69e2fdff64c5a67daf2fe0af5f9a7f
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib, libopenssl-legacy
+Source: /feed/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 56014
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-11_x86_64.ipk
+Size: 56801
+SHA256sum: 01f02b2357cad844f4767bfccef1c3cb77a5ccb1b5d755569bb02397cc904585
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib, libopenssl-legacy
+Source: /feed/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 65907
+Filename: shadowsocksr-libev-ssr-server_2.5.6-11_x86_64.ipk
+Size: 66712
+SHA256sum: 116dede243681b20ea8e688d41770aad33fe5db17773d2316ba2aa716b1abb4d
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: /feed/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 30607
+Filename: simple-obfs-client_0.0.5-1_x86_64.ipk
+Size: 31376
+SHA256sum: da3d824b63511cdb6d67b0175722e981d737c0b2182a0c3c0bd33e0f6b044a66
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /feed/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 32971
+Filename: simple-obfs-server_0.0.5-1_x86_64.ipk
+Size: 33816
+SHA256sum: c2eff1ca80cd334e33e59d275104c399f72549a664d04970c24f54e134e60f62
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sing-box
+Version: 1.10.3-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: /feed/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 11160624
+Filename: sing-box_1.10.3-1_x86_64.ipk
+Size: 11131535
+SHA256sum: 900e73cb3f36a87ac4bd3235879c1a3360f90edfc37fbe507f1006d367ed3fc0
+Description:  The universal proxy platform
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /feed/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1733333034
+Architecture: x86_64
+Installed-Size: 3502
+Filename: tcping_0.3-1_x86_64.ipk
+Size: 4193
+SHA256sum: 0b0f47e0e15abe84761096781d0cdef7f1f5a484877864ce00c3c8938884ebef
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Source: /feed/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Trojan-Plus-Group
+Architecture: x86_64
+Installed-Size: 440848
+Filename: trojan-plus_10.0.3-2_x86_64.ipk
+Size: 441717
+SHA256sum: 3c97f8aa66e5ebfa60c261fba29884b58d4c74bb18a605139e41c1b2e0361d94
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Source: /feed/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: GreaterFire
+Architecture: x86_64
+Installed-Size: 310961
+Filename: trojan_1.16.0-2_x86_64.ipk
+Size: 311752
+SHA256sum: 585f48251919b9ee32e7337355747bbe9794bf266ebf4a5a4fd5ebec5681a28d
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: tuic-client
+Version: 1.0.0-1
+Depends: libc
+Source: /feed/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1127014
+Filename: tuic-client_1.0.0-1_x86_64.ipk
+Size: 1125087
+SHA256sum: 19dcd34d7483ff0d8cfd63af9f8b0778f2f15f92dcca079d179645ff5cb2f889
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-core
+Version: 5.22.0-1
+Depends: libc, ca-bundle
+Source: /feed/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 12506900
+Filename: v2ray-core_5.22.0-1_x86_64.ipk
+Size: 12464044
+SHA256sum: ec029c9929d1f94a667c6253057e201a97f7dc50f7c2af23e546fa05af8e2ff5
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-extra
+Version: 5.22.0-1
+Depends: libc, v2ray-core
+Source: /feed/v2ray-core
+SourceName: v2ray-extra
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 298632
+Filename: v2ray-extra_5.22.0-1_all.ipk
+Size: 299339
+SHA256sum: 2e8704de1eadb90abfc22e25a5362eede34dea28679e988dcefdc7885369bd53
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for v2ray-core.
+
+Package: v2ray-geoip
+Version: 2024-12-04-1
+Depends: libc
+Source: /feed/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: openwrt-plus <git@github.com>
+Architecture: all
+Installed-Size: 3385269
+Filename: v2ray-geoip_2024-12-04-1_all.ipk
+Size: 3113008
+SHA256sum: 10e0e04094908a4c85c11c799ce4bd82375883ea90cd6a7c17e451d5d050e224
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 2024-12-04-1
+Depends: libc
+Source: /feed/v2ray-geodata
+SourceName: v2ray-geosite
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: openwrt-plus <git@github.com>
+Architecture: all
+Installed-Size: 2192592
+Filename: v2ray-geosite_2024-12-04-1_all.ipk
+Size: 2193336
+SHA256sum: a1b55798eff073f73f2345b625c676e1caee7df6b6eaef9e3cc70ef05879d02b
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.17.0-1
+Depends: libc, ca-bundle
+Source: /feed/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: x86_64
+Installed-Size: 5432260
+Filename: v2ray-plugin_5.17.0-1_x86_64.ipk
+Size: 5420734
+SHA256sum: 418fbedde9513a49403f1bd78d52b42e555a850a113ccdb5df9c07160bafed4b
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 24.11.30-1
+Depends: libc, ca-bundle
+Source: /feed/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 10564730
+Filename: xray-core_24.11.30-1_x86_64.ipk
+Size: 10537314
+SHA256sum: 3371e19082613c6b89cb4fc7711bff698faf5e7bf3890c9b5248a41193380170
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.8.24-1
+Depends: libc, ca-bundle
+Source: /feed/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1733333034
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 7093117
+Filename: xray-plugin_1.8.24-1_x86_64.ipk
+Size: 7075621
+SHA256sum: 214f727a5fdfd639bf2baca7eb57d0dd9b411b9d3432a571bfed7df1381afbfc
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+
