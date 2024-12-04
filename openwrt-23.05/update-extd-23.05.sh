@@ -173,6 +173,7 @@ rm -rf openwrt-mentohust
 mv immortalwrt/luci/applications/luci-app-ksmbd ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-ksmbd/Makefile
 sed -i 's/0666/0644/g;s/0777/0755/g' luci-app-ksmbd/htdocs/luci-static/resources/view/ksmbd.js
+rm -rf luci-app-ksmbd/po/!(templates|zh_Hans)
 mv immortalwrt/packages/net/ksmbd-tools ./
 sed -i 's/0666/0644/g;s/0777/0755/g' ksmbd-tools/files/ksmbd.config.example
 sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' ksmbd-tools/files/ksmbd.conf.template
