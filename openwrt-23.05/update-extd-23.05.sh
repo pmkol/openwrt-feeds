@@ -201,6 +201,11 @@ mv immortalwrt/packages/utils/screen ./
 mv immortalwrt/packages/net/tailscale ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
 
+# vim
+mv openwrt/packages/utils/vim ./
+curl -s https://$mirror/openwrt-23.05/patch/vim/0001-vim-fix-renamed-defaults-config-file.patch | patch -p2
+sed -i -E 's/(PKG_RELEASE:=)([0-9]+)/echo "\1$((\2+1))"/e' vim/Makefile
+
 # zstd
 mv immortalwrt/packages/utils/zstd ./
 
