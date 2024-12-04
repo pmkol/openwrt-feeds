@@ -1,0 +1,38 @@
+name: Update OpenWrt Feeds(lite-23.05)
+
+on:
+  schedule:
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Sync Upstream
+    if: github.repository_owner == 'pmkol'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: lite-23.05
+          token: ${{ secrets.OPENWRT_WORKFLOW_TOKEN }}
+
+      - name: Update Feeds
+        run: |
+          export mirror=raw.githubusercontent.com/pmkol/openwrt-feeds/main
+          curl -sO https://$mirror/openwrt-23.05/update-lite-23.05.sh
+          bash update-lite-23.05.sh
+          rm -f update-lite-23.05.sh
+          echo "latest_release=$(TZ='Asia/Hong_Kong' date +'%Y%m%d')" >> $GITHUB_ENV
+
+      - name: Git Push
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -sm "Sync upstream up to ${{env.latest_release}}"
+            git push
+          else
+            echo "No changes to commit, skipping push."
+          fi
