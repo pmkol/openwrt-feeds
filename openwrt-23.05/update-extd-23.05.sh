@@ -32,7 +32,7 @@ git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
 git clone https://github.com/pmkol/luci-app-upnp --depth 1
 git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
 git clone https://github.com/pmkol/luci-app-qosmate --depth 1
-rm -rf openwrt_pkgs/bash-completion
+rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
 rm -rf liburing/.git
