@@ -182,9 +182,9 @@ sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' ksmbd-tools/fi
 # ddns-scripts
 mv immortalwrt/packages/net/ddns-scripts ./
 
-# docker-composes
-mv immortalwrt/packages/utils/docker-composes ./
-sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' docker-composes/Makefile
+# docker-compose
+mv immortalwrt/packages/utils/docker-compose ./
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' docker-compose/Makefile
 
 # lsof
 mv immortalwrt/packages/utils/lsof ./
