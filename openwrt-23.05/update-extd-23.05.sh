@@ -205,7 +205,17 @@ mv immortalwrt/packages/utils/screen ./
 
 # tailscale
 mv immortalwrt/packages/net/tailscale ./
+rm -f tailscale/README.md
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
+TAILSCALE_VERSION=$(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r .tag_name | sed 's/^v//')
+[ -n "$TAILSCALE_VERSION" ] && curl -Ls "https://codeload.github.com/tailscale/tailscale/tar.gz/v$TAILSCALE_VERSION" > /tmp/tailscale-$TAILSCALE_VERSION.tar.gz
+TAILSCALE_HASH=$(sha256sum /tmp/tailscale-$TAILSCALE_VERSION.tar.gz | awk '{print $1}')
+if [ -n "$TAILSCALE_HASH" ]; then
+    sed -ri "s/(PKG_VERSION:=)[^\"]*/\1$TAILSCALE_VERSION/;s/(PKG_HASH:=)[^\"]*/\1$TAILSCALE_HASH/" tailscale/Makefile
+else
+    rm -f tailscale/Makefile
+    mv /tmp/extd/tailscale/Makefile tailscale/Makefile
+fi
 
 # vim
 mv openwrt/packages/utils/vim ./
