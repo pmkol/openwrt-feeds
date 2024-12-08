@@ -212,6 +212,9 @@ mv openwrt/packages/utils/vim ./
 curl -s https://$mirror/openwrt-23.05/patch/vim/0001-vim-fix-renamed-defaults-config-file.patch | patch -p2
 sed -i -E 's/(PKG_RELEASE:=)([0-9]+)/echo "\1$((\2+1))"/e' vim/Makefile
 
+# zerotier
+mv immortalwrt/packages/net/zerotier ./
+
 # zstd
 mv immortalwrt/packages/utils/zstd ./
 
