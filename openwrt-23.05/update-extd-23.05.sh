@@ -128,6 +128,8 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-upnp/Makefile
 # luci-app-natmap
 mv openwrt/luci/applications/luci-app-natmap ./
 curl -s https://$mirror/openwrt-23.05/patch/natmap/0001-luci-app-natmap-add-default-STUN-server-lists.patch | patch -p2
+rm -rf luci-app-natmap/po/!(templates|zh_Hans)
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-natmap/Makefile
 
 # luci-app-aria2
 mv openwrt-aria2/*/ ./
