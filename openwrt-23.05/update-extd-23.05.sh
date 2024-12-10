@@ -51,6 +51,14 @@ rm -rf luci-app-qosmate/{.git,LICENSE,README.md}
 mv openwrt_pkgs/*/ ./
 rm -rf openwrt_pkgs
 
+# luci-app-aria2
+mv openwrt-aria2/*/ ./
+rm -rf openwrt-aria2
+
+# luci-app-airconnect
+mv openwrt-airconnect/*/ ./
+rm -rf openwrt-airconnect
+
 # luci-app-ddns-go
 mv openwrt-ddns-go/*/ ./
 rm -rf openwrt-ddns-go
@@ -61,35 +69,15 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-dufs/Makefile
 mv immortalwrt/packages/net/dufs ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' dufs/Makefile
 
+# luci-app-dockerman
+mv openwrt/luci/applications/luci-app-dockerman ./
+curl -s https://$mirror/openwrt-23.05/patch/docker/0001-luci-app-dockerman-add-dockerd-dependency.patch | patch -p2
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-dockerman/Makefile
+rm -rf luci-app-dockerman/po/!(templates|zh_Hans)
+
 # luci-app-eqosplus
 mv openwrt-eqosplus/*/ ./
 rm -rf openwrt-eqosplus
-
-# luci-app-msd_lite
-mv immortalwrt/luci/applications/luci-app-msd_lite ./
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-msd_lite/Makefile
-mv immortalwrt/packages/net/msd_lite ./
-
-# add luci-app-vsftpd
-mv immortalwrt/luci/applications/luci-app-vsftpd ./
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-vsftpd/Makefile
-
-# luci-app-samba4
-sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' samba4/Makefile
-sed -i '/workgroup/a \\n\t## enable multi-channel' samba4/files/smb.conf.template
-sed -i '/enable multi-channel/a \\tserver multi channel support = yes' samba4/files/smb.conf.template
-sed -i 's/#aio read size = 0/aio read size = 0/g' samba4/files/smb.conf.template
-sed -i 's/#aio write size = 0/aio write size = 0/g' samba4/files/smb.conf.template
-sed -i 's/invalid users = root/#invalid users = root/g' samba4/files/smb.conf.template
-sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' samba4/files/smb.conf.template
-sed -i 's/#create mask/create mask/g' samba4/files/smb.conf.template
-sed -i 's/#directory mask/directory mask/g' samba4/files/smb.conf.template
-sed -i 's/0666/0644/g;s/0777/0755/g' samba4/files/samba.config
-sed -i 's/0666/0644/g;s/0777/0755/g' samba4/files/smb.conf.template
-mv openwrt/luci/applications/luci-app-samba4 ./
-rm -rf luci-app-samba4/po/!(templates|zh_Hans)
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
-sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
 
 # luci-app-frpc & luci-app-frps & frp
 mv openwrt/luci/applications/luci-app-frpc ./
@@ -114,50 +102,33 @@ sed -i "s/'conf_inc:list(string)'/& \\\\/" frp/files/frpc.init
 sed -i "/conf_inc:list/a\\\t\t\'enable:bool:0\'" frp/files/frpc.init
 sed -i '/procd_open_instance/i\\t\[ "$enable" -ne 1 \] \&\& return 1\n' frp/files/frpc.init
 
-# luci-app-ttyd
-mv openwrt/luci/applications/luci-app-ttyd ./
-rm -rf luci-app-ttyd/po/!(templates|zh_Hans)
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-ttyd/Makefile
-sed -i 's/services/system/g' luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
-sed -i '3 a\\t\t"order": 50,' luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
+# luci-app-ksmbd
+mv immortalwrt/luci/applications/luci-app-ksmbd ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-ksmbd/Makefile
+sed -i 's/0666/0644/g;s/0777/0755/g' luci-app-ksmbd/htdocs/luci-static/resources/view/ksmbd.js
+rm -rf luci-app-ksmbd/po/!(templates|zh_Hans)
+mv immortalwrt/packages/net/ksmbd-tools ./
+sed -i 's/0666/0644/g;s/0777/0755/g' ksmbd-tools/files/ksmbd.config.example
+sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' ksmbd-tools/files/ksmbd.conf.template
 
-# luci-app-upnp
-rm -rf luci-app-upnp/po/!(templates|zh_Hans)
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-upnp/Makefile
+# luci-app-mentohust
+mv openwrt-mentohust/*/ ./
+rm -rf openwrt-mentohust
+
+# luci-app-mosdns
+mv openwrt-mosdns/*/ ./
+rm -rf openwrt-mosdns
+
+# luci-app-msd_lite
+mv immortalwrt/luci/applications/luci-app-msd_lite ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-msd_lite/Makefile
+mv immortalwrt/packages/net/msd_lite ./
 
 # luci-app-natmap
 mv openwrt/luci/applications/luci-app-natmap ./
 curl -s https://$mirror/openwrt-23.05/patch/natmap/0001-luci-app-natmap-add-default-STUN-server-lists.patch | patch -p2
 rm -rf luci-app-natmap/po/!(templates|zh_Hans)
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-natmap/Makefile
-
-# luci-app-aria2
-mv openwrt-aria2/*/ ./
-rm -rf openwrt-aria2
-
-# luci-app-airconnect
-mv openwrt-airconnect/*/ ./
-rm -rf openwrt-airconnect
-
-# luci-app-qbittorrent
-mv openwrt-qbittorrent/*/ ./
-rm -rf openwrt-qbittorrent
-
-# luci-app-unblockneteasemusic
-sed -i 's/解除网易云音乐播放限制/网易云音乐解锁/g' luci-app-unblockneteasemusic/root/usr/share/luci/menu.d/luci-app-unblockneteasemusic.json
-
-# luci-theme-argon
-mv openwrt-argon/*/ ./
-rm -rf openwrt-argon
-rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
-
-# luci-app-mosdns
-mv openwrt-mosdns/*/ ./
-rm -rf openwrt-mosdns
-
-# luci-app-oaf
-mv openwrt-oaf/*/ ./
-rm -rf openwrt-oaf
 
 # luci-app-nlbwmon
 mv openwrt/packages/net/nlbwmon ./
@@ -168,18 +139,53 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-nlbwmon/Makefile
 sed -i 's/services/network/g' luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json
 sed -i 's/services/network/g' luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js
 
-# luci-app-mentohust
-mv openwrt-mentohust/*/ ./
-rm -rf openwrt-mentohust
+# luci-app-oaf
+mv openwrt-oaf/*/ ./
+rm -rf openwrt-oaf
 
-# luci-app-ksmbd
-mv immortalwrt/luci/applications/luci-app-ksmbd ./
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-ksmbd/Makefile
-sed -i 's/0666/0644/g;s/0777/0755/g' luci-app-ksmbd/htdocs/luci-static/resources/view/ksmbd.js
-rm -rf luci-app-ksmbd/po/!(templates|zh_Hans)
-mv immortalwrt/packages/net/ksmbd-tools ./
-sed -i 's/0666/0644/g;s/0777/0755/g' ksmbd-tools/files/ksmbd.config.example
-sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' ksmbd-tools/files/ksmbd.conf.template
+# luci-app-qbittorrent
+mv openwrt-qbittorrent/*/ ./
+rm -rf openwrt-qbittorrent
+
+# luci-app-samba4
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' samba4/Makefile
+sed -i '/workgroup/a \\n\t## enable multi-channel' samba4/files/smb.conf.template
+sed -i '/enable multi-channel/a \\tserver multi channel support = yes' samba4/files/smb.conf.template
+sed -i 's/#aio read size = 0/aio read size = 0/g' samba4/files/smb.conf.template
+sed -i 's/#aio write size = 0/aio write size = 0/g' samba4/files/smb.conf.template
+sed -i 's/invalid users = root/#invalid users = root/g' samba4/files/smb.conf.template
+sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' samba4/files/smb.conf.template
+sed -i 's/#create mask/create mask/g' samba4/files/smb.conf.template
+sed -i 's/#directory mask/directory mask/g' samba4/files/smb.conf.template
+sed -i 's/0666/0644/g;s/0777/0755/g' samba4/files/samba.config
+sed -i 's/0666/0644/g;s/0777/0755/g' samba4/files/smb.conf.template
+mv openwrt/luci/applications/luci-app-samba4 ./
+rm -rf luci-app-samba4/po/!(templates|zh_Hans)
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
+sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
+
+# luci-app-ttyd
+mv openwrt/luci/applications/luci-app-ttyd ./
+rm -rf luci-app-ttyd/po/!(templates|zh_Hans)
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-ttyd/Makefile
+sed -i 's/services/system/g' luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
+sed -i '3 a\\t\t"order": 50,' luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
+
+# luci-app-unblockneteasemusic
+sed -i 's/解除网易云音乐播放限制/网易云音乐解锁/g' luci-app-unblockneteasemusic/root/usr/share/luci/menu.d/luci-app-unblockneteasemusic.json
+
+# luci-app-upnp
+rm -rf luci-app-upnp/po/!(templates|zh_Hans)
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-upnp/Makefile
+
+# add luci-app-vsftpd
+mv immortalwrt/luci/applications/luci-app-vsftpd ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-vsftpd/Makefile
+
+# luci-theme-argon
+mv openwrt-argon/*/ ./
+rm -rf openwrt-argon
+rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
 
 # ddns-scripts
 mv immortalwrt/packages/net/ddns-scripts ./
