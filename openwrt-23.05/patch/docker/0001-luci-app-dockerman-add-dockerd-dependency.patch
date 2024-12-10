@@ -1,0 +1,28 @@
+From f827219f6cf8bb147407013791bcb340eeff9363 Mon Sep 17 00:00:00 2001
+From: Tamas K Lengyel <tamas@tklengyel.com>
+Date: Tue, 12 Mar 2024 15:33:12 -0400
+Subject: [PATCH] luci-app-dockerman: Add dockerd and docker-compose as
+ dependency
+
+When installing luci-app-dockerman the webui appears empty and unusable if
+these dependencies are not installed. Fix it by declaring them.
+
+Signed-off-by: Tamas K Lengyel <tamas@tklengyel.com>
+---
+ applications/luci-app-dockerman/Makefile | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/applications/luci-app-dockerman/Makefile b/applications/luci-app-dockerman/Makefile
+index f49be3c7ccfb..07c6bea8e221 100644
+--- a/applications/luci-app-dockerman/Makefile
++++ b/applications/luci-app-dockerman/Makefile
+@@ -6,7 +6,8 @@ LUCI_DEPENDS:=@(aarch64||arm||x86_64) \
+ 	+luci-compat \
+ 	+luci-lib-docker \
+ 	+docker \
+-	+ttyd
++	+ttyd \
++	+dockerd
+ 
+ PKG_LICENSE:=AGPL-3.0
+ PKG_MAINTAINER:=lisaac <lisaac.cn@gmail.com> \
