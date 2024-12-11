@@ -46,7 +46,7 @@ endef
 define Package/haproxy
   $(call Package/haproxy/Default)
   TITLE+=with SSL support
-  DEPENDS+= +libpcre2 +libltdl +zlib +libpthread +liblua5.3 +libopenssl +libncurses +libreadline +libatomic
+  DEPENDS+= +libpcre2 +libltdl +zlib +libpthread +liblua5.4 +libopenssl +libncurses +libreadline +libatomic
   VARIANT:=ssl
 endef
 
@@ -59,7 +59,7 @@ define Package/haproxy-nossl
   $(call Package/haproxy/Default)
   TITLE+=without SSL support
   VARIANT:=nossl
-  DEPENDS+= +libpcre2 +libltdl +zlib +libpthread +liblua5.3 +libatomic
+  DEPENDS+= +libpcre2 +libltdl +zlib +libpthread +liblua5.4 +libatomic
   CONFLICTS:=haproxy
 endef
 
