@@ -164,6 +164,21 @@ rm -rf luci-app-samba4/po/!(templates|zh_Hans)
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
 sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
 
+# luci-app-tailscale
+sed -i 's/"order": 90/"order": 900/g' luci-app-tailscale/root/usr/share/luci/menu.d/luci-app-tailscale.json
+mv immortalwrt/packages/net/tailscale ./
+rm -f tailscale/README.md
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
+TAILSCALE_VERSION=$(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r .tag_name | sed 's/^v//')
+[ -n "$TAILSCALE_VERSION" ] && curl -Ls "https://codeload.github.com/tailscale/tailscale/tar.gz/v$TAILSCALE_VERSION" > /tmp/tailscale-$TAILSCALE_VERSION.tar.gz
+TAILSCALE_HASH=$(sha256sum /tmp/tailscale-$TAILSCALE_VERSION.tar.gz | awk '{print $1}')
+if [ -n "$TAILSCALE_HASH" ]; then
+    sed -ri "s/(PKG_VERSION:=)[^\"]*/\1$TAILSCALE_VERSION/;s/(PKG_HASH:=)[^\"]*/\1$TAILSCALE_HASH/" tailscale/Makefile
+else
+    rm -f tailscale/Makefile
+    mv /tmp/extd/tailscale/Makefile tailscale/Makefile
+fi
+
 # luci-app-ttyd
 mv openwrt/luci/applications/luci-app-ttyd ./
 rm -rf luci-app-ttyd/po/!(templates|zh_Hans)
@@ -210,20 +225,6 @@ mv immortalwrt/packages/net/openssh ./
 
 # screen
 mv immortalwrt/packages/utils/screen ./
-
-# tailscale
-mv immortalwrt/packages/net/tailscale ./
-rm -f tailscale/README.md
-sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
-TAILSCALE_VERSION=$(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r .tag_name | sed 's/^v//')
-[ -n "$TAILSCALE_VERSION" ] && curl -Ls "https://codeload.github.com/tailscale/tailscale/tar.gz/v$TAILSCALE_VERSION" > /tmp/tailscale-$TAILSCALE_VERSION.tar.gz
-TAILSCALE_HASH=$(sha256sum /tmp/tailscale-$TAILSCALE_VERSION.tar.gz | awk '{print $1}')
-if [ -n "$TAILSCALE_HASH" ]; then
-    sed -ri "s/(PKG_VERSION:=)[^\"]*/\1$TAILSCALE_VERSION/;s/(PKG_HASH:=)[^\"]*/\1$TAILSCALE_HASH/" tailscale/Makefile
-else
-    rm -f tailscale/Makefile
-    mv /tmp/extd/tailscale/Makefile tailscale/Makefile
-fi
 
 # vim
 mv openwrt/packages/utils/vim ./
