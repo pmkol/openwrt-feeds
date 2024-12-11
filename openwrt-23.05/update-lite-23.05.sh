@@ -48,6 +48,7 @@ fi
 
 # haproxy
 mv immortalwrt/packages/net/haproxy ./
+sed -i 's/lua5.4/lua5.3/g' haproxy/Makefile
 
 rm -rf immortalwrt
 ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
