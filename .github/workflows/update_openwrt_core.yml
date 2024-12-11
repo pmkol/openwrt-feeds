@@ -1,0 +1,53 @@
+name: Update OpenWrt Core(23.05)
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sync]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Sync OpenWrt Core
+    runs-on: ubuntu-24.04
+
+    steps:
+    - name: Checkout
+      continue-on-error: true
+      uses: actions/checkout@main
+      with:
+        ref: opkg-repo
+
+    - name: Clean up commit
+      run: |
+        git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch openwrt_core/23.05/**/*.ipk' --prune-empty --tag-name-filter cat HEAD
+        echo "latest_release=$(TZ='Asia/Hong_Kong' date +'%Y%m%d')" >> $GITHUB_ENV
+
+    - name: Sync kernel modules for aarch64_generic
+      run: |
+        kmod=$(curl -sk "https://api.github.com/repos/pmkol/openwrt-lite/releases" | grep "browser_download_url" | grep "aarch64-6.11" | tail -1 | awk '{print $2}' | sed 's/\"//g')
+        kmod_name=$(basename $kmod | sed 's/\.tar\.gz$//;s/^[^-]*-//')
+        curl -L $kmod -o $kmod_name.tar.gz --progress-bar
+        rm -rf openwrt_core/23.05/aarch64_generic/$kmod_name
+        mkdir -p openwrt_core/23.05/aarch64_generic
+        tar zxf $kmod_name.tar.gz -C openwrt_core/23.05/aarch64_generic && rm -f $kmod_name.tar.gz
+
+    - name: Sync kernel modules for x86_64
+      run: |
+        kmod=$(curl -sk "https://api.github.com/repos/pmkol/openwrt-lite/releases" | grep "browser_download_url" | grep "x86_64-6.11" | tail -1 | awk '{print $2}' | sed 's/\"//g')
+        kmod_name=$(basename $kmod | sed 's/\.tar\.gz$//;s/^[^-]*-//')
+        curl -L $kmod -o $kmod_name.tar.gz --progress-bar
+        rm -rf openwrt_core/23.05/x86_64/$kmod_name
+        mkdir -p openwrt_core/23.05/x86_64
+        tar zxf $kmod_name.tar.gz -C openwrt_core/23.05/x86_64 && rm -f $kmod_name.tar.gz
+
+    - name: Git push
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add openwrt_core/23.05/aarch64_generic/$kmod_name/*
+        git add openwrt_core/23.05/x86_64/$kmod_name/*
+        git commit -sm "[${{env.latest_release}}] Update core-23.05"
+        git push --force
