@@ -274,9 +274,14 @@ h3 {
 }
 
 .cbi-progressbar {
+  position: relative;
+  min-width: 170px;
+  height: 20px;
+  margin: 6px 0;
   border: thin solid #5c5c5c;
   background: transparent;
-  color: #cccccc;
+  border-radius: 0.2rem;
+  overflow: hidden;
 }
 
 .cbi-progressbar div {
@@ -754,10 +759,6 @@ input,
   background: #483d8b;
   background: var(--dark-primary);
   outline: none;
-}
-
-.cbi-dropdown[open]>ul.dropdown>li:hover {
-  background-color: #444950; /* 鼠标悬停时的背景色块 */
 }
 
 .ifacebadge {
