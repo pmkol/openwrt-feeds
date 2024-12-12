@@ -108,6 +108,7 @@ sed -i '/procd_open_instance/i\\t\[ "$enable" -ne 1 \] \&\& return 1\n' frp/file
 # luci-app-hd-idle
 mv immortalwrt/luci-23.05/applications/luci-app-hd-idle ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-hd-idle/Makefile
+sed -i 's|admin/nas|admin/services|g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
 sed -i 's/"order": 60/"order": 160/g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
 rm -rf luci-app-hd-idle/po/!(templates|zh_Hans)
 
