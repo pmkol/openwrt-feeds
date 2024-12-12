@@ -35,4 +35,14 @@ jobs:
             git push
           else
             echo "No changes to commit, skipping push."
+            echo "changes_committed=n" >> $GITHUB_ENV
           fi
+
+      - name: Push Build
+        if: env.changes_committed != 'n'
+        id: push_openwrt_build
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.OPENWRT_WORKFLOW_TOKEN }}
+          repository: pmkol/openwrt-lite
+          event-type: build
