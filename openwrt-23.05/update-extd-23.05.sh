@@ -8,6 +8,7 @@ mv */ /tmp/extd/
 # download feeds
 git clone https://github.com/openwrt/luci openwrt/luci -b openwrt-23.05 --depth 1
 git clone https://github.com/openwrt/packages openwrt/packages -b openwrt-23.05 --depth 1
+git clone https://github.com/immortalwrt/luci immortalwrt/luci-23.05 -b openwrt-23.05 --depth 1
 git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth 1
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
 git clone https://github.com/sirpdboy/luci-app-ddns-go openwrt-ddns-go --depth 1
@@ -103,6 +104,12 @@ sed -i 's/env conf_inc/env conf_inc enable/g' frp/files/frpc.init
 sed -i "s/'conf_inc:list(string)'/& \\\\/" frp/files/frpc.init
 sed -i "/conf_inc:list/a\\\t\t\'enable:bool:0\'" frp/files/frpc.init
 sed -i '/procd_open_instance/i\\t\[ "$enable" -ne 1 \] \&\& return 1\n' frp/files/frpc.init
+
+# luci-app-hd-idle
+mv immortalwrt/luci-23.05/applications/luci-app-hd-idle ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-hd-idle/Makefile
+sed -i 's/"order": 60/"order": 160/g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
+rm -rf luci-app-hd-idle/po/!(templates|zh_Hans)
 
 # luci-app-ksmbd
 mv immortalwrt/luci/applications/luci-app-ksmbd ./
