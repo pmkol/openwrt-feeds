@@ -79,7 +79,7 @@ rm -rf luci-app-dockerman/po/!(templates|zh_Hans)
 mv openwrt-eqosplus/*/ ./
 rm -rf openwrt-eqosplus
 
-# luci-app-frpc & luci-app-frps & frp
+# luci-app-frpc|frps
 mv openwrt/luci/applications/luci-app-frpc ./
 mv openwrt/luci/applications/luci-app-frps ./
 curl -s https://$mirror/openwrt-23.05/patch/frpc/0001-luci-app-frpc-hide-token.patch | patch -p2
@@ -88,6 +88,8 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frpc/Makefile
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frps/Makefile
 sed -i 's,frp 客户端,FRP 客户端,g' luci-app-frpc/po/zh_Hans/frpc.po
 sed -i 's,frp 服务器,FRP 服务器,g' luci-app-frps/po/zh_Hans/frps.po
+sed -i '3 a\\t\t"order": 90,' luci-app-frpc/root/usr/share/luci/menu.d/luci-app-frpc.json
+sed -i '3 a\\t\t"order": 90,' luci-app-frps/root/usr/share/luci/menu.d/luci-app-frps.json
 rm -rf luci-app-frpc/po/!(templates|zh_Hans)
 rm -rf luci-app-frps/po/!(templates|zh_Hans)
 mv openwrt/packages/net/frp ./
@@ -165,7 +167,6 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
 sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
 
 # luci-app-tailscale
-sed -i 's/"order": 90/"order": 900/g' luci-app-tailscale/root/usr/share/luci/menu.d/luci-app-tailscale.json
 mv immortalwrt/packages/net/tailscale ./
 rm -f tailscale/README.md
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
@@ -193,9 +194,12 @@ sed -i 's/解除网易云音乐播放限制/网易云音乐解锁/g' luci-app-un
 rm -rf luci-app-upnp/po/!(templates|zh_Hans)
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-upnp/Makefile
 
-# add luci-app-vsftpd
+# luci-app-vsftpd
 mv immortalwrt/luci/applications/luci-app-vsftpd ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-vsftpd/Makefile
+
+# luci-app-zerotier
+sed -i 's/"order": 1050/"order": 90/g' luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json
 
 # luci-theme-argon
 mv openwrt-argon/*/ ./
