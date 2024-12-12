@@ -24,6 +24,8 @@ jobs:
       run: |
         git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch openwrt_core/23.05/**/*.ipk' --prune-empty --tag-name-filter cat HEAD
         echo "latest_release=$(TZ='Asia/Hong_Kong' date +'%Y%m%d')" >> $GITHUB_ENV
+        curl -sO https://raw.githubusercontent.com/${{ github.repository }}/main/openwrt-23.05/generate-index-23.05.sh
+        sed -i 's/23\.05\///g' generate-index-23.05.sh
 
     - name: Sync kernel modules for aarch64_generic
       run: |
@@ -33,6 +35,7 @@ jobs:
         rm -rf openwrt_core/23.05/aarch64_generic/$kmod_name
         mkdir -p openwrt_core/23.05/aarch64_generic
         tar zxf $kmod_name.tar.gz -C openwrt_core/23.05/aarch64_generic && rm -f $kmod_name.tar.gz
+        bash generate-index-23.05.sh openwrt_core/23.05/aarch64_generic/$kmod_name/
 
     - name: Sync kernel modules for x86_64
       run: |
@@ -42,6 +45,7 @@ jobs:
         rm -rf openwrt_core/23.05/x86_64/$kmod_name
         mkdir -p openwrt_core/23.05/x86_64
         tar zxf $kmod_name.tar.gz -C openwrt_core/23.05/x86_64 && rm -f $kmod_name.tar.gz
+        bash generate-index-23.05.sh openwrt_core/23.05/x86_64/$kmod_name/
 
     - name: Git push
       run: |
