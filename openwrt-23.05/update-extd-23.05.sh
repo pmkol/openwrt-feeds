@@ -111,6 +111,12 @@ sed -i "s/'conf_inc:list(string)'/& \\\\/" frp/files/frpc.init
 sed -i "/conf_inc:list/a\\\t\t\'enable:bool:0\'" frp/files/frpc.init
 sed -i '/procd_open_instance/i\\t\[ "$enable" -ne 1 \] \&\& return 1\n' frp/files/frpc.init
 
+# luci-app-gost
+mv immortalwrt/luci/applications/luci-app-gost ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-gost/Makefile
+mv immortalwrt/packages/net/gost ./
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' gost/Makefile
+
 # luci-app-hd-idle
 mv immortalwrt/luci-23.05/applications/luci-app-hd-idle ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-hd-idle/Makefile
