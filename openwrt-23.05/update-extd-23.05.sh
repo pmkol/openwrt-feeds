@@ -60,6 +60,11 @@ rm -rf openwrt-aria2
 mv openwrt-airconnect/*/ ./
 rm -rf openwrt-airconnect
 
+# luci-app-cifs-mount
+mv immortalwrt/luci/applications/luci-app-cifs-mount ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-cifs-mount/Makefile
+sed -i 's/"admin", "nas", "cifs"/"admin", "services", "cifs"/g' luci-app-cifs-mount/luasrc/controller/cifs.lua
+
 # luci-app-ddns-go
 mv openwrt-ddns-go/*/ ./
 rm -rf openwrt-ddns-go
