@@ -8,6 +8,7 @@ mv */ /tmp/extd/
 # download feeds
 git clone https://github.com/openwrt/luci openwrt/luci -b openwrt-23.05 --depth 1
 git clone https://github.com/openwrt/packages openwrt/packages -b openwrt-23.05 --depth 1
+git clone https://github.com/openwrt/packages openwrt/packages-master -b master --depth 1
 git clone https://github.com/immortalwrt/luci immortalwrt/luci-23.05 -b openwrt-23.05 --depth 1
 git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth 1
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
@@ -223,25 +224,25 @@ rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
 mv immortalwrt/packages/net/ddns-scripts ./
 
 # docker-compose
-mv immortalwrt/packages/utils/docker-compose ./
+mv openwrt/packages-master/utils/docker-compose ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' docker-compose/Makefile
 
 # lsof
-mv immortalwrt/packages/utils/lsof ./
+mv openwrt/packages-master/utils/lsof ./
 
 # netdata
-mv immortalwrt/packages/admin/netdata ./
+mv openwrt/packages-master/admin/netdata ./
 sed -i 's/syslog/none/g' netdata/files/netdata.conf
 
 # iperf3
-mv immortalwrt/packages/net/iperf3 ./
+mv openwrt/packages-master/net/iperf3 ./
 sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" iperf3/Makefile
 
 # openssh
-mv immortalwrt/packages/net/openssh ./
+mv openwrt/packages-master/net/openssh ./
 
 # screen
-mv immortalwrt/packages/utils/screen ./
+mv openwrt/packages-master/utils/screen ./
 
 # vim
 mv openwrt/packages/utils/vim ./
@@ -249,10 +250,10 @@ curl -s https://$mirror/openwrt-23.05/patch/vim/0001-vim-fix-renamed-defaults-co
 sed -i -E 's/(PKG_RELEASE:=)([0-9]+)/echo "\1$((\2+1))"/e' vim/Makefile
 
 # zerotier
-mv immortalwrt/packages/net/zerotier ./
+mv openwrt/packages-master/net/zerotier ./
 
 # zstd
-mv immortalwrt/packages/utils/zstd ./
+mv openwrt/packages-master/utils/zstd ./
 
 rm -rf openwrt immortalwrt
 ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
