@@ -95,8 +95,8 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frpc/Makefile
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-frps/Makefile
 sed -i 's,frp 客户端,FRP 客户端,g' luci-app-frpc/po/zh_Hans/frpc.po
 sed -i 's,frp 服务器,FRP 服务器,g' luci-app-frps/po/zh_Hans/frps.po
-sed -i '3 a\\t\t"order": 90,' luci-app-frpc/root/usr/share/luci/menu.d/luci-app-frpc.json
-sed -i '3 a\\t\t"order": 90,' luci-app-frps/root/usr/share/luci/menu.d/luci-app-frps.json
+sed -i '3 a\\t\t"order": 80,' luci-app-frpc/root/usr/share/luci/menu.d/luci-app-frpc.json
+sed -i '3 a\\t\t"order": 80,' luci-app-frps/root/usr/share/luci/menu.d/luci-app-frps.json
 rm -rf luci-app-frpc/po/!(templates|zh_Hans)
 rm -rf luci-app-frps/po/!(templates|zh_Hans)
 mv openwrt/packages/net/frp ./
@@ -115,7 +115,7 @@ sed -i '/procd_open_instance/i\\t\[ "$enable" -ne 1 \] \&\& return 1\n' frp/file
 mv immortalwrt/luci-23.05/applications/luci-app-hd-idle ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-hd-idle/Makefile
 sed -i 's|admin/nas|admin/services|g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
-sed -i 's/"order": 60/"order": 160/g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
+sed -i 's/"order": 60/"order": 99/g' luci-app-hd-idle/root/usr/share/luci/menu.d/luci-app-hd-idle.json
 rm -rf luci-app-hd-idle/po/!(templates|zh_Hans)
 
 # luci-app-ksmbd
@@ -181,7 +181,7 @@ sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
 sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
 
 # luci-app-tailscale
-mv immortalwrt/packages/net/tailscale ./
+mv openwrt/packages-master/net/tailscale ./
 rm -f tailscale/README.md
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' tailscale/Makefile
 TAILSCALE_VERSION=$(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r .tag_name | sed 's/^v//')
@@ -193,6 +193,7 @@ else
     rm -f tailscale/Makefile
     mv /tmp/extd/tailscale/Makefile tailscale/Makefile
 fi
+sed -i 's/"order": 90/"order": 80/g' luci-app-tailscale/root/usr/share/luci/menu.d/luci-app-tailscale.json
 
 # luci-app-ttyd
 mv openwrt/luci/applications/luci-app-ttyd ./
@@ -213,7 +214,7 @@ mv immortalwrt/luci/applications/luci-app-vsftpd ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-vsftpd/Makefile
 
 # luci-app-zerotier
-sed -i 's/"order": 1050/"order": 90/g' luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json
+sed -i 's/"order": 1050/"order": 80/g' luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json
 
 # luci-theme-argon
 mv openwrt-argon/*/ ./
