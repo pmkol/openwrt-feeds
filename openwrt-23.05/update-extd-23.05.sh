@@ -152,6 +152,11 @@ curl -s https://$mirror/openwrt-23.05/patch/natmap/0001-luci-app-natmap-add-defa
 rm -rf luci-app-natmap/po/!(templates|zh_Hans)
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-natmap/Makefile
 
+# luci-app-nfs
+mv immortalwrt/luci-23.05/applications/luci-app-nfs ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-nfs/Makefile
+sed -i 's/"admin", "nas", "nfs"/"admin", "services", "nfs"/g' luci-app-nfs/luasrc/controller/nfs.lua
+
 # luci-app-nlbwmon
 mv openwrt/packages/net/nlbwmon ./
 sed -i 's/stderr 1/stderr 0/g' nlbwmon/files/nlbwmon.init
