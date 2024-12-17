@@ -86,11 +86,6 @@ rm -rf luci-app-dockerman/po/!(templates|zh_Hans)
 mv openwrt-eqosplus/*/ ./
 rm -rf openwrt-eqosplus
 
-# luci-app-filebrowser
-mv immortalwrt/luci/applications/luci-app-filebrowser ./
-sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-filebrowser/Makefile
-rm -rf luci-app-filebrowser/po/!(templates|zh_Hans)
-
 # luci-app-filebrowser-go
 sed -i 's/"luci-app-filebrowser"/"luci-app-filebrowser-go"/g' luci-app-filebrowser-go/root/usr/share/rpcd/acl.d/luci-app-filebrowser-go.json
 
