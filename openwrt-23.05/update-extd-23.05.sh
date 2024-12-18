@@ -13,6 +13,7 @@ git clone https://github.com/immortalwrt/luci immortalwrt/luci-23.05 -b openwrt-
 git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth 1
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
 git clone https://github.com/sirpdboy/luci-app-ddns-go openwrt-ddns-go --depth 1
+git clone https://github.com/kongfl888/luci-app-timedreboot --depth 1
 git clone https://github.com/sbwml/openwrt_pkgs --depth 1
 git clone https://github.com/sbwml/luci-app-airconnect openwrt-airconnect --depth 1
 git clone https://github.com/sbwml/luci-app-filemanager luci-app-filemanager --depth 1
@@ -34,7 +35,8 @@ git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
 git clone https://github.com/pmkol/luci-app-upnp --depth 1
 git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
 git clone https://github.com/pmkol/luci-app-qosmate --depth 1
-rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool}
+rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool,luci-app-autoreboot}
+rm -rf luci-app-timedreboot/{.git,.gitignore,LICENSE,README.MD}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
 rm -rf liburing/.git
@@ -53,13 +55,13 @@ rm -rf luci-app-qosmate/{.git,LICENSE,README.md}
 mv openwrt_pkgs/*/ ./
 rm -rf openwrt_pkgs
 
-# luci-app-aria2
-mv openwrt-aria2/*/ ./
-rm -rf openwrt-aria2
-
 # luci-app-airconnect
 mv openwrt-airconnect/*/ ./
 rm -rf openwrt-airconnect
+
+# luci-app-aria2
+mv openwrt-aria2/*/ ./
+rm -rf openwrt-aria2
 
 # luci-app-cifs-mount
 mv immortalwrt/luci/applications/luci-app-cifs-mount ./
@@ -85,9 +87,6 @@ rm -rf luci-app-dockerman/po/!(templates|zh_Hans)
 # luci-app-eqosplus
 mv openwrt-eqosplus/*/ ./
 rm -rf openwrt-eqosplus
-
-# luci-app-filebrowser-go
-sed -i 's/"luci-app-filebrowser"/"luci-app-filebrowser-go"/g' luci-app-filebrowser-go/root/usr/share/rpcd/acl.d/luci-app-filebrowser-go.json
 
 # luci-app-frpc|frps
 mv openwrt/luci/applications/luci-app-frpc ./
