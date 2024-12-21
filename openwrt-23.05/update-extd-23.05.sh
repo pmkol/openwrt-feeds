@@ -193,6 +193,13 @@ rm -rf luci-app-samba4/po/!(templates|zh_Hans)
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-samba4/Makefile
 sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
 
+# luci-app-smartdns
+mv immortalwrt/luci/applications/luci-app-smartdns ./
+sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-smartdns/Makefile
+rm -rf luci-app-smartdns/po/!(templates|zh_Hans)
+mv immortalwrt/packages/net/smartdns ./
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' smartdns/Makefile
+
 # luci-app-tailscale
 mv openwrt/packages-master/net/tailscale ./
 rm -f tailscale/README.md
@@ -233,6 +240,10 @@ sed -i 's/"order": 1050/"order": 80/g' luci-app-zerotier/root/usr/share/luci/men
 mv openwrt-argon/*/ ./
 rm -rf openwrt-argon
 rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
+
+# adguardhome
+mv openwrt/packages-master/net/adguardhome ./
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' adguardhome/Makefile
 
 # ddns-scripts
 mv immortalwrt/packages/net/ddns-scripts ./
