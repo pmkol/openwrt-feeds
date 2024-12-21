@@ -245,6 +245,9 @@ rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
 mv openwrt/packages-master/net/adguardhome ./
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' adguardhome/Makefile
 
+# collectd
+mv openwrt/packages-master/utils/collectd ./
+
 # ddns-scripts
 mv immortalwrt/packages/net/ddns-scripts ./
 
@@ -259,6 +262,9 @@ mv openwrt/packages-master/utils/lsof ./
 mv openwrt/packages-master/admin/netdata ./
 sed -i 's/syslog/none/g' netdata/files/netdata.conf
 
+# net-snmp
+mv openwrt/packages-master/net/net-snmp ./
+
 # iperf3
 mv openwrt/packages-master/net/iperf3 ./
 sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" iperf3/Makefile
@@ -268,6 +274,9 @@ mv openwrt/packages-master/net/openssh ./
 
 # screen
 mv openwrt/packages-master/utils/screen ./
+
+# rrdtool1
+mv openwrt/packages-master/utils/rrdtool1 ./
 
 # vim
 mv openwrt/packages/utils/vim ./
