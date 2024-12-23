@@ -171,6 +171,7 @@ sed -i 's/services/network/g' luci-app-nlbwmon/htdocs/luci-static/resources/view
 # luci-app-oaf
 mv openwrt-oaf/*/ ./
 rm -rf openwrt-oaf
+sed -i '/#if (LINUX_VERSION_CODE < KERNEL_VERSION(6, 12, 0))/,/#endif/d' oaf/src/af_log.c
 
 # luci-app-qbittorrent
 mv openwrt-qbittorrent/*/ ./
