@@ -1,0 +1,691 @@
+Package: bash-completion
+Version: 2.14.0-1
+Depends: libc, bash
+Source: /feed/bash-completion
+SourceName: bash-completion
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1734711788
+Maintainer: scop <ville.skytta@iki.fi>
+Architecture: x86_64
+Installed-Size: 230231
+Filename: bash-completion_2.14.0-1_x86_64.ipk
+Size: 230974
+SHA256sum: 060858b365b1118b0948d51c5ee76a30ddf862bf3b8dfdc74c4478e834d36cf9
+Description:  bash-completion is a collection of command line command completions for the Bash shell, 
+ collection of helper functions to assist in creating new completions, 
+ and set of facilities for loading completions automatically on demand, as well as installing them.
+
+Package: chat
+Version: 2.5.1-1
+Depends: libc
+Source: /feed/ppp
+SourceName: chat
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 9337
+Filename: chat_2.5.1-1_x86_64.ipk
+Size: 10129
+SHA256sum: d0f8a8adeb7bcb4c147ef92296e0f9e3f6561a01867a0edd809b97c3fa461c14
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: curl
+Version: 8.11.1-1
+Depends: libc, libcurl4
+Source: /feed/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 66548
+Filename: curl_8.11.1-1_x86_64.ipk
+Size: 67381
+SHA256sum: cabf708ef755c1c2e2d30abcbca5360a426bbaffc104fff1137f83ff79a98c89
+Description:  A client-side URL transfer utility
+
+Package: devlink
+Version: 6.8.0-1
+Depends: libc, libmnl0
+Source: /feed/iproute2
+SourceName: devlink
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 48557
+Filename: devlink_6.8.0-1_x86_64.ipk
+Size: 49405
+SHA256sum: 4e39e18ff65e46a9ec6d76c09d32386817e6f4b60a66fc3f883faa1f71e9b087
+Description:  Network devlink utility
+
+Package: firewall4
+Version: 2024-05-21-4c01d1eb-1
+Depends: ucode (>=2022.03.22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Provides: uci-firewall
+Source: /feed/firewall4
+SourceName: firewall4
+License: ISC
+Section: net
+SourceDateEpoch: 1734711788
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29996
+Filename: firewall4_2024-05-21-4c01d1eb-1_x86_64.ipk
+Size: 30982
+SHA256sum: 2db66c4381bf53d254d304d8ff61055b0d4a438ec58a0caeab5471f63bb4f540
+Description:  This package provides an nftables-based implementation of the UCI firewall
+ sharing the same configuration format.
+
+Package: ftp
+Version: 0.17-2
+Depends: libc
+Source: /feed/ftp
+SourceName: ftp
+License: BSD
+Section: net
+SourceDateEpoch: 1734711788
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 32777
+Filename: ftp_0.17-2_x86_64.ipk
+Size: 33598
+SHA256sum: 65a19e8a5ebd2eee93b62dea8a13c1345ae4c3932e308847fcebd8869b40da67
+Description:  The ftp package provides the standard UNIX command-line FTP (File
+ Transfer Protocol) client.  FTP is a widely used protocol for
+ transferring files over the Internet and for archiving files.
+
+Package: genl
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libmnl0
+Source: /feed/iproute2
+SourceName: genl
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 7933
+Filename: genl_6.8.0-1_x86_64.ipk
+Size: 8708
+SHA256sum: 810ceacfde603189788ed4f9d0e1606e0472ec37379452a3b2652289f1eb1087
+Description:  General netlink utility frontend
+
+Package: ip-bridge
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libmnl0
+Source: /feed/iproute2
+SourceName: ip-bridge
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 38839
+Filename: ip-bridge_6.8.0-1_x86_64.ipk
+Size: 39703
+SHA256sum: 25a59f2c36ff7c04d0c9189e9d7399da7ad174cffe5dad07befd183f71eaeb2b
+Description:  Bridge configuration utility from iproute2
+
+Package: ip-full
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libbpf1, libmnl0
+Provides: ip
+Alternatives: 300:/sbin/ip:/usr/libexec/ip-full
+Source: /feed/iproute2
+SourceName: ip-full
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 227669
+Filename: ip-full_6.8.0-1_x86_64.ipk
+Size: 228559
+SHA256sum: ba08c24b5967a3890348c238a6ce1dab9ae304ed19fcf3608bf5e7feade51844
+Description:  Routing control utility (full)
+
+Package: ip-tiny
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libmnl0
+Provides: ip
+Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
+Source: /feed/iproute2
+SourceName: ip-tiny
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 152277
+Filename: ip-tiny_6.8.0-1_x86_64.ipk
+Size: 153140
+SHA256sum: 103694b59a9dc7dcd569404bd8a68b060b36f79c717c838d198f6220da805659
+Description:  Routing control utility (minimal)
+
+Package: libcurl4
+Version: 8.11.1-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: /feed/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1734711788
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 228128
+Filename: libcurl4_8.11.1-1_x86_64.ipk
+Size: 228758
+SHA256sum: 9fbd6bcc7c99f2208f028035b1cbc80bba8059618315b80d4ec2a52ef9b42dc1
+Description:  A client-side URL transfer library
+
+Package: libnftnl11
+Version: 1.2.6-1
+Depends: libc, libmnl0
+Provides: libnftnl
+Source: /feed/libnftnl
+SourceName: libnftnl
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1734711788
+ABIVersion: 11
+CPE-ID: cpe:/a:netfilter:libnftnl
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: x86_64
+Installed-Size: 64775
+Filename: libnftnl11_1.2.6-1_x86_64.ipk
+Size: 65603
+SHA256sum: d2574265764470f8d7a6227d7faa43e8fc54781e2e35f6cbb8b89a69623fa636
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnghttp3
+Version: 1.7.0-1
+Depends: libc
+Source: /feed/nghttp3
+SourceName: libnghttp3
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1734711788
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 189646
+Filename: libnghttp3_1.7.0-1_x86_64.ipk
+Size: 185796
+SHA256sum: e7497443d808727c14d36e638e30f6bd7c02dc8cb2b073b618caf497d8385b01
+Description:  nghttp3 is a thin HTTP/3 layer over an underlying QUIC stack.
+
+Package: libngtcp2
+Version: 1.10.0-1
+Depends: libc, libnghttp3, libopenssl3
+Source: /feed/ngtcp2
+SourceName: libngtcp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1734711788
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 337616
+Filename: libngtcp2_1.10.0-1_x86_64.ipk
+Size: 338550
+SHA256sum: aa00b03d52c4f396fde3c8eafe83afd2c9b9fdc746aaafd7bf28e052285586eb
+Description:  ngtcp2 project is an effort to implement QUIC protocol which is now being discussed in IETF QUICWG for its standardization.
+
+Package: libunwind8
+Version: 1.8.1-1
+Depends: libc, zlib
+Provides: libunwind
+Source: /feed/libunwind
+SourceName: libunwind
+License: X11
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1734711788
+ABIVersion: 8
+CPE-ID: cpe:/a:libunwind_project:libunwind
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 63236
+Filename: libunwind8_1.8.1-1_x86_64.ipk
+Size: 63741
+SHA256sum: e5bda9d3953366cdaed13101c45f408eed1b398b1f1761270eaa2286c7af1056
+Description:  Libunwind defines a portable and efficient C programming interface (API) to determine the call-chain of a program.
+
+Package: luci-app-firewall
+Version: git-24.355.58988-9cdbc9a
+Depends: libc, uci-firewall
+Source: /feed/luci-app-firewall
+SourceName: luci-app-firewall
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1734711788
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 17659
+Filename: luci-app-firewall_git-24.355.58988-9cdbc9a_all.ipk
+Size: 18541
+SHA256sum: 2dc75de5cfad2cdd710ba46fabd1e9ba6d66413ee3df25ed05257d634898ab27
+Description:  Firewall and Portforwarding application
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-24.355.58988-9cdbc9a
+Depends: libc, luci-app-firewall
+Source: /feed/luci-app-firewall
+SourceName: luci-i18n-firewall-zh-cn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1734711788
+Architecture: all
+Installed-Size: 7688
+Filename: luci-i18n-firewall-zh-cn_git-24.355.58988-9cdbc9a_all.ipk
+Size: 8471
+SHA256sum: 501d3ced1653f94f8939740b3bc127f71c3db4299e4cac259dd7afdce3df0606
+Description:  Translation for luci-app-firewall - 简体中文 (Chinese Simplified)
+
+Package: nethogs
+Version: 0.8.7-1
+Depends: libc, libncurses6, libpcap1, libstdcpp6
+Source: /feed/nethogs
+SourceName: nethogs
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 23271
+Filename: nethogs_0.8.7-1_x86_64.ipk
+Size: 24006
+SHA256sum: 1ff1e84de6cba23bafd314745c8dcbe2a712740bf9de3deaccf2b33e1d08156d
+Description:  Net top tool grouping bandwidth per process
+
+Package: nftables-json
+Version: 1.0.9-1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+Source: /feed/nftables
+SourceName: nftables-json
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1734711788
+Architecture: x86_64
+Installed-Size: 311750
+Filename: nftables-json_1.0.9-1_x86_64.ipk
+Size: 311556
+SHA256sum: 40e7f5607b16c556cfb1dae0d3695af5f76eaa6843a431184dd911b24f0958d4
+Description:  nftables userspace utility with JSON support
+
+Package: nftables-nojson
+Version: 1.0.9-1
+Depends: libc, kmod-nft-core, libnftnl11
+Conflicts: nftables-json
+Provides: nftables
+Source: /feed/nftables
+SourceName: nftables-nojson
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1734711788
+Architecture: x86_64
+Installed-Size: 275920
+Filename: nftables-nojson_1.0.9-1_x86_64.ipk
+Size: 275916
+SHA256sum: c0bdb375c074ec59883ebd4f8f0c6f2638cbc33dc9735b01cdbd454b5254435a
+Description:  nftables userspace utility no JSON support
+
+Package: nstat
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libmnl0
+Source: /feed/iproute2
+SourceName: nstat
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 7230
+Filename: nstat_6.8.0-1_x86_64.ipk
+Size: 8006
+SHA256sum: 842a37b72e14040455f46ff0ddbd666f74426dfd027aa4a511b32bf1fb70b035
+Description:  Network statistics utility
+
+Package: ppp-mod-passwordfd
+Version: 2.5.1-1
+Depends: libc
+Source: /feed/ppp
+SourceName: ppp-mod-passwordfd
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 1538
+Filename: ppp-mod-passwordfd_2.5.1-1_x86_64.ipk
+Size: 2340
+SHA256sum: db8751fff24e7abf5558bae763257eeca33b73ca626e2e35e67c25fd08a34df9
+Description:  This package allows to pass the PAP/CHAP secret from a filedescriptor.
+ Eliminates the need for a secrets file.
+
+Package: ppp-mod-pppoa
+Version: 2.5.1-1
+Depends: libc, linux-atm, kmod-pppoa
+Source: /feed/ppp
+SourceName: ppp-mod-pppoa
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 2424
+Filename: ppp-mod-pppoa_2.5.1-1_x86_64.ipk
+Size: 3196
+SHA256sum: 5523c10c5353fe262c91f3b9335d8786f235dc94fe51ef481e3501fcbd0a5c3c
+Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
+
+Package: ppp-mod-pppoe
+Version: 2.5.1-1
+Depends: libc, kmod-pppoe
+Source: /feed/ppp
+SourceName: ppp-mod-pppoe
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 12332
+Filename: ppp-mod-pppoe_2.5.1-1_x86_64.ipk
+Size: 13070
+SHA256sum: 61ce2dc7f4f6cc45a722cd84a8791aca9603ec34ceb4309f19926d995a8574aa
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.5.1-1
+Depends: libc, kmod-pppol2tp
+Source: /feed/ppp
+SourceName: ppp-mod-pppol2tp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 4750
+Filename: ppp-mod-pppol2tp_2.5.1-1_x86_64.ipk
+Size: 5483
+SHA256sum: 38e3beaf5370a88dd5eba34310ad651e9b55058812296d01b3d430d6190447c6
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.5.1-1
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+Source: /feed/ppp
+SourceName: ppp-mod-pptp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 18131
+Filename: ppp-mod-pptp_2.5.1-1_x86_64.ipk
+Size: 18891
+SHA256sum: 348fcf17fe89d298bebe5d0d2b36e32b73853715b17124f75792e4581ac02b88
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp-mod-radius
+Version: 2.5.1-1
+Depends: libc
+Source: /feed/ppp
+SourceName: ppp-mod-radius
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 24277
+Filename: ppp-mod-radius_2.5.1-1_x86_64.ipk
+Size: 25126
+SHA256sum: d538983fea556bba09f029c55e5ad6d608ab6a55036e1124f9a856647c44bb2b
+Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
+ plugin for ppp.
+
+Package: ppp-multilink
+Version: 2.5.1-1
+Depends: libc, kmod-ppp
+Source: /feed/ppp
+SourceName: ppp-multilink
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 151365
+Filename: ppp-multilink_2.5.1-1_x86_64.ipk
+Size: 152111
+SHA256sum: d2dd1f083131650635aa4f526020548a4f7c69030cf439f927285572e4fa4c2c
+Description:  PPP daemon (with multilink support)
+
+Package: ppp
+Version: 2.5.1-1
+Depends: libc, kmod-ppp
+Source: /feed/ppp
+SourceName: ppp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 140785
+Filename: ppp_2.5.1-1_x86_64.ipk
+Size: 141575
+SHA256sum: c97e1178c02ff9d3848127b11f3d9fdf5082baf8009d5c251a7c35f720968471
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: pppdump
+Version: 2.5.1-1
+Depends: libc
+Source: /feed/ppp
+SourceName: pppdump
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 4062
+Filename: pppdump_2.5.1-1_x86_64.ipk
+Size: 4816
+SHA256sum: 017f807c5ef31ee44f7bf877ed419f2ffe23c5787924df5e0c2a4be93c702842
+Description:  This package contains an utility to read PPP record file.
+
+Package: pppoe-discovery
+Version: 2.5.1-1
+Depends: libc, ppp-mod-pppoe
+Source: /feed/ppp
+SourceName: pppoe-discovery
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 8341
+Filename: pppoe-discovery_2.5.1-1_x86_64.ipk
+Size: 9156
+SHA256sum: 0c38cca8c44dcf367bfad96a1d6a4c9fe706ebe9e1c7faa4f525a1c1f874791f
+Description:  This tool performs the same discovery process as pppoe, but does
+ not initiate a session. Can be useful to debug pppoe.
+
+Package: pppstats
+Version: 2.5.1-1
+Depends: libc
+Source: /feed/ppp
+SourceName: pppstats
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 4113
+Filename: pppstats_2.5.1-1_x86_64.ipk
+Size: 4867
+SHA256sum: 463f67e937ff728472a387055f6f72dad6baa76077500a2fe425a548cdde3db2
+Description:  This package contains an utility to report PPP statistics.
+
+Package: rdma
+Version: 6.8.0-1
+Depends: libc, libmnl0
+Source: /feed/iproute2
+SourceName: rdma
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 27677
+Filename: rdma_6.8.0-1_x86_64.ipk
+Size: 28463
+SHA256sum: 21b516219bd37a9b895a93ed9e8d757524f9bdbdfccf0d961e781eae52a459a0
+Description:  Network rdma utility
+
+Package: ss
+Version: 6.8.0-1
+Depends: libc, libnl-tiny1, libmnl0, libbpf1, kmod-netlink-diag
+Source: /feed/iproute2
+SourceName: ss
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 43375
+Filename: ss_6.8.0-1_x86_64.ipk
+Size: 44214
+SHA256sum: 637643a84a1abc591ff224ac265bf9a45cc2fb5a3bd7c748b6d7e058c96be486
+Description:  Socket statistics utility
+
+Package: tc-bpf
+Version: 6.8.0-1
+Depends: libc, kmod-sched-core, libmnl0, libbpf1
+Provides: tc
+Alternatives: 300:/sbin/tc:/usr/libexec/tc-bpf
+Source: /feed/iproute2
+SourceName: tc-bpf
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 197075
+Filename: tc-bpf_6.8.0-1_x86_64.ipk
+Size: 197971
+SHA256sum: 3985ea3e9bbd960b07e1bbfb86f3a9aa547534848293cf1c5705eac00de10e1e
+Description:  Traffic control utility (bpf)
+
+Package: tc-full
+Version: 6.8.0-1
+Depends: libc, kmod-sched-core, libmnl0, libbpf1, libxtables12
+Provides: tc
+Alternatives: 400:/sbin/tc:/usr/libexec/tc-full
+Source: /feed/iproute2
+SourceName: tc-full
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 198695
+Filename: tc-full_6.8.0-1_x86_64.ipk
+Size: 199600
+SHA256sum: 1dacd1f56b3cfe90d86e4f3a56f6c17c778e2d5807c83e65ae3ee41dd87efe52
+Description:  Traffic control utility (full)
+
+Package: tc-tiny
+Version: 6.8.0-1
+Depends: libc, kmod-sched-core, libmnl0
+Provides: tc
+Alternatives: 200:/sbin/tc:/usr/libexec/tc-tiny
+Source: /feed/iproute2
+SourceName: tc-tiny
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: x86_64
+Installed-Size: 162709
+Filename: tc-tiny_6.8.0-1_x86_64.ipk
+Size: 163613
+SHA256sum: e9296e36acab3297e07a09c6a34be778ab0ac73b711939c9b22c5f29228869fd
+Description:  Traffic control utility (minimal)
+
+Package: zlib-dev
+Version: 1.3.1-1
+Depends: libc, zlib
+Source: /feed/zlib
+SourceName: zlib-dev
+License: Zlib
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: x86_64
+Installed-Size: 79955
+Filename: zlib-dev_1.3.1-1_x86_64.ipk
+Size: 80800
+SHA256sum: f72bfc77492f2ed9e211ddc259a66eb06ae3d813baa2c092eca1449abf17984f
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.3.1-1
+Depends: libc
+Source: /feed/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1734711788
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: x86_64
+Installed-Size: 43509
+Filename: zlib_1.3.1-1_x86_64.ipk
+Size: 44279
+SHA256sum: eb5625de2af8e0500a7898e0e8d4f5bde1f81352bf42cfc1ccf276140059a5cb
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
