@@ -13,7 +13,7 @@ X-Debian-version: 5.52-3
  .SH NAME
  funzip \- filter for extracting from a ZIP archive in a pipe
  .PD
-@@ -78,7 +78,7 @@
+@@ -78,7 +78,7 @@ funzip test.zip > /dev/null
  .EE
  .PP
  To use \fIzip\fP and \fIfunzip\fP in place of \fIcompress\fP(1) and
@@ -22,7 +22,7 @@ X-Debian-version: 5.52-3
  .PP
  .EX
  tar cf \- . | zip \-7 | dd of=/dev/nrst0 obs=8k
-@@ -108,8 +108,8 @@
+@@ -108,8 +108,8 @@ itself (future release).
  .PD
  .\" =========================================================================
  .SH "SEE ALSO"
@@ -44,7 +44,7 @@ X-Debian-version: 5.52-3
  .SH NAME
  unzip \- list, test and extract compressed files in a ZIP archive
  .PD
-@@ -34,7 +34,7 @@
+@@ -34,7 +34,7 @@ unzip \- list, test and extract compress
  \fIunzip\fP will list, test, or extract files from a ZIP archive, commonly
  found on MS-DOS systems.  The default behavior (with no options) is to extract
  into the current directory (and subdirectories below it) all files from the
@@ -53,7 +53,7 @@ X-Debian-version: 5.52-3
  archives; both programs are compatible with archives created by PKWARE's
  \fIPKZIP\fP and \fIPKUNZIP\fP for MS-DOS, but in many cases the program
  options or default behaviors differ.
-@@ -105,8 +105,8 @@
+@@ -105,8 +105,8 @@ only a reminder of the basic \fIunzip\fP
  list of all possible flags.  The exhaustive list follows:
  .TP
  .B \-Z
@@ -64,7 +64,7 @@ X-Debian-version: 5.52-3
  appropriate manual page for a description of these options.
  .TP
  .B \-A
-@@ -178,7 +178,7 @@
+@@ -178,7 +178,7 @@ encrypted entries from the compressed si
  compressed size and compression ratio figures are independent of the entry's
  encryption status and show the correct compression performance.  (The complete
  size of the encrypted compressed data stream for zipfile entries is reported
@@ -73,7 +73,7 @@ X-Debian-version: 5.52-3
  When no zipfile is specified (that is, the complete command is simply
  ``\fCunzip \-v\fR''), a diagnostic screen is printed.  In addition to
  the normal header with release date and version, \fIunzip\fP lists the
-@@ -379,8 +379,8 @@
+@@ -379,8 +379,8 @@ file, skip extraction of all existing fi
  .TP
  .B \-N
  [Amiga] extract file comments as Amiga filenotes.  File comments are created
@@ -84,7 +84,7 @@ X-Debian-version: 5.52-3
  .TP
  .B \-o
  overwrite existing files without prompting.  This is a dangerous option, so
-@@ -598,7 +598,7 @@
+@@ -598,7 +598,7 @@ Unix \fInice\fP(1).
  As suggested by the examples above, the default variable names are UNZIP_OPTS
  for VMS (where the symbol used to install \fIunzip\fP as a foreign command
  would otherwise be confused with the environment variable), and UNZIP
@@ -93,7 +93,7 @@ X-Debian-version: 5.52-3
  UNZIPOPT is also accepted (don't ask).  If both UNZIP and UNZIPOPT
  are defined, however, UNZIP takes precedence.  \fIunzip\fP's diagnostic
  option (\fB\-v\fP with no zipfile name) can be used to check the values
-@@ -648,8 +648,8 @@
+@@ -648,8 +648,8 @@ prompt for another password, and so on u
  a password is not known, entering a null password (that is, just a carriage
  return or ``Enter'') is taken as a signal to skip all further prompting.
  Only unencrypted files in the archive(s) will thereafter be extracted.  (In
@@ -104,7 +104,7 @@ X-Debian-version: 5.52-3
  file to see if the null password works.  This may result in ``false positives''
  and extraction errors, as noted above.)
  .PP
-@@ -943,8 +943,8 @@
+@@ -943,8 +943,8 @@ deleted.
  .PD
  .\" =========================================================================
  .SH "SEE ALSO"
@@ -126,7 +126,7 @@ X-Debian-version: 5.52-3
  .SH NAME
  unzipsfx \- self-extracting stub for prepending to ZIP archives
  .PD
-@@ -30,7 +30,7 @@
+@@ -30,7 +30,7 @@ unzipsfx \- self-extracting stub for pre
  .PD
  .\" =========================================================================
  .SH DESCRIPTION
@@ -135,7 +135,7 @@ X-Debian-version: 5.52-3
  prepended to existing ZIP archives in order to form self-extracting archives.
  Instead of taking its first non-flag argument to be the zipfile(s) to be
  extracted, \fIunzipsfx\fP seeks itself under the name by which it was invoked
-@@ -109,7 +109,7 @@
+@@ -109,7 +109,7 @@ literal subdirectory ``\fB~\fP'' of the
  .PD
  .\" =========================================================================
  .SH OPTIONS
@@ -144,7 +144,7 @@ X-Debian-version: 5.52-3
  and \fB\-p\fP (extract to standard output/screen), \fB\-f\fP and \fB\-u\fP
  (freshen and update existing files upon extraction), \fB\-t\fP (test
  archive) and \fB\-z\fP (print archive comment).  All normal listing options
-@@ -118,11 +118,11 @@
+@@ -118,11 +118,11 @@ option (\fB\-t\fP) may be used as a ``po
  those creating self-extracting archives may wish to include a short listing
  in the zipfile comment.
  .PP
@@ -158,7 +158,7 @@ X-Debian-version: 5.52-3
  (convert text files), \fB\-n\fP (never overwrite), \fB\-o\fP (overwrite
  without prompting), \fB\-q\fP (operate quietly), \fB\-C\fP (match names
  case-insensitively), \fB\-L\fP (convert uppercase-OS names to lowercase),
-@@ -137,18 +137,18 @@
+@@ -137,18 +137,18 @@ files have the appropriate format for th
  of course continue to be supported since the zipfile format implies ASCII
  storage of text files.)
  .PP
@@ -182,7 +182,7 @@ X-Debian-version: 5.52-3
  details.  Once again, note that if the archive has no encrypted files there
  is no reason to use a version of \fIunzipsfx\fP with decryption support;
  that only adds to the size of the archive.
-@@ -286,7 +286,7 @@
+@@ -286,7 +286,7 @@ available that provide the full path nam
  from anywhere in the user's path.  The situation is not known for AmigaDOS,
  Atari TOS, MacOS, etc.
  .PP
@@ -191,7 +191,7 @@ X-Debian-version: 5.52-3
  been removed in order to make \fIunzipsfx\fP smaller:  usage and diagnostic
  info, listing functions and extraction to other directories.  Also, only
  stored and deflated files are supported.  The latter limitation is mainly
-@@ -303,17 +303,17 @@
+@@ -303,17 +303,17 @@ does not work.  (For technically oriente
  defined as a ``debug hunk.'')  There may be compatibility problems between
  the ROM levels of older Amigas and newer ones.
  .PP
@@ -213,7 +213,7 @@ X-Debian-version: 5.52-3
  .PD
  .PD
  .\" =========================================================================
-@@ -330,7 +330,7 @@
+@@ -330,7 +330,7 @@ or
  .\" =========================================================================
  .SH AUTHORS
  Greg Roelofs was responsible for the basic modifications to UnZip necessary
@@ -233,7 +233,7 @@ X-Debian-version: 5.52-3
  .SH NAME
  zipgrep \- search files in a ZIP archive for lines matching a pattern
  .PD
-@@ -21,7 +21,7 @@
+@@ -21,7 +21,7 @@ zipgrep \- search files in a ZIP archive
  .SH DESCRIPTION
  \fIzipgrep\fP will search files within a ZIP archive for lines matching
  the given string or pattern.  \fIzipgrep\fP is a shell script and requires
@@ -242,7 +242,7 @@ X-Debian-version: 5.52-3
  that of \fIegrep\fP(1).
  .PD
  .\" =========================================================================
-@@ -69,8 +69,8 @@
+@@ -69,8 +69,8 @@ All options prior to the ZIP archive fil
  .PD
  .\" =========================================================================
  .SH "SEE ALSO"
@@ -264,7 +264,7 @@ X-Debian-version: 5.52-3
  .SH NAME
  zipinfo \- list detailed information about a ZIP archive
  .PD
-@@ -272,7 +272,7 @@
+@@ -272,7 +272,7 @@ format:
  Note that because of limitations in the MS-DOS format used to store file
  times, the seconds field is always rounded to the nearest even second.
  For Unix files this is expected to change in the next major releases of
@@ -273,7 +273,7 @@ X-Debian-version: 5.52-3
  .PP
  In addition to individual file information, a default zipfile listing
  also includes header and trailer lines:
-@@ -361,7 +361,7 @@
+@@ -361,7 +361,7 @@ of the Unix command \fInice\fP(1).
  As suggested above, the default variable names are ZIPINFO_OPTS for VMS
  (where the symbol used to install \fIzipinfo\fP as a foreign command
  would otherwise be confused with the environment variable), and ZIPINFO
@@ -282,7 +282,7 @@ X-Debian-version: 5.52-3
  ZIPINFOOPT is also accepted (don't ask).  If both ZIPINFO and ZIPINFOOPT
  are defined, however, ZIPINFO takes precedence.  \fIunzip\fP's diagnostic
  option (\fB\-v\fP with no zipfile name) can be used to check the values
-@@ -496,8 +496,8 @@
+@@ -496,8 +496,8 @@ be simplified.  (This is not to say that
  .PP
  .\" =========================================================================
  .SH "SEE ALSO"

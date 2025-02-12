@@ -5,7 +5,7 @@ X-Debian-version: 6.0-11
 
 --- a/list.c
 +++ b/list.c
-@@ -97,7 +97,7 @@
+@@ -97,7 +97,7 @@ int list_files(__G)    /* return PK-type
  {
      int do_this_file=FALSE, cfactor, error, error_in_archive=PK_COOL;
  #ifndef WINDLL

@@ -11,7 +11,7 @@ Suggested-by: Stefan Cornelius
 
 --- a/extract.c
 +++ b/extract.c
-@@ -1257,8 +1257,17 @@
+@@ -1257,8 +1257,17 @@ static int extract_or_test_entrylist(__G
          if (G.lrec.compression_method == STORED) {
              zusz_t csiz_decrypted = G.lrec.csize;
  

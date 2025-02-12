@@ -3,7 +3,7 @@ Subject: zipinfo.c: Do not crash when hostver byte is >= 100
 
 --- a/zipinfo.c
 +++ b/zipinfo.c
-@@ -2114,7 +2114,7 @@
+@@ -2114,7 +2114,7 @@ static int zi_short(__G)   /* return PK-
              else
                  attribs[9] = (xattr & UNX_ISVTX)? 'T' : '-';  /* T==undefined */
  

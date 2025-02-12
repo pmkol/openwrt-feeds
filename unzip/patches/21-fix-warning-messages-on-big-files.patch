@@ -5,7 +5,7 @@ X-Debian-version: 6.0-23
 
 --- a/fileio.c
 +++ b/fileio.c
-@@ -2477,6 +2477,7 @@
+@@ -2477,6 +2477,7 @@ zusz_t makeint64(sig)
       */
      return (((zusz_t)sig[7]) << 56)
          + (((zusz_t)sig[6]) << 48)
