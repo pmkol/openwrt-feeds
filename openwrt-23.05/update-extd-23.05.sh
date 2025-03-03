@@ -13,7 +13,6 @@ git clone https://github.com/immortalwrt/luci immortalwrt/luci-23.05 -b openwrt-
 git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth 1
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
 git clone https://github.com/sirpdboy/luci-app-ddns-go openwrt-ddns-go --depth 1
-git clone https://github.com/kongfl888/luci-app-timedreboot --depth 1
 git clone https://github.com/sbwml/openwrt_pkgs --depth 1
 git clone https://github.com/sbwml/luci-app-airconnect openwrt-airconnect --depth 1
 git clone https://github.com/sbwml/luci-app-filemanager luci-app-filemanager --depth 1
@@ -35,8 +34,8 @@ git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
 git clone https://github.com/pmkol/luci-app-upnp --depth 1
 git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
 git clone https://github.com/pmkol/luci-app-qosmate --depth 1
+git clone https://github.com/pmkol/luci-app-timedreboot --depth 1
 rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool,luci-app-autoreboot}
-rm -rf luci-app-timedreboot/{.git,.gitignore,LICENSE,README.MD}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
 rm -rf liburing/.git
@@ -50,6 +49,7 @@ rm -rf miniupnpd/{.git,.github}
 rm -rf luci-app-upnp/{.git,.github}
 rm -rf qosmate/{.git,LICENSE,README.md}
 rm -rf luci-app-qosmate/{.git,LICENSE,README.md}
+rm -rf luci-app-timedreboot/.git
 
 # pkgs
 mv openwrt_pkgs/*/ ./
