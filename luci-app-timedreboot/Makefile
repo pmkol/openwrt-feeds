@@ -1,32 +1,21 @@
-# [K] (C)2020
-# http://github.com/kongfl888
+# Copyright (C) 2016 Openwrt.org
+#
+# This is free software, licensed under the Apache License, Version 2.0 .
+#
 
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-timedreboot
-PKG_VERSION:=1.0
-PKG_RELEASE:=3
-PKG_DATE:=20220920
+PKG_VERSION:=1.1
+PKG_RELEASE:=1
 
-PKG_MAINTAINER:=kongfl888 <kongfl888@outlook.com>
-PKG_LICENSE:=GPL-3.0
+PKG_MAINTAINER:=pmkol <pmkol@foxmail.com>
 
-include $(INCLUDE_DIR)/package.mk
+LUCI_TITLE:=LuCI Application to timing reboot
+LUCI_DEPENDS:=+luci +bash
+LUCI_PKGARCH:=all
 
-define Package/$(PKG_NAME)
-  CATEGORY:=LuCI
-  SUBMENU:=3. Applications
-  TITLE:=LuCI Application to timing reboot.
-  PKGARCH:=all
-  DEPENDS:=+luci +bash
-endef
-
-define Package/$(PKG_NAME)/description
-	LuCI Application to timing reboot
-endef
-
-define Build/Compile
-endef
+include $(TOPDIR)/feeds/luci/luci.mk
 
 define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/etc/config
@@ -40,9 +29,6 @@ define Package/$(PKG_NAME)/install
 
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci
 	cp -pR ./luasrc/* $(1)/usr/lib/lua/luci/
-
-	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n
-	po2lmo ./po/zh-cn/timedreboot.po $(1)/usr/lib/lua/luci/i18n/timedreboot.zh-cn.lmo
 endef
 
 define Package/$(PKG_NAME)/postinst
@@ -61,4 +47,3 @@ define Package/$(PKG_NAME)/postrm
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
-
