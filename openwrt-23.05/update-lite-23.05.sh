@@ -13,7 +13,7 @@ git clone https://github.com/sbwml/openwrt_helloworld --depth 1
 git clone https://github.com/pmkol/openwrt-mihomo --depth 1
 git clone https://github.com/pmkol/v2ray-geodata --depth 1
 rm -rf immortalwrt/luci-app-homeproxy/{.git,.github,LICENSE,README}
-rm -rf openwrt_helloworld/{luci-app-homeproxy,luci-app-mihomo,mihomo,v2ray-geodata}
+rm -rf openwrt_helloworld/{luci-app-homeproxy,luci-app-nikki,nikki,v2ray-geodata}
 rm -rf v2ray-geodata/.git
 
 # helloworld
