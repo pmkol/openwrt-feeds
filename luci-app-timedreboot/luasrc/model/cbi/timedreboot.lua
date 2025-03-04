@@ -1,6 +1,6 @@
 require("luci.sys")
 
-m=Map("timedreboot",translate("Timed Reboot"),translate("Timed Reboot Setting. <a href=\"https://github.com/kongfl888/luci-app-timedreboot\">Github</a>"))
+m=Map("timedreboot",translate("Timed Reboot"),translate("Timed Reboot Setting."))
 
 s=m:section(TypedSection,"main","")
 s.addremove=false
