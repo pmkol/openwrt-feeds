@@ -28,6 +28,7 @@ git clone https://github.com/asvow/luci-app-tailscale --depth 1
 git clone https://github.com/muink/openwrt-einat-ebpf einat-ebpf --depth 1
 git clone https://github.com/muink/luci-app-einat --depth 1
 git clone https://github.com/pmkol/luci-theme-argon openwrt-argon --depth 1
+git clone https://github.com/pmkol/openwrt-adguardhome --depth 1
 git clone https://github.com/pmkol/openwrt-aria2 --depth 1
 git clone https://github.com/pmkol/openwrt-eqosplus --depth 1
 git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
@@ -35,7 +36,7 @@ git clone https://github.com/pmkol/luci-app-upnp --depth 1
 git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
 git clone https://github.com/pmkol/luci-app-qosmate --depth 1
 git clone https://github.com/pmkol/luci-app-timedreboot --depth 1
-rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool,luci-app-autoreboot}
+rm -rf openwrt_pkgs/{bash-completion,luci-app-ota,fw_download_tool,luci-app-adguardhome,luci-app-autoreboot}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
 rm -rf liburing/.git
@@ -54,6 +55,12 @@ rm -rf luci-app-timedreboot/.git
 # pkgs
 mv openwrt_pkgs/*/ ./
 rm -rf openwrt_pkgs
+
+# luci-app-adguardhome
+mv openwrt-adguardhome/*/ ./
+mv openwrt/packages-master/net/adguardhome ./
+sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' adguardhome/Makefile
+rm -rf openwrt-adguardhome
 
 # luci-app-airconnect
 mv openwrt-airconnect/*/ ./
@@ -246,10 +253,6 @@ sed -i 's/"order": 1050/"order": 80/g' luci-app-zerotier/root/usr/share/luci/men
 mv openwrt-argon/*/ ./
 rm -rf openwrt-argon
 rm -rf luci-app-argon-config/po/!(templates|zh_Hans)
-
-# adguardhome
-mv openwrt/packages-master/net/adguardhome ./
-sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' adguardhome/Makefile
 
 # collectd
 mv openwrt/packages-master/utils/collectd ./
