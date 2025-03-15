@@ -8,31 +8,13 @@ require("table")
 function gen_template_config()
 	local b
 	local d=""
-	local rcauto=uci:get("dhcp","@dnsmasq[0]","resolvfile")
-	if (rcauto == nil) then
-		for fle in fs.dir("/var/etc") do
-			if fle ~="." and fle ~=".."then
-				tf="/var/etc/"..fle
-				if string.match(tf,"/var/etc/dnsmasq.conf.") then
-					if tf and fs.access(tf) then
-						for le in io.lines(tf) do
-							sf=string.match (le,"^resolv%-file=(%S+)")
-								if (sf ~=nil) then
-								rcauto=sf
-							end
-						end
-					end
-				end
-			end
-		end
+	local file = "/tmp/resolv.conf.d/resolv.conf.auto"
+	if not fs.access(file) then
+		file = "/tmp/resolv.conf.auto"
 	end
-	if rcauto and fs.access(rcauto) then
-		for cnt in io.lines(rcauto) do
-			b=string.match (cnt,"^[^#]*nameserver%s+([^%s]+)$")
-			if (b~=nil) then
-				d=d.."    - "..b.."\n"
-			end
-		end
+    for cnt in io.lines(file) do
+        b = string.match(cnt, "^[^#]*nameserver%s+([^%s]+)$")
+        if (b ~= nil) then d = d .. "  - " .. b .. "\n" end
 	end
 	local f=io.open("/usr/share/AdGuardHome/AdGuardHome_template.yaml", "r+")
 	local tbl = {}
@@ -68,9 +50,7 @@ end
 o.validate=function(self, value)
     fs.writefile("/tmp/AdGuardHometmpconfig.yaml", value:gsub("\r\n", "\n"))
 	if fs.access(binpath) then
-		if (sys.call(binpath.." -c /tmp/AdGuardHometmpconfig.yaml --check-config 2> /tmp/AdGuardHometest.log")==0) then
-			return value
-		end
+        if (sys.call(binpath .. " -c /tmp/AdGuardHometmpconfig.yaml --check-config 2> /tmp/AdGuardHometest.log") == 0) then return value end
 	else
 		return value
 	end
@@ -80,9 +60,8 @@ end
 o.write = function(self, section, value)
 	fs.move("/tmp/AdGuardHometmpconfig.yaml",configpath)
 end
-o.remove = function(self, section, value)
-	fs.writefile(configpath, "")
-end
+o.remove = function(self, section, value) fs.writefile(configpath, "") end
+
 --- js and reload button
 o = s:option(DummyValue, "")
 o.anonymous=true
