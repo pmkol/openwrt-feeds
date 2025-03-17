@@ -19,7 +19,6 @@ git clone https://github.com/sbwml/luci-app-filemanager luci-app-filemanager --d
 git clone https://github.com/sbwml/luci-app-mentohust openwrt-mentohust --depth 1
 git clone https://github.com/sbwml/luci-app-mosdns openwrt-mosdns --depth 1
 git clone https://github.com/sbwml/luci-app-qbittorrent openwrt-qbittorrent --depth 1
-git clone https://github.com/sbwml/OpenAppFilter openwrt-oaf --depth 1
 git clone https://github.com/sbwml/feeds_packages_libs_liburing liburing --depth 1
 git clone https://github.com/sbwml/feeds_packages_net_samba4 samba4 --depth 1
 git clone https://github.com/sbwml/feeds_packages_utils_unzip unzip --depth 1
@@ -31,6 +30,7 @@ git clone https://github.com/pmkol/luci-theme-argon openwrt-argon --depth 1
 git clone https://github.com/pmkol/openwrt-adguardhome --depth 1
 git clone https://github.com/pmkol/openwrt-aria2 --depth 1
 git clone https://github.com/pmkol/openwrt-eqosplus --depth 1
+git clone https://github.com/pmkol/openwrt-oaf --depth 1
 git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
 git clone https://github.com/pmkol/luci-app-upnp --depth 1
 git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
