@@ -10,7 +10,7 @@ include $(INCLUDE_DIR)/package.mk
 define KernelPackage/oaf
   SECTION:=TT Apps
   CATEGORY:=TT Apps
-  TITLE:=open app filter kernel module
+  TITLE:=OAF kernel DPI driver
   FILES:=$(PKG_BUILD_DIR)/oaf.ko 
   DEPENDS:=+kmod-ipt-conntrack
   KCONFIG:=
