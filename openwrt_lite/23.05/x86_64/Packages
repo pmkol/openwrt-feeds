@@ -4,10 +4,10 @@ Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 274324
+Installed-Size: 274327
 Filename: chinadns-ng_2025.03.27-1_x86_64.ipk
-Size: 274636
-SHA256sum: d5d16006ec278f1ef948059102f6943170f3a5a90eaff0b9260d5e26500c2eec
+Size: 274667
+SHA256sum: 8d818fb68e72e25c8750592efdeb99d48221e43baa3f6e34e28fe0510b4ea196
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dae-geoip
@@ -16,10 +16,10 @@ Depends: libc, dae, v2ray-geoip
 License: AGPL-3.0-only
 Section: net
 Architecture: all
-Installed-Size: 185
+Installed-Size: 186
 Filename: dae-geoip_1.0.0-1_all.ipk
-Size: 905
-SHA256sum: 554b46a25383138eb2fd314f2140adadc2c517e7d38476c09d8a9039fca00860
+Size: 903
+SHA256sum: 6e4af1d1ede483390d109e32cf0edf7674d2cee5867462b49e74bdb9032d5564
 Description:  geoip for dae
 
 Package: dae-geosite
@@ -28,10 +28,10 @@ Depends: libc, dae, v2ray-geosite
 License: AGPL-3.0-only
 Section: net
 Architecture: all
-Installed-Size: 186
+Installed-Size: 187
 Filename: dae-geosite_1.0.0-1_all.ipk
-Size: 908
-SHA256sum: f5ff09fe1fb7c06846864893ec89834f6f624b4daa9239bc0dc4c925dec93cb0
+Size: 907
+SHA256sum: 25e21699f17f8965a98b533b2cd9d666d74eb2238ebfd565260b56bb507f3518
 Description:  geosite for dae
 
 Package: dae
@@ -40,10 +40,10 @@ Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-xdp-sockets-diag
 License: AGPL-3.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 10691024
+Installed-Size: 10691015
 Filename: dae_1.0.0-1_x86_64.ipk
-Size: 10655499
-SHA256sum: cffc9e45c6cd4143b5ba0c83769105a15594db553c19319f61caf71aeacd2504
+Size: 10655517
+SHA256sum: 7922ad7b2bb656380ba713c2e3765a1d37f4da08322631eac45066a5fa0cf9c5
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
  
@@ -60,10 +60,10 @@ Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-xdp-sockets-diag
 License: AGPL-3.0-only MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 18726053
+Installed-Size: 18726054
 Filename: daed_1.0.0-1_x86_64.ipk
-Size: 18687105
-SHA256sum: 319cdb345e8dfe1e393cd5e1a0c645cd88d449b3268843d09ac66c182d21c994
+Size: 18687150
+SHA256sum: 85e3d1c7e208fc259efe29ae140c5521473449da6ad2ae808e3a825c1c5cc8a1
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -73,10 +73,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 1070580
+Installed-Size: 1070585
 Filename: dns2socks-rust_0.2.0-1_x86_64.ipk
-Size: 1069152
-SHA256sum: ede700fa6a508d01fb299c455c78008a7ada7e9efde27589a964016e1eafc331
+Size: 1069115
+SHA256sum: fb0e688b475b86bbcb1f2671dcac1c7ad11ad8d61cbf18b604d94154c98b48bb
 Description:  This is a DNS server that forwards DNS requests to a SOCKS5 server.
 
 Package: dns2socks
@@ -85,10 +85,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 10350
+Installed-Size: 10351
 Filename: dns2socks_2.1-2_x86_64.ipk
-Size: 11101
-SHA256sum: fb47b9aa7ef77b79360c68011788ba2b3b5a738ac25ca77530fc38c4f4d24db0
+Size: 11107
+SHA256sum: 7d831135dfc698a3763110cc581234ddf08f5486b186691054d0ac3a037bfa3b
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -98,10 +98,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 10366
+Installed-Size: 10367
 Filename: dns2tcp_1.1.2-1_x86_64.ipk
-Size: 11109
-SHA256sum: 48629563eba1a3dc549dce50c8d758ca9ecf219f893e24825f475ccaf9287af1
+Size: 11116
+SHA256sum: 5c68871a95eb6b983ec49d0fbaa40ac71bf0d85f4d4296062cbc24916ac6a449
 Description:  utility to convert dns query from udp to tcp
 
 Package: geoview
@@ -112,8 +112,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 2520426
 Filename: geoview_0.1.10-1_x86_64.ipk
-Size: 2515135
-SHA256sum: f7fe45759cd97cfa87136c976c209c6471940919d9a7352421c758738614c82a
+Size: 2515126
+SHA256sum: ab8f0d13b887bc2c888ba52b18dcb17aaaa40438ca13830e3344d5ef280e67f3
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: halog
@@ -123,10 +123,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:haproxy:haproxy
 Architecture: x86_64
-Installed-Size: 14728
+Installed-Size: 14729
 Filename: halog_3.0.10-1_x86_64.ipk
-Size: 15488
-SHA256sum: a51ddb520725a449bd744c247db89c92c5c3d336fb202237b646d6685c1b7e7e
+Size: 15498
+SHA256sum: b9aa0c1ce6e1c98a19793b710dfa15a245250f6a359f409b9f54f5abc2c8f071
 Description:  HAProxy Log Analyzer
 
 Package: haproxy-nossl
@@ -137,10 +137,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:haproxy:haproxy
 Architecture: x86_64
-Installed-Size: 1121171
+Installed-Size: 1121170
 Filename: haproxy-nossl_3.0.10-1_x86_64.ipk
-Size: 1121092
-SHA256sum: e731c43d2b95a197cb71fe992c43b3607b1efa0f1fc57a8ea455cf4ab5d3b463
+Size: 1121124
+SHA256sum: ced63d8d2f5c7a60771c7ad27d6cdaf6801e37184e1c3dfacdf471dc7f647b3d
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built without SSL support.
 
@@ -151,10 +151,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:haproxy:haproxy
 Architecture: x86_64
-Installed-Size: 1401160
+Installed-Size: 1401162
 Filename: haproxy_3.0.10-1_x86_64.ipk
 Size: 1401213
-SHA256sum: 84bcc99b2898d4a6ce840ee864f5e5c701874f127df8d1b3f5ac87d22b8f7f81
+SHA256sum: a4e1ab3083cf50ae96bef1d8044efafce4241a73160f89f0df3042dced0a1645
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built with SSL and LUA support.
 
@@ -164,10 +164,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 7488814
+Installed-Size: 7488776
 Filename: hysteria_2.6.2-1_x86_64.ipk
-Size: 7471069
-SHA256sum: bdf13f004471b682e413b423feb1b517219b587e5937900ade837c09b7846877
+Size: 7471216
+SHA256sum: 5127211c9108f877be2d90ba1342eb8396f82bbf907200fb4323976018a854d8
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -179,10 +179,10 @@ Depends: libc, libpthread
 License: AGPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 26349
+Installed-Size: 26350
 Filename: ipt2socks_1.1.4-3_x86_64.ipk
-Size: 27042
-SHA256sum: 84250c1cad6d8c46506416f43716064e48ad4ad2412d34d52970e74b05f64577
+Size: 27045
+SHA256sum: 3820b0004ece29d32fe594501b9651683b240b3a0f010e8ad66fd70fa47a8036
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lua-neturl
@@ -191,45 +191,45 @@ Depends: libc, lua
 License: MIT
 Section: lang
 Architecture: all
-Installed-Size: 4528
+Installed-Size: 4529
 Filename: lua-neturl_1.1-1-3_all.ipk
-Size: 5297
-SHA256sum: a5899b90e30101f9b1acffe18c8131619f7dce5f22e93c09e73cf013c75f1cb2
+Size: 5308
+SHA256sum: 2d1fe91ca3abdee6ea3b3c86e28ff8ec8a6e025091629c8e40dff7edc0268a5a
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
 Package: luci-app-dae
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, dae, dae-geoip, dae-geosite
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2570
-Filename: luci-app-dae_git-25.174.58261-86bc57a_all.ipk
-Size: 3415
-SHA256sum: b4a345283a887f273c1034b19e60bb7c76e7170f4295b2a0ae98a5ca9aef4cec
+Installed-Size: 2572
+Filename: luci-app-dae_git-25.176.58271-310f61e_all.ipk
+Size: 3413
+SHA256sum: f779f6522faf4c1ac3f9ea8502418f60c6fb26fb31a53862444835e08b87184a
 Description:  LuCI app for dae
 
 Package: luci-app-daed
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, daed
 Section: luci
 Architecture: all
-Installed-Size: 2396
-Filename: luci-app-daed_git-25.174.58261-86bc57a_all.ipk
-Size: 3210
-SHA256sum: 1b5438c8abef74621c3e52b19a9d03288a90e6de1c122411d9425573ac33168e
+Installed-Size: 2400
+Filename: luci-app-daed_git-25.176.58271-310f61e_all.ipk
+Size: 3212
+SHA256sum: 86d20265022efe33a8d01f8b206c621153f0e2d9936ca3b6a9b7a680e738a78b
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-homeproxy
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Section: luci
 Architecture: all
-Installed-Size: 610853
-Filename: luci-app-homeproxy_git-25.174.58261-86bc57a_all.ipk
-Size: 611870
-SHA256sum: ede6a8d2ed7a93cdbd9ce69e37b5f403380fd5bcfac8542f251a11efd60444dd
+Installed-Size: 610852
+Filename: luci-app-homeproxy_git-25.176.58271-310f61e_all.ipk
+Size: 611874
+SHA256sum: 2b58c9dc9e087d634745d1202e754c1defe7bd791034ec836b027fdecd694ec3
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-nikki
@@ -237,10 +237,10 @@ Version: 1.23.1
 Depends: libc, luci-base, nikki
 Section: luci
 Architecture: all
-Installed-Size: 8926
+Installed-Size: 8930
 Filename: luci-app-nikki_1.23.1_all.ipk
-Size: 9755
-SHA256sum: d63ef4e0ec04b07a9d756856422d2733b606a3c6c32b210c0d95f3352d795589
+Size: 9764
+SHA256sum: d3c9fd2fbacb29bbc8de4937346d1ec7bc45d245dc5585ab501b29abe99f2ae9
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -248,10 +248,10 @@ Version: 0.46.087
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 9111336
+Installed-Size: 9111663
 Filename: luci-app-openclash_0.46.087_all.ipk
-Size: 9068586
-SHA256sum: fca11b1f4730ef29077e729d25d4782fb02a7e957c77db3d5dd508de5fa6fa6e
+Size: 9068849
+SHA256sum: 0e5a33b58c4a04a869e4b76cbf878602670565b3cbfa1f0673b93e54146ba3e4
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -259,10 +259,10 @@ Version: 25.5.15
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 252459
+Installed-Size: 252471
 Filename: luci-app-passwall2_25.5.15_all.ipk
-Size: 253468
-SHA256sum: 9cd35293ee9da8bfba8fc6905421fb4dfbfc3703c7b5e3a9db367795c9808236
+Size: 253467
+SHA256sum: d0d748c570ce37eba0f104378bf2db6d27f1be8d8e9ff40b612ba51b25b27ea5
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -270,10 +270,10 @@ Version: 25.6.1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 962833
+Installed-Size: 962840
 Filename: luci-app-passwall_25.6.1_all.ipk
-Size: 963621
-SHA256sum: 03526045245218e24cfac2b9a99f0c92870478e119dc1169b1248722b6725c67
+Size: 963708
+SHA256sum: fa7ace436f35f27cf3bc5ce2285191e7ac23ce3c84d1f731887f8faa9dd4173f
 Description:  LuCI support for PassWall
 
 Package: luci-app-ssr-plus
@@ -281,88 +281,88 @@ Version: 189
 Depends: libc, coreutils, coreutils-base64, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, jq, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, curl, curl, xray-core, dns2socks, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 301716
+Installed-Size: 301721
 Filename: luci-app-ssr-plus_189_all.ipk
-Size: 302020
-SHA256sum: 6a898b50f14cbe3a560990bbe56d8971e36d901c0affefff321a2eb35fdfdbe4
+Size: 302149
+SHA256sum: 01a029383d15a85eb41e5f73f812e358eaeb92e6081fbc927076ffe092b2df22
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
 
 Package: luci-i18n-dae-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-dae
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 992
-Filename: luci-i18n-dae-zh-cn_git-25.174.58261-86bc57a_all.ipk
+Filename: luci-i18n-dae-zh-cn_git-25.176.58271-310f61e_all.ipk
 Size: 1796
-SHA256sum: b4b2e557b1b5ed9490212ada384c9686740f6197575b60739cc3cd0f75f69f3d
+SHA256sum: ca08a9cf92529e7645b390134d0aea6e5c0be20983db23eb592ab09bb7f81f64
 Description:  Translation for luci-app-dae - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-daed-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-daed
 Section: luci
 Architecture: all
 Installed-Size: 913
-Filename: luci-i18n-daed-zh-cn_git-25.174.58261-86bc57a_all.ipk
-Size: 1665
-SHA256sum: fe05cacc2e5bcf999cec05032e88e21195b0161ed31334b9041559e6dc4674a2
+Filename: luci-i18n-daed-zh-cn_git-25.176.58271-310f61e_all.ipk
+Size: 1658
+SHA256sum: 4d2e177b04a036d51c6c81fcafcca178d936b0af1c1550e77c142f6852feed90
 Description:  Translation for luci-app-daed - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
-Installed-Size: 11706
-Filename: luci-i18n-homeproxy-zh-cn_git-25.174.58261-86bc57a_all.ipk
-Size: 12486
-SHA256sum: 24ca2e9898a8e2fa83fb8344504eaa32910bb7c0d5dab87e21472542891a8421
+Installed-Size: 11709
+Filename: luci-i18n-homeproxy-zh-cn_git-25.176.58271-310f61e_all.ipk
+Size: 12493
+SHA256sum: bc490422d14a5aec2cf4dd8c3d253814fbb54cd208591c60c6a40539273f4220
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 3926
-Filename: luci-i18n-nikki-zh-cn_git-25.174.58261-86bc57a_all.ipk
-Size: 4649
-SHA256sum: 5cd55ea4118be7a2ef36db7681a745b8534fe9da03a09f11c508ba53c8f042f0
+Installed-Size: 3924
+Filename: luci-i18n-nikki-zh-cn_git-25.176.58271-310f61e_all.ipk
+Size: 4648
+SHA256sum: 5ff6d8981b90a14c95d0754dc58d7429fd5ecf5f459365d9bfb947843313e600
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
-Installed-Size: 15309
-Filename: luci-i18n-passwall-zh-cn_git-25.174.58261-86bc57a_all.ipk
-Size: 16057
-SHA256sum: 0c26541dbadaea24b3c532bdbe799e270c5331030dfc122e78f062f1271cf186
+Installed-Size: 15311
+Filename: luci-i18n-passwall-zh-cn_git-25.176.58271-310f61e_all.ipk
+Size: 16062
+SHA256sum: 418060f017ea7cdd619ada26f6693d6474049ec49cad35895174f9b7064860b5
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-passwall2
 Section: luci
 Architecture: all
-Installed-Size: 13869
-Filename: luci-i18n-passwall2-zh-cn_git-25.174.58261-86bc57a_all.ipk
+Installed-Size: 13872
+Filename: luci-i18n-passwall2-zh-cn_git-25.176.58271-310f61e_all.ipk
 Size: 14604
-SHA256sum: 19fc36aa72a673fb437cae5b32cbe19ba0abc11ea92d6a526b36292c82e2d6bd
+SHA256sum: f425e4340589191148b3189aaddba8ccb6d16663a3abfb903722b40571620d8b
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: git-25.174.58261-86bc57a
+Version: git-25.176.58271-310f61e
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
-Installed-Size: 9466
-Filename: luci-i18n-ssr-plus-zh-cn_git-25.174.58261-86bc57a_all.ipk
+Installed-Size: 9469
+Filename: luci-i18n-ssr-plus-zh-cn_git-25.176.58271-310f61e_all.ipk
 Size: 10231
-SHA256sum: 9dd12eeb91573f4fe06b3b2cda3be560d016208f39da5dbf037085106a0f8419
+SHA256sum: 625f247d3c7499c3adf7f6fe9b1b7bdd7e71264c240887ba129859fdb8aa51f7
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
 
 Package: microsocks
@@ -371,10 +371,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 5924
+Installed-Size: 5925
 Filename: microsocks_1.0.5-1_x86_64.ipk
-Size: 6664
-SHA256sum: 216964cecfecb27e57150af7db9c2f7f51597f0336072e4bab45c66970852675
+Size: 6667
+SHA256sum: 12e5d398581b26720cf46f037e26bf7fce3695e3c7dc5b8c9672d3ac9d923a4e
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
 
@@ -384,10 +384,10 @@ Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 3501124
+Installed-Size: 3501123
 Filename: naiveproxy_137.0.7151.44-1_x86_64.ipk
-Size: 3498633
-SHA256sum: 88bc288e211d9ec3260ea76d5fa7c5d972e34c123ba9a1e11b12a2ea61957f78
+Size: 3498692
+SHA256sum: 5e7911b886e6ec3abb9bc478b4f483aaf58baa15728a38d35f3877e68f625d82
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -399,10 +399,10 @@ Provides: mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 11966813
+Installed-Size: 11967557
 Filename: nikki_2025-06-14-c60750d5-1_x86_64.ipk
-Size: 11931747
-SHA256sum: a088bcb9cf2b276231c8c673f4e2ce9276550630b6bc6eb3b24c25c29b67ea02
+Size: 11932324
+SHA256sum: 193b8968c662c218e3d2afb8f2a9252c3fa0578ec6d63f32faa3ed30c5cef41d
 Description:  A rule based proxy in Go.
 
 Package: pdnsd-alt
@@ -410,10 +410,10 @@ Version: 1.2.9b-par-3
 Depends: libc, libpthread
 Section: net
 Architecture: x86_64
-Installed-Size: 92982
+Installed-Size: 92984
 Filename: pdnsd-alt_1.2.9b-par-3_x86_64.ipk
-Size: 93999
-SHA256sum: 56941c21a37dc3345348d856cd9b549e1417f60a5db2df5365d37f10af81aef5
+Size: 94006
+SHA256sum: d55747f91cce1e5c93edcbfa78c67986e039578825ec36c36138c23f6e8a79e4
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -430,8 +430,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 58020
 Filename: redsocks2_0.71-1_x86_64.ipk
-Size: 58915
-SHA256sum: 858385aa6a3bdb229bb2e94229c46224ca3a574327d171101bdf6587c635a28c
+Size: 58910
+SHA256sum: ad2c7dc074fdade47a8288d923f30b812b79d842a10409f0cae6d1bca358c028
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -442,8 +442,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 2125580
 Filename: shadow-tls_0.2.25-1_x86_64.ipk
-Size: 2109408
-SHA256sum: 4078039ce2f3b87e54ea7a76d8b435f09d312464bfe3fe770988d54c3c4b3770
+Size: 2109595
+SHA256sum: 72fd2715b437d58b5e4a1fd552beafdff3853af65b8ab80d21c207d18cdbf8f8
 Description:  A proxy to expose real tls handshake to the firewall.
 
 Package: shadowsocks-libev-config
@@ -453,10 +453,10 @@ License: GPL-3.0-or-later
 Section: net
 CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
-Installed-Size: 2894
+Installed-Size: 2895
 Filename: shadowsocks-libev-config_3.3.5-12_x86_64.ipk
-Size: 3696
-SHA256sum: e7ab73622951e14001f0421617974cd5cbd8216796b78b2b543ed4c25f333da9
+Size: 3697
+SHA256sum: e02d24d210b022033fbabdd3fdd0373a24f756c2160c6d6281f3c48950808e6f
 Description:  shadowsocks-libev config scripts
 
 Package: shadowsocks-libev-ss-local
@@ -466,10 +466,10 @@ License: GPL-3.0-or-later
 Section: net
 CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
-Installed-Size: 50924
+Installed-Size: 50923
 Filename: shadowsocks-libev-ss-local_3.3.5-12_x86_64.ipk
-Size: 51805
-SHA256sum: 96764306b5115c3dfe50f9ee25c3d0b836fcaa3cbc2d968192f686e905826eca
+Size: 51803
+SHA256sum: ebd241f9f38b363813c6a69b8ab356ff4ae53a00f617d886ce19a12681692dea
 Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-redir
@@ -481,8 +481,8 @@ CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
 Installed-Size: 45329
 Filename: shadowsocks-libev-ss-redir_3.3.5-12_x86_64.ipk
-Size: 46164
-SHA256sum: 4267a81954b690211ef1d2f3630bc3d55755ea611285f6bd2cdeea7f25cce362
+Size: 46155
+SHA256sum: 1c68d4f1144f520814993ef82760f7e2decc716d0245c11967569f3c160236d6
 Description:  shadowsocks-libev ss-redir
 
 Package: shadowsocks-libev-ss-rules
@@ -492,10 +492,10 @@ License: GPL-3.0-or-later
 Section: net
 CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
-Installed-Size: 1891
+Installed-Size: 1892
 Filename: shadowsocks-libev-ss-rules_3.3.5-12_x86_64.ipk
-Size: 2695
-SHA256sum: a412037b1896d130bc78fe3e65b91810fcd18d45f1280c86c07c61a150203f60
+Size: 2696
+SHA256sum: 4d96425c053ca1625cd1a9f42b7b75fa277eb7f14fd03ac8f5def19e6d5f6caa
 Description:  shadowsocks-libev ss-rules
 
 Package: shadowsocks-libev-ss-server
@@ -505,10 +505,10 @@ License: GPL-3.0-or-later
 Section: net
 CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
-Installed-Size: 55984
+Installed-Size: 55983
 Filename: shadowsocks-libev-ss-server_3.3.5-12_x86_64.ipk
 Size: 56820
-SHA256sum: 59854a2cd4691cc32d806cb1812f0e213fca7c7d24a67a35fe86a9df898daa1d
+SHA256sum: 6c0d83077780bd95fd4d02ee9e89db83eae1ecf518e28ed695427b574572eb7c
 Description:  shadowsocks-libev ss-server
 
 Package: shadowsocks-libev-ss-tunnel
@@ -518,10 +518,10 @@ License: GPL-3.0-or-later
 Section: net
 CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
 Architecture: x86_64
-Installed-Size: 43512
+Installed-Size: 43513
 Filename: shadowsocks-libev-ss-tunnel_3.3.5-12_x86_64.ipk
-Size: 44400
-SHA256sum: 7f928b436e67abde5f42a03789148cf902381c197e33f5a9cd9b29d86ef035c6
+Size: 44417
+SHA256sum: 1669c539327a3215adca70c5f1725b863c031bbdc635e978273bc1305430f4b9
 Description:  shadowsocks-libev ss-tunnel
 
 Package: shadowsocks-rust-sslocal
@@ -530,10 +530,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 4706676
+Installed-Size: 4706661
 Filename: shadowsocks-rust-sslocal_1.23.4-1_x86_64.ipk
-Size: 4672005
-SHA256sum: c842393d7724b05ca921b29e675daf5f9cd9d7e2c2627bc2fd739ff37f8991f6
+Size: 4671997
+SHA256sum: 41a23f88a28bb1eb5f8180df972e340b21d2a267eb3f6a461c9b3149c97df38c
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -542,10 +542,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 3993386
+Installed-Size: 3993395
 Filename: shadowsocks-rust-ssmanager_1.23.4-1_x86_64.ipk
-Size: 3960788
-SHA256sum: 56d05d5787e5d73fb142697535a0a1211a9e7184daa7f8ab913f49dfddbd3e54
+Size: 3960872
+SHA256sum: 4ed42452bdc8001080d40c01c60b9fb3dd17efb1a5c284d15629679690d859c3
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -554,10 +554,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 3907948
+Installed-Size: 3907939
 Filename: shadowsocks-rust-ssserver_1.23.4-1_x86_64.ipk
-Size: 3874819
-SHA256sum: bb1d09d214cfda5abbbf2e3242a97f3ace2d6e8cc5ef9b15440c09393939cb81
+Size: 3874807
+SHA256sum: 9d1b9e094444d58cfa7adcdac34ffd731ef7df7abfb992ba3b38532064725389
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -566,10 +566,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 5138018
+Installed-Size: 5138026
 Filename: shadowsocks-rust-ssservice_1.23.4-1_x86_64.ipk
-Size: 5100605
-SHA256sum: 2588f1cf91fbd555ba8f3e18576b92837932038e0a93f2b90918bb6bd06f5516
+Size: 5100803
+SHA256sum: 62780a462f4c7fd45f492c86657427d5459240cb971a13f7e856486d5766252e
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -578,10 +578,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 1285193
+Installed-Size: 1285191
 Filename: shadowsocks-rust-ssurl_1.23.4-1_x86_64.ipk
-Size: 1269063
-SHA256sum: c3554026c1aaf7f2af29ed1b1158a338148bd110ba21604fbf7ff7d579cfdd50
+Size: 1269256
+SHA256sum: cf334bb4e27a8d1982c97514609d71a501a33be00e24be2bac088c2ebd5a623d
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -592,8 +592,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 2335
 Filename: shadowsocksr-libev-ssr-check_2.5.6-11_x86_64.ipk
-Size: 3062
-SHA256sum: 4cabbd8360fae308f8d6331f10e7331e6afa3df9161ba79b91bb20f8f36ff4a6
+Size: 3065
+SHA256sum: fbf2e64c6083c4b009fae894b8357fea107e081d4f57d77e1327849c9e846842
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
@@ -602,10 +602,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zli
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 62962
+Installed-Size: 62963
 Filename: shadowsocksr-libev-ssr-local_2.5.6-11_x86_64.ipk
-Size: 63818
-SHA256sum: 315e869d8a2fb363dc489f741d28c98deec3064efd80c84a3972f9027ccf2771
+Size: 63814
+SHA256sum: 2e111925571cfe7785a28dfdd9595bb67e33dd5974cb5e5e0ff999bbd4e479d3
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
@@ -614,10 +614,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zli
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2228
+Installed-Size: 2229
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-11_x86_64.ipk
-Size: 2977
-SHA256sum: 04c0433ebbf562e62f5a30a9c616afff21a1b2953c16e88620423465a843267e
+Size: 2983
+SHA256sum: 7d797cc85c14889a8e8255b61d1394c531ba8eff3fb9722e436772939eef47e4
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
@@ -626,10 +626,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zli
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 56015
+Installed-Size: 56014
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-11_x86_64.ipk
 Size: 56803
-SHA256sum: f9332d35bbb59d14efa9b5dd61e64a83084dc5dcddc6d974d2ed69f2afeaf947
+SHA256sum: a199680a2596dfb561b10b3e13a1b789aa2719eab78fd36450062aed4031a236
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -638,10 +638,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zli
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 65887
+Installed-Size: 65888
 Filename: shadowsocksr-libev-ssr-server_2.5.6-11_x86_64.ipk
-Size: 66707
-SHA256sum: fdd2be03a33abddfe6137e0de40b827ef1fbe007691c80ea986b9dce65602dfe
+Size: 66693
+SHA256sum: ccf1e3b6f66491515d3b0c7e200638b3bcb82598077949a1efc2613979b75a49
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -651,10 +651,10 @@ Provides: simple-obfs
 License: GPL-3.0-or-later
 Section: net
 Architecture: x86_64
-Installed-Size: 30609
+Installed-Size: 30610
 Filename: simple-obfs-client_0.0.5-1_x86_64.ipk
-Size: 31380
-SHA256sum: 4aabf06fcda963b48c23a15c8b3bfac15305c6db383a575ca35a79473291a252
+Size: 31384
+SHA256sum: 0bb3d39ed1159ba779f538bbed44e16a2c2a7bcb2c95b275f04b0c09b5b20de6
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs-server
@@ -663,10 +663,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: x86_64
-Installed-Size: 32971
+Installed-Size: 32972
 Filename: simple-obfs-server_0.0.5-1_x86_64.ipk
 Size: 33823
-SHA256sum: 04a4fef3aa2ec003708d60868e1ed26a6e4e424816400aefe3e6b43de87cb66e
+SHA256sum: 0e363640d428655aa2d04c8882d0c120d129ade164277e558466be12b3403fd2
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sing-box
@@ -675,10 +675,10 @@ Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 Architecture: x86_64
-Installed-Size: 11747562
+Installed-Size: 11747508
 Filename: sing-box_1.11.14-1_x86_64.ipk
-Size: 11716782
-SHA256sum: 4adf85d39049989f643b5731b1c7a635e63a34cff73c11f7db8dc50c9c792d93
+Size: 11716413
+SHA256sum: 85d381504e65afb1de3866e7cab988cd1403598c4d8012d225bbffe379f8c4cc
 Description:  The universal proxy platform
 
 Package: tcping
@@ -689,8 +689,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 3504
 Filename: tcping_0.3-1_x86_64.ipk
-Size: 4197
-SHA256sum: 2e66ce95cd676d346712ed45ffc53a7662b404874f5c65764fc91c4fadf0d601
+Size: 4199
+SHA256sum: d11ce7795a635860c2db3298b5a36483e524c961c90868cc9d63579d0a5cc1de
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-plus
@@ -699,10 +699,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-p
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 440848
+Installed-Size: 440845
 Filename: trojan-plus_10.0.3-2_x86_64.ipk
-Size: 441721
-SHA256sum: 8f5bf8908be0cb2e09c4a3f7076a514f3b761e1835da6d64cc152dae7f5b9ff7
+Size: 441732
+SHA256sum: 54b36ebf4d25588b9bc284f11651a6750f6dd9e4fd3eeb992c6424613ef05fc6
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
@@ -713,8 +713,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 310965
 Filename: trojan_1.16.0-2_x86_64.ipk
-Size: 311735
-SHA256sum: 5a9da533efbd57edbb3df8d2f9afae1254d34d4f6e37a151927a23e0f0a5442d
+Size: 311729
+SHA256sum: 89c1b4c111e3c0cd88870eaf314963f592968fc0eced64170a41e9bb3e29982d
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: tuic-client
@@ -722,10 +722,10 @@ Version: 1.0.0-1
 Depends: libc
 Section: net
 Architecture: x86_64
-Installed-Size: 1127018
+Installed-Size: 1127020
 Filename: tuic-client_1.0.0-1_x86_64.ipk
-Size: 1125161
-SHA256sum: 2e944df422087ded1576cb0448a142c5c4fc6b256fb51d3056b43e27aff1522a
+Size: 1125135
+SHA256sum: 4c7f68ab348a46a5a718a43e50b7b2889822fc0a20fdc7c7dca41f7988624e86
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2ray-core
@@ -734,10 +734,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 13171129
+Installed-Size: 13171120
 Filename: v2ray-core_5.33.0-1_x86_64.ipk
-Size: 13125036
-SHA256sum: adba766c9da20f845287a34b370dc4d53761f71d14f99b5a7bfe877808894f7a
+Size: 13125954
+SHA256sum: c36acf2df608141e23ec713b51e1c5cae691339734e4f6af2b42972d5d5f8821
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
@@ -747,37 +747,37 @@ Depends: libc, v2ray-core
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 298635
+Installed-Size: 298636
 Filename: v2ray-extra_5.33.0-1_all.ipk
-Size: 299349
-SHA256sum: 7776d60aea4040642a28455c6f8589b7a004afde200cff895a2ac68c98b5811f
+Size: 299347
+SHA256sum: 7af4894150f9ea4f68f8dc63c5a526af9c58283b8a0bba44d18affc7fd55dba5
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
  This includes extra resources for v2ray-core.
 
 Package: v2ray-geoip
-Version: 20250623241031-1
+Version: 20250625241031-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 4470204
-Filename: v2ray-geoip_20250623241031-1_all.ipk
-Size: 4136613
-SHA256sum: 032148c5844421c366dcc672361a620e17a645b1f6c2ff9bf553df4618cf1dcb
+Installed-Size: 4469704
+Filename: v2ray-geoip_20250625241031-1_all.ipk
+Size: 4137599
+SHA256sum: 00a4877f2fc73668768f14c480380a14b291a29952b3f0f609d38a5342aa9090
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20250623241031-1
+Version: 20250625241031-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2991180
-Filename: v2ray-geosite_20250623241031-1_all.ipk
-Size: 2991493
-SHA256sum: 7c3c7750fa54d96f84f8f7504e057b89a2dd1e175efc797f00e211b640ebc98e
+Installed-Size: 2983386
+Filename: v2ray-geosite_20250625241031-1_all.ipk
+Size: 2983660
+SHA256sum: 724b31c8b86dd8a0d38fcf944e0e55a618e5fdaea32c35ac73c5bc05215736b7
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -786,10 +786,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 6354936
+Installed-Size: 6354967
 Filename: v2ray-plugin_5.33.0-1_x86_64.ipk
-Size: 6340729
-SHA256sum: 66bf97602a03f92d2b1b479238841c198404c586d275747b69aaf8aedc45fe70
+Size: 6340668
+SHA256sum: b5c1bcf0788ac076f4981266600461d0d65ed48b9a4c3780946f53c200c6c42e
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: xray-core
@@ -798,10 +798,10 @@ Depends: libc, ca-bundle
 License: MPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 11119492
+Installed-Size: 11119507
 Filename: xray-core_25.6.8-1_x86_64.ipk
-Size: 11088526
-SHA256sum: bac2c9029f0eae040a0ffe9a403589c3d2baf78bde18a9a99e6d00eea18d784a
+Size: 11088596
+SHA256sum: 16054bc946f670ede9db546d0be47376ba3a24a178e3494a1c0d71854e48c5ec
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
@@ -813,7 +813,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 7333186
 Filename: xray-plugin_1.8.24-1_x86_64.ipk
-Size: 7315695
-SHA256sum: 8016959737d2679d9ce0304aa75004629407339fe5e7c692fd6646e665def84a
+Size: 7315699
+SHA256sum: 7c2b08ed748495d49a5c084329ef612d21aa2905ed1456a73c84ffa68c0c7fb2
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
