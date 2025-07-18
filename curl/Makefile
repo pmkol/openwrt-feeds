@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/nls.mk
 
 PKG_NAME:=curl
-PKG_VERSION:=8.14.1
+PKG_VERSION:=8.15.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
@@ -17,7 +17,7 @@ PKG_SOURCE_URL:=https://github.com/curl/curl/releases/download/curl-$(subst .,_,
 	https://dl.uxnr.de/mirror/curl/ \
 	https://curl.askapache.com/download/ \
 	https://curl.se/download/
-PKG_HASH:=5760ed3c1a6aac68793fc502114f35c3e088e8cd5c084c2d044abdf646ee48fb
+PKG_HASH:=699a6d2192322792c88088576cff5fe188452e6ea71e82ca74409f07ecc62563
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=COPYING
