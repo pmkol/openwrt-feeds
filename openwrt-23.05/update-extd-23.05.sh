@@ -19,6 +19,7 @@ git clone https://github.com/sbwml/luci-app-filemanager luci-app-filemanager --d
 git clone https://github.com/sbwml/luci-app-mentohust openwrt-mentohust --depth 1
 git clone https://github.com/sbwml/luci-app-mosdns openwrt-mosdns --depth 1
 git clone https://github.com/sbwml/luci-app-qbittorrent openwrt-qbittorrent --depth 1
+git clone https://github.com/sbwml/luci-app-quickfile openwrt-quickfile --depth 1
 git clone https://github.com/sbwml/feeds_packages_libs_liburing liburing --depth 1
 git clone https://github.com/sbwml/feeds_packages_net_samba4 samba4 --depth 1
 git clone https://github.com/sbwml/feeds_packages_utils_unzip unzip --depth 1
@@ -184,6 +185,10 @@ sed -i '/#if (LINUX_VERSION_CODE < KERNEL_VERSION(6, 12, 0))/,/#endif/d' oaf/src
 # luci-app-qbittorrent
 mv openwrt-qbittorrent/*/ ./
 rm -rf openwrt-qbittorrent
+
+# luci-app-quickfile
+mv openwrt-quickfile/*/ ./
+rm -rf openwrt-quickfile
 
 # luci-app-samba4
 sed -i 's|../../lang|$(TOPDIR)/feeds/packages/lang|' samba4/Makefile
