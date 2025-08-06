@@ -1,19 +1,20 @@
 Package: adguardhome
-Version: 0.107.64-1
+Version: 0.107.64-2
 Depends: libc, ca-bundle
 Source: /feed/adguardhome
 SourceName: adguardhome
 License: GPL-3.0-only
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1754410275
+Require-User: adguardhome=853:adguardhome=853
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:adguard:adguardhome
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: aarch64_generic
-Installed-Size: 10436647
-Filename: adguardhome_0.107.64-1_aarch64_generic.ipk
-Size: 10409344
-SHA256sum: 726a71c88f51d54ec217392f6560ef717e03c5ea86340d33b59a770a32a5dccf
+Installed-Size: 10436574
+Filename: adguardhome_0.107.64-2_aarch64_generic.ipk
+Size: 10409161
+SHA256sum: 9318c38e5248d4890eba56076e40305f0bed3e1eb2e8cd1ef0a32d67a2126fdc
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
 Package: airconnect
@@ -23,13 +24,13 @@ Source: /feed/airconnect
 SourceName: airconnect
 License: MIT
 Section: multimedia
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 3744608
+Installed-Size: 3744609
 Filename: airconnect_1.8.3-1_aarch64_generic.ipk
-Size: 3731997
-SHA256sum: 8363f7895da6c05f01ac1006114bda58fb69ecc2cf9b83607adfaf27fc460823
+Size: 3731888
+SHA256sum: 7a2321a4eddf0aa4bae8fcb1b978457fa806371c9821c6e1f620f2f5c9aa004a
 Description:  Use AirPlay to stream to UPnP/Sonos & Chromecast devices
 
 Package: appfilter
@@ -38,12 +39,12 @@ Depends: libc, kmod-oaf, libubox20230523, libubus20230605, libuci20130104, libpt
 Source: /feed/open-app-filter
 SourceName: appfilter
 Section: TT Apps
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 35225
+Installed-Size: 35222
 Filename: appfilter_6.1.4-1_aarch64_generic.ipk
 Size: 35962
-SHA256sum: 751b5a8105cf5739315f35223f4802011d0873819440d9ec6f3b4fe7af5e9f46
+SHA256sum: d288c2f40eb6eae38ba25d15aeafc447bb8726537a3b1abea266736b7c0d7810
 Description:  openappfilter app
 
 Package: aria2
@@ -55,14 +56,14 @@ License: GPLv2
 LicenseFiles: COPYING
 Section: net
 Require-User: aria2=6800:aria2=6800
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
 Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 609774
+Installed-Size: 609775
 Filename: aria2_1.37.0-1_aarch64_generic.ipk
-Size: 609697
-SHA256sum: c6605c8fbf8ffb24351e720199d875d9293424d9a62499bc471fad25a1b06b8e
+Size: 609735
+SHA256sum: e2e5111803f31e15c517c1d5cb822ce274a46228e62d45dc433eefb1d41926ca
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -74,14 +75,14 @@ SourceName: collectd-mod-apache
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5491
+Installed-Size: 5492
 Filename: collectd-mod-apache_5.12.0-54_aarch64_generic.ipk
-Size: 6180
-SHA256sum: 5e4d19448177a3db41060d1c5fcc25e7c9f90669c27e1cd36040020466d6bc06
+Size: 6174
+SHA256sum: 9864417cf33d497035750f9b60fb66e7af24bcf522c2410e41a6ba19b9ab06cc
 Description:  apache status input plugin
 
 Package: collectd-mod-apcups
@@ -92,14 +93,14 @@ SourceName: collectd-mod-apcups
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4475
+Installed-Size: 4477
 Filename: collectd-mod-apcups_5.12.0-54_aarch64_generic.ipk
-Size: 5097
-SHA256sum: e21c0fd6d5ba1fd75c8012a265e9736eddb5ac9f73105279fc2c48f17af033eb
+Size: 5095
+SHA256sum: d8961d7a0f69ba910f3e9a78ffe0c8d06192ea00be69fca4149dd98da2a3d757
 Description:  apcups status input plugin
 
 Package: collectd-mod-ascent
@@ -110,14 +111,14 @@ SourceName: collectd-mod-ascent
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 5283
 Filename: collectd-mod-ascent_5.12.0-54_aarch64_generic.ipk
-Size: 5928
-SHA256sum: 2d6f7ceb8857278b2c79cc8423914845cffe0b53270719943d3de6bfecfce856
+Size: 5923
+SHA256sum: 57970c3a84e0b2999318910204afc1bcf606fac98520b0ad2c412796f5d44e35
 Description:  ascent status input plugin
 
 Package: collectd-mod-bind
@@ -128,14 +129,14 @@ SourceName: collectd-mod-bind
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 10117
+Installed-Size: 10116
 Filename: collectd-mod-bind_5.12.0-54_aarch64_generic.ipk
-Size: 10819
-SHA256sum: 1be9cae39896b90c90e6a8f2c74beee0fc34f35e1c4edf1433dbefbe9a8658bc
+Size: 10827
+SHA256sum: 1c1c543c50b4ac54f3ea5b702636ad8c7a414b3bc65c388edad3b1aa111668fd
 Description:  BIND server/zone input plugin
 
 Package: collectd-mod-chrony
@@ -146,14 +147,14 @@ SourceName: collectd-mod-chrony
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5579
+Installed-Size: 5577
 Filename: collectd-mod-chrony_5.12.0-54_aarch64_generic.ipk
-Size: 6340
-SHA256sum: 582fc7f6446a511806762f8cab0fc4e6bd9a68b44e94698ba2cfd5175a8d6ae7
+Size: 6335
+SHA256sum: d10a9d6647968770a37c70ff0fba3d8cbca6baa66124055afc9615260bc09c33
 Description:  chrony status input plugin
 
 Package: collectd-mod-conntrack
@@ -164,14 +165,14 @@ SourceName: collectd-mod-conntrack
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2177
+Installed-Size: 2176
 Filename: collectd-mod-conntrack_5.12.0-54_aarch64_generic.ipk
-Size: 2867
-SHA256sum: 132af76b16696724f7309a5bd9442f8a0940347f0e2de0dd7d5ee1d7925574ac
+Size: 2868
+SHA256sum: 2949c55448d4869e15c7059fbf7e734d422af77b7dbe2e40b953b5e1f8a73730
 Description:  connection tracking table size input plugin
 
 Package: collectd-mod-contextswitch
@@ -182,14 +183,14 @@ SourceName: collectd-mod-contextswitch
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2132
+Installed-Size: 2133
 Filename: collectd-mod-contextswitch_5.12.0-54_aarch64_generic.ipk
-Size: 2811
-SHA256sum: 8e84afff218c8d0016424b20ea33c23606946a8ed1c1eee2087762c978a0f763
+Size: 2802
+SHA256sum: ddbc6a07ffb6aacf1fb7c9436e853248a888438c8103e75cc48427edfc300447
 Description:  context switch input plugin
 
 Package: collectd-mod-cpu
@@ -200,14 +201,14 @@ SourceName: collectd-mod-cpu
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 4515
 Filename: collectd-mod-cpu_5.12.0-54_aarch64_generic.ipk
-Size: 5122
-SHA256sum: 70c4604e071cd62a9d7d11bd0163c186a6ef7a28d64f5d724e9cf3c532e577fc
+Size: 5119
+SHA256sum: b622a5f4757718ab6ac41040450fc07692ff61a568a26f796162f6bdc347085a
 Description:  CPU input plugin
 
 Package: collectd-mod-cpufreq
@@ -218,14 +219,14 @@ SourceName: collectd-mod-cpufreq
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3294
+Installed-Size: 3296
 Filename: collectd-mod-cpufreq_5.12.0-54_aarch64_generic.ipk
-Size: 3936
-SHA256sum: 3d506b28fdc35cbb609fbfb6f6fe56390835e6b2aa287a137e17ff3bcdf6554d
+Size: 3947
+SHA256sum: 729ac27303fb769e9e33c0304c6e52c362b3cc141bfa43c68334a5d494008cb8
 Description:  CPU Freq input plugin
 
 Package: collectd-mod-csv
@@ -236,14 +237,14 @@ SourceName: collectd-mod-csv
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3909
+Installed-Size: 3910
 Filename: collectd-mod-csv_5.12.0-54_aarch64_generic.ipk
-Size: 4549
-SHA256sum: d23b609d33b7bf32dbfb1e96b8d96c72469db94b89b278c1edfd011cc1317c0c
+Size: 4548
+SHA256sum: 4d209c25fe2774e4d70a9aa192baf7e5e9c0464fd34aa10988f074f9b838cd46
 Description:  CSV output plugin
 
 Package: collectd-mod-curl
@@ -254,14 +255,14 @@ SourceName: collectd-mod-curl
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 19201
+Installed-Size: 19202
 Filename: collectd-mod-curl_5.12.0-54_aarch64_generic.ipk
-Size: 19869
-SHA256sum: f306e948ac31febdd47dbe3df80f3cb282ad7f710eb8e09e997bf38bb26ce8ed
+Size: 19871
+SHA256sum: f1e0aa3cb680cad010d1b2761a760801532fb98243ce10bda4198b4ff5ad23c8
 Description:  cURL input plugin
 
 Package: collectd-mod-df
@@ -272,14 +273,14 @@ SourceName: collectd-mod-df
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 7228
+Installed-Size: 7227
 Filename: collectd-mod-df_5.12.0-54_aarch64_generic.ipk
-Size: 7949
-SHA256sum: f0f436f38fbaf3ba854c154bf4ed36c99c59d4b67a50018ba95a468f86f512ee
+Size: 7941
+SHA256sum: 82a9c0e9099f4a9cb48aa811b3390871b202a786e0e638691ec5540abd6025cb
 Description:  disk space input plugin
 
 Package: collectd-mod-dhcpleases
@@ -290,14 +291,14 @@ SourceName: collectd-mod-dhcpleases
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2112
+Installed-Size: 2111
 Filename: collectd-mod-dhcpleases_5.12.0-54_aarch64_generic.ipk
-Size: 2802
-SHA256sum: 378811f80532e887a20c1453c45da0501798136cf598b080ce770225266398ea
+Size: 2800
+SHA256sum: b734454fa419df5e95a1dfc468b27baa8501bbf13860a78bf42525d008c4cfbf
 Description:  show dhcpleases plugin
 
 Package: collectd-mod-disk
@@ -308,14 +309,14 @@ SourceName: collectd-mod-disk
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5494
+Installed-Size: 5496
 Filename: collectd-mod-disk_5.12.0-54_aarch64_generic.ipk
-Size: 6125
-SHA256sum: 41f3581dfcd98e42f11f79051ee155e29975fb1cdf08a89f4d570b54fe76a69e
+Size: 6128
+SHA256sum: b5b9a77e191c4e5843f713fb1a2f787011e30118c40d273008d5c63f8cbd6550
 Description:  disk usage/timing input plugin
 
 Package: collectd-mod-dns
@@ -326,14 +327,14 @@ SourceName: collectd-mod-dns
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 8397
+Installed-Size: 8396
 Filename: collectd-mod-dns_5.12.0-54_aarch64_generic.ipk
 Size: 9094
-SHA256sum: 8938bebae67b8d4d6e9da3ad9e2c6a38028a101ad7777fe7b296727e8b7bd0a7
+SHA256sum: 8bb9a62c95426b88f58c33fb5fd0b48e5a493b9017c1c1b4ae7c49cf91b51ba6
 Description:  DNS traffic input plugin
 
 Package: collectd-mod-email
@@ -344,14 +345,14 @@ SourceName: collectd-mod-email
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5947
+Installed-Size: 5951
 Filename: collectd-mod-email_5.12.0-54_aarch64_generic.ipk
-Size: 6587
-SHA256sum: f3a6d88b01924b8f0c05e90b7c9e19dc6edefa06d73e59e7e2adab1d440928b5
+Size: 6592
+SHA256sum: 5b82d620b946a20101e522d44cb4c813c3130363b736f3e6d6e2cdd72843a65d
 Description:  email output plugin
 
 Package: collectd-mod-entropy
@@ -362,14 +363,14 @@ SourceName: collectd-mod-entropy
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 1793
 Filename: collectd-mod-entropy_5.12.0-54_aarch64_generic.ipk
-Size: 2504
-SHA256sum: bc15822f711d2154f8bfabdf685b24a4afc44244e6ac0230a49aeee1ec13a980
+Size: 2509
+SHA256sum: 64ebae6a67f7dbba87060e9c18389d3b0a24e0f0189ad550d556972e7eb4cd19
 Description:  Entropy amount input plugin
 
 Package: collectd-mod-ethstat
@@ -380,14 +381,14 @@ SourceName: collectd-mod-ethstat
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 3667
 Filename: collectd-mod-ethstat_5.12.0-54_aarch64_generic.ipk
-Size: 4331
-SHA256sum: 7fa87cdad4c4b414b26d7f999ab7e06ced3e20a1e902a56f0d32ef8ad1e66925
+Size: 4333
+SHA256sum: e23c3696c8baca55587066ccee589a2839c516ec2a4b1dfe932b214faf4e1c84
 Description:  Ethernet adapter statistics input plugin
 
 Package: collectd-mod-exec
@@ -398,14 +399,14 @@ SourceName: collectd-mod-exec
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 25694
+Installed-Size: 25693
 Filename: collectd-mod-exec_5.12.0-54_aarch64_generic.ipk
-Size: 26387
-SHA256sum: bb0262c713779c1ec072c66c8e8df42063037f5b98f03e9186089d2302a043d4
+Size: 26383
+SHA256sum: ba159b9042ed73c93368315a03e9d458ffd32938188681ccf937be893a5f235c
 Description:  process exec input plugin
 
 Package: collectd-mod-filecount
@@ -416,14 +417,14 @@ SourceName: collectd-mod-filecount
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 4379
 Filename: collectd-mod-filecount_5.12.0-54_aarch64_generic.ipk
-Size: 5019
-SHA256sum: b25f1a647449bac6292e3dabfc1e07d88889b27c797a960d5a0cdbd620689c5e
+Size: 5023
+SHA256sum: aeddd4a81f02bc66e53c9d2aec976899bf28d62b1d32a5293a68f845a6327b84
 Description:  file count input plugin
 
 Package: collectd-mod-fscache
@@ -434,14 +435,14 @@ SourceName: collectd-mod-fscache
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 2080
 Filename: collectd-mod-fscache_5.12.0-54_aarch64_generic.ipk
-Size: 2795
-SHA256sum: 26994391828b9ea653bbaa4ee32cb8c560947b74106a9cb86e69632a18a0babf
+Size: 2796
+SHA256sum: 89e475bfa186273bda52ed749645cf0ae71fe965d59c49da96677dda677081e8
 Description:  file-system based caching framework input plugin
 
 Package: collectd-mod-interface
@@ -452,14 +453,14 @@ SourceName: collectd-mod-interface
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4276
+Installed-Size: 4277
 Filename: collectd-mod-interface_5.12.0-54_aarch64_generic.ipk
-Size: 4890
-SHA256sum: 6783571a089f17414c918da1a08272a7aa0a022fdf28c5f5938455ca5e4585cb
+Size: 4904
+SHA256sum: b86c95d48043b28dc4073f1a7f1c226c1e5a98516f492e1d8713d16ff6462523
 Description:  network interfaces input plugin
 
 Package: collectd-mod-ipstatistics
@@ -470,14 +471,14 @@ SourceName: collectd-mod-ipstatistics
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 2156
 Filename: collectd-mod-ipstatistics_5.12.0-54_aarch64_generic.ipk
-Size: 2854
-SHA256sum: d0314931d8db1eede70ccf66682044b72a6c4e821131b04a66e6aeae0a206a39
+Size: 2849
+SHA256sum: e198e3fd1a99d7f48632ac42018a7359209635135a464e29b599a9761c9e8b09
 Description:  ipstatistics input plugin
 
 Package: collectd-mod-iptables
@@ -488,14 +489,14 @@ SourceName: collectd-mod-iptables
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3818
+Installed-Size: 3817
 Filename: collectd-mod-iptables_5.12.0-54_aarch64_generic.ipk
-Size: 4478
-SHA256sum: c4d6c3ea8ed4119264bcb592468915c129d4f4a660e49f81ec7bd12be81dfc59
+Size: 4466
+SHA256sum: 10d56fe99df3559077b31136d83ca91a54a8dff28a3b018d4d7fe554efc6b930
 Description:  iptables status input plugin
 
 Package: collectd-mod-irq
@@ -506,14 +507,14 @@ SourceName: collectd-mod-irq
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4171
+Installed-Size: 4172
 Filename: collectd-mod-irq_5.12.0-54_aarch64_generic.ipk
-Size: 4775
-SHA256sum: a6c186d9c5f05f91f11a8adaacb75d5346b7e638814f18ce47e26a482b333894
+Size: 4795
+SHA256sum: b6d8ce7b276ab9aa60fd14333021b57621e0df3f8cba2e139fa28b430e2738ca
 Description:  interrupt usage input plugin
 
 Package: collectd-mod-iwinfo
@@ -524,14 +525,14 @@ SourceName: collectd-mod-iwinfo
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4407
+Installed-Size: 4405
 Filename: collectd-mod-iwinfo_5.12.0-54_aarch64_generic.ipk
-Size: 5043
-SHA256sum: 0500cd10f00f00c28ba3d6b345a05db6f74722c9172c8fb75b18d6cae72d61b5
+Size: 5042
+SHA256sum: 126f0016cba2c57529c74b002f961e9ceeb0654509036b838f7bb369fa0d2548
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -542,14 +543,14 @@ SourceName: collectd-mod-load
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2340
+Installed-Size: 2338
 Filename: collectd-mod-load_5.12.0-54_aarch64_generic.ipk
-Size: 3011
-SHA256sum: dc06bdc83cbaddfb541821a78d3ba07564de76afb2d22c0fc5e0290dcc70161c
+Size: 3008
+SHA256sum: 887ca9c5a29184a5b1aedd7ef321a92525c05251433b97246f5a2aebdcea8a75
 Description:  system load input plugin
 
 Package: collectd-mod-logfile
@@ -560,14 +561,14 @@ SourceName: collectd-mod-logfile
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3403
+Installed-Size: 3402
 Filename: collectd-mod-logfile_5.12.0-54_aarch64_generic.ipk
-Size: 4048
-SHA256sum: 6798be91d1da97fb1786d561b1fdc063b6d4a1050169208517c4d898b4587d02
+Size: 4044
+SHA256sum: 819ff65349358a54e4f71a559373adb31d99f1b10fa890a6c6eb0aea05e8433d
 Description:  log files output plugin
 
 Package: collectd-mod-lua
@@ -578,14 +579,14 @@ SourceName: collectd-mod-lua
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 7040
 Filename: collectd-mod-lua_5.12.0-54_aarch64_generic.ipk
-Size: 7806
-SHA256sum: fdcca2a94aaeca01f274e9e672be91594a3044da45d82ea7065411ce05dc3451
+Size: 7816
+SHA256sum: 566a8df4226729bbf7dc7418a229dbe19aab1d85aeb9bfb076bb3799f3ca69e6
 Description:  lua input/output plugin
 
 Package: collectd-mod-match-empty-counter
@@ -596,14 +597,14 @@ SourceName: collectd-mod-match-empty-counter
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 1423
+Installed-Size: 1422
 Filename: collectd-mod-match-empty-counter_5.12.0-54_aarch64_generic.ipk
-Size: 2156
-SHA256sum: 772091ee596f0692ddccf0c9dd77371f54d7f56a70dc4183ded71e8566f40ff1
+Size: 2150
+SHA256sum: c0701fd60591c633c7241e04a1755f8ae23a264f9b8a254be112653ee3b99a62
 Description:  empty-counter match plugin
 
 Package: collectd-mod-match-hashed
@@ -614,14 +615,14 @@ SourceName: collectd-mod-match-hashed
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 2097
 Filename: collectd-mod-match-hashed_5.12.0-54_aarch64_generic.ipk
-Size: 2788
-SHA256sum: c94fc9caa87592c542cb23c3393030878911163bff507553edf2a76af6eb1a47
+Size: 2789
+SHA256sum: cb6be2ba721353802adb6dac1413468a39dd42e58c6f413fc7e6c6c18446a612
 Description:  hashed match plugin
 
 Package: collectd-mod-match-regex
@@ -632,14 +633,14 @@ SourceName: collectd-mod-match-regex
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 3486
 Filename: collectd-mod-match-regex_5.12.0-54_aarch64_generic.ipk
-Size: 4129
-SHA256sum: 9252ed8448f45818f6053fccd6bda21cb54185d5c007c809700d489497ecb2d5
+Size: 4128
+SHA256sum: 80deec63f0fe941218deb5811323b81c1efc45153043764aa59ccd2478176021
 Description:  regex match plugin
 
 Package: collectd-mod-match-timediff
@@ -650,14 +651,14 @@ SourceName: collectd-mod-match-timediff
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 1946
+Installed-Size: 1945
 Filename: collectd-mod-match-timediff_5.12.0-54_aarch64_generic.ipk
-Size: 2641
-SHA256sum: c13786ec153b2e32aceb366c12677f688c764a2767033be1aed0f9966f617413
+Size: 2638
+SHA256sum: d7d564e4fc3e139b8065f1158fc9cff22fb08152cbe4e30c3433ed376ffd70cd
 Description:  timediff match plugin
 
 Package: collectd-mod-match-value
@@ -668,14 +669,14 @@ SourceName: collectd-mod-match-value
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2996
+Installed-Size: 2995
 Filename: collectd-mod-match-value_5.12.0-54_aarch64_generic.ipk
-Size: 3660
-SHA256sum: 3be56246834bcf5361af465478d36ddd71478b340abffbe96bdfd167324a5cda
+Size: 3658
+SHA256sum: 16dc958d4f7862a880cb34dfac670dce852ed632051c9f6139e2af07fc9d9f75
 Description:  value match plugin
 
 Package: collectd-mod-memory
@@ -686,14 +687,14 @@ SourceName: collectd-mod-memory
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 3065
 Filename: collectd-mod-memory_5.12.0-54_aarch64_generic.ipk
-Size: 3720
-SHA256sum: 62cdbc5210193cb5b21916dfd18c12848ecfb41b3100e3ba75a89a5b0b754e9d
+Size: 3707
+SHA256sum: 1a3f245039d5f918257d5e4e65a8333dd6cdd5909d95b8e1a04556a071e46dfd
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-modbus
@@ -704,14 +705,14 @@ SourceName: collectd-mod-modbus
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 6440
+Installed-Size: 6439
 Filename: collectd-mod-modbus_5.12.0-54_aarch64_generic.ipk
-Size: 7237
-SHA256sum: 7ee2c8dfd010ce2a01fc7ddfe85433503203e1e0a5f774fb2be031608fc36333
+Size: 7231
+SHA256sum: e7c73c58e94d2271407f74916003a33d84d66f599fbe631e5bbb65041b7685d4
 Description:  read variables through libmodbus plugin
 
 Package: collectd-mod-mqtt
@@ -722,14 +723,14 @@ SourceName: collectd-mod-mqtt
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5977
+Installed-Size: 5978
 Filename: collectd-mod-mqtt_5.12.0-54_aarch64_generic.ipk
-Size: 6687
-SHA256sum: 73812d1b6c1424807e013d5a6d34691a72ce4c6a63cfbe6fb5767d26c8d360ee
+Size: 6678
+SHA256sum: d33c2203a2893daf016dac7470a0ed9ae5e5d318a5362ce0278fe54d5a5b29a6
 Description:  transmit data with MQTT plugin
 
 Package: collectd-mod-mysql
@@ -740,14 +741,14 @@ SourceName: collectd-mod-mysql
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 8743
+Installed-Size: 8741
 Filename: collectd-mod-mysql_5.12.0-54_aarch64_generic.ipk
-Size: 9472
-SHA256sum: 19041d65f05a4dac7f2f87bef5833fc800111986f771c43cf164c4f7fc85e74a
+Size: 9463
+SHA256sum: 7957421adb0b09d27305d40450adb854feeb0ff42cbb84e274d0bfc666b5a97f
 Description:  MySQL status input plugin
 
 Package: collectd-mod-netlink
@@ -758,14 +759,14 @@ SourceName: collectd-mod-netlink
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 9608
+Installed-Size: 9606
 Filename: collectd-mod-netlink_5.12.0-54_aarch64_generic.ipk
-Size: 10261
-SHA256sum: 65de64a2e0306f1ec0e750e6fb033eada9edc8de2e625cb42bfad29dcdb2c1ea
+Size: 10265
+SHA256sum: 1e209c96d1acab99b42a6dded56c622ad125fa6dccf1091e2bcbe2516bd69d93
 Description:  netlink input plugin
 
 Package: collectd-mod-network
@@ -776,14 +777,14 @@ SourceName: collectd-mod-network
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 15635
+Installed-Size: 15633
 Filename: collectd-mod-network_5.12.0-54_aarch64_generic.ipk
-Size: 16268
-SHA256sum: 8281ac41fbef9f32c96107a7d3a2cb57f63ec1e1a5fb2e3f6e288a9e2509ab1d
+Size: 16275
+SHA256sum: 6ada75c66375b50534f06aa31353cbc50c2605cc267a1ce9bd3f9c8389f55f2e
 Description:  network input/output plugin
 
 Package: collectd-mod-nginx
@@ -794,14 +795,14 @@ SourceName: collectd-mod-nginx
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 3556
 Filename: collectd-mod-nginx_5.12.0-54_aarch64_generic.ipk
-Size: 4209
-SHA256sum: be12b4922d4b24bf6d4b86db8ebd932f579677ce99880ed5e510450b088c6b60
+Size: 4213
+SHA256sum: 183dac81816fa253b12716c77cbb2f2ac550ffe02f1b743b07e6582096486940
 Description:  nginx status input plugin
 
 Package: collectd-mod-ntpd
@@ -812,14 +813,14 @@ SourceName: collectd-mod-ntpd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 6500
 Filename: collectd-mod-ntpd_5.12.0-54_aarch64_generic.ipk
-Size: 7278
-SHA256sum: a7329042c703ef575138e52347217a7387da4787d25c369d11a53af92547a5f4
+Size: 7283
+SHA256sum: fc220fecf195b7a3de244ec7a2cf37a76a33fcfbe79f75812b584ba8f9902afc
 Description:  NTP daemon status input plugin
 
 Package: collectd-mod-nut
@@ -830,14 +831,14 @@ SourceName: collectd-mod-nut
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4643
+Installed-Size: 4642
 Filename: collectd-mod-nut_5.12.0-54_aarch64_generic.ipk
-Size: 5268
-SHA256sum: e0eba411ccf4557c520a297e812c7957c286b8e9e91f5b39ef2d39d576245810
+Size: 5283
+SHA256sum: a3689abd5dd42131db925d382f91f4f96f9909f00023ef14c2c4f5b0632965e0
 Description:  UPS monitoring input plugin
 
 Package: collectd-mod-olsrd
@@ -848,14 +849,14 @@ SourceName: collectd-mod-olsrd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5243
+Installed-Size: 5244
 Filename: collectd-mod-olsrd_5.12.0-54_aarch64_generic.ipk
-Size: 5847
-SHA256sum: d9cd0a9d927b02600424c51a9457589a1d2b993e46b091f6e276bbfdefdedbb6
+Size: 5865
+SHA256sum: 1b36b3a447a0b3b9f82434aa2b8c8ab9f9f9fe8d2558f48828509d3da845d984
 Description:  OLSRd status input plugin
 
 Package: collectd-mod-openvpn
@@ -866,14 +867,14 @@ SourceName: collectd-mod-openvpn
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5277
+Installed-Size: 5276
 Filename: collectd-mod-openvpn_5.12.0-54_aarch64_generic.ipk
-Size: 5926
-SHA256sum: 92ae0cc9e0cb04f7224634e967781b00d5399af9007fbc386624d9fa72ec2b22
+Size: 5924
+SHA256sum: ea29d9f1b59ffd5660afedd37294179bea266b544dc1c1f554e6946602bf12cd
 Description:  OpenVPN traffic/compression input plugin
 
 Package: collectd-mod-ping
@@ -884,14 +885,14 @@ SourceName: collectd-mod-ping
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 5875
+Installed-Size: 5877
 Filename: collectd-mod-ping_5.12.0-54_aarch64_generic.ipk
-Size: 6503
-SHA256sum: 6703c46c1773044c04c0ec44041edc4952ecd0258114bf0610e41577da59360c
+Size: 6504
+SHA256sum: b0847878c349e3a834cafae82fda58ba53cec2ba858aa0d1236ead540ab3cb83
 Description:  ping status input plugin
 
 Package: collectd-mod-postgresql
@@ -902,14 +903,14 @@ SourceName: collectd-mod-postgresql
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 14050
 Filename: collectd-mod-postgresql_5.12.0-54_aarch64_generic.ipk
-Size: 14725
-SHA256sum: b42937b53ae72a5c14afbbe10d475d4e990039bb57cd36c37ab399a5a9d0429a
+Size: 14726
+SHA256sum: 0000de7f649f3389b2584f6a7a91da596e5d5c6adfb176e008d71e9dd58720d6
 Description:  PostgreSQL status input plugin
 
 Package: collectd-mod-powerdns
@@ -920,14 +921,14 @@ SourceName: collectd-mod-powerdns
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 8956
 Filename: collectd-mod-powerdns_5.12.0-54_aarch64_generic.ipk
-Size: 9652
-SHA256sum: a93330ad81d9471208a6fca7a19d2ece8601defc8ea093a7e3bebc325a3f90ea
+Size: 9648
+SHA256sum: a4fb778724ded144b3dad6e4788639b8990bec6e5880787a7b8d3a262eed5422
 Description:  PowerDNS server status input plugin
 
 Package: collectd-mod-processes
@@ -938,14 +939,14 @@ SourceName: collectd-mod-processes
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 11383
+Installed-Size: 11380
 Filename: collectd-mod-processes_5.12.0-54_aarch64_generic.ipk
-Size: 12054
-SHA256sum: 53e029d4f939010cd976f9829b11afcff4e0c6c61b7658a8d2f11e911a86d833
+Size: 12043
+SHA256sum: fbbe75b33fc9c4318392059229fd9488cb4d4db6b32846e3443f96bbe5601da1
 Description:  process status input plugin
 
 Package: collectd-mod-protocols
@@ -956,14 +957,14 @@ SourceName: collectd-mod-protocols
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4333
+Installed-Size: 4331
 Filename: collectd-mod-protocols_5.12.0-54_aarch64_generic.ipk
-Size: 4989
-SHA256sum: 42ca19a69db48d0a53525782ff05d2761c29357237053ea30e4802e8ea4ead63
+Size: 4981
+SHA256sum: 5dd68b02aea5af48326733b04ae5efe75bbe6a451bc227c8b565b982075458cf
 Description:  network protocols input plugin
 
 Package: collectd-mod-routeros
@@ -974,14 +975,14 @@ SourceName: collectd-mod-routeros
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 4467
 Filename: collectd-mod-routeros_5.12.0-54_aarch64_generic.ipk
-Size: 5120
-SHA256sum: 15f9eb73deefbdf7419861f035c20b49fd9195b2314134f37e6c147eac3f4648
+Size: 5122
+SHA256sum: d2b8edb8df288a61fbb6f781b996e87bc1e56129105f758f3a76ebb90b8982ca
 Description:  MikroTik RouterOS input plugin
 
 Package: collectd-mod-rrdtool
@@ -992,14 +993,14 @@ SourceName: collectd-mod-rrdtool
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 11632
+Installed-Size: 11631
 Filename: collectd-mod-rrdtool_5.12.0-54_aarch64_generic.ipk
 Size: 12296
-SHA256sum: 533e48b62605082e162ea0ad454acdef6769c54e56724f2aa6128a053bf75a6c
+SHA256sum: 21716793cebbcade45e5c69545758f29e3448c463957bc80d6f88eeb98088a3f
 Description:  RRDtool output plugin
 
 Package: collectd-mod-sensors
@@ -1010,14 +1011,14 @@ SourceName: collectd-mod-sensors
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4876
+Installed-Size: 4877
 Filename: collectd-mod-sensors_5.12.0-54_aarch64_generic.ipk
-Size: 5498
-SHA256sum: 0932342f3bdd1838f2a4e2b46b0413d10a3d1508bd94f00ac606034d46b3826c
+Size: 5507
+SHA256sum: e1f450c356711dabe5bae77e1a9579c979c086f4905caee011f40a6db8dea47f
 Description:  lm_sensors input plugin
 
 Package: collectd-mod-smart
@@ -1028,14 +1029,14 @@ SourceName: collectd-mod-smart
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 7972
+Installed-Size: 7970
 Filename: collectd-mod-smart_5.12.0-54_aarch64_generic.ipk
-Size: 8673
-SHA256sum: 66656bf23f13bd7be05b598c5298caba7a30796bf234d54d4eb67d5a8515b68b
+Size: 8679
+SHA256sum: 9fcb3a6b57a1b10fe600d7a3a2cfc01b57db09f9d9f1da6ad467f7003b998368
 Description:  smart input plugin
 
 Package: collectd-mod-snmp6
@@ -1046,14 +1047,14 @@ SourceName: collectd-mod-snmp6
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4147
+Installed-Size: 4146
 Filename: collectd-mod-snmp6_5.12.0-54_aarch64_generic.ipk
-Size: 4790
-SHA256sum: eeb8797c37090c6f34ac62eba11b599324b6415dea40c6c326e35dde618e6771
+Size: 4780
+SHA256sum: e8fce09bb18197769931cdd076a2068f8d710482bd04fb006c7ac148bacf057f
 Description:  snmp6 input plugin
 
 Package: collectd-mod-snmp
@@ -1064,14 +1065,14 @@ SourceName: collectd-mod-snmp
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 13626
+Installed-Size: 13627
 Filename: collectd-mod-snmp_5.12.0-54_aarch64_generic.ipk
-Size: 14282
-SHA256sum: 163417872c755ba74de223d1df230e7676a67a0a9cc6b81084c3f2c484d9dbb3
+Size: 14289
+SHA256sum: 9a810364d910f0df4ee30380473baff0f70978ee71303e4a8ec93ed0dcda22e3
 Description:  SNMP input plugin
 
 Package: collectd-mod-sqm
@@ -1082,14 +1083,14 @@ SourceName: collectd-mod-sqm
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 1356
+Installed-Size: 1355
 Filename: collectd-mod-sqm_5.12.0-54_aarch64_generic.ipk
-Size: 2161
-SHA256sum: a7054b658dffdd6490f3ae0f686ff29f21241b1312d0073dd1564e1edc02304d
+Size: 2163
+SHA256sum: 1a1cf0c562cd2d45fd71a4b8e7ec1b2f2b7ccab12962a42468564e46f2ce1a8b
 Description:  SQM/qdisc collection plugin
 
 Package: collectd-mod-statsd
@@ -1100,14 +1101,14 @@ SourceName: collectd-mod-statsd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 17162
 Filename: collectd-mod-statsd_5.12.0-54_aarch64_generic.ipk
-Size: 17853
-SHA256sum: 11b11e565585cbce57b5426172731102d4313e913cb172f40b30e47762303ef6
+Size: 17854
+SHA256sum: 2081952e0ca22bc03b5bcc78fb638d7d528a1faff5b6b6f3bdfb140fa3c7e5ab
 Description:  statsd input plugin
 
 Package: collectd-mod-swap
@@ -1118,14 +1119,14 @@ SourceName: collectd-mod-swap
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 4103
 Filename: collectd-mod-swap_5.12.0-54_aarch64_generic.ipk
-Size: 4713
-SHA256sum: 66e22f48981b474f826ec1f6b57c1a99131f80a2c14c421e23f79033da3dbab9
+Size: 4700
+SHA256sum: 8c332b3ee65fd30a7dc897ab90e4db5326aeea5996428073700dd3e2c86b0249
 Description:  swap input plugin
 
 Package: collectd-mod-syslog
@@ -1136,14 +1137,14 @@ SourceName: collectd-mod-syslog
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 2607
 Filename: collectd-mod-syslog_5.12.0-54_aarch64_generic.ipk
-Size: 3279
-SHA256sum: c83b8bd326393a809ee8b47f8cce53de0319040f380e17a91a235c143c94eddc
+Size: 3270
+SHA256sum: b011b60226e3751b0bfc113410a8eb1b98665406baa4a4c6b71f04290491a4e0
 Description:  syslog output plugin
 
 Package: collectd-mod-table
@@ -1154,14 +1155,14 @@ SourceName: collectd-mod-table
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 5486
 Filename: collectd-mod-table_5.12.0-54_aarch64_generic.ipk
-Size: 6126
-SHA256sum: 90e12090ce0dbbe89f22b619cbdd3992a19ea61ce2a50d21c6b1a6556a2f8297
+Size: 6132
+SHA256sum: dbd1db16d9e4a7e9540495cb5d8f375dd807551da73321da74bb1e824f55f63d
 Description:  table-like structured file input plugin
 
 Package: collectd-mod-tail-csv
@@ -1172,14 +1173,14 @@ SourceName: collectd-mod-tail-csv
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 5989
 Filename: collectd-mod-tail-csv_5.12.0-54_aarch64_generic.ipk
-Size: 6747
-SHA256sum: 32cd248cdefed0a0f6ff5c75f353779da2421444ac0564101af7862193c098aa
+Size: 6750
+SHA256sum: cc577a135128537eba9aed045ad12687738039db3ce21476250f45146c32bab2
 Description:  tail CSV input plugin
 
 Package: collectd-mod-tail
@@ -1190,14 +1191,14 @@ SourceName: collectd-mod-tail
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 18297
+Installed-Size: 18296
 Filename: collectd-mod-tail_5.12.0-54_aarch64_generic.ipk
-Size: 18993
-SHA256sum: db477ba3861da37875910d29d5ccddefd6d2c1334fe5c62e9fdc130495b62a44
+Size: 18992
+SHA256sum: 5ddab2c9be57f0ce5c9c50c2b7897ff9b7f89c831573f3fc2fe9f967594a258a
 Description:  tail input plugin
 
 Package: collectd-mod-tcpconns
@@ -1208,14 +1209,14 @@ SourceName: collectd-mod-tcpconns
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 4967
 Filename: collectd-mod-tcpconns_5.12.0-54_aarch64_generic.ipk
 Size: 5597
-SHA256sum: 6d40df63a47a2a0aceca88e27153e4f2a9d40e6129beabe89448cd4f7b243169
+SHA256sum: 4ea6ba1b98c24701b68206f8606c762d31c5dbf46f074ee6aff9e9caa392f2bf
 Description:  TCP connection tracking input plugin
 
 Package: collectd-mod-teamspeak2
@@ -1226,14 +1227,14 @@ SourceName: collectd-mod-teamspeak2
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 5480
 Filename: collectd-mod-teamspeak2_5.12.0-54_aarch64_generic.ipk
-Size: 6114
-SHA256sum: ac2027379fb168e10dc92ed33381d32f6b57db96666e416a5fabf80bb89343e5
+Size: 6115
+SHA256sum: 88b332a5399010334b9c930ebd7354a40c59497cdfacf1da3fefe916e56cb43f
 Description:  TeamSpeak2 input plugin
 
 Package: collectd-mod-ted
@@ -1244,14 +1245,14 @@ SourceName: collectd-mod-ted
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3316
+Installed-Size: 3315
 Filename: collectd-mod-ted_5.12.0-54_aarch64_generic.ipk
-Size: 3958
-SHA256sum: 8795b5687e594c4bcaaeef2b9ea7a79d828e75d035738c803542786022c59064
+Size: 3967
+SHA256sum: f744be8418d984ef5b23c2e11f8007c5ee45089a24a826c8289319252ca046b9
 Description:  The Energy Detective input plugin
 
 Package: collectd-mod-thermal
@@ -1262,14 +1263,14 @@ SourceName: collectd-mod-thermal
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 4879
+Installed-Size: 4881
 Filename: collectd-mod-thermal_5.12.0-54_aarch64_generic.ipk
-Size: 5505
-SHA256sum: 1e9a22ca604e99b7d48b526876e8b682f6f9fecc52367314d7b966b7d5844bea
+Size: 5510
+SHA256sum: 20abeffdc125aae182883e75e1fec0b60ab9abb9234f8c368972ee2091fbe58a
 Description:  system temperatures input plugin
 
 Package: collectd-mod-threshold
@@ -1280,14 +1281,14 @@ SourceName: collectd-mod-threshold
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 6361
 Filename: collectd-mod-threshold_5.12.0-54_aarch64_generic.ipk
-Size: 7140
-SHA256sum: b764a7ad2ccd8de04c4271f839afd662d0d6d655e7df147a6a304716ee4f1652
+Size: 7150
+SHA256sum: 3955fb2f88bd0098c6e58b3c395ffb70adbe02459940a11b1ef3f4e97c004574
 Description:  Notifications and thresholds plugin
 
 Package: collectd-mod-unixsock
@@ -1298,14 +1299,14 @@ SourceName: collectd-mod-unixsock
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 23626
+Installed-Size: 23628
 Filename: collectd-mod-unixsock_5.12.0-54_aarch64_generic.ipk
-Size: 24345
-SHA256sum: 8feac2a465f95929e9c439a4c94147c69a90b57fa40be5dc7631d4f37910d47e
+Size: 24354
+SHA256sum: b592ad68ef71a55f315a67f3ef6fe319bca33245c77d7d20a555815eea6a0154
 Description:  unix socket output plugin
 
 Package: collectd-mod-uptime
@@ -1316,14 +1317,14 @@ SourceName: collectd-mod-uptime
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 1920
+Installed-Size: 1919
 Filename: collectd-mod-uptime_5.12.0-54_aarch64_generic.ipk
-Size: 2613
-SHA256sum: fa02bfb505b83868be8ffcdd51362231753b300ec6a452a1a1f0747ca40b7058
+Size: 2631
+SHA256sum: 7a2e40ad7898db24bf1f4d0798645f6e9b90d2b0f4e1fa09b7e0b977984d80e8
 Description:  uptime status input plugin
 
 Package: collectd-mod-users
@@ -1334,14 +1335,14 @@ SourceName: collectd-mod-users
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 1575
+Installed-Size: 1574
 Filename: collectd-mod-users_5.12.0-54_aarch64_generic.ipk
-Size: 2310
-SHA256sum: f92cc2995673207e51ad1085335ddeff8c21bb210654343b3c06c5e1af3961f5
+Size: 2306
+SHA256sum: 6fafd126c84e0c54d12a5a1c82c249f36b409dc79d775c459cab60bcfd4d2932
 Description:  user logged in status input plugin
 
 Package: collectd-mod-vmem
@@ -1352,14 +1353,14 @@ SourceName: collectd-mod-vmem
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 3226
+Installed-Size: 3225
 Filename: collectd-mod-vmem_5.12.0-54_aarch64_generic.ipk
-Size: 3878
-SHA256sum: 76a0511e213e9aac1f239b3c3f6804089c40cb25ab51e39e487e63e453278362
+Size: 3880
+SHA256sum: e41ddc53f026e5d19c3acdf2594c969b0e68693b72e44c0ee8d504fadbe37903
 Description:  virtual memory usage input plugin
 
 Package: collectd-mod-wireless
@@ -1370,14 +1371,14 @@ SourceName: collectd-mod-wireless
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 2711
+Installed-Size: 2712
 Filename: collectd-mod-wireless_5.12.0-54_aarch64_generic.ipk
 Size: 3381
-SHA256sum: e84009c4dbdbbe8cd49f5441484a5afe4c5d61652d80d23f1a626244af428ffb
+SHA256sum: 6c5c55d207588a0277743cfebbcb2cad7e51818018acfdf3cc6768be112d8c07
 Description:  wireless status input plugin
 
 Package: collectd-mod-write-graphite
@@ -1388,14 +1389,14 @@ SourceName: collectd-mod-write-graphite
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 7249
+Installed-Size: 7248
 Filename: collectd-mod-write-graphite_5.12.0-54_aarch64_generic.ipk
-Size: 8006
-SHA256sum: 6a481d2c276854c8b8aa4a53bd504e2d54ff9653ae477b3680b3bdbc91dcd861
+Size: 8012
+SHA256sum: 12493faaac5b6d5a88a5b626999e9c0cd6c10a954016d8678efaa0eed731a04a
 Description:  Carbon/Graphite output plugin
 
 Package: collectd-mod-write-http
@@ -1406,14 +1407,14 @@ SourceName: collectd-mod-write-http
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
 Installed-Size: 13378
 Filename: collectd-mod-write-http_5.12.0-54_aarch64_generic.ipk
-Size: 14022
-SHA256sum: 80819775033f15ff058afe7dc025c292c454f2d61818521897e9047f713f9ec1
+Size: 14023
+SHA256sum: b8fcca44e2b063e31421ce9cd6ae9012a66b1997090d22e77b593b2faf36e489
 Description:  HTTP POST output plugin
 
 Package: collectd-mod-write-prometheus
@@ -1424,14 +1425,14 @@ SourceName: collectd-mod-write-prometheus
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 12022
+Installed-Size: 12021
 Filename: collectd-mod-write-prometheus_5.12.0-54_aarch64_generic.ipk
-Size: 12690
-SHA256sum: 97932a5db53c17fb8a2aa968b326b177f13934ffcaa6f497ac74a4aa6ecd06ab
+Size: 12706
+SHA256sum: 74f15ce10595f9d0d601fd5775d3de26dd4536cf6e9e5c9f8ab3c7455599d89b
 Description:  Prometheus output plugin
 
 Package: collectd
@@ -1442,14 +1443,14 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_generic
-Installed-Size: 95577
+Installed-Size: 95574
 Filename: collectd_5.12.0-54_aarch64_generic.ipk
-Size: 96210
-SHA256sum: f9044d773f39e8ed20f52aaea5ccea80331ec0f00573f7aa4d748abb00a44b99
+Size: 96213
+SHA256sum: d3d3476e98ff84b80a602336ffa9974bd4ebdf3fb71a3d85a84ab166c59372c2
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -1459,12 +1460,12 @@ Depends: libc
 Source: /feed/coremark
 SourceName: coremark
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 16744
+Installed-Size: 16743
 Filename: coremark_2023.01.25~d5fad6bd-1_aarch64_generic.ipk
-Size: 17371
-SHA256sum: 5275e9d5cd194008b83029944791b0c4b0ad59be3099d84fe9a4cb63349b0192
+Size: 17357
+SHA256sum: 0955da1569baa3271669ebfba053f914386505355e8ca73d0e612aef94258221
 Description:  Embedded Microprocessor Benchmark
 
 Package: ddns-go
@@ -1476,13 +1477,13 @@ License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
 Require-User: ddns-go:ddns-go
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: herboy2008 <herboy2008@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 4104651
+Installed-Size: 4104706
 Filename: ddns-go_6.12.0-11_aarch64_generic.ipk
-Size: 4093569
-SHA256sum: 6f12f989ce79226e329b8d6b5776520f3a778b73a008d248c5056e214f895ce9
+Size: 4093595
+SHA256sum: 9bb33ad94587c630d013c68fd71100a992616d58a8458ff656f308d491a93040
 Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
 
@@ -1493,13 +1494,13 @@ Source: /feed/ddns-scripts-aliyun
 SourceName: ddns-scripts-aliyun
 License: GPLv2
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Sense <sensec@gmail.com>
 Architecture: all
-Installed-Size: 2830
+Installed-Size: 2831
 Filename: ddns-scripts-aliyun_1.0.3-6_all.ipk
-Size: 3666
-SHA256sum: 97ddbc8ee30c7b18b09d37bb13af1cfb84f2e0363fa034d48c0716e1f54f0d75
+Size: 3662
+SHA256sum: e457d28b370fc46bc590bdd88919249161f56122a85bfba24018eed399c00b6e
 Description:  Dynamic DNS Client scripts extension for AliYun.com
 
 Package: ddns-scripts-cloudflare
@@ -1510,12 +1511,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-cloudflare
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 3656
+Installed-Size: 3657
 Filename: ddns-scripts-cloudflare_2.8.2-76_all.ipk
-Size: 4475
-SHA256sum: 75b3e69b93aaf4a8dd7efdbfc46b566ca34346df76136d4457ec1844cd2f0e4a
+Size: 4474
+SHA256sum: fb81156d5d3cea46b7160634463c805c5b6a07bd6d4031215d706d812b46261c
 Description:  Dynamic DNS Client scripts extension for cloudflare.com API v4 (require curl)
 
 Package: ddns-scripts-cnkuai
@@ -1526,12 +1527,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-cnkuai
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1303
+Installed-Size: 1302
 Filename: ddns-scripts-cnkuai_2.8.2-76_all.ipk
-Size: 2207
-SHA256sum: 45bce7878975ea5f00e5429f158c32078c0a9643416f0f776e20d1e0a8bd8789
+Size: 2203
+SHA256sum: af2bf9e18f95e7b23372b0f21931357ed39cb88cfa444b9c5330673a4a3b9125
 Description:  Dynamic DNS Client scripts extension for 'cnkuai.cn'.
  It requires:
  'option username' to be a valid CnKuai control panel id
@@ -1546,12 +1547,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-digitalocean
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1156
 Filename: ddns-scripts-digitalocean_2.8.2-76_all.ipk
-Size: 2207
-SHA256sum: 6982403b04e945e8c829ebd3f32ea6cd4d1a441e2536fbf8fa339a28fb22b77b
+Size: 2203
+SHA256sum: 90c0cec858068e8522e0e10354ba637a86fcfc6327ce98bdddae1e4fb3f63327
 Description:  Dynamic DNS Client scripts extension for digitalocean.com API v2.
  The script directly updates a DNS record using the DO API.
  It requires:
@@ -1568,12 +1569,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-dnspod-v3
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 4108
 Filename: ddns-scripts-dnspod-v3_2.8.2-76_all.ipk
-Size: 4935
-SHA256sum: e50c71a3f30790792ab169c14977d6be8f1b1243bfc6aa6e6afbe435299c4191
+Size: 4927
+SHA256sum: ccf3c1f34e11fd8ce1fe468d16364e600d8a1036f320782b4079d24c4a689f04
 Description:  Dynamic DNS Client scripts extension for dnspod.tencentcloudapi.com API v3 (require curl)
 
 Package: ddns-scripts-dnspod
@@ -1583,12 +1584,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-dnspod
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 2106
+Installed-Size: 2105
 Filename: ddns-scripts-dnspod_2.8.2-76_all.ipk
-Size: 2883
-SHA256sum: 34ba1e3ce72bfbd2556610697cb2b93e40e042de972ff0117433fdd2404421b0
+Size: 2881
+SHA256sum: db7ff267e06cb071ce5955f25bb763e61db651dfbbe0955f83a265ec81abf405
 Description:  Dynamic DNS Client scripts extension for dnspod.cn API (require curl)
 
 Package: ddns-scripts-freedns
@@ -1599,12 +1600,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-freedns
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1036
+Installed-Size: 1037
 Filename: ddns-scripts-freedns_2.8.2-76_all.ipk
-Size: 1852
-SHA256sum: e877c6876b6061ef43713034ddbb8758405365049842a58e76f66b33e5b08da4
+Size: 1853
+SHA256sum: c7a7d9ce87747e64a1278000c36edc57592b023ed206ade2e2ae2db4befbf022
 Description:  Dynamic DNS Client scripts extension for 'freedns.42.pl'.
 
 Package: ddns-scripts-gandi
@@ -1614,12 +1615,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-gandi
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 992
+Installed-Size: 991
 Filename: ddns-scripts-gandi_2.8.2-76_all.ipk
-Size: 1839
-SHA256sum: 7736c5c606630b7bf6c03117256571f28ee3e0fed9c71e1b250f44b013cca9c6
+Size: 1835
+SHA256sum: 56000c0b65beb287776e65db64b18677ec0afc2ab3e76385d70057cc4c63becd
 Description:  Dynamic DNS Client scripts extension for 'gandi.net'.
  It requires:
  'option username' to be a valid subdomain for gandi.net
@@ -1632,12 +1633,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-gcp
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 3784
 Filename: ddns-scripts-gcp_2.8.2-76_all.ipk
-Size: 4592
-SHA256sum: cdb42d8a031a6d3639ae7abcf7149b9bc51b79e784064421b887da41f2479cd7
+Size: 4587
+SHA256sum: e29bf198358896b77b204c68612562b3ad2ca4a80413746d0828b128d2260eda
 Description:  Dynamic DNS Client scripts extension for Google Cloud DNS API v1 (requires curl)
 
 Package: ddns-scripts-godaddy
@@ -1648,12 +1649,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-godaddy
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 2832
 Filename: ddns-scripts-godaddy_2.8.2-76_all.ipk
-Size: 3624
-SHA256sum: 194089f2c3287ced0790fdc3c8b198d836cfa48dd1d4befb5a30c7f8f62216bf
+Size: 3621
+SHA256sum: ab80f59ee092a7ae74c12ae24fb9292659fdb7e358d4d88a741702f038a17c4e
 Description:  Dynamic DNS Client scripts extension for 'godaddy.com API v1'.
 
 Package: ddns-scripts-huaweicloud
@@ -1663,12 +1664,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-huaweicloud
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 2234
 Filename: ddns-scripts-huaweicloud_2.8.2-76_all.ipk
-Size: 3041
-SHA256sum: 995b152cd9d8d18c8929feeba117c32356190dafceac9110bc5695224a3d9da3
+Size: 3037
+SHA256sum: 2495d19d5bd57969887dff3ccc7dd9729c9875635357b4394ec529bd8adf6079
 Description:  Dynamic DNS Client scripts extension for huaweicloud.com API (require curl and openssl)
 
 Package: ddns-scripts-luadns
@@ -1678,12 +1679,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-luadns
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 2964
 Filename: ddns-scripts-luadns_2.8.2-76_all.ipk
 Size: 3742
-SHA256sum: bad403c7ec3c64da7c113d73d9b6dff845bc45d2cc8eab73cb84469a789b6991
+SHA256sum: 8a9f381b282fb72f2ab0adb63980021f5db43af971e4ba2bbcebbfa57708b15c
 Description:  Dynamic DNS Client scripts extension for LuaDNS API v1 (require curl)
 
 Package: ddns-scripts-noip
@@ -1694,12 +1695,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-noip
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1190
 Filename: ddns-scripts-noip_2.8.2-76_all.ipk
-Size: 2007
-SHA256sum: dc4a5a21009a11da7b1c88b985a12f8d4787f125d2159899ae8719f35dd910a0
+Size: 2002
+SHA256sum: 0a3c6ab94d960f305040e455d29ba37cdab0903899688f15f3e096da3d7511b9
 Description:  Dynamic DNS Client scripts extension for 'no-ip.com'.
 
 Package: ddns-scripts-ns1
@@ -1709,12 +1710,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-ns1
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1079
 Filename: ddns-scripts-ns1_2.8.2-76_all.ipk
-Size: 1927
-SHA256sum: 5691cea6b71b85acba37adaedc83f1c7c11b9da942e8d50abc6ba976290ca9dd
+Size: 1928
+SHA256sum: 69ce22e7eec91123958f0b7b070ae3be611547ddbb32097652faba8891b74b5d
 Description:  Dynamic DNS Client scripts extension for 'ns1.com'.
  It requires:
  'option username' to be a valid zone for ns1.com
@@ -1728,12 +1729,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-nsupdate
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1171
+Installed-Size: 1172
 Filename: ddns-scripts-nsupdate_2.8.2-76_all.ipk
-Size: 2134
-SHA256sum: c5ceba1b390457fe6164d422b9caa38a061ca8a44237db8be76d3043a15ce919
+Size: 2136
+SHA256sum: a3102a1ac6d2ab903f80c8d45e16e2bda14ff7b87b2ef9193fed4f3315b9144b
 Description:  Dynamic DNS Client scripts extension for direct updates using bind nsupdate
  The script directly updates a PowerDNS (or maybe bind server) via nsupdate
  from bind-client package.
@@ -1749,12 +1750,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-one
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1604
+Installed-Size: 1602
 Filename: ddns-scripts-one_2.8.2-76_all.ipk
 Size: 2487
-SHA256sum: 73354f048bc4ea04fb2afa9e27066fa83072a498190c7d576ab2fef7c9fd38d3
+SHA256sum: aed918332846fe88251653486675bafd5ff0256b77e30b771307d68f9d6717d3
 Description:  Dynamic DNS Client scripts extension for 'one.com'.
  It requires:
  'option username' to be a valid Email for one.com Control Panel
@@ -1768,12 +1769,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-pdns
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1096
 Filename: ddns-scripts-pdns_2.8.2-76_all.ipk
-Size: 2008
-SHA256sum: aa9e4c24162364d0c6ee4ab3c11a87a58addc0c9850f41ec8f33c2406f0230f3
+Size: 2003
+SHA256sum: c832407b64887bd9bb5b3a89c8a9678e55265bac48b8a4f2c36ab6dc4b6411f6
 Description:  Dynamic DNS Client scripts extension for 'PowerDNS' via API.
  It requires:
  'option param_opt(Optional Parameter)' to be a valid root URL for the PowerDNS webserver
@@ -1788,12 +1789,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-porkbun
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 2148
 Filename: ddns-scripts-porkbun_2.8.2-76_all.ipk
-Size: 3044
-SHA256sum: af180575189886cfaa7146c41c106c7bb05bde73981b35200bab5e2720e5ef10
+Size: 3043
+SHA256sum: 298f048026e0ba9088877d70e188336533d5f623e76c7040ae1233e6899d38e4
 Description:  Dynamic DNS Client scripts extension for porkbun.com API v3 (require curl)
  It requires:
  'option username' to be a Porkbun API key
@@ -1808,12 +1809,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-route53
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1740
+Installed-Size: 1738
 Filename: ddns-scripts-route53_2.8.2-76_all.ipk
-Size: 2703
-SHA256sum: 4e6086194de450986d0d0881e67d54e6d6e7780ca010e82df291abd2b5b72a17
+Size: 2705
+SHA256sum: 7c7f5f351bdf2fecd34740bc46282ad939bf0dde3993d2acae1ad06fb14d5900
 Description:  Dynamic DNS Client scripts extension for Amazon AWS 'route53 API v1'.
  Note: You must also install ca-certificate or ca-bundle.
  It requires:
@@ -1828,12 +1829,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-scaleway
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1542
+Installed-Size: 1541
 Filename: ddns-scripts-scaleway_2.8.2-76_all.ipk
-Size: 2468
-SHA256sum: d2297956fbf194e6883abbe5d4508906079ef9a0da9022123b2a32997ebfe3d6
+Size: 2462
+SHA256sum: d47a4d223ba8caf571080f7a340ca5644193a52e2f9e6d9bd1be631ac1c40724
 Description:  Dynamic DNS Client scripts extension for Scaleway.
  Parameters:
  'option username'  The zone in which the RR is to be set
@@ -1849,12 +1850,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-services
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 4107
 Filename: ddns-scripts-services_2.8.2-76_all.ipk
-Size: 4727
-SHA256sum: 2f1ccfb6a0c6fdc781e7daa7be971725db337ebf24dc2e26d51626798f8da8af
+Size: 4724
+SHA256sum: 902659ae0ba4dfe2432ee13a66c4e69f4b1ee061675042167e618db39c8180a4
 Description:  Dynamic DNS Client definitions for supported services
 
 Package: ddns-scripts-transip
@@ -1864,12 +1865,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-transip
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1891
+Installed-Size: 1892
 Filename: ddns-scripts-transip_2.8.2-76_all.ipk
-Size: 2833
-SHA256sum: 96443e520e310e60536ae8387ea0f736ee6ca5c026ae081fc545cd7e1ddaa1a5
+Size: 2838
+SHA256sum: cf723733c252ccd1c6c0d8fa01af19b0b8f9bedd9425967bbbfc71e4ac0b6f2e
 Description:  Dynamic DNS Client scripts extension for 'transip.nl'.
  Note: You must also install ca-certificate or ca-bundle.
  It requires:
@@ -1886,12 +1887,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts-utils
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1755
 Filename: ddns-scripts-utils_2.8.2-76_all.ipk
-Size: 2483
-SHA256sum: cf971cb2917872d259e1666af5a7098067ae346d4ae64062cb439446df889fa1
+Size: 2476
+SHA256sum: a4b00d78337b7627061f734683d3d73c53008199e81d0ef6f445e4bb2bfbc9b3
 Description:  Dynamic DNS Client utility scripts for config files
 
 Package: ddns-scripts
@@ -1901,12 +1902,12 @@ Source: /feed/ddns-scripts
 SourceName: ddns-scripts
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 22279
+Installed-Size: 22277
 Filename: ddns-scripts_2.8.2-76_all.ipk
-Size: 23324
-SHA256sum: 5794aac422975b487d818bbdd95e3cc3b29b9210978b642753319237e7c18f4b
+Size: 23322
+SHA256sum: 98027333dc14a316b45d645769f6b4df8ccd908f08dc6d2d27bbb2fe3e79291b
 Description:  Dynamic DNS Client scripts (with IPv6 support)
  A highly configurable set of scripts for doing dynamic dns updates.
  - IPv6 support
@@ -1927,13 +1928,13 @@ SourceName: docker-compose
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Javier Marcet <javier@marcet.info>
 Architecture: aarch64_generic
-Installed-Size: 18125687
+Installed-Size: 18125915
 Filename: docker-compose_2.39.1-1_aarch64_generic.ipk
-Size: 17992944
-SHA256sum: fe01dc0ba7c244e7c1efc994595803625eda957b8982019e15db26bc834baf45
+Size: 17993215
+SHA256sum: 6dff4f14dea9153b7cad099578ead19be2df12bba333416b1e0bd8ac156292ff
 Description:  Multi-container orchestration for Docker
 
 Package: dufs
@@ -1944,13 +1945,13 @@ SourceName: dufs
 License: Apache-2.0 MIT
 LicenseFiles: LICENSE-APACHE LICENSE-MIT
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 1749851
+Installed-Size: 1749853
 Filename: dufs_0.43.0-5_aarch64_generic.ipk
-Size: 1738829
-SHA256sum: 09f9b6ac604a1397d34647ee642b80e965f686f374d80a56f880a6dc8c9e6ef5
+Size: 1738883
+SHA256sum: ef7e8c618edc61bb551d1c974d08b0a96c06cb2604df26dbbe5f0cc34e3b10b2
 Description:  Dufs is a distinctive utility file server that supports static
  serving, uploading, searching, accessing control, webdav...
 
@@ -1960,12 +1961,12 @@ Depends: libc
 Source: /feed/filebrowser
 SourceName: filebrowser
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 7726192
 Filename: filebrowser_2.31.2-1_aarch64_generic.ipk
-Size: 7711367
-SHA256sum: 34dac60ea1c48afc7da2fa9895cbe8a4ac90a1c6bfc9217688cbdba625992000
+Size: 7711461
+SHA256sum: 25187b3dc51d331a002b2bc7b3bb9c15c18c2a699b6c1f40bbd8687f41b8a952
 Description:  File Browser is a create-your-own-cloud-kind of software where you can install it on a server
 
 Package: frpc
@@ -1976,13 +1977,13 @@ SourceName: frpc
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 5343260
+Installed-Size: 5343273
 Filename: frpc_0.51.3-1_aarch64_generic.ipk
-Size: 5323957
-SHA256sum: f2734967b8eb6eeac3ff27ebd767a4aa3ac9edaa82b868e932ddd76dce10256d
+Size: 5324251
+SHA256sum: 62990c84e4ab895f1c2ce012dab209bfd11e08acafe1fa71ae88ccd85fe558b3
 Description:  frpc is a fast reverse proxy client to help you expose a local server behind
  a NAT or firewall to the internet.
 
@@ -1994,13 +1995,13 @@ SourceName: frps
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 6177423
+Installed-Size: 6177339
 Filename: frps_0.51.3-1_aarch64_generic.ipk
-Size: 6154976
-SHA256sum: 6688b81a748441aeeae08055a7b04a87f39ca35de0b37615dbb1b439d9ac06d6
+Size: 6154986
+SHA256sum: 79e7c94e6c0146ce43e224f095a20f4de8a5de1238228780601ac134df93033b
 Description:  frps is a fast reverse proxy server to help you expose a local server behind
  a NAT or firewall to the internet.
 
@@ -2013,13 +2014,13 @@ License: MIT
 LicenseFiles: LICENSE
 Section: net
 Require-User: gost:gost
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 11957649
+Installed-Size: 11957656
 Filename: gost_3.2.2-1_aarch64_generic.ipk
-Size: 11902818
-SHA256sum: d4f9fc4899a2b50df3e6464a05caa525d9c59e21f0742e781273cab74da4903c
+Size: 11902688
+SHA256sum: ab199800354b638205ae6c072e1321d9ce644015990ff407432698858f3a13ce
 Description:  GO Simple Tunnel
 
 Package: gowebdav
@@ -2028,13 +2029,13 @@ Depends: libc
 Source: /feed/gowebdav
 SourceName: gowebdav
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 2434908
+Installed-Size: 2434907
 Filename: gowebdav_0.0.8-1_aarch64_generic.ipk
-Size: 2429788
-SHA256sum: 89e33fc96ddb686102a873a9d78ca958accc24b66813d45539672ba1956f980a
+Size: 2429799
+SHA256sum: 4f45f819e6943e63e42ad2d6735cb3ba0417c02244ea8fcf068e5ee3e40d95e5
 Description:  A simple WebDav server written in Go
 
 Package: iperf3-ssl
@@ -2045,14 +2046,14 @@ Source: /feed/iperf3
 SourceName: iperf3-ssl
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 66523
+Installed-Size: 66522
 Filename: iperf3-ssl_3.19.1-1_aarch64_generic.ipk
-Size: 67125
-SHA256sum: 94a317d659061207fcdce012c6c8f6c6ec7b9b25ddf6efec8b60ae195ffe5b48
+Size: 67158
+SHA256sum: ee1dd5b8bebc553a5b86b9f5658b7ec80fd9ac7c8d1168d88c5cbc4ca0b48ee3
 Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
 
 Package: iperf3
@@ -2062,14 +2063,14 @@ Source: /feed/iperf3
 SourceName: iperf3
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 2472
+Installed-Size: 2471
 Filename: iperf3_3.19.1-1_aarch64_generic.ipk
-Size: 3156
-SHA256sum: 39378e2c72b398e76dd89a2671a7111bb38640979fa7a7c14f36aebce96ab86f
+Size: 3145
+SHA256sum: 28919565523be88c42512b5cae018d8aee609e1a39901e3be7d4fd7487128375
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -2082,12 +2083,12 @@ SourceName: ksmbd-avahi-service
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 349
+Installed-Size: 350
 Filename: ksmbd-avahi-service_3.5.3-2_aarch64_generic.ipk
-Size: 1176
-SHA256sum: 710f63e085d7d81f32e53f521a0b98f96da4d7b622a040ea383f74dd1430578d
+Size: 1181
+SHA256sum: bd5f586a7e5e05e58401c7cec96af0ab1f3c29caeaf00c13a1338f29bfad32e2
 Description:  installs: smb.service
  
  This package contains the service definition for announcing the
@@ -2101,12 +2102,12 @@ SourceName: ksmbd-hotplug
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 678
 Filename: ksmbd-hotplug_3.5.3-2_aarch64_generic.ipk
-Size: 1419
-SHA256sum: 80de0e97ec52d26feec16ec99477e21ef6683d24e71ddf1eeac11eceece4fb61
+Size: 1418
+SHA256sum: 74edbae6627ecb40c389fe93e0206df6bd4a48f7840c70ea4c01e25092fa7ab0
 Description:  Kernel SMB hotplug script for auto sharing
 
 Package: ksmbd-server
@@ -2117,12 +2118,12 @@ SourceName: ksmbd-server
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 129312
+Installed-Size: 129309
 Filename: ksmbd-server_3.5.3-2_aarch64_generic.ipk
-Size: 128448
-SHA256sum: 2894651b2ff1c3063fc5a26afcffedb7488ee66ec6f9b5f6c9e23cbdb4ec69f5
+Size: 128451
+SHA256sum: 8519f3f954e00961d96ade68709f6b2c848d5faf8cf391bbdf1c86140c3f8cbc
 Description:  installs: ksmbd.mountd
  
  This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
@@ -2133,12 +2134,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: /feed/qt6base
 SourceName: libQt6Concurrent
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 7807
 Filename: libQt6Concurrent_6.8.3-1_aarch64_generic.ipk
 Size: 8442
-SHA256sum: 12f38615b900d0e8f965e53404b54884e9f708f3b8e7e8be54d5b203cba959a3
+SHA256sum: 8970c171d029f019f93467d336b8f4593b01196450b166342d1a3133bb62d4fb
 Description:  This package provides the Qt6 Concurrent v6.8.3 library.
 
 Package: libQt6Core
@@ -2147,12 +2148,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Source: /feed/qt6base
 SourceName: libQt6Core
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 2614813
+Installed-Size: 2614734
 Filename: libQt6Core_6.8.3-1_aarch64_generic.ipk
-Size: 2607424
-SHA256sum: 81aa0c0d75d5f3dfb1b485ed62bb57ca5c58f7031224d0ceeef64a2f3dc133a6
+Size: 2607399
+SHA256sum: 45dead5d44bfcece48cc0f549d8d4f5015c0015d17f4177ea2450c4dac92ac95
 Description:  This package provides the Qt6 Core v6.8.3 library.
 
 Package: libQt6DBus
@@ -2161,12 +2162,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: /feed/qt6base
 SourceName: libQt6DBus
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 336539
+Installed-Size: 336540
 Filename: libQt6DBus_6.8.3-1_aarch64_generic.ipk
-Size: 336669
-SHA256sum: 3ce618cfce9132e4e9934c682e6925b0f262e5049383aaa9a9fca25ff0fefc80
+Size: 336646
+SHA256sum: 6986daaa2473ac160de1d74f60d7ad48e08cebafd8275c0a4bc9aa60de7d18bf
 Description:  This package provides the Qt6 DBus v6.8.3 library.
 
 Package: libQt6Gui
@@ -2175,12 +2176,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
 Source: /feed/qt6base
 SourceName: libQt6Gui
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 2969186
+Installed-Size: 2969184
 Filename: libQt6Gui_6.8.3-1_aarch64_generic.ipk
-Size: 2964540
-SHA256sum: 67888cce828dccf84bde6f73fca1c73c81cdaa6c3aa8bd4969fc2d07cfa316f5
+Size: 2964529
+SHA256sum: 2b43fc5a11c5186e57b84e619277d713a79402c50e621f82abd2a7dd05597f07
 Description:  This package provides the Qt6 Gui v6.8.3 library.
 
 Package: libQt6Network
@@ -2189,12 +2190,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
 Source: /feed/qt6base
 SourceName: libQt6Network
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 913892
+Installed-Size: 913889
 Filename: libQt6Network_6.8.3-1_aarch64_generic.ipk
-Size: 912813
-SHA256sum: a264bac6aeb49abb190eafddcc96f0a4d5782c8895f5241ff58c833c34f0e135
+Size: 912680
+SHA256sum: 8dad85e9a5f0b13249818b038f4dd472053b10df3f056f5ec72a5eab8f8a7476
 Description:  This package provides the Qt6 Network v6.8.3 library.
 
 Package: libQt6PrintSupport
@@ -2203,12 +2204,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Widgets
 Source: /feed/qt6base
 SourceName: libQt6PrintSupport
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 167696
+Installed-Size: 167698
 Filename: libQt6PrintSupport_6.8.3-1_aarch64_generic.ipk
-Size: 167503
-SHA256sum: 73133fed358f196aef5189c5b2ef62eb95fa38adca6660aba1971f01f2755f4a
+Size: 167525
+SHA256sum: 42006fd7a4e54593d6e9bab27cb333cb0c51f24c11d7f73d44f673250c1e3cd8
 Description:  This package provides the Qt6 PrintSupport v6.8.3 library.
 
 Package: libQt6Sql
@@ -2217,12 +2218,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: /feed/qt6base
 SourceName: libQt6Sql
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 89479
+Installed-Size: 89478
 Filename: libQt6Sql_6.8.3-1_aarch64_generic.ipk
-Size: 89993
-SHA256sum: bace14f5e07864d4daf91e916dc28ffe7a87846b9b7bc8be89b931f7bcee567f
+Size: 89990
+SHA256sum: 6d04179f738ea01096aaca2f2fe3729203f65897cf55f5153aeda7a11f370cfd
 Description:  This package provides the Qt6 Sql v6.8.3 library.
 
 Package: libQt6Test
@@ -2231,12 +2232,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: /feed/qt6base
 SourceName: libQt6Test
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 149769
+Installed-Size: 149770
 Filename: libQt6Test_6.8.3-1_aarch64_generic.ipk
-Size: 150332
-SHA256sum: 70a7d918fe44c8578ed3d30eeb2a36573b7549e59f83a5ddd66cd1dfdc016c5c
+Size: 150355
+SHA256sum: 1b8e3c4d191a353bdf6720584a879253e783a4b744024745713f824495b1c9fa
 Description:  This package provides the Qt6 Test v6.8.3 library.
 
 Package: libQt6Widgets
@@ -2245,12 +2246,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
 Source: /feed/qt6base
 SourceName: libQt6Widgets
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 3389328
+Installed-Size: 3389327
 Filename: libQt6Widgets_6.8.3-1_aarch64_generic.ipk
-Size: 3381954
-SHA256sum: 3713a32fc4d2ad80073f254586d8a4fd9345ae7767f2007f272496d3094616b9
+Size: 3382082
+SHA256sum: 2938898dcc6c26bba0aa4f12baaf873c342fbcb36970ed73b772c5bc9add03b1
 Description:  This package provides the Qt6 Widgets v6.8.3 library.
 
 Package: libQt6Xml
@@ -2259,12 +2260,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: /feed/qt6base
 SourceName: libQt6Xml
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 70091
+Installed-Size: 70093
 Filename: libQt6Xml_6.8.3-1_aarch64_generic.ipk
-Size: 70828
-SHA256sum: db757ce80c3051c8fc3b1bcb6cfef08932c44365cdddf71166a43e1b6396f89e
+Size: 70836
+SHA256sum: 497963eb0bc088de7fb04062726b1803164db306c2fbb88e5287bf97f8f2a620
 Description:  This package provides the Qt6 Xml v6.8.3 library.
 
 Package: libiperf3
@@ -2274,14 +2275,14 @@ Source: /feed/iperf3
 SourceName: libiperf3
 License: BSD-3-Clause
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 78726
+Installed-Size: 78727
 Filename: libiperf3_3.19.1-1_aarch64_generic.ipk
-Size: 79460
-SHA256sum: a5cf9fe5fc18cc0e4e03a942da10d9d6e7b6a039b82c9d68b6f23dc6417751fc
+Size: 79473
+SHA256sum: 79bd65a3f84700b5884bb719b3a56dfad2433e6340d75a20c00f81b699a97c80
 Description:  Libiperf is a library providing an API for iperf3 functionality.
 
 Package: libnetsnmp
@@ -2291,14 +2292,14 @@ Source: /feed/net-snmp
 SourceName: libnetsnmp
 License: MIT BSD-3-Clause-Clear
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:net-snmp:net-snmp
 Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
 Architecture: aarch64_generic
-Installed-Size: 494153
+Installed-Size: 494149
 Filename: libnetsnmp_5.9.4-4_aarch64_generic.ipk
-Size: 492959
-SHA256sum: f0a7d5c5be47e66cb3564f03581b940286822356a835ded28361d9359b52f3fb
+Size: 493008
+SHA256sum: 64819a6f52aa12c1d60186489045dd4c457f7433aa8ef1d3210f121ea9bf3214
 Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
  monitoring the health and welfare of network equipment (eg. routers),
  computer equipment and even devices like UPSs. Net-SNMP is a suite of
@@ -2315,13 +2316,13 @@ SourceName: librrd1
 License: GPL-2.0-or-later
 LicenseFiles: COPYING COPYRIGHT
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 141346
+Installed-Size: 141345
 Filename: librrd1_1.0.50-7_aarch64_generic.ipk
-Size: 142183
-SHA256sum: 08718e961f864ae6ac70c8dfc5ed2ee8ac84f96f9325d452b47b65d2a3261fc7
+Size: 142156
+SHA256sum: e69ad6c9899dcdeb41514e2a17468ba38aa8f91150c717ceae6da4f646dfc175
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -2343,13 +2344,13 @@ SourceName: liburing
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Christian Lachner <gladiac@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 8201
+Installed-Size: 8199
 Filename: liburing_2.7-1_aarch64_generic.ipk
-Size: 9001
-SHA256sum: 3bd62f1c4af47cd0c95ebba88ea184a83fa9411c2ed92e3b75a6ada936958cf4
+Size: 9005
+SHA256sum: c2e952ad5841ad7bb77ab0b2b577e29f8efa6dc0fcdadf9c5c1378083dacb70a
 Description:  liburing provides helpers to setup and teardown io_uring instances,
  and also a simplified interface for applications that don't need
  (or want) to deal with the full kernel side implementation.
@@ -2363,14 +2364,14 @@ SourceName: libzstd
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:facebook:zstandard
 Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 341166
+Installed-Size: 341165
 Filename: libzstd_1.5.7-1_aarch64_generic.ipk
-Size: 341240
-SHA256sum: 7eac021aa3223d7b599fb27f3f5459d6f57795d8ffda2dfaaf21b9a798b131da
+Size: 341246
+SHA256sum: 0d9ffe5efacb6884b2d3ba2c71d002830139b826d0f54e7c7ddfe0155895b2ba
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides libzstd library.
 
@@ -2382,13 +2383,13 @@ SourceName: lshw
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 343084
+Installed-Size: 343082
 Filename: lshw_2023-03-20-b4e06730-1_aarch64_generic.ipk
-Size: 342525
-SHA256sum: 9f91a99b4d83ab2463ecd9d5d2c9c64dd65ef2162e6324508e62a65b9d348592
+Size: 342446
+SHA256sum: 1027d395d2539a9d4bbcbb3bfbae42f3156243cd6cb80a00d656f8db8b07f35a
 Description:  HardWare LiSter for Linux
 
 Package: lsof
@@ -2399,29 +2400,29 @@ SourceName: lsof
 License: lsof
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:lsof_project:lsof
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 76643
+Installed-Size: 76641
 Filename: lsof_4.99.5-1_aarch64_generic.ipk
-Size: 77096
-SHA256sum: 95ad505c289dc9fc3ccb3d6473aacc15eaec880924113ec412b65e3f90e32f0c
+Size: 77101
+SHA256sum: 015bde97601f86acabfc26f02cfa020dd3c93e6ebb78e591437998b8ee34e494
 Description:  LiSt Open Files - a diagnostic tool
 
 Package: luci-app-adguardhome
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, wget-ssl, xz-utils, xz, luci-lua-runtime
 Source: /feed/luci-app-adguardhome
 SourceName: luci-app-adguardhome
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 91389
-Filename: luci-app-adguardhome_git-25.217.58275-b5f4848_all.ipk
-Size: 92550
-SHA256sum: 1bc1aeeb3945480fc934f7b33649d77c3fb60a05cef147b1fe36cd735a3ca5d4
+Installed-Size: 91390
+Filename: luci-app-adguardhome_git-25.218.58445-41d4581_all.ipk
+Size: 92553
+SHA256sum: 457e673f3d80dc18feda7b4b886178c0287daba410a9f55eadf728b960a6e1be
 Description:  LuCI support for AdGuardHome
 
 Package: luci-app-airconnect
@@ -2430,13 +2431,13 @@ Depends: libc, airconnect
 Source: /feed/luci-app-airconnect
 SourceName: luci-app-airconnect
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1769
+Installed-Size: 1768
 Filename: luci-app-airconnect_1.0.2_all.ipk
-Size: 2577
-SHA256sum: e68e95bf51d782f3ca0c7901fb6be3e3d6e8f9b901b53aa7a9bd997529d60153
+Size: 2572
+SHA256sum: 7758fbcd00febe631eae4ad60033649f66a3dfae186c5911c69a7cc373ac300f
 Description:  LuCI support for AirConnect
 
 Package: luci-app-argon-config
@@ -2445,45 +2446,45 @@ Depends: libc, luci-theme-argon
 Source: /feed/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3206
+Installed-Size: 3205
 Filename: luci-app-argon-config_1.0_all.ipk
-Size: 4054
-SHA256sum: 21260bba6913621513d268a83df0ffa56194162497a44820fbe91d3c022ff63a
+Size: 4055
+SHA256sum: 311bf5b8b0e2b4f4024cef4e86e72059d9a809463247ecd2ac71f987572e69f6
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-aria2
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-compat, aria2, luci-lib-ipkg, luci-lua-runtime
 Source: /feed/luci-app-aria2
 SourceName: luci-app-aria2
 License: MIT
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9003
-Filename: luci-app-aria2_git-25.217.58275-b5f4848_all.ipk
-Size: 9878
-SHA256sum: 3a38fd39b51d1bbee55757a814ea7feb7500abc5fb83a68c124bc3a79688dd7f
+Installed-Size: 9006
+Filename: luci-app-aria2_git-25.218.58445-41d4581_all.ipk
+Size: 9869
+SHA256sum: aec2c9ba4411f1f71652de7ddf39f811a12edd8fa861145cdefa02c08dfc4545
 Description:  LuCI Support for Aria2
 
 Package: luci-app-cifs-mount
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, kmod-fs-cifs
 Provides: luci-app-cifs
 Source: /feed/luci-app-cifs-mount
 SourceName: luci-app-cifs-mount
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2422
-Filename: luci-app-cifs-mount_git-25.217.58275-b5f4848_all.ipk
-Size: 3311
-SHA256sum: 7898a312aa3fe890b767370284c14d135de400be298f3904ebaf9ead0a2f956f
+Installed-Size: 2415
+Filename: luci-app-cifs-mount_git-25.218.58445-41d4581_all.ipk
+Size: 3300
+SHA256sum: da1e77670d6bdc89d8b3a7749e2a14149175d56979a6855e0271f3febc4a83ae
 Description:  LuCI for SMB/CIFS Mount
 
 Package: luci-app-cpufreq
@@ -2492,13 +2493,13 @@ Depends: libc, irqbalance, luci-compat, kmod-hwmon-pwmfan, luci-lua-runtime
 Source: /feed/luci-app-cpufreq
 SourceName: luci-app-cpufreq
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8605
+Installed-Size: 8608
 Filename: luci-app-cpufreq_1.1_all.ipk
-Size: 9375
-SHA256sum: 42bb67e0697aa9e1a27e1e0144995e97d639d31dba78f0f3de3e311bb23d6bd4
+Size: 9374
+SHA256sum: 2ae519fe22b9077022c05541765bc607011df3290aebc78ef2dd9b2cfaa0aabf
 Description:  LuCI for CPU Freq Setting
 
 Package: luci-app-ddns-go
@@ -2507,13 +2508,13 @@ Depends: libc, ddns-go
 Source: /feed/luci-app-ddns-go
 SourceName: luci-app-ddns-go
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 5235
+Installed-Size: 5233
 Filename: luci-app-ddns-go_1.5.4_all.ipk
-Size: 6104
-SHA256sum: 480a2773bdf79a55b5893099602d468cd217ea9e2fcccbb0de3ab535fcb896d3
+Size: 6101
+SHA256sum: e59bd844e9215babedf41b6c2a57fa7087fc728d41995b7d10ed88b4427f29d9
 Description:  LuCI Support for Dynamic ddns-go Client
 
 Package: luci-app-diskman
@@ -2523,13 +2524,13 @@ Source: /feed/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 20671
+Installed-Size: 20670
 Filename: luci-app-diskman_v0.2.13_all.ipk
-Size: 21566
-SHA256sum: 4b05760e3e62d464d4a9428d583f8f2554a7da43a4f42250b9a371dcb4ee1289
+Size: 21558
+SHA256sum: b0ffbd565ecccdb32ac289e43ced4f9683b4f3270df0933098c7f4ef439f72dc
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-dockerman
@@ -2539,61 +2540,61 @@ Source: /feed/luci-app-dockerman
 SourceName: luci-app-dockerman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 35774
+Installed-Size: 35776
 Filename: luci-app-dockerman_v0.5.13-20240317_all.ipk
-Size: 36696
-SHA256sum: 051052def8c6f4ace7bf539a6d8f6ade264bbd7c8eedd2b0c48e7d635afdf618
+Size: 36715
+SHA256sum: 335935ea5bb5a0ea9463660670b37f4f602e6ceb34c23cdd15d1a407f0b09f4f
 Description:  LuCI Support for docker
 
 Package: luci-app-dufs
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, dufs
 Source: /feed/luci-app-dufs
 SourceName: luci-app-dufs
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2094
-Filename: luci-app-dufs_git-25.217.58275-b5f4848_all.ipk
-Size: 2920
-SHA256sum: 84877c350b46ad59b56bb390ef2de147963e90da3ff658508484c0c6d955b64b
+Installed-Size: 2095
+Filename: luci-app-dufs_git-25.218.58445-41d4581_all.ipk
+Size: 2916
+SHA256sum: 2d9f8da08171275c659ab5d2e75764b1489cec94655265592c017a544cbf1407
 Description:  LuCI support for dufs
 
 Package: luci-app-einat
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, einat-ebpf
 Source: /feed/luci-app-einat
 SourceName: luci-app-einat
 License: MIT
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2589
-Filename: luci-app-einat_git-25.217.58275-b5f4848_all.ipk
-Size: 3447
-SHA256sum: c612cc00933ad02431327fdbe9091cc7f2f9342911dad7added64f5b797f82b2
+Filename: luci-app-einat_git-25.218.58445-41d4581_all.ipk
+Size: 3445
+SHA256sum: 174a217eb63bf49c08e18f7c88eb6d512b27b92ddbd9e69a739250b9ddb531b3
 Description:  eBPF-based Endpoint-Independent NAT
 
 Package: luci-app-eqos
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, tc, kmod-sched-core, kmod-ifb
 Source: /feed/luci-app-eqos
 SourceName: luci-app-eqos
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2630
-Filename: luci-app-eqos_git-25.217.58275-b5f4848_all.ipk
-Size: 3454
-SHA256sum: a54b1c8315597649f683f9007020a597d627f7d381047c5340605de945016fba
+Installed-Size: 2628
+Filename: luci-app-eqos_git-25.218.58445-41d4581_all.ipk
+Size: 3446
+SHA256sum: 5bc55113e429e7b8bf54f35aba5f8f8630e50a1898d0abe53a6ce864b2c3e21f
 Description:  LuCI support for Easy QoS
 
 Package: luci-app-eqosplus
@@ -2603,13 +2604,13 @@ Source: /feed/luci-app-eqosplus
 SourceName: luci-app-eqosplus
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6164
+Installed-Size: 6166
 Filename: luci-app-eqosplus_1.2.5_all.ipk
-Size: 7153
-SHA256sum: 30300692d52ec270da1a8f1ff85062b3b0179f207fe7f5bd73f40fb83e875e14
+Size: 7152
+SHA256sum: 39ca11e423872de126e2df59a27d076534254d6bc3b70c2ef8ad1d346ef51d02
 Description:  LuCI support for Easy eqosplus(Support speed limit based on IP address).
 
 Package: luci-app-filebrowser-go
@@ -2618,13 +2619,13 @@ Depends: libc, filebrowser, luci-compat, luci-lua-runtime
 Source: /feed/luci-app-filebrowser-go
 SourceName: luci-app-filebrowser-go
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3286
+Installed-Size: 3285
 Filename: luci-app-filebrowser-go_1.1_all.ipk
-Size: 4118
-SHA256sum: 797bca4d2fb68ce54899365792e10300d150883e470d8f09e2fbee13c3e48e7a
+Size: 4110
+SHA256sum: 73b52e5994cc838f8c49bf3aee576b3c540375065853ad43ac7b11d8fa330a5a
 Description:  LuCI support for FileBrowser
 
 Package: luci-app-filemanager
@@ -2634,60 +2635,60 @@ Source: /feed/luci-app-filemanager
 SourceName: luci-app-filemanager
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 20279
+Installed-Size: 20277
 Filename: luci-app-filemanager_1.0.1_all.ipk
-Size: 21072
-SHA256sum: 4ce58384ccd418469322ead8cd675d3e93ee693c84860a3756c15e91235fdeb2
+Size: 21068
+SHA256sum: 7aed46791daf263db60382d975144c9b66bf8a141a19a4243017d8363a511841
 Description:  LuCI File Manager module
 
 Package: luci-app-frpc
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, frpc
 Source: /feed/luci-app-frpc
 SourceName: luci-app-frpc
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4363
-Filename: luci-app-frpc_git-25.217.58275-b5f4848_all.ipk
-Size: 5174
-SHA256sum: 495df026a50a52b8927a0753345f1dccc6a8571a9aa8cb697be56488a01236ea
+Installed-Size: 4361
+Filename: luci-app-frpc_git-25.218.58445-41d4581_all.ipk
+Size: 5163
+SHA256sum: e761e93121cd747f1e8175acf3ff156a95ca7f78d96beecbf3f9b1871607a3c9
 Description:  LuCI Support for frp client
 
 Package: luci-app-frps
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, frps
 Source: /feed/luci-app-frps
 SourceName: luci-app-frps
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3416
-Filename: luci-app-frps_git-25.217.58275-b5f4848_all.ipk
-Size: 4259
-SHA256sum: a2fd2bd9e8c624914d98f59f0e9efb8880903d144fa3d30fe2dbc34586eb3461
+Installed-Size: 3415
+Filename: luci-app-frps_git-25.218.58445-41d4581_all.ipk
+Size: 4256
+SHA256sum: 6cc83f0995801c1febbb20a0561ea52fe0b1df8de3ebe0b121db4ef8b207185a
 Description:  LuCI Support for frp server
 
 Package: luci-app-gost
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, gost
 Source: /feed/luci-app-gost
 SourceName: luci-app-gost
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1386
-Filename: luci-app-gost_git-25.217.58275-b5f4848_all.ipk
-Size: 2195
-SHA256sum: 7ea6421887d358db0b97f645031679ff92ea7c24bc4509fa1180912a05bcb252
+Installed-Size: 1383
+Filename: luci-app-gost_git-25.218.58445-41d4581_all.ipk
+Size: 2186
+SHA256sum: a85b2b380060f20a62b031e2e33a92296275085641ac2d0fb4a80b9641056e6c
 Description:  LuCI support for GOST
 
 Package: luci-app-gowebdav
@@ -2696,44 +2697,44 @@ Depends: libc, gowebdav, luci-lua-runtime
 Source: /feed/luci-app-gowebdav
 SourceName: luci-app-gowebdav
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2598
+Installed-Size: 2599
 Filename: luci-app-gowebdav_1.0_all.ipk
-Size: 3428
-SHA256sum: 08e123d1d8447251f5ecf632eecbd35e7293194db10998217befceb5caab5630
+Size: 3426
+SHA256sum: c577c9966fd4f87ab009254489ba9c141ebf7a62c74dc56d1cfb1f7fe60a5962
 Description:  LuCI support for GoWebDav
 
 Package: luci-app-hd-idle
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, hd-idle, lsblk
 Source: /feed/luci-app-hd-idle
 SourceName: luci-app-hd-idle
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1544
-Filename: luci-app-hd-idle_git-25.217.58275-b5f4848_all.ipk
-Size: 2365
-SHA256sum: 684339076aadf3477c003e25902db45a0f31c995a530fbfcd0860bc05690ff11
+Filename: luci-app-hd-idle_git-25.218.58445-41d4581_all.ipk
+Size: 2363
+SHA256sum: e80c3663a1c3a7b2655307176b1cea14fb1e75f3b079412e3aed8c35584cb944
 Description:  Hard Disk Idle Spin-Down module
 
 Package: luci-app-ksmbd
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-base, ksmbd-server
 Source: /feed/luci-app-ksmbd
 SourceName: luci-app-ksmbd
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2049
-Filename: luci-app-ksmbd_git-25.217.58275-b5f4848_all.ipk
-Size: 2902
-SHA256sum: e0137937ec0a437a0f0ed217de96cc935d531222adb260c9495bfacba08a6df3
+Filename: luci-app-ksmbd_git-25.218.58445-41d4581_all.ipk
+Size: 2899
+SHA256sum: 229242d94a507f6b3e1d2d3316dee468deb6ad35b04eb3bb8f6134244248259e
 Description:  Network Shares - Ksmbd the SMB kernel fileserver
 
 Package: luci-app-mentohust
@@ -2742,13 +2743,13 @@ Depends: libc, mentohust
 Source: /feed/luci-app-mentohust
 SourceName: luci-app-mentohust
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2215
+Installed-Size: 2213
 Filename: luci-app-mentohust_1.0.2_all.ipk
 Size: 3037
-SHA256sum: c20e93b5d39f750ad56ceb1371a1becf5d8faabec3a7f1cafc7d3a105b72f8b2
+SHA256sum: 69a48f0ad8f46a048af5ecce014ca32aceaaa4dea06ff45951e1ef324b29da5c
 Description:  LuCI support for MentoHUST
 
 Package: luci-app-mosdns
@@ -2757,44 +2758,44 @@ Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Source: /feed/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 102456
+Installed-Size: 102460
 Filename: luci-app-mosdns_1.6.15_all.ipk
-Size: 103202
-SHA256sum: de64f7c6eccf86677b978f84e55ceb27126432640114d3c4df3a627a3144cfcc
+Size: 103489
+SHA256sum: 36dd559832d3f6c268454161d2e0b615e1a8cdea036260cee16d6296d257c01d
 Description:  LuCI Support for mosdns
 
 Package: luci-app-msd_lite
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, msd_lite
 Source: /feed/luci-app-msd_lite
 SourceName: luci-app-msd_lite
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1284
-Filename: luci-app-msd_lite_git-25.217.58275-b5f4848_all.ipk
-Size: 2113
-SHA256sum: 827af864b5392a86660c9f1399518523fd7a22431631d4a2fcc8fe994056f676
+Installed-Size: 1277
+Filename: luci-app-msd_lite_git-25.218.58445-41d4581_all.ipk
+Size: 2108
+SHA256sum: bedf738af0607c502ab57a68dc508f3f4d943e48e9ba8b99e3233610b7ad7f83
 Description:  LuCI support for Multi stream daemon lite
 
 Package: luci-app-natmap
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, natmap
 Source: /feed/luci-app-natmap
 SourceName: luci-app-natmap
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1704
-Filename: luci-app-natmap_git-25.217.58275-b5f4848_all.ipk
-Size: 2523
-SHA256sum: 96e98aa04a593f98de9a48ab52ec9bba747ef231a66dbc191dddf5e102a9cbc0
+Installed-Size: 1702
+Filename: luci-app-natmap_git-25.218.58445-41d4581_all.ipk
+Size: 2518
+SHA256sum: 1dec4a8961879831e4be15672d88b46026e6a634086bfba739055d5ef503ae2b
 Description:  LuCI Support for natmap
 
 Package: luci-app-netdata
@@ -2803,13 +2804,13 @@ Depends: libc, netdata, luci-lua-runtime
 Source: /feed/luci-app-netdata
 SourceName: luci-app-netdata
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 629
+Installed-Size: 630
 Filename: luci-app-netdata_1.0_all.ipk
-Size: 1448
-SHA256sum: 2b23e4e5232d8f5c281ff2b7ee0d2d8771900c5dd0ec09bdc29ed7abc3edd263
+Size: 1450
+SHA256sum: c390da9308cb49425451314693981f11507837fe0238c0737a70c8e73128257e
 Description:  LuCI support for Netdata
 
 Package: luci-app-netspeedtest
@@ -2818,13 +2819,13 @@ Depends: libc, iperf3, speedtest-cli, curl, jsonfilter, taskset
 Source: /feed/luci-app-netspeedtest
 SourceName: luci-app-netspeedtest
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4219
+Installed-Size: 4217
 Filename: luci-app-netspeedtest_1.1_all.ipk
-Size: 5048
-SHA256sum: fd481ad2b0122fc17060e52db389077e8b87fc2a07d265b9bcee7bb40488bacc
+Size: 5047
+SHA256sum: 59a5051322b721b9474c351c04ef3b661c38826101f175ca02803fb450936360
 Description:  LuCI Net Speedtest
 
 Package: luci-app-nfs
@@ -2833,28 +2834,28 @@ Depends: libc, nfs-utils, nfs-kernel-server, nfs-kernel-server-utils, mount-util
 Source: /feed/luci-app-nfs
 SourceName: luci-app-nfs
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1966
+Installed-Size: 1969
 Filename: luci-app-nfs_1.1_all.ipk
 Size: 2812
-SHA256sum: a51faa8c44bfb08154fac6e4c82f4ffa3b28af52c1bcb7a668a3c3979437080e
+SHA256sum: 78bc26d84eccdde9a777e2795317231066d2ce8de4d38d717aebf29d281978e2
 Description:  LuCI support for nfs
 
 Package: luci-app-nlbwmon
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, nlbwmon
 Source: /feed/luci-app-nlbwmon
 SourceName: luci-app-nlbwmon
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 20972
-Filename: luci-app-nlbwmon_git-25.217.58275-b5f4848_all.ipk
-Size: 21802
-SHA256sum: 83b392e450dedd0b09ecc3620ab9ba3a136879d2a86ae8aae6de7e22bb542a39
+Installed-Size: 20970
+Filename: luci-app-nlbwmon_git-25.218.58445-41d4581_all.ipk
+Size: 21794
+SHA256sum: 64b07d3f37a6599ecc0accd9ce3638fabedb2409a0d7ab2939d5177d6bba54e8
 Description:  Netlink based bandwidth accounting
 
 Package: luci-app-oaf
@@ -2863,13 +2864,13 @@ Depends: libc, appfilter, kmod-oaf, luci-compat, luci-lua-runtime
 Source: /feed/luci-app-oaf
 SourceName: luci-app-oaf
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2473573
+Installed-Size: 2473589
 Filename: luci-app-oaf_6.1.2_all.ipk
-Size: 2474810
-SHA256sum: 66982aa94fafb931bd18939dab936227272ddef637eb1160cd053bffac1accd0
+Size: 2474777
+SHA256sum: 488f55fba6819fb558dcc2e336f43a1ad4c5607fe1c8668e5fa17e08d98379b1
 Description:  LuCI support for OAF
 
 Package: luci-app-qbittorrent
@@ -2878,13 +2879,13 @@ Depends: libc, qbittorrent
 Source: /feed/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1812
+Installed-Size: 1813
 Filename: luci-app-qbittorrent_1.0.1_all.ipk
-Size: 2609
-SHA256sum: 77df2c0577ffa853f5e377d96aea9f7a57fb8b0f6e1d44a37d04216fa49c9906
+Size: 2613
+SHA256sum: 25012ac3143870f5cc2e9ee21a3e4e0aa66801a3aa42ffe76191083a1cb69ae1
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-qosmate
@@ -2894,13 +2895,13 @@ Source: /feed/luci-app-qosmate
 SourceName: luci-app-qosmate
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 13329
+Installed-Size: 13326
 Filename: luci-app-qosmate_1.0.7_all.ipk
-Size: 14163
-SHA256sum: 446b6a05d8649c22349be516ded5f14f8717a9e7fab2bbb90d8eee78f09f5992
+Size: 14165
+SHA256sum: 8c7bbaf604e2c09f303e799a676546db467075f0b8d559478c45d1d8ad35a773
 Description:  LuCI support for QoSmate
 
 Package: luci-app-quickfile
@@ -2910,13 +2911,13 @@ Source: /feed/luci-app-quickfile
 SourceName: luci-app-quickfile
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1014
+Installed-Size: 1013
 Filename: luci-app-quickfile_1.0.0_all.ipk
 Size: 1833
-SHA256sum: 7a8567f361fbbe1c5afc9a0193bfd7d2f90011f3c07388d400424f15569dbec5
+SHA256sum: 87334d642c6f8fa5601adb45686008622c83772dab9116aa29639280ed49a933
 Description:  LuCI File Manager module
 
 Package: luci-app-ramfree
@@ -2925,28 +2926,28 @@ Depends: libc
 Source: /feed/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 754
+Installed-Size: 752
 Filename: luci-app-ramfree_1.0_all.ipk
-Size: 1556
-SHA256sum: 55b68917ecb72bebbf0bd0020d8f352fc0f7987eab92201b82bb361dba82a459
+Size: 1558
+SHA256sum: fc5ce8bab4c2037931e0a3239ef4dea2a4c600b0236d412150079f283015bafb
 Description:  LuCI support for ramfree
 
 Package: luci-app-samba4
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, samba4-server
 Source: /feed/luci-app-samba4
 SourceName: luci-app-samba4
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2356
-Filename: luci-app-samba4_git-25.217.58275-b5f4848_all.ipk
-Size: 3196
-SHA256sum: 6d06ccc9f5ad9a99cc02a640371d0ff6cc3064d2ab36103b9a2c5d53f13a5ce7
+Installed-Size: 2357
+Filename: luci-app-samba4_git-25.218.58445-41d4581_all.ipk
+Size: 3197
+SHA256sum: 8bdb7562cae9dc48752b2e243c38c42bdd1f26cb5bb521ec79058e919bcf53ba
 Description:  Network Shares - Samba 4 SMB/CIFS fileserver
 
 Package: luci-app-smartdns
@@ -2956,13 +2957,13 @@ Source: /feed/luci-app-smartdns
 SourceName: luci-app-smartdns
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9692
 Filename: luci-app-smartdns_1.2025.46_all.ipk
-Size: 10542
-SHA256sum: c1d49c7f69a6811101b6c9318f50d2e09ccd25d2246a61e6d823802e753b6f1d
+Size: 10537
+SHA256sum: 8bc76e59b0bf90bd688281f23c1c888d13b6162fbd420f4855b753e9c843f684
 Description:  Provides Luci for smartdns
 
 Package: luci-app-socat
@@ -2971,13 +2972,13 @@ Depends: libc, socat, luci-lua-runtime
 Source: /feed/luci-app-socat
 SourceName: luci-app-socat
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3682
+Installed-Size: 3685
 Filename: luci-app-socat_1.0_all.ipk
-Size: 4493
-SHA256sum: b30451209600cdbd2ecc1257841ee4eda6b1fc248cce1e1253f0f6bfcc73a7cf
+Size: 4497
+SHA256sum: 41c2d3d80a0aa0c8e601a7bafe46f22c7782afcddbc57d7ae93207f9a4be9fbd
 Description:  LuCI support for Socat
 
 Package: luci-app-tailscale
@@ -2986,13 +2987,13 @@ Depends: libc, tailscale
 Source: /feed/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7008
+Installed-Size: 7007
 Filename: luci-app-tailscale_1.2.6_all.ipk
-Size: 7850
-SHA256sum: 230f940290429695751af3c1858a516e1edb9b0e7a7d0a1bd621958a7086ef32
+Size: 7845
+SHA256sum: 188d8d457ed81e000951ffdbf0a02a25ce982a0c3e61b8a2ff6aef84ab881a72
 Description:  LuCI for Tailscale
 
 Package: luci-app-timedreboot
@@ -3001,28 +3002,28 @@ Depends: libc, luci, bash, luci-lua-runtime
 Source: /feed/luci-app-timedreboot
 SourceName: luci-app-timedreboot
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2312
+Installed-Size: 2313
 Filename: luci-app-timedreboot_1.1_all.ipk
-Size: 3218
-SHA256sum: 3caf29d3f150cbd1d74e6de1e16f8e3f55b9409d97a8adaf4849c609fb10aed0
+Size: 3216
+SHA256sum: 4ee61e46287bc4798a67056942b97caa8f90c43974e4051db2feacc61664d26a
 Description:  LuCI Application to timing reboot
 
 Package: luci-app-ttyd
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, ttyd
 Source: /feed/luci-app-ttyd
 SourceName: luci-app-ttyd
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2225
-Filename: luci-app-ttyd_git-25.217.58275-b5f4848_all.ipk
-Size: 3070
-SHA256sum: d32ef1532ee6f87bb93be915a6f69cc6623f23a8eead8f8cca10b309ac27c1ad
+Installed-Size: 2224
+Filename: luci-app-ttyd_git-25.218.58445-41d4581_all.ipk
+Size: 3068
+SHA256sum: 5ff0750c03e9ba6439f541d8d9d83b1b4ad8acdd5452237719ce95b32557f297
 Description:  ttyd - Command-line tool for sharing terminal over the web
 
 Package: luci-app-unblockneteasemusic
@@ -3031,29 +3032,29 @@ Depends: libc, dnsmasq-full, node, ipset
 Source: /feed/luci-app-unblockneteasemusic
 SourceName: luci-app-unblockneteasemusic
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 13743
+Installed-Size: 13746
 Filename: luci-app-unblockneteasemusic_3.3_all.ipk
-Size: 14619
-SHA256sum: 4ea7702462b2599f817be53a871593963e84bac5a0f6da92980182a38f6ceed5
+Size: 14628
+SHA256sum: 10fc3a51d8be5d031bde81618e5f500fea41d9d3d60851d39ecc22f08cb73c66
 Description:  LuCI support for UnblockNeteaseMusic (JavaScript)
 
 Package: luci-app-upnp
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
 Source: /feed/luci-app-upnp
 SourceName: luci-app-upnp
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 4665
-Filename: luci-app-upnp_git-25.217.58275-b5f4848_all.ipk
-Size: 5553
-SHA256sum: 0a57d6fd2f84d26219255924779ae44d49df1cbf70ea67496a358b4ce1d7008f
+Filename: luci-app-upnp_git-25.218.58445-41d4581_all.ipk
+Size: 5559
+SHA256sum: 19bb41b0e487e7ebba7b79709acaa441b0bd17ca5deee7cdded64de3dfec4cda
 Description:  UPnP IGD & PCP/NAT-PMP configuration module | Universal Plug and Play
 
 Package: luci-app-usb-printer
@@ -3062,13 +3063,13 @@ Depends: libc, p910nd, kmod-usb-printer, luci-lua-runtime
 Source: /feed/luci-app-usb-printer
 SourceName: luci-app-usb-printer
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3298
+Installed-Size: 3301
 Filename: luci-app-usb-printer_1.0_all.ipk
-Size: 4121
-SHA256sum: 3d01aac59d1908a9ba8cf35087f3fe3400e9566b34ad1decd60fb91d56d65137
+Size: 4120
+SHA256sum: c7a369f158a189a84f087d88caf579d3e0ea958d7b7be41f2cc25e709bbdffc6
 Description:  USB Printer Share via TCP/IP
 
 Package: luci-app-vlmcsd
@@ -3077,28 +3078,28 @@ Depends: libc, vlmcsd
 Source: /feed/luci-app-vlmcsd
 SourceName: luci-app-vlmcsd
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1963
 Filename: luci-app-vlmcsd_1.0.0_all.ipk
-Size: 2768
-SHA256sum: 8569d8322aa78af30457d3cee067ae435c87390cfc2b6a0e46749896835a2ecc
+Size: 2772
+SHA256sum: e3e787e19aedf34fad4fdff45c8ae8b7b0db56dde4a22d5150891ed149573851
 Description:  LuCI support for vlmcsd
 
 Package: luci-app-vsftpd
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, vsftpd, luci-lua-runtime
 Source: /feed/luci-app-vsftpd
 SourceName: luci-app-vsftpd
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3043
-Filename: luci-app-vsftpd_git-25.217.58275-b5f4848_all.ipk
+Installed-Size: 3041
+Filename: luci-app-vsftpd_git-25.218.58445-41d4581_all.ipk
 Size: 3875
-SHA256sum: 8476ae70ec40727f160c6de496275cf46b05609845b3383ee4835370b03bfbbc
+SHA256sum: 8a23ad68d9d11e88283d8578eddb292843334cade6c71a741d406cfeb5075260
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wolplus
@@ -3107,13 +3108,13 @@ Depends: libc, etherwake, luci-lua-runtime
 Source: /feed/luci-app-wolplus
 SourceName: luci-app-wolplus
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2205
 Filename: luci-app-wolplus_1.0_all.ipk
-Size: 3043
-SHA256sum: 324fa92bca77877adc02102b7720dc8088431adab6df63b33c0bc62fd5088a27
+Size: 3044
+SHA256sum: 8854bed746d1a2d5fee40b32beb1ec9980057cc26c34a4edaf63dbae494c6bc6
 Description:  LuCI support for wolplus From sundaqiang
 
 Package: luci-app-zerotier
@@ -3122,700 +3123,700 @@ Depends: libc, zerotier, jsonfilter, ucode
 Source: /feed/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4040
+Installed-Size: 4038
 Filename: luci-app-zerotier_1.0.0_all.ipk
-Size: 4895
-SHA256sum: cf6a92c5889462cbe3efb7228bec9d564548f2c446f3564b599205be52ef97c4
+Size: 4899
+SHA256sum: b1e04139a590e74d4e9c78f49f441e46d1ad78d95c6feac879285e3183e04c3a
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-adguardhome-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-adguardhome
 Source: /feed/luci-app-adguardhome
 SourceName: luci-i18n-adguardhome-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
 Architecture: all
-Installed-Size: 2625
-Filename: luci-i18n-adguardhome-zh-cn_git-25.217.58275-b5f4848_all.ipk
+Installed-Size: 2626
+Filename: luci-i18n-adguardhome-zh-cn_git-25.218.58445-41d4581_all.ipk
 Size: 3385
-SHA256sum: 5ee922e96c3b06318d6dc893575ed6fcdc9e4c31f395d36e5fa8b0fee53d7c02
+SHA256sum: c8480a486eba042da56218334549c0717d5bf0d80580f4320920770b239cec97
 Description:  Translation for luci-app-adguardhome - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-airconnect-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-airconnect
 Source: /feed/luci-app-airconnect
 SourceName: luci-i18n-airconnect-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 648
-Filename: luci-i18n-airconnect-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1422
-SHA256sum: c23fc019bf3310a0b20a0269d6698c5002007623194c070ecb0c19e79b44fbb5
+Filename: luci-i18n-airconnect-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1420
+SHA256sum: 7d97208bd42b4d7aefcbba8d27aa776355593f0095656f305dbbc6fceb1cac85
 Description:  Translation for luci-app-airconnect - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-argon-config
 Source: /feed/luci-app-argon-config
 SourceName: luci-i18n-argon-config-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
-Installed-Size: 1456
-Filename: luci-i18n-argon-config-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2247
-SHA256sum: e086d87d638190a9ff954eed93bea8aff332bb946c9bd9e775a0c0744cc13bd4
+Installed-Size: 1458
+Filename: luci-i18n-argon-config-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2248
+SHA256sum: 891b6f5624a5db000e10cf3b746da4e0b3598aa04ac93de6e9b73d0dea8b3376
 Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aria2-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-aria2
 Source: /feed/luci-app-aria2
 SourceName: luci-i18n-aria2-zh-cn
 License: MIT
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Xingwang Liao <kuoruan@gmail.com>
 Architecture: all
-Installed-Size: 5682
-Filename: luci-i18n-aria2-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 6467
-SHA256sum: 8dd5677e15cadafbb315c51c430d7d71a8242faa586d5e3d3b25309cf84e9ec1
+Installed-Size: 5683
+Filename: luci-i18n-aria2-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 6465
+SHA256sum: b44afce8489275ed603455f6ae0080fa41bcab56dd6164f2ba209c39e28f5ab6
 Description:  Translation for luci-app-aria2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-cifs-mount-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-cifs-mount
 Source: /feed/luci-app-cifs-mount
 SourceName: luci-i18n-cifs-mount-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 813
-Filename: luci-i18n-cifs-mount-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1568
-SHA256sum: 53d4fb6e1adb4eab593ab618e9235159ada67b54801bcdc4a29053468c15dd02
+Installed-Size: 812
+Filename: luci-i18n-cifs-mount-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1569
+SHA256sum: 925aaf2e39522354b886170b122b37c7a8c4139ba7c16f1ff30306da4476e293
 Description:  Translation for luci-app-cifs-mount - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-cpufreq-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-cpufreq
 Source: /feed/luci-app-cpufreq
 SourceName: luci-i18n-cpufreq-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1758
-Filename: luci-i18n-cpufreq-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2521
-SHA256sum: 308d76bf3e3ac64f4cf1947f21472463ffb61b74cf2d661d6a605923a5ec95fa
+Installed-Size: 1759
+Filename: luci-i18n-cpufreq-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2518
+SHA256sum: be42e070a819462f5cf8fe4ca494c732497dbd1e898e9d87ec4c2423e7a8014a
 Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ddns-go-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-ddns-go
 Source: /feed/luci-app-ddns-go
 SourceName: luci-i18n-ddns-go-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sirpdboy  <herboy2008@gmail.com>
 Architecture: all
-Installed-Size: 993
-Filename: luci-i18n-ddns-go-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1783
-SHA256sum: f72e9a3c9d478066dc5141c36170adbbdea83e015cdea02e659ec8618cc14801
+Installed-Size: 992
+Filename: luci-i18n-ddns-go-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1778
+SHA256sum: 50bdd073f368681ecac298694086da706f4ff09f3f53922115841ac49bb4c71c
 Description:  Translation for luci-app-ddns-go - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-diskman
 Source: /feed/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: lisaac <lisaac.cn@gmail.com>
 Architecture: all
 Installed-Size: 1895
-Filename: luci-i18n-diskman-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2695
-SHA256sum: 00e10e9ebebda9d121439dd1250e2a92ede252d03a8202914e668a2aeb73932b
+Filename: luci-i18n-diskman-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2698
+SHA256sum: 11b5b97223fe9a396310b3e71fbe4832bda922738400f32b3016d6e488dd02cf
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-dockerman
 Source: /feed/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
-Installed-Size: 4601
-Filename: luci-i18n-dockerman-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 5386
-SHA256sum: ca3299185cd8491372d14dd173e9e124f5daff609ac1516f600ff905faabfac5
+Installed-Size: 4604
+Filename: luci-i18n-dockerman-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 5389
+SHA256sum: 56dab293d58b44c1e852852649a340fabc817c1bb293af437d5f4173f119f638
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-dufs-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-dufs
 Source: /feed/luci-app-dufs
 SourceName: luci-i18n-dufs-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1263
-Filename: luci-i18n-dufs-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2077
-SHA256sum: 0e666c1ae4712d057ee3b6fdec116ecd00152cd13da7c1a5e47f844c2b591b7e
+Installed-Size: 1264
+Filename: luci-i18n-dufs-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2070
+SHA256sum: 073c265634a69d4c2ea09a8821550eb78d9d606c9ad74fa9b34292433a2444c2
 Description:  Translation for luci-app-dufs - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-einat-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-einat
 Source: /feed/luci-app-einat
 SourceName: luci-i18n-einat-zh-cn
 License: MIT
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Anya Lin <hukk1996@gmail.com>
 Architecture: all
-Installed-Size: 994
-Filename: luci-i18n-einat-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1800
-SHA256sum: fced45a2be723fd5d8a518a2cb53b6fb5d93a084f32bb8b89c38e2adbb670a08
+Installed-Size: 993
+Filename: luci-i18n-einat-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1798
+SHA256sum: 4eea26f34c2582456923df424143c7c0d90ecb536df563355eda71c1b230669c
 Description:  Translation for luci-app-einat - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-eqos-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-eqos
 Source: /feed/luci-app-eqos
 SourceName: luci-i18n-eqos-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
 Architecture: all
 Installed-Size: 726
-Filename: luci-i18n-eqos-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1517
-SHA256sum: 2876130658ecd660b9567b4ae02b884280a582b163cc6a973947bfa2a8633718
+Filename: luci-i18n-eqos-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1511
+SHA256sum: 553abdd47e52f6f8b698f598dc098f790590532fa907b8cc191d2588c1993c03
 Description:  Translation for luci-app-eqos - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-eqosplus-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-eqosplus
 Source: /feed/luci-app-eqosplus
 SourceName: luci-i18n-eqosplus-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sirpdboy <herboy2008@gmail.com>
 Architecture: all
 Installed-Size: 993
-Filename: luci-i18n-eqosplus-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1800
-SHA256sum: 8695083dc3084465ecd57584d46d3c72fffd5188be7a835becb7688c169a6a85
+Filename: luci-i18n-eqosplus-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1797
+SHA256sum: 5007d177ba1b7f8311e1f011d3fe664c50c8192908105c724a4bac795a8d4712
 Description:  Translation for luci-app-eqosplus - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-filebrowser-go-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-filebrowser-go
 Source: /feed/luci-app-filebrowser-go
 SourceName: luci-i18n-filebrowser-go-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 923
-Filename: luci-i18n-filebrowser-go-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1691
-SHA256sum: c178ecd8295ec5e50fcc4f7e8e9d76b6c74a871fe61a4970b7e8ad43c27668b2
+Installed-Size: 922
+Filename: luci-i18n-filebrowser-go-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1692
+SHA256sum: cff15ed5d45ede1c3e7051944cf48cad888aa655d1d7394042918953c4a25eb8
 Description:  Translation for luci-app-filebrowser-go - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-filemanager-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-filemanager
 Source: /feed/luci-app-filemanager
 SourceName: luci-i18n-filemanager-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Dmitry R <rdmitry0911@gmail.com>
 Architecture: all
-Installed-Size: 2409
-Filename: luci-i18n-filemanager-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 3184
-SHA256sum: e23b3c71e71ca3e335d3f37f4451522a0e5529185a9b20b222d0fe9899efd771
+Installed-Size: 2410
+Filename: luci-i18n-filemanager-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 3181
+SHA256sum: c9c7d546aa0f32a7b78cec77abfd122788c7d391ffe40ef3237120cca03cf643
 Description:  Translation for luci-app-filemanager - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-frpc-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-frpc
 Source: /feed/luci-app-frpc
 SourceName: luci-i18n-frpc-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: all
-Installed-Size: 3310
-Filename: luci-i18n-frpc-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 4087
-SHA256sum: ea22b14e1f68c6874a10d4475cb89a67e3dca25f574bf867554ce33b64d5d371
+Installed-Size: 3313
+Filename: luci-i18n-frpc-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 4089
+SHA256sum: a81d6165119d9b77ab722cf3c596c00ba8a4ff8af53be197dfb3c9d1886be5af
 Description:  Translation for luci-app-frpc - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-frps-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-frps
 Source: /feed/luci-app-frps
 SourceName: luci-i18n-frps-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: all
 Installed-Size: 2883
-Filename: luci-i18n-frps-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 3651
-SHA256sum: aab128fb529b63c34e103ea0e0d09a4434781136974b7c4a875b41eb22c5b835
+Filename: luci-i18n-frps-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 3659
+SHA256sum: e0e15216ee72d8824d7e7dba76b2b64bfa3c2858f7730e5f5cc1611f7da540a6
 Description:  Translation for luci-app-frps - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-gost-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-gost
 Source: /feed/luci-app-gost
 SourceName: luci-i18n-gost-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 671
-Filename: luci-i18n-gost-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1421
-SHA256sum: 8a0280ad5ea75cff32d7ce64aac46866b2abefad02b6233b3576b89fd6f5ec04
+Installed-Size: 669
+Filename: luci-i18n-gost-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1417
+SHA256sum: 7bcf1cc8b9bdec84d1cda308e49a47d61cdeb4a1554b1b94cbac45355bf0035e
 Description:  Translation for luci-app-gost - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-gowebdav-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-gowebdav
 Source: /feed/luci-app-gowebdav
 SourceName: luci-i18n-gowebdav-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 921
-Filename: luci-i18n-gowebdav-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1724
-SHA256sum: 0fe3bf554bfa9c2caef5e93f5c3f7c5d61842d49e8ed84b42bbf3e7e1d1312f9
+Installed-Size: 927
+Filename: luci-i18n-gowebdav-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1725
+SHA256sum: c7d3ef13b1e5c565cc8165ba9969d757c1f6efdb26462f9499e287ab44912bfb
 Description:  Translation for luci-app-gowebdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-hd-idle-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-hd-idle
 Source: /feed/luci-app-hd-idle
 SourceName: luci-i18n-hd-idle-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 800
-Filename: luci-i18n-hd-idle-zh-cn_git-25.217.58275-b5f4848_all.ipk
+Installed-Size: 799
+Filename: luci-i18n-hd-idle-zh-cn_git-25.218.58445-41d4581_all.ipk
 Size: 1556
-SHA256sum: 4d84215261cfa8cbc3d918bc5ec42773ad71f28e83367eaddbf5ae4ca41cccbe
+SHA256sum: 2c3dcfa74de1804238997bf94556454820270a736ae3e64a9542e72056ca2591
 Description:  Translation for luci-app-hd-idle - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ksmbd-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-ksmbd
 Source: /feed/luci-app-ksmbd
 SourceName: luci-i18n-ksmbd-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: all
-Installed-Size: 1236
-Filename: luci-i18n-ksmbd-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2034
-SHA256sum: 4e99e9b9a46ebaab6f4cd577cded91054630952051b880b6267a4be651c0967b
+Installed-Size: 1237
+Filename: luci-i18n-ksmbd-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2053
+SHA256sum: c355824144599442709063edb2976cb2f6d9d0b7f15b9808ac07307bba166663
 Description:  Translation for luci-app-ksmbd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mentohust-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-mentohust
 Source: /feed/luci-app-mentohust
 SourceName: luci-i18n-mentohust-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 1197
-Filename: luci-i18n-mentohust-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1985
-SHA256sum: bea6091c7be47d28eb6fb3e4eefc928b70445ea4fd34e43004983111fa0320c5
+Filename: luci-i18n-mentohust-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1980
+SHA256sum: 1e8305a58e5f750fe912ad790d17845d98f53fc919ac138d63ac2c9b54405a90
 Description:  Translation for luci-app-mentohust - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-mosdns
 Source: /feed/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 4452
-Filename: luci-i18n-mosdns-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 5204
-SHA256sum: 02a59cb21bb1ae4a8730d4adfa35d431383fa36b171f8c102a90d39400096013
+Filename: luci-i18n-mosdns-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 5200
+SHA256sum: e8a22a9e083e16114f729d166ce94709b93f43595d6fece8a754e370857b1710
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-msd_lite-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-msd_lite
 Source: /feed/luci-app-msd_lite
 SourceName: luci-i18n-msd_lite-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1071
-Filename: luci-i18n-msd_lite-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1826
-SHA256sum: c1e5330c1a08cc46587425d7a2ca66292266864eceeec1a8e9a580716bd47be6
+Installed-Size: 1070
+Filename: luci-i18n-msd_lite-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1820
+SHA256sum: dcefe9d28fc1fd23fa7608e4517e253a2ff82be868fab957d217b35ecc13b778
 Description:  Translation for luci-app-msd_lite - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-natmap-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-natmap
 Source: /feed/luci-app-natmap
 SourceName: luci-i18n-natmap-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Richard Yu <yurichard3839@gmail.com>
 Architecture: all
-Installed-Size: 817
-Filename: luci-i18n-natmap-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1618
-SHA256sum: 4e05bd97a4523da90b7ab2812877dfd601128a04ab16429f4c4eff22c3e8c7fe
+Installed-Size: 816
+Filename: luci-i18n-natmap-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1615
+SHA256sum: 0a88dd6181a3b2601d26b72bfc47a33e9fda9cfc11ee06b85f4e31e3e9a6f638
 Description:  Translation for luci-app-natmap - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-netdata-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-netdata
 Source: /feed/luci-app-netdata
 SourceName: luci-i18n-netdata-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 409
-Filename: luci-i18n-netdata-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1147
-SHA256sum: 0e0cb64a3dc4b56b8f69bf7df0afe0aabccbf706b260bb93a4d3ec09b65a4d76
+Filename: luci-i18n-netdata-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1154
+SHA256sum: 85905d171c8afa73ea523df42a3c07bae2286e85a51658857c8f857e46600bc9
 Description:  Translation for luci-app-netdata - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-netspeedtest-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-netspeedtest
 Source: /feed/luci-app-netspeedtest
 SourceName: luci-i18n-netspeedtest-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 911
-Filename: luci-i18n-netspeedtest-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1672
-SHA256sum: 8ea9361aac8c23f36b6d8234d8333d261724b1ff09e2c578fe2fb14fa6eaca73
+Installed-Size: 910
+Filename: luci-i18n-netspeedtest-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1663
+SHA256sum: f42adb8556575904c154c5420301cc584a02a0d53f25d20bd755ea314dd7351d
 Description:  Translation for luci-app-netspeedtest - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nfs-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-nfs
 Source: /feed/luci-app-nfs
 SourceName: luci-i18n-nfs-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 605
-Filename: luci-i18n-nfs-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1355
-SHA256sum: 1e888b849f7e818de2d5de068c407c82db2eec288d6262a4b997e581066b07bb
+Filename: luci-i18n-nfs-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1350
+SHA256sum: bd1d319a9763863b78d6a3c36ebd9f495d93c49c7b4d47d45cffab67d8631915
 Description:  Translation for luci-app-nfs - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nlbwmon-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-nlbwmon
 Source: /feed/luci-app-nlbwmon
 SourceName: luci-i18n-nlbwmon-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 3660
-Filename: luci-i18n-nlbwmon-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 4395
-SHA256sum: 341399b0295eb44ee56ee88b5cd594d0664f9e0e7346f6db9a67398fb6f39f35
+Installed-Size: 3659
+Filename: luci-i18n-nlbwmon-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 4392
+SHA256sum: e19781c0b117a91a39f953c77f099ac62b85dc330d902fd0cd2722fbf651aadf
 Description:  Translation for luci-app-nlbwmon - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-oaf-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-oaf
 Source: /feed/luci-app-oaf
 SourceName: luci-i18n-oaf-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 3777
-Filename: luci-i18n-oaf-zh-cn_git-25.217.58275-b5f4848_all.ipk
+Installed-Size: 3775
+Filename: luci-i18n-oaf-zh-cn_git-25.218.58445-41d4581_all.ipk
 Size: 4500
-SHA256sum: d5ca0230acbf1b954488eeeb737d17244afa07075d0b67cfbe8b6fbea0102a4a
+SHA256sum: 2e9b84bc9e4e675d40a65cdcf482ea178738dc2eaaabcea70bacb4c98916f3d4
 Description:  Translation for luci-app-oaf - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-qbittorrent-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-qbittorrent
 Source: /feed/luci-app-qbittorrent
 SourceName: luci-i18n-qbittorrent-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 683
-Filename: luci-i18n-qbittorrent-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1443
-SHA256sum: 0b85c1459e0384f10c06126402461db97af6c1dc069b9c745ab7509f0c0abba3
+Installed-Size: 684
+Filename: luci-i18n-qbittorrent-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1435
+SHA256sum: 884030139501b8e7b60e8e0e35a778e3bb744ea5e3e09c6d14085913f9d8cd92
 Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-qosmate-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-qosmate
 Source: /feed/luci-app-qosmate
 SourceName: luci-i18n-qosmate-zh-cn
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Markus Hütter <mh@hudra.net>
 Architecture: all
-Installed-Size: 5098
-Filename: luci-i18n-qosmate-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 5882
-SHA256sum: ea397a59d06c79c5e54d80397511afe3f0c69060e85a67edecc0ce47f2e8109d
+Installed-Size: 5099
+Filename: luci-i18n-qosmate-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 5876
+SHA256sum: 620432acc44c9be30a90c5a04e2e0e70ddb810cdbfae05fc1eff607db992de25
 Description:  Translation for luci-app-qosmate - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-quickfile-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-quickfile
 Source: /feed/luci-app-quickfile
 SourceName: luci-i18n-quickfile-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 405
-Filename: luci-i18n-quickfile-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1194
-SHA256sum: 0375dbc99d470ad01e0a60dfc3aeebad9e086591432e13c11c005551ebf4590d
+Filename: luci-i18n-quickfile-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1196
+SHA256sum: 3282a74fedda071f3c7c8c3aa0174ac98962a6d4ecfe59877cb1311bbe395c4b
 Description:  Translation for luci-app-quickfile - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ramfree-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-ramfree
 Source: /feed/luci-app-ramfree
 SourceName: luci-i18n-ramfree-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 407
-Filename: luci-i18n-ramfree-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1150
-SHA256sum: 7da7c22f5a5a0f80ae0626b3edefd402f33019a1fe6ca998ec7e132163c90b06
+Installed-Size: 406
+Filename: luci-i18n-ramfree-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1151
+SHA256sum: 6cbb0aedd36735ae410d4736ffa607db8d4bdd76a146711520c86912baeae8d6
 Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-samba4-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-samba4
 Source: /feed/luci-app-samba4
 SourceName: luci-i18n-samba4-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1684
-Filename: luci-i18n-samba4-zh-cn_git-25.217.58275-b5f4848_all.ipk
+Installed-Size: 1683
+Filename: luci-i18n-samba4-zh-cn_git-25.218.58445-41d4581_all.ipk
 Size: 2446
-SHA256sum: f72a4cfd7901e9d0c27b895b2364c11ef28aa2c179e965b3929f328bfbe7236a
+SHA256sum: 00d7f6a2faaf992bfbd22ead026a6a16393e3c4ec1e75ba88cca86422451754e
 Description:  Translation for luci-app-samba4 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-smartdns-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-smartdns
 Source: /feed/luci-app-smartdns
 SourceName: luci-i18n-smartdns-zh-cn
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: all
-Installed-Size: 6159
-Filename: luci-i18n-smartdns-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 6999
-SHA256sum: 9e154fc2e00110174683dfe981e502fad71766bd3f70dd1862ffc023d32df489
+Installed-Size: 6160
+Filename: luci-i18n-smartdns-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 6998
+SHA256sum: fcc5b53d2d6d1994a38ef40ce0f082b7cd250b2633a41cb9e9996c986cf98cf0
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-socat-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-socat
 Source: /feed/luci-app-socat
 SourceName: luci-i18n-socat-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Lienol <lawlienol@gmail.com>
 Architecture: all
 Installed-Size: 818
-Filename: luci-i18n-socat-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1602
-SHA256sum: 49657e42665a119b86c963cfd1423e447f220ff92e33ec589bfe2226ce844613
+Filename: luci-i18n-socat-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1604
+SHA256sum: a74d196d87fae718dff467e2d3cbbcca45a92f961fcfc361e1b1dda2fe609f15
 Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-tailscale
 Source: /feed/luci-app-tailscale
 SourceName: luci-i18n-tailscale-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 1980
-Filename: luci-i18n-tailscale-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2746
-SHA256sum: 1c3e5103f1164804276e4af88cf16a5ed2fda4e7339c7fff084ee0c3d30ef7b8
+Filename: luci-i18n-tailscale-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2743
+SHA256sum: 99089316a4d9547497bfe004dadde20df9f2b47d6ec7ee0928c494b2c74afb4c
 Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-timedreboot-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-timedreboot
 Source: /feed/luci-app-timedreboot
 SourceName: luci-i18n-timedreboot-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: pmkol <pmkol@foxmail.com>
 Architecture: all
 Installed-Size: 784
-Filename: luci-i18n-timedreboot-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1570
-SHA256sum: 70db612de17c84d39be48159e3f8e5747dd7471d6b0a63c37710f6c64487e29f
+Filename: luci-i18n-timedreboot-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1567
+SHA256sum: fa9c6f9a89f340c144bd4848452c191b934d04053654ca769ff1897279b8873a
 Description:  Translation for luci-app-timedreboot - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ttyd-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-ttyd
 Source: /feed/luci-app-ttyd
 SourceName: luci-i18n-ttyd-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1909
-Filename: luci-i18n-ttyd-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2663
-SHA256sum: 315200282014107d04327e0cb8239a3ebde618691b71dfdcd4a4e75c6744cf93
+Installed-Size: 1908
+Filename: luci-i18n-ttyd-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2670
+SHA256sum: 1b77ffdb9cb258be6c9bafedce2347683ed9cf587396e6b77cb1259d1b98d67b
 Description:  Translation for luci-app-ttyd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-upnp-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-upnp
 Source: /feed/luci-app-upnp
 SourceName: luci-i18n-upnp-zh-cn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: all
-Installed-Size: 1877
-Filename: luci-i18n-upnp-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2679
-SHA256sum: 2e4d48e6c69ff06abe6af6a2a1972479e811e3e8028fb2b00b3f071475473704
+Installed-Size: 1878
+Filename: luci-i18n-upnp-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2683
+SHA256sum: e8049dccffad999b077efbaefdf60e50b46482da4c5e52dd52fc3867ce7184a5
 Description:  Translation for luci-app-upnp - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-usb-printer-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-usb-printer
 Source: /feed/luci-app-usb-printer
 SourceName: luci-i18n-usb-printer-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 840
-Filename: luci-i18n-usb-printer-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1603
-SHA256sum: 8ffdcc56ae5723829dc13823e5f717523c0eb175be36b4a3eab5ebcb7911811d
+Installed-Size: 839
+Filename: luci-i18n-usb-printer-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1602
+SHA256sum: 61b9d6c4b934219c6e673bc6e883c7ee025633ebc1a2708838d19a90d7fe7c81
 Description:  Translation for luci-app-usb-printer - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-vlmcsd-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-vlmcsd
 Source: /feed/luci-app-vlmcsd
 SourceName: luci-i18n-vlmcsd-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 743
-Filename: luci-i18n-vlmcsd-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1524
-SHA256sum: 76060e802904d20f113a3445a1873c85fa5b9c71d794cf4b88dedc1b6f887cba
+Installed-Size: 744
+Filename: luci-i18n-vlmcsd-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1521
+SHA256sum: 7181e989299681ec2232e56b47b0b400ecbe3c32ccd9bb70c42970c31bc8cadd
 Description:  Translation for luci-app-vlmcsd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-vsftpd-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-vsftpd
 Source: /feed/luci-app-vsftpd
 SourceName: luci-i18n-vsftpd-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
-Installed-Size: 1933
-Filename: luci-i18n-vsftpd-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 2692
-SHA256sum: 069449b77de2a6c8d4ccce1f3ca349ee914f0dd98ed5c5ed5c9ebec090e42ad7
+Installed-Size: 1932
+Filename: luci-i18n-vsftpd-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 2693
+SHA256sum: 48357d6512fc4804ada6b9ce568f5a9614829109f8405322c3074ee2a7b58084
 Description:  Translation for luci-app-vsftpd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-wolplus-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-wolplus
 Source: /feed/luci-app-wolplus
 SourceName: luci-i18n-wolplus-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sundaqiang
 Architecture: all
 Installed-Size: 620
-Filename: luci-i18n-wolplus-zh-cn_git-25.217.58275-b5f4848_all.ipk
-Size: 1384
-SHA256sum: b2bd78c92e41856a148c41ec31d487905e29ab4bdbd75eddc0ef4b498810c660
+Filename: luci-i18n-wolplus-zh-cn_git-25.218.58445-41d4581_all.ipk
+Size: 1383
+SHA256sum: 65be5847b6005b120689006a07715e3816e4bf30e8dc16c56fb5952df0317605
 Description:  Translation for luci-app-wolplus - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-zerotier-zh-cn
-Version: git-25.217.58275-b5f4848
+Version: git-25.218.58445-41d4581
 Depends: libc, luci-app-zerotier
 Source: /feed/luci-app-zerotier
 SourceName: luci-i18n-zerotier-zh-cn
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: all
 Installed-Size: 876
-Filename: luci-i18n-zerotier-zh-cn_git-25.217.58275-b5f4848_all.ipk
+Filename: luci-i18n-zerotier-zh-cn_git-25.218.58445-41d4581_all.ipk
 Size: 1636
-SHA256sum: fe997ab4ecb5269114c6a832ed00f2cc7fd1229e81ffb1005987e2934474fe89
+SHA256sum: 0f19d98966a851baee37474c96dc51587552d3db9b0811212349260541720b60
 Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-argon
@@ -3824,13 +3825,13 @@ Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /feed/luci-theme-argon
 SourceName: luci-theme-argon
 Section: luci
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 931752
+Installed-Size: 931765
 Filename: luci-theme-argon_2.3.1_all.ipk
-Size: 932537
-SHA256sum: ce4e98714d7b3ab86f00aa0782d5827aa95485ef8d19c5608d714188059f65a7
+Size: 932559
+SHA256sum: 44c49039e5625efb1be2d757078e160eafab24e849baa4623932f3155bd2aff0
 Description:  Argon Theme
 
 Package: mentohust
@@ -3839,12 +3840,12 @@ Depends: libc, libpcap1
 Source: /feed/mentohust
 SourceName: mentohust
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 81355
+Installed-Size: 81356
 Filename: mentohust_0.3.1-2_aarch64_generic.ipk
 Size: 82074
-SHA256sum: 93e802178fbcab46f35305368929d80948e59567bf1b6ba2936d3e4278e50fdc
+SHA256sum: 6b50c95d242f63172f3fca4d70558294a61a1b4013d1b844b7c0a498cf20a4da
 Description:  A Ruijie Client Daemon,
  Most usually used in Chinese universities.
 
@@ -3857,13 +3858,13 @@ SourceName: miniupnpd-iptables
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_generic
-Installed-Size: 78582
+Installed-Size: 78584
 Filename: miniupnpd-iptables_2.3.9-1_aarch64_generic.ipk
-Size: 79373
-SHA256sum: 3c12dc9f095fb3f4c69208c7a8be8efed4da935493b488e560c297e3d84a60b0
+Size: 79389
+SHA256sum: 719867c82db1ff7a820b230bd7bfc09f0836d7338425864494d3bb086a828bc6
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -3876,13 +3877,13 @@ SourceName: miniupnpd-nftables
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_generic
-Installed-Size: 88482
+Installed-Size: 88483
 Filename: miniupnpd-nftables_2.3.9-1_aarch64_generic.ipk
-Size: 89356
-SHA256sum: 86fc1e4aecc092e59820053aea82b346aa86365ebae64039c250b155d1666aa4
+Size: 89369
+SHA256sum: 0bdf21c219556406657b58bee1c401fdd5485154ddfc0df42b3c5c0b6f91dd9e
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: mosdns
@@ -3892,13 +3893,13 @@ Source: /feed/mosdns
 SourceName: mosdns
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 6460676
+Installed-Size: 6460714
 Filename: mosdns_5.3.3-5_aarch64_generic.ipk
-Size: 6440370
-SHA256sum: 0a9719ca999843f10432e8de52f84b74dd41e46027d738f13d60879f28231e48
+Size: 6440707
+SHA256sum: e4a9b643e6e576779db2ab1b7041d7ea0f682c46fd8d37ab3a735cb09b06a0ed
 Description:  A plug-in DNS forwarder/splitter
 
 Package: msd_lite
@@ -3909,13 +3910,13 @@ SourceName: msd_lite
 License: BSD-2-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Tianling Shen <cnsztl@immrotalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 73846
+Installed-Size: 73845
 Filename: msd_lite_2025-05-02-79a6c62c-1_aarch64_generic.ipk
-Size: 74699
-SHA256sum: 9c1b89b14c2d797eb07018dde16b17e176456edfefc91e8ecdcebc1529c8d89e
+Size: 74711
+SHA256sum: 331e7496df7a17d684faf3ad313bbf5ea877a8906907a5da747f50eb6c649cc1
 Description:  msd_lite - Multi stream daemon lite. The lightweight version of
  Multi Stream daemon (msd) Program for organizing IP TV streaming
  on the network via HTTP.
@@ -3928,14 +3929,14 @@ SourceName: netdata
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: admin
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:my-netdata:netdata
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
 Architecture: aarch64_generic
-Installed-Size: 8026560
+Installed-Size: 8027280
 Filename: netdata_1.33.1-4_aarch64_generic.ipk
-Size: 7994876
-SHA256sum: f8cc58b8b6310b8eb70d003f70bee61326db289ca8d6dbf8f575d5bd7f86053b
+Size: 7995829
+SHA256sum: a57c77c4177a877b4fb1878b409a920e5b1b51960d2668d152a1868a79dc54f4
 Description:  netdata is a highly optimized Linux daemon providing real-time performance
  monitoring for Linux systems, applications and SNMP devices over the web.
  
@@ -3950,13 +3951,13 @@ SourceName: nlbwmon
 License: ISC
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 21501
+Installed-Size: 21500
 Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_generic.ipk
-Size: 22169
-SHA256sum: 20ca82aeb47ce90f1dcd2d056b9ef45af421b6e808294c84a037848176bad2f8
+Size: 22178
+SHA256sum: 76760fc85e4059ce839e77a7ed1a836a3989d55d1ef1b3d84ad01b3a845d4bba
 Description:  OpenWrt Traffic Usage Monitor
 
 Package: openssh-client-utils
@@ -3967,14 +3968,14 @@ SourceName: openssh-client-utils
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 731968
+Installed-Size: 731966
 Filename: openssh-client-utils_10.0_p1-3_aarch64_generic.ipk
-Size: 730540
-SHA256sum: bab394f534635680ca4a02ed6ac9f576e75df34fd2d1f74164c93a974d65b8cc
+Size: 730522
+SHA256sum: 737aaf89bfd17741eece8359bdfc4c4a802895f275aff7c27c7d0ff6dff48bea
 Description:  OpenSSH client utilities.
 
 Package: openssh-client
@@ -3986,14 +3987,14 @@ SourceName: openssh-client
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 477984
+Installed-Size: 477986
 Filename: openssh-client_10.0_p1-3_aarch64_generic.ipk
-Size: 477876
-SHA256sum: 65d31e3e855277415a0bc5fbffeacd9efe88be9cc9371c092669513af5e18b5e
+Size: 477868
+SHA256sum: 276f9d726f4a313624183c1c40fcce34e6f50acb26aacd9670f6a5e168d6d70a
 Description:  OpenSSH client.
 
 Package: openssh-keygen
@@ -4005,14 +4006,14 @@ SourceName: openssh-keygen
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 212190
+Installed-Size: 212191
 Filename: openssh-keygen_10.0_p1-3_aarch64_generic.ipk
-Size: 212642
-SHA256sum: 22f279984682798940d773c9e714f0dae8a95b252387451cfbf970a063893bf3
+Size: 212619
+SHA256sum: 0f6dba410b55e54b057dfd771aeaec04735fc258783db796b260f2dad50bb94a
 Description:  OpenSSH keygen.
 
 Package: openssh-moduli
@@ -4023,14 +4024,14 @@ SourceName: openssh-moduli
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 17999
+Installed-Size: 17997
 Filename: openssh-moduli_10.0_p1-3_aarch64_generic.ipk
-Size: 16518
-SHA256sum: 61a3c3153af96c3bb9df924d6294218dcce345db0bafa4a13649432f1e82ab6d
+Size: 16512
+SHA256sum: 591796ed46c8f684f90e0ca0f1e0750b4eaae6d9e8b8c28d4c2726de82e05ea1
 Description:  OpenSSH server moduli file.
 
 Package: openssh-server-pam
@@ -4042,14 +4043,14 @@ License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
 Require-User: sshd=22:sshd=22
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 1015429
+Installed-Size: 1015425
 Filename: openssh-server-pam_10.0_p1-3_aarch64_generic.ipk
-Size: 1013876
-SHA256sum: 6017424d590e8e6e17cb16d0a29e143250d2142e1672786f543f36f1340bf242
+Size: 1013827
+SHA256sum: b5c35a956094520cb77552f7a89e1eebb577d782cc2f08c29b5c9d6d29c2c90f
 Description:  OpenSSH server (with PAM support).
 
 Package: openssh-server
@@ -4061,14 +4062,14 @@ License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
 Require-User: sshd=22:sshd=22
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 993528
+Installed-Size: 993525
 Filename: openssh-server_10.0_p1-3_aarch64_generic.ipk
-Size: 992331
-SHA256sum: eb3948f1a5c1184d4a36297baaee3bf6f76a4d70e5df059cbdc898c82ca310e2
+Size: 992334
+SHA256sum: a294fe3987b9e5d6055ca81eafdbcdab223723071631b4283a439ab0dc2320cb
 Description:  OpenSSH server.
 
 Package: openssh-sftp-avahi-service
@@ -4079,14 +4080,14 @@ SourceName: openssh-sftp-avahi-service
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 365
+Installed-Size: 364
 Filename: openssh-sftp-avahi-service_10.0_p1-3_aarch64_generic.ipk
-Size: 1235
-SHA256sum: bf4c25027edd422c2dcc5d3aa37c46f15ab3b3c4e1aa82a058fb42c9f5abea4d
+Size: 1236
+SHA256sum: d1fcb876de59e3603fc72271956faa631e603b40fffc0626bb719a635fca5b8c
 Description:  This package contains the service definition for announcing
  SFTP support via mDNS/DNS-SD.
 
@@ -4098,14 +4099,14 @@ SourceName: openssh-sftp-client
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 90056
+Installed-Size: 90054
 Filename: openssh-sftp-client_10.0_p1-3_aarch64_generic.ipk
-Size: 90506
-SHA256sum: d6db018d3328ffbbfc1d09a2bff49f01bf3fca2b7b1ecaaadbd900af5eb53d0d
+Size: 90508
+SHA256sum: 8e0a95daaa3db1fe0afd6d2e22fee8c473665b54bd66a1f4c4f9ebf4fa8437e8
 Description:  OpenSSH SFTP client.
 
 Package: openssh-sftp-server
@@ -4116,14 +4117,14 @@ SourceName: openssh-sftp-server
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
-Installed-Size: 62266
+Installed-Size: 62263
 Filename: openssh-sftp-server_10.0_p1-3_aarch64_generic.ipk
-Size: 62968
-SHA256sum: 86d76fcec90d38bf8821a22f31e7baa657cc9d6f63422f39f3428cb798e1745a
+Size: 62963
+SHA256sum: 7560230459a50a7394200d775f049823cc6808f29195f067783af3902422b282
 Description:  OpenSSH SFTP server.
 
 Package: openssh-sk-helper
@@ -4134,14 +4135,14 @@ SourceName: openssh-sk-helper
 License: BSD ISC
 LicenseFiles: LICENCE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:openbsd:openssh
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_generic
 Installed-Size: 143543
 Filename: openssh-sk-helper_10.0_p1-3_aarch64_generic.ipk
-Size: 143761
-SHA256sum: 641de33d5f1260a7743269e434ec8c6e9bd8690d9f26378d031c1c3fd4d27f3f
+Size: 143773
+SHA256sum: e0baadb0b6a61e908ba4712cec27b54d93884fb1a7eac980cc102c12febb7fd3
 Description:  OpenSSH helper that can be used by openssh-client, openssh-sftp-client,
  and openssh-keygen to access `ecdsa_sk` and `ed25519_sk keys
  provided by a FIDO U2F or FIDO2 hardware token over USB.
@@ -4155,13 +4156,13 @@ SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_generic
-Installed-Size: 8027569
+Installed-Size: 8027567
 Filename: qbittorrent_5.1.2-1_aarch64_generic.ipk
-Size: 8021659
-SHA256sum: fc80b773eb418075218291da2359329b053e08273aa2e74fac2e6ae515f5b92e
+Size: 8021690
+SHA256sum: 019cb5595fc5fda2ee97cf68193e8960b8f2450d4c4e9bff7322b5a8b0541e7f
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -4175,13 +4176,13 @@ Source: /feed/qosmate
 SourceName: qosmate
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Markus Hütter <mh@hudra.net>
 Architecture: aarch64_generic
-Installed-Size: 55977
+Installed-Size: 55972
 Filename: qosmate_0.5.31-1_aarch64_generic.ipk
-Size: 56696
-SHA256sum: fc89349aac87d05eef689164635f457fe1955334dc79a4e2743c3b8690298dad
+Size: 56707
+SHA256sum: 9cf3694ff0629f4f9515e06ddb9c38790ef52e73e9ec61afbd55ff6c340eff9b
 Description:  QoSmate is a Quality of Service management tool for OpenWrt
 
 Package: qt6-plugin-libqcertonlybackend
@@ -4190,12 +4191,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqcertonlybackend
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 38840
 Filename: qt6-plugin-libqcertonlybackend_6.8.3-1_aarch64_generic.ipk
-Size: 39449
-SHA256sum: 6faa281ac4223a863f7cce4c936d0700411c369fccd04ba26c890d10e37532c3
+Size: 39453
+SHA256sum: 6feaaf11541a19b1c42d48c3dff7f22c8e2f386dfc0f0d2072a17b59c26b9bf3
 Description:  Qt6 Plugin libqcertonlybackend
 
 Package: qt6-plugin-libqminimal
@@ -4204,12 +4205,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqminimal
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 10095
 Filename: qt6-plugin-libqminimal_6.8.3-1_aarch64_generic.ipk
-Size: 10651
-SHA256sum: 3494de91167f8813e69860cde30fead73856d03bb207c7a311a50fcdb95bac30
+Size: 10633
+SHA256sum: 50fbb07dcbd902826ce11b70961169dbb2040b0b6901ed34403ab4350df6e681
 Description:  Qt6 Plugin libqminimal
 
 Package: qt6-plugin-libqnetworkmanager
@@ -4218,12 +4219,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libQt6Network
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqnetworkmanager
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 28148
+Installed-Size: 28149
 Filename: qt6-plugin-libqnetworkmanager_6.8.3-1_aarch64_generic.ipk
-Size: 28637
-SHA256sum: 3fbfa47c90bfb1347a075703ca6999b27bc7bcb5ce6706d863fdb0a0a8e35dac
+Size: 28649
+SHA256sum: 6d7cfca8e55595ea49fe81eabe3c4cbdb8c02e37c60b734cfce527853a6cb623
 Description:  Qt6 Plugin libqnetworkmanager
 
 Package: qt6-plugin-libqoffscreen
@@ -4232,12 +4233,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqoffscreen
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 38739
+Installed-Size: 38738
 Filename: qt6-plugin-libqoffscreen_6.8.3-1_aarch64_generic.ipk
-Size: 39259
-SHA256sum: 92232eddbf85ca39e33c7ca0cc502f608f9929751d6bc7625e40cd1ff20b12b9
+Size: 39239
+SHA256sum: 16b2603846ceddf9913fb86911c0adbfcf0b7036fdf0ccd90d0e2a4ec361a55f
 Description:  Qt6 Plugin libqoffscreen
 
 Package: qt6-plugin-libqopensslbackend
@@ -4246,12 +4247,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqopensslbackend
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 120214
+Installed-Size: 120212
 Filename: qt6-plugin-libqopensslbackend_6.8.3-1_aarch64_generic.ipk
-Size: 120716
-SHA256sum: 36bda9a586283cf2af25d2283f11079f1aee707b3af4b4a89e18549dca936033
+Size: 120723
+SHA256sum: 1aefc25c400241184944c1687615f573dbd015efef7564f9fa96fdba2fa2e471
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
@@ -4260,12 +4261,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqsqlite
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 984270
+Installed-Size: 984261
 Filename: qt6-plugin-libqsqlite_6.8.3-1_aarch64_generic.ipk
-Size: 984360
-SHA256sum: 5b87c32f6702b5f477d9a53c1ec3a68918faa7b2e0963292c8b9ecd13eafc5e6
+Size: 984297
+SHA256sum: 7fd25ae41aa5cd72ace6887a5fb6e9ee96edd9030a9d97c94425f8ea26ffc874
 Description:  Qt6 Plugin libqsqlite
 
 Package: qt6-plugin-libqtuiotouchplugin
@@ -4274,12 +4275,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui, libQt6Network
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqtuiotouchplugin
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
 Installed-Size: 37726
 Filename: qt6-plugin-libqtuiotouchplugin_6.8.3-1_aarch64_generic.ipk
-Size: 38363
-SHA256sum: 5acc73d0b386db8369ca5959802ba7b74c600e31bfe73b15e87de17b1dd700be
+Size: 38353
+SHA256sum: 00084071e1e2d059dd952788873f6e78b09127e3ff3fa9453914c61043e90999
 Description:  Qt6 Plugin libqtuiotouchplugin
 
 Package: qt6-plugin-libqxdgdesktopportal
@@ -4288,12 +4289,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
 Source: /feed/qt6base
 SourceName: qt6-plugin-libqxdgdesktopportal
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 45488
+Installed-Size: 45485
 Filename: qt6-plugin-libqxdgdesktopportal_6.8.3-1_aarch64_generic.ipk
-Size: 46199
-SHA256sum: 73536a26e9111c35f5e3c712335af0c827e019982cf299dc9598ee5c3e1839cf
+Size: 46198
+SHA256sum: eb6e7d0cf64046f7f820783ef3310125ae3f18f6573f6b03b5c30afa20a88622
 Description:  Qt6 Plugin libqxdgdesktopportal
 
 Package: quickfile
@@ -4302,12 +4303,12 @@ Depends: libc
 Source: /feed/quickfile
 SourceName: quickfile
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Architecture: aarch64_generic
-Installed-Size: 4294105
+Installed-Size: 4294103
 Filename: quickfile_1.0.5-1_aarch64_generic.ipk
-Size: 4295545
-SHA256sum: 8b122eab3a99a730480100056932b37ee7f225213d289e511f07b7a4dc881c6e
+Size: 4295543
+SHA256sum: e2ece4f487945ea9cd0ddd2ef79595ed9bfb2aa5c6f546ad43b794ae100bece1
 Description:  Lightweight web-based file manager for OpenWrt/LuCI with minimal resource usage.
 
 Package: rblibtorrent2.0
@@ -4319,13 +4320,13 @@ SourceName: rblibtorrent
 License: BSD
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 ABIVersion: 2.0
 Architecture: aarch64_generic
-Installed-Size: 1368375
+Installed-Size: 1368372
 Filename: rblibtorrent2.0_2.0.11-1_aarch64_generic.ipk
 Size: 1365609
-SHA256sum: 20cb9cd0e6ace86c02261e0aef6f093c8c7a6da8413d5cefef4d568556af719f
+SHA256sum: cdc78d72f1c078c8893d74cf471a9b045f3afc39052291b08c02fc56a3a1c190
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -4338,13 +4339,13 @@ SourceName: rrdcgi1
 License: GPL-2.0-or-later
 LicenseFiles: COPYING COPYRIGHT
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 7380
 Filename: rrdcgi1_1.0.50-7_aarch64_generic.ipk
-Size: 8490
-SHA256sum: 06de9f0bbc9a7e70cf86639adc36ca11f8a7e6b442d4e29cf03326fd5ba6200d
+Size: 8487
+SHA256sum: ebaf4c2df15daf869fcfb224660d6140a3313e2402c0817bb2b97d881e06a12c
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -4367,13 +4368,13 @@ SourceName: rrdtool1
 License: GPL-2.0-or-later
 LicenseFiles: COPYING COPYRIGHT
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 11358
+Installed-Size: 11352
 Filename: rrdtool1_1.0.50-7_aarch64_generic.ipk
-Size: 12293
-SHA256sum: bd9c65d6266b735e64458a976719aa0a91f7f14b4ac7bd46a43903e31b41fa51
+Size: 12292
+SHA256sum: 6654c9ea70ecb60457bf7adb62522445519c3ea37afa35c45d60d1dbae133800
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -4395,13 +4396,13 @@ SourceName: samba4-admin
 License: GPL-3.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_generic
-Installed-Size: 1006295
+Installed-Size: 1006096
 Filename: samba4-admin_4.22.3-1_aarch64_generic.ipk
-Size: 998279
-SHA256sum: 0cb58805646b7bc6962197fa16b2b47be476d2f21647000dfda12bc4742e8672
+Size: 998082
+SHA256sum: f338fa6ba35c244fd6b574f6a7be5f118210f8792b4e250d947d51456952f918
 Description:  installs: net smbcontrol profiles rpcclient dbwrap_tool eventlogadm
  ldbadd ldbdel ldbedit ldbmodify ldbrename ldbsearch
  tdbbackup tdbdump tdbrestore tdbtool
@@ -4416,13 +4417,13 @@ SourceName: samba4-client
 License: GPL-3.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_generic
-Installed-Size: 135311
+Installed-Size: 135306
 Filename: samba4-client_4.22.3-1_aarch64_generic.ipk
-Size: 135541
-SHA256sum: 86b02cc29420628940e3ce38e2f39412339f65f49670d9683b36f81447be25c7
+Size: 135544
+SHA256sum: 991cfbbaad9788614d151c6d819b5b793127919fab63976c373c33538efa23f4
 Description:  installs: cifsdd smbclient smbget
  
  The smbclient program implements a simple ftp-like client for accessing SMB shares
@@ -4435,13 +4436,13 @@ SourceName: samba4-libs
 License: GPL-3.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_generic
-Installed-Size: 9741358
+Installed-Size: 9741737
 Filename: samba4-libs_4.22.3-1_aarch64_generic.ipk
-Size: 9654278
-SHA256sum: 238c7ea91c595aeb7e9e7291395aa7b0580b58ebff2fc09b1d0d43d824ed38a4
+Size: 9658067
+SHA256sum: 0542b9ebf2a7c2e96c99c804478ef578aaa437cba10dfc817dc81f9a6d877dd3
 Description:  Samba 4.22.3 libs
 
 Package: samba4-server
@@ -4453,13 +4454,13 @@ SourceName: samba4-server
 License: GPL-3.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_generic
-Installed-Size: 255866
+Installed-Size: 255862
 Filename: samba4-server_4.22.3-1_aarch64_generic.ipk
-Size: 256101
-SHA256sum: 756b92b7678df4089d69bb2bb2ee8674fb699372999f66244ed213a64a876459
+Size: 256093
+SHA256sum: 97015c14c286a6b3c247089bad5e7b08d0a57afce1cad9885ba57496ca84f273
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  
@@ -4474,13 +4475,13 @@ SourceName: samba4-utils
 License: GPL-3.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_generic
-Installed-Size: 34346
+Installed-Size: 34344
 Filename: samba4-utils_4.22.3-1_aarch64_generic.ipk
-Size: 34720
-SHA256sum: a793cc7db6fa24f8a88b2e764202cbe4898f3769443988f67d921b8e5bb96439
+Size: 34711
+SHA256sum: 34b06298b21fca229436114f289d2da4ead2740ce85db0d06ea9944b7ea5d951
 Description:  installs: smbstatus smbtree mvxattr smbtar (smbcquotas)
  
  Utilities collection
@@ -4493,14 +4494,14 @@ SourceName: screen
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:gnu:screen
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 182902
+Installed-Size: 182901
 Filename: screen_5.0.1-1_aarch64_generic.ipk
-Size: 183443
-SHA256sum: c450470936676d5e7677c5f1c0a128beadabcaf3054935485c1d936f8b45a8bc
+Size: 183456
+SHA256sum: 515e37d7798fcec95387b3d14416213c939ec0a5514a2881bc342fffc4fc0f2d
 Description:  Screen is a full-screen window manager that multiplexes a physical
  terminal between several processes, typically interactive shells.
 
@@ -4512,13 +4513,13 @@ SourceName: smartdns
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 184376
+Installed-Size: 184373
 Filename: smartdns_46.1-1_aarch64_generic.ipk
-Size: 184915
-SHA256sum: e6151437a7253fea5f9cc6d813ecdf5693bea0b7b75334ba32f0bd4551a98c56
+Size: 184918
+SHA256sum: 1dea64c1a66672c556fb0ce3035d51e107d6b259d434ba3e1dc4e3021c551731
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH.
@@ -4530,14 +4531,14 @@ Source: /feed/net-snmp
 SourceName: snmp-mibs
 License: MIT BSD-3-Clause-Clear
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:net-snmp:net-snmp
 Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
 Architecture: aarch64_generic
-Installed-Size: 340825
+Installed-Size: 340846
 Filename: snmp-mibs_5.9.4-4_aarch64_generic.ipk
-Size: 341799
-SHA256sum: cf2a30aba349c58b27f6edbfebf29da1db85cb0e325116d32045b3b9aeec2da2
+Size: 341819
+SHA256sum: 6fc9900509da78e7792e29e76117d89bfcd674f43829d7d05e3418689d4de30e
 Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
  monitoring the health and welfare of network equipment (eg. routers),
  computer equipment and even devices like UPSs. Net-SNMP is a suite of
@@ -4553,14 +4554,14 @@ Source: /feed/net-snmp
 SourceName: snmp-utils
 License: MIT BSD-3-Clause-Clear
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:net-snmp:net-snmp
 Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
 Architecture: aarch64_generic
-Installed-Size: 22623
+Installed-Size: 22618
 Filename: snmp-utils_5.9.4-4_aarch64_generic.ipk
-Size: 22645
-SHA256sum: 791489e279e11fcfbf59f01db29f2454ad319931ab85b8be17eedffc2ab23294
+Size: 22650
+SHA256sum: 096ca887a4b215403a883409c0923339a7fd045ef417c5f8fe29c8796683549e
 Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
  monitoring the health and welfare of network equipment (eg. routers),
  computer equipment and even devices like UPSs. Net-SNMP is a suite of
@@ -4582,14 +4583,14 @@ Source: /feed/net-snmp
 SourceName: snmpd
 License: MIT BSD-3-Clause-Clear
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:net-snmp:net-snmp
 Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
 Architecture: aarch64_generic
-Installed-Size: 10478
+Installed-Size: 10479
 Filename: snmpd_5.9.4-4_aarch64_generic.ipk
-Size: 11331
-SHA256sum: 9530f4778fd8fa0683d26fb3e6792a9ff3ffdf0eca4537f388fd58e795b45443
+Size: 11333
+SHA256sum: 926c5e54a311adab8689aecbedcd952c119742b53212b6cfd972d2d9d6b2e486
 Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
  monitoring the health and welfare of network equipment (eg. routers),
  computer equipment and even devices like UPSs. Net-SNMP is a suite of
@@ -4605,14 +4606,14 @@ Source: /feed/net-snmp
 SourceName: snmptrapd
 License: MIT BSD-3-Clause-Clear
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:net-snmp:net-snmp
 Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
 Architecture: aarch64_generic
-Installed-Size: 22088
+Installed-Size: 22086
 Filename: snmptrapd_5.9.4-4_aarch64_generic.ipk
-Size: 22748
-SHA256sum: bd7ec53af78736ca4e5b77d1cd9a5a299bb458feb42e8c1a920f2c8a93423c99
+Size: 22745
+SHA256sum: ba94e22bb527abc4a9b537b1a2442e72a99f3648035b8a82b87275410e49cba4
 Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
  monitoring the health and welfare of network equipment (eg. routers),
  computer equipment and even devices like UPSs. Net-SNMP is a suite of
@@ -4627,13 +4628,13 @@ Depends: libc, ca-certificates
 Source: /feed/speedtest-cli
 SourceName: speedtest-cli
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 1076217
+Installed-Size: 1076216
 Filename: speedtest-cli_1.2.0-1_aarch64_generic.ipk
-Size: 1075620
-SHA256sum: 357b51c2114b3b3c28c502877e8ce505bf9cd42b0bf3af89d7c6370843093ae9
+Size: 1075645
+SHA256sum: 5e1b7def51ac9f3d35943b2bb2a4f157347c04dfac10d3bbd784fbdb0f8370e2
 Description:  The Global Broadband Speed Test
 
 Package: tailscale
@@ -4645,14 +4646,14 @@ SourceName: tailscale
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 9460602
+Installed-Size: 9460589
 Filename: tailscale_1.86.2-1_aarch64_generic.ipk
-Size: 9434405
-SHA256sum: b12a700314e3b324697f82019fa0de14dff037539950e2315713d88ca2d49285
+Size: 9434390
+SHA256sum: 923512b36b70e67dddbab3e8fd606ca9e30478b5581a2c6540751345e675efa6
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -4664,14 +4665,14 @@ SourceName: unzip
 License: BSD-4-Clause
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:info-zip:unzip
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 119480
+Installed-Size: 119477
 Filename: unzip_6.0-8_aarch64_generic.ipk
-Size: 119898
-SHA256sum: e321132f29ea83cdc7da85d4dfa78b9ef5cf1d53c3ed5f52ab063c84b735d1a6
+Size: 119896
+SHA256sum: e6954f77e53a7678c119bbcd7d24db901e8cf12b1cc6d42d761aa8d1519353b1
 Description:  InfoZIP's unzip program. With the exception of multi-volume archives
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
@@ -4684,13 +4685,13 @@ Source: /feed/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2279166
+Installed-Size: 2279171
 Filename: v2dat_2022-12-15-47b8ee51-3_aarch64_generic.ipk
-Size: 2272338
-SHA256sum: f5b5d9209daef3120cb26cec2a1b2d2fb87d996b89d00d4df47b4980a28f0f3f
+Size: 2272440
+SHA256sum: 5940276301e3e64ec93e450feb1be7ecc609178d8ef84575a2647460a3ca8643
 Description:  V2ray geo/ip data unpack tools
 
 Package: vim-full
@@ -4703,14 +4704,14 @@ SourceName: vim-full
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 1212973
+Installed-Size: 1212977
 Filename: vim-full_9.0-2_aarch64_generic.ipk
-Size: 1212475
-SHA256sum: f6dcb88f1ac84d592b8f2df03133d1ab472f63fda08675a5f88fcc808d20140c
+Size: 1212436
+SHA256sum: 463bb762625ccd5fc8ed66c70f9f30aea00587072a86c0b6f230e5223b6b1563
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Normal build)
 
@@ -4724,14 +4725,14 @@ SourceName: vim-fuller
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 3525489
+Installed-Size: 3525724
 Filename: vim-fuller_9.0-2_aarch64_generic.ipk
-Size: 3521694
-SHA256sum: 205c8f148920d0e84c79817d41ea1ff44450df0d3c63c4788105a0e6b04203fe
+Size: 3521401
+SHA256sum: e20b9a465132a7bc20dc6767370e5bf756e4dcbfc1949209cb770e592fe0eb8a
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Big build)
 
@@ -4743,14 +4744,14 @@ SourceName: vim-help
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2837368
+Installed-Size: 2837435
 Filename: vim-help_9.0-2_aarch64_generic.ipk
-Size: 2837940
-SHA256sum: 03095defb6fea013a90ce5530e042a1d32f0eeeeae1749ee5b390c3403fa149c
+Size: 2838039
+SHA256sum: e0e9fcbdffad596aa974140cf7bf4e868e3d045d57be6df8007d1ea23fc90f24
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Help files)
 
@@ -4762,14 +4763,14 @@ SourceName: vim-runtime
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2284138
+Installed-Size: 2283672
 Filename: vim-runtime_9.0-2_aarch64_generic.ipk
-Size: 2281180
-SHA256sum: 3e9722ff97b3a95d82aa3f1a9bba66b05c5383f139eaae94b5f42f8f7dd2eea0
+Size: 2281229
+SHA256sum: d8899cfe54edf718e38bd1c9f947dbc5be2d18a8408571c4427171b7c02c0a2f
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Runtime files)
 
@@ -4781,14 +4782,14 @@ SourceName: vim
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 554821
 Filename: vim_9.0-2_aarch64_generic.ipk
-Size: 554716
-SHA256sum: f76979dbffe5a1dea150be08bb8fac8e35dac459a49fc332071b8dc06fe559dc
+Size: 554713
+SHA256sum: 720db66673c3a4d0721ddf14fefb5f878bb053f9707b272916b6272684d60219
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Tiny build)
 
@@ -4798,13 +4799,13 @@ Depends: libc, libpthread
 Source: /feed/vlmcsd
 SourceName: vlmcsd
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 34307
+Installed-Size: 34306
 Filename: vlmcsd_2023.7.28-1_aarch64_generic.ipk
-Size: 35064
-SHA256sum: aea0d0bcc719dbd6796284ede080829e6c6d5ba6e936b3c541874847add94f6c
+Size: 35062
+SHA256sum: 94bee391d922a2077f44eef3a4633f65da38000d6bbc0ae5200d5646b089d268
 Description:  vlmcsd is an open-source KMS (Key Management Service) server emulator that allows
  for the activation of Microsoft products such as Windows and Office within a local network,
  without needing to connect to Microsoft's official KMS servers.
@@ -4817,14 +4818,14 @@ SourceName: xxd
 License: Vim
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:vim:vim
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 6352
 Filename: xxd_9.0-2_aarch64_generic.ipk
-Size: 7135
-SHA256sum: b6685643e5199765556218eda064405a61cc65ef68c3a6a20ee476e7ba1fd3f1
+Size: 7139
+SHA256sum: 2845430dac916dffb523388c13d49f675656044fb85e4ac7ff11b5e4d409b085
 Description:  xxd creates a hex dump of a given file or standard input, it can also convert
  a hex dump back to its original binary form.
 
@@ -4836,13 +4837,13 @@ SourceName: zerotier
 License: BSL 1.1
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: aarch64_generic
-Installed-Size: 557875
+Installed-Size: 557872
 Filename: zerotier_1.14.1-3_aarch64_generic.ipk
-Size: 557739
-SHA256sum: e3fac1f888e9d327087964ee9b930cd341b1eae7a30d95e2bafe5921ac60f6d8
+Size: 557755
+SHA256sum: 9f3c087ff28e7e21efb9eb56e6f67bd0f3d7ebd7d9b64980005de4613a54cc0b
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
 Package: zip
@@ -4853,13 +4854,13 @@ SourceName: zip
 License: BSD-4-Clause
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 224775
+Installed-Size: 224774
 Filename: zip_3.0-4_aarch64_generic.ipk
-Size: 224650
-SHA256sum: 2a8a17a821b5040f6c0f8432d77e2f931cd0c8b920eb5d252a2201f7ce7598ee
+Size: 224612
+SHA256sum: 34e97276c248b69303c1264c850cfee53f452145cc9300243ff190474ffeb8cb
 Description:  This is InfoZIP's zip program. It produces files that are fully
  compatible with the popular PKZIP program; however, the command line
  options are not identical. In other words, the end result is the same,
@@ -4873,14 +4874,14 @@ SourceName: zstd
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1754410275
+SourceDateEpoch: 1754496845
 CPE-ID: cpe:/a:facebook:zstandard
 Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 77714
+Installed-Size: 77716
 Filename: zstd_1.5.7-1_aarch64_generic.ipk
-Size: 78171
-SHA256sum: 12033ea10d3c13794d78e08b1fba4c111115d2b4263f6f75804bceb1659c9fc5
+Size: 78195
+SHA256sum: ce07c56dd3bcfcdf18364809051dbc61c17f808fc9c6d8c586545a10ee78cad5
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides the zstd binaries.
 
