@@ -55,7 +55,7 @@ else ifeq ($(ARCH),i386)
   endif
 else ifeq ($(ARCH),x86_64)
   PKG_ARCH:=chinadns-ng+wolfssl@x86_64-linux-musl@x86_64@fast+lto
-  PKG_HASH:=9ad100ef18f7acaecad1aaa07b07029e9e50679fc8f119977878211b1ceb96f0
+  PKG_HASH:=842ea4e9816efd91d39bc76ead5c4a42e79011757e37c521b4270b675cfcb30c
 else ifeq ($(ARCH),riscv64)
   PKG_ARCH:=chinadns-ng+wolfssl@riscv64-linux-musl@baseline_rv64@fast+lto
   PKG_HASH:=ed4d2cf72c2d48f19dd7678f419ce726bc2a793afc62afd6345e735dd262ca96
