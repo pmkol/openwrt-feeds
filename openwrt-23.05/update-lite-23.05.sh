@@ -37,5 +37,6 @@ rm -rf openwrt-mihomo
 mv immortalwrt/packages/net/haproxy ./
 sed -i 's/lua5.4/lua5.3/g' haproxy/Makefile
 
+curl -s https://mirror.apad.pro/sources/fix-lite.sh | bash
 rm -rf immortalwrt
 ls -d */ | xargs -n 1 basename | paste -sd ' ' - > packages.txt
