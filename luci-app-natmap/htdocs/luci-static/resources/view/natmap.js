@@ -80,12 +80,26 @@ return view.extend({
 		o.modalonly = true;
 
 		o = s.option(form.Value, 'stun_server', _('STUN server'));
+		o.value('stun.voipia.net');
+		o.value('stun.m-online.net');
+		o.value('stun.siptrunk.com');
+		o.value('stun.hot-chilli.net');
+		o.value('stun.fitauto.ru');
+		o.value('stun.cooluc.com');
+		o.default = 'stun.voipia.net';
 		o.datatype = 'host';
 		o.modalonly = true;
 		o.optional = false;
 		o.rmempty = false;
 
 		o = s.option(form.Value, 'http_server', _('HTTP server'), _('For TCP mode'));
+		o.value('stun.voipia.net');
+		o.value('stun.m-online.net');
+		o.value('stun.siptrunk.com');
+		o.value('stun.hot-chilli.net');
+		o.value('stun.fitauto.ru');
+		o.value('stun.cooluc.com');
+		o.default = 'stun.voipia.net';
 		o.datatype = 'host';
 		o.modalonly = true;
 		o.rmempty = false;
