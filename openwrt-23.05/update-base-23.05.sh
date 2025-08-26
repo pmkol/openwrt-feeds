@@ -102,6 +102,9 @@ rm -rf nethogs/.git
 # ppp - bump version
 mv openwrt-master/package/network/services/ppp ./
 
+# ucode - bump version
+mv openwrt-master/package/utils/ucode ./
+
 # zlib - bump version
 mv openwrt-master/package/libs/zlib ./
 
