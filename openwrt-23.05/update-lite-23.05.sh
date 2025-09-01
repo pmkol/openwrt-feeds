@@ -41,6 +41,7 @@ rm -rf openwrt-momo
 # haproxy
 mv immortalwrt/packages/net/haproxy ./
 sed -i 's/lua5.4/lua5.3/g' haproxy/Makefile
+sed -i '/ADDON+=USE_QUIC=1$/a\\tADDON+=USE_QUIC_OPENSSL_COMPAT=1' haproxy/Makefile
 
 curl -s https://mirror.apad.pro/sources/fix-lite.sh | bash
 rm -rf immortalwrt
