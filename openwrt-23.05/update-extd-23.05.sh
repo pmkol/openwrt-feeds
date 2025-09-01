@@ -52,6 +52,7 @@ rm -rf miniupnpd/{.git,.github}
 rm -rf luci-app-upnp/{.git,.github}
 rm -rf qosmate/{.git,LICENSE,README.md}
 rm -rf luci-app-qosmate/{.git,LICENSE,README.md}
+rm -rf luci-app-sqm/.git
 rm -rf luci-app-timedreboot/.git
 
 # pkgs
