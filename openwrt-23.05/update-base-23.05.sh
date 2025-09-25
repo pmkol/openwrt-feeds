@@ -9,6 +9,11 @@ mv */ /tmp/base/
 git clone https://github.com/openwrt/openwrt openwrt-master -b master --depth 1
 git clone https://github.com/openwrt/openwrt openwrt-23.05 -b openwrt-23.05 --depth 1
 git clone https://github.com/openwrt/luci luci-23.05 -b openwrt-23.05 --depth 1
+git clone https://github.com/pmkol/openwrt-feeds basesrc-23.05 -b basesrc-23.05 --depth 1
+
+# basesrc
+mv basesrc-23.05/*/ ./
+rm -rf basesrc-23.05
 
 # firewall4 - bump version
 mkdir -p firewall4/patches
@@ -83,10 +88,6 @@ rm -rf nghttp3/.git
 git clone https://github.com/sbwml/package_libs_ngtcp2 ngtcp2 --depth 1
 rm -rf ngtcp2/.git
 
-# curl
-git clone https://github.com/sbwml/feeds_packages_net_curl curl --depth 1
-rm -rf curl/.git
-
 # libpcap
 git clone https://github.com/sbwml/package_libs_libpcap libpcap --depth 1
 rm -rf libpcap/.git
@@ -101,9 +102,6 @@ rm -rf nethogs/.git
 
 # ppp - bump version
 mv openwrt-master/package/network/services/ppp ./
-
-# ucode - bump version
-mv openwrt-master/package/utils/ucode ./
 
 # zlib - bump version
 mv openwrt-master/package/libs/zlib ./
