@@ -4,10 +4,10 @@ Depends: libc, bash
 License: GPL-2.0
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 230175
+Installed-Size: 230216
 Filename: bash-completion_2.14.0-1_aarch64_generic.ipk
-Size: 230884
-SHA256sum: 02199fbc62b558ce0141c6502f674f3f16e12fe8d941de10ed71b132d766d58b
+Size: 230920
+SHA256sum: c2039003ab4e25e24f4ed3a5ab7b00e9737a0cbb44080a62b0f059e6b541dcec
 Description:  bash-completion is a collection of command line command completions for the Bash shell, 
  collection of helper functions to assist in creating new completions, 
  and set of facilities for loading completions automatically on demand, as well as installing them.
@@ -19,12 +19,25 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 10046
+Installed-Size: 10049
 Filename: chat_2.5.2-2_aarch64_generic.ipk
-Size: 10712
-SHA256sum: 1b0f0ab4d2d6f74501bb67cce04040c62fd402eaa6f2baaf920b9196bdf3d1d3
+Size: 10717
+SHA256sum: 0f6d863a5ff18acdedad21278bc130dec9e184f88dc63852b13ad80fe0d2c8cb
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
+
+Package: curl
+Version: 8.15.0-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_generic
+Installed-Size: 72369
+Filename: curl_8.15.0-1_aarch64_generic.ipk
+Size: 72995
+SHA256sum: c747b87e6842efcc4f01d8eb73c377c6e6809336738e510cf285470c58304cfc
+Description:  A client-side URL transfer utility
 
 Package: devlink
 Version: 6.8.0-1
@@ -33,10 +46,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 50768
+Installed-Size: 50770
 Filename: devlink_6.8.0-1_aarch64_generic.ipk
-Size: 51374
-SHA256sum: a5b30b7fabed4fed76fe298a679fd443dc53c40d187861efba883aa544bd699f
+Size: 51390
+SHA256sum: dd84c1932bb7c88085dc3e41cfb8d6d2a1a3f90bdc5bab27f41070d2f69b5cd0
 Description:  Network devlink utility
 
 Package: firewall4
@@ -46,10 +59,10 @@ Provides: uci-firewall
 License: ISC
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 29993
+Installed-Size: 29995
 Filename: firewall4_2024-05-21-4c01d1eb-1_aarch64_generic.ipk
-Size: 30980
-SHA256sum: 00443ec5b92d42f49e5622cbd6d05aae6284033a37f92befe7923898812185b4
+Size: 30984
+SHA256sum: 26b10ac1fcf95ff0de88e68aced1a891ebc77095424915d95aae5aa50eb68061
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
@@ -59,10 +72,10 @@ Depends: libc
 License: BSD
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 33735
+Installed-Size: 33740
 Filename: ftp_0.17-2_aarch64_generic.ipk
-Size: 34518
-SHA256sum: 555de39ddb9130f5c80769f3673756cabb5dac86a6a3ac8f91576966204450dc
+Size: 34522
+SHA256sum: 2eb673ad546fae9d71c965ed19a67f46abf3f227e7622e482a0b359aca9f1ac3
 Description:  The ftp package provides the standard UNIX command-line FTP (File
  Transfer Protocol) client.  FTP is a widely used protocol for
  transferring files over the Internet and for archiving files.
@@ -76,8 +89,8 @@ CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
 Installed-Size: 8586
 Filename: genl_6.8.0-1_aarch64_generic.ipk
-Size: 9248
-SHA256sum: ca075a6a00f915d6e9b555462f779c618a2c1c14556331479274e7458be4c3d6
+Size: 9238
+SHA256sum: 52b32cb192e7575550f86785169a9c4f3b32f63e0c4fe6c4c03197b9f554473a
 Description:  General netlink utility frontend
 
 Package: ip-bridge
@@ -87,10 +100,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 41485
+Installed-Size: 41488
 Filename: ip-bridge_6.8.0-1_aarch64_generic.ipk
-Size: 41995
-SHA256sum: 5d604ec3c1bd61f7d613d20c342a5b04b6722ff908620801a5f2545386b10d30
+Size: 42019
+SHA256sum: 2e0b0d3125e4465ac56605bbeb0ecc60f925deae8e65d98768b3fe62caadcf26
 Description:  Bridge configuration utility from iproute2
 
 Package: ip-full
@@ -102,10 +115,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 237718
+Installed-Size: 237721
 Filename: ip-full_6.8.0-1_aarch64_generic.ipk
-Size: 238335
-SHA256sum: cd5bba3aa9dfc7d305bf69f5967a26adb9bd3d69f8d888219cb8bded2cf85a04
+Size: 238382
+SHA256sum: f02afdbc257c1ba9aa7f0a1e6c32eb0bf526a87287bc35045822a7e28e3fb799
 Description:  Routing control utility (full)
 
 Package: ip-tiny
@@ -117,11 +130,26 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 159851
+Installed-Size: 159853
 Filename: ip-tiny_6.8.0-1_aarch64_generic.ipk
-Size: 160372
-SHA256sum: dd6c5472a27f5dacd7030bc62bcffdfda766d76ddc372cf2dfaaad465b93f02a
+Size: 160390
+SHA256sum: d8c22e57360e04ffc133193346b3ee9e643d9b4f9dc512fcc5611de65eee60df
 Description:  Routing control utility (minimal)
+
+Package: libcurl4
+Version: 8.15.0-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_generic
+Installed-Size: 273660
+Filename: libcurl4_8.15.0-1_aarch64_generic.ipk
+Size: 274165
+SHA256sum: 1da489671292cacb6c471a4610306a01957d4eb1b911db3d672eb62f84afd7fb
+Description:  A client-side URL transfer library
 
 Package: libnftnl11
 Version: 1.2.6-1
@@ -132,10 +160,10 @@ Section: libs
 ABIVersion: 11
 CPE-ID: cpe:/a:netfilter:libnftnl
 Architecture: aarch64_generic
-Installed-Size: 65067
+Installed-Size: 65069
 Filename: libnftnl11_1.2.6-1_aarch64_generic.ipk
-Size: 65757
-SHA256sum: 17d552255856af85f97e85b37ace8ef7ed8cf909bcae0ba98b716f4d1aee2fa9
+Size: 65728
+SHA256sum: a43bb3e707030af63df7d2dfa81a146f0babc2ff7f9df93cee8da6668bc30766
 Description:  libnftnl is a userspace library providing a low-level netlink
  programming interface (API) to the in-kernel nf_tables subsystem.
 
@@ -145,22 +173,22 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: aarch64_generic
-Installed-Size: 196410
+Installed-Size: 196417
 Filename: libnghttp3_1.10.1-1_aarch64_generic.ipk
-Size: 191403
-SHA256sum: 6848dfeeb413163c98e286165abc5d1e189b7ce1dd994f497d73f3cd3bb6aaea
+Size: 191452
+SHA256sum: 2b55fd554c3b4e5f608f8b314ba6253d478081145cb4d51a1fbf38e2b108e9d2
 Description:  nghttp3 is a thin HTTP/3 layer over an underlying QUIC stack.
 
 Package: libngtcp2
-Version: 1.15.1-1
+Version: 1.16.0-1
 Depends: libc, libnghttp3, libopenssl3
 License: MIT
 Section: libs
 Architecture: aarch64_generic
-Installed-Size: 359648
-Filename: libngtcp2_1.15.1-1_aarch64_generic.ipk
-Size: 360075
-SHA256sum: 8f71fa28fab2803265ba3c3559cba910df6db66cd5e51f2bc8d9a3ad6a215534
+Installed-Size: 367522
+Filename: libngtcp2_1.16.0-1_aarch64_generic.ipk
+Size: 367425
+SHA256sum: cf47be5afe907223f93d9441a1cd4a50f72b18915a00817beb719b0d78d042c0
 Description:  ngtcp2 project is an effort to implement QUIC protocol which is now being discussed in IETF QUICWG for its standardization.
 
 Package: libpcap1
@@ -172,10 +200,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:tcpdump:libpcap
 Architecture: aarch64_generic
-Installed-Size: 122034
+Installed-Size: 122031
 Filename: libpcap1_1.11.0-1_aarch64_generic.ipk
-Size: 122610
-SHA256sum: b1f8bcec2c68472edf28f1e8b5b7f0e2feb2ad0942a43956fa7dcbc5a44c3f16
+Size: 122612
+SHA256sum: 45e96efed3bb2e88a9312a9905f0566fb76394242eb4bdff426246dcf196e946
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -187,10 +215,10 @@ License: ISC
 Section: libs
 ABIVersion: 20230711
 Architecture: aarch64_generic
-Installed-Size: 80345
+Installed-Size: 80349
 Filename: libucode20230711_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 81018
-SHA256sum: 1a86f10c06a97c2e6efa6e4cf51b45c6339eba95b1aebf402824f99dd2b8efe4
+Size: 81001
+SHA256sum: 7cb9e495da87233b136168cd43158fcba3c2e40ad207ed8021a4d15897c6da24
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libunwind8
@@ -202,34 +230,34 @@ Section: libs
 ABIVersion: 8
 CPE-ID: cpe:/a:libunwind_project:libunwind
 Architecture: aarch64_generic
-Installed-Size: 81366
+Installed-Size: 81367
 Filename: libunwind8_1.8.1-1_aarch64_generic.ipk
-Size: 81158
-SHA256sum: 460d5fd364c1dfcc45e8fb7a329831e77ac2b2d4c5f55d3ab008ce57191f1217
+Size: 81148
+SHA256sum: 309a77108f4dee1f79d65197c6758e4fa9c0017d2c6f0c9e7e958f2876917906
 Description:  Libunwind defines a portable and efficient C programming interface (API) to determine the call-chain of a program.
 
 Package: luci-app-firewall
-Version: git-25.255.58926-7959122
+Version: git-25.269.62947-2a35f52
 Depends: libc, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 17648
-Filename: luci-app-firewall_git-25.255.58926-7959122_all.ipk
-Size: 18531
-SHA256sum: d1b1639921720264938b084ffbe47ef8af19ba8daed87ca1f118541db69293cb
+Installed-Size: 17647
+Filename: luci-app-firewall_git-25.269.62947-2a35f52_all.ipk
+Size: 18524
+SHA256sum: d864a488f3159526fb0f00c16ccfeee05d467d291977b7ea60414a40dd12a905
 Description:  Firewall and Portforwarding application
 
 Package: luci-i18n-firewall-zh-cn
-Version: git-25.255.58926-7959122
+Version: git-25.269.62947-2a35f52
 Depends: libc, luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 7717
-Filename: luci-i18n-firewall-zh-cn_git-25.255.58926-7959122_all.ipk
-Size: 8504
-SHA256sum: e6570ac6ca28333beda7d8684f2651bcf09dd567f3803b4f8f84b0dbeec015b2
+Installed-Size: 7719
+Filename: luci-i18n-firewall-zh-cn_git-25.269.62947-2a35f52_all.ipk
+Size: 8507
+SHA256sum: 44a2fd2c07cd0df6ea3e35786ea5c96b8bc4d107ffc1d6d8ac1a6fd17d68018a
 Description:  Translation for luci-app-firewall - 简体中文 (Chinese Simplified)
 
 Package: nethogs
@@ -238,10 +266,10 @@ Depends: libc, libncurses6, libpcap1, libstdcpp6
 License: GPL-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 24275
+Installed-Size: 24279
 Filename: nethogs_0.8.8-1_aarch64_generic.ipk
-Size: 24911
-SHA256sum: 9171e88b4b1bd4c27a799bf9d05a26336b1a54cef7de4c452507ed8bed3b77ca
+Size: 24921
+SHA256sum: f520c952fcbdf45666b448a96a43141f40262579e4c5247d6ca2fd76922e11c0
 Description:  Net top tool grouping bandwidth per process
 
 Package: nftables-json
@@ -251,10 +279,10 @@ Provides: nftables
 License: GPL-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 312774
+Installed-Size: 312775
 Filename: nftables-json_1.0.9-1_aarch64_generic.ipk
-Size: 312130
-SHA256sum: da198596add843226a4a3568f7c65e914a4ca31c1e2fb83c73755339333cadab
+Size: 312105
+SHA256sum: c61d9e66f6a18b450627165e707323f5d03bbfd15f0cc3a32154d2a7a971f760
 Description:  nftables userspace utility with JSON support
 
 Package: nftables-nojson
@@ -265,10 +293,10 @@ Provides: nftables
 License: GPL-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 276197
+Installed-Size: 276201
 Filename: nftables-nojson_1.0.9-1_aarch64_generic.ipk
-Size: 275778
-SHA256sum: 6a06687f23b13349adaa115f205b0ca9c1882f130c4c797bc127e29671c61f71
+Size: 275798
+SHA256sum: 312e919ad318d63d5e56efe1d6725dcc65451f9b9dad6c603b33c8a3eca35bd3
 Description:  nftables userspace utility no JSON support
 
 Package: nstat
@@ -280,8 +308,8 @@ CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
 Installed-Size: 7758
 Filename: nstat_6.8.0-1_aarch64_generic.ipk
-Size: 8430
-SHA256sum: 5f9be559bb075a4fea5ef2fea79a459567165fbae6abeaf3fcdcf2002ba9119f
+Size: 8428
+SHA256sum: c1b409bc865f4f8acc09b4ed206c5e520a7c906eb22e4dae7719bc5722990ed3
 Description:  Network statistics utility
 
 Package: ppp-mod-passwordfd
@@ -291,10 +319,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 1724
+Installed-Size: 1732
 Filename: ppp-mod-passwordfd_2.5.2-2_aarch64_generic.ipk
-Size: 2455
-SHA256sum: 92f6430bb9853c73f2a22945f0a5b62f08a55022eeea9608be733e278e04cd2b
+Size: 2457
+SHA256sum: 7197705c1285b7f8f80053398cfbbe24d7d78614e1efaa6f40487469f3fdf3f6
 Description:  This package allows to pass the PAP/CHAP secret from a filedescriptor.
  Eliminates the need for a secrets file.
 
@@ -305,10 +333,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 2682
+Installed-Size: 2684
 Filename: ppp-mod-pppoa_2.5.2-2_aarch64_generic.ipk
-Size: 3335
-SHA256sum: 0dcaf88c23a5c713f413ccd81ba74c0250907697193a0cde43c25390ba76f77b
+Size: 3342
+SHA256sum: cd8e192e792ea371b25b90a33dcdb514853669cc84a52d83f8127498460eee61
 Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
 
 Package: ppp-mod-pppoe
@@ -318,10 +346,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 13309
+Installed-Size: 13313
 Filename: ppp-mod-pppoe_2.5.2-2_aarch64_generic.ipk
-Size: 13947
-SHA256sum: f47fdabe2b57dca68678bdd5f0dd7b60803e831b0cbfdb9d7c568f111f4588c1
+Size: 13949
+SHA256sum: f88f0c69fe117fbca4fbc7d43fc75be98f2cd7b82df309b38198540ead530fac
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp-mod-pppol2tp
@@ -331,10 +359,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 5051
+Installed-Size: 5054
 Filename: ppp-mod-pppol2tp_2.5.2-2_aarch64_generic.ipk
 Size: 5682
-SHA256sum: ccaae8483ba26c88183e97d44ef502bfee15c7d5cdc9370d7aa5e9e2c5fc2780
+SHA256sum: 899750e471d37d7184364d92d499d920576cb878b20549d7ceb95c58a3c15672
 Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
 
 Package: ppp-mod-pptp
@@ -344,10 +372,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 18746
+Installed-Size: 18747
 Filename: ppp-mod-pptp_2.5.2-2_aarch64_generic.ipk
 Size: 19396
-SHA256sum: 0429659ae24197cd20cc1332ad80fe6a224ebca1c0757c40521fc2b58f6aa1d6
+SHA256sum: 9aab34cc8ed8ae89e12d4b3fc9449c688fff45c71634bb04166c87db7b018ed3
 Description:  This package contains a PPtP plugin for ppp.
 
 Package: ppp-mod-radius
@@ -357,10 +385,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 25892
+Installed-Size: 25895
 Filename: ppp-mod-radius_2.5.2-2_aarch64_generic.ipk
-Size: 26662
-SHA256sum: a4354a55a0e4656e198c12fa40f040999c8c3ea526036ee5ce3e84d6b87eb4bf
+Size: 26668
+SHA256sum: 7598c736b0200f4a36b3e55fbba05a4c274f1457537abdd69f3b683303812fe8
 Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
  plugin for ppp.
 
@@ -371,10 +399,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 162718
+Installed-Size: 162724
 Filename: ppp-multilink_2.5.2-2_aarch64_generic.ipk
 Size: 163167
-SHA256sum: 3c88a770d9eb98e5c3527daa0c8af92ec944e81ba66dec494d565fab50754b0f
+SHA256sum: 9502387b0ba032713190ed58bf5384c35cff4b561411d6ecf4c63fb1ec360b8c
 Description:  PPP daemon (with multilink support)
 
 Package: ppp
@@ -384,10 +412,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 150975
+Installed-Size: 150974
 Filename: ppp_2.5.2-2_aarch64_generic.ipk
 Size: 151598
-SHA256sum: 27fae8185f5b8c4e0e88881bafa9cf215e632f2e389c89f159326e9c5a043ba6
+SHA256sum: 4c387deefbb0d4102a6c728bcbc3a964b4e50b2e6f50f5084a33a562205b34ae
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: pppdump
@@ -397,10 +425,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 4494
+Installed-Size: 4499
 Filename: pppdump_2.5.2-2_aarch64_generic.ipk
-Size: 5094
-SHA256sum: e469b81a00f0f115904c904854ea4da8f1cac38b87cf3086ca77184bce6b9504
+Size: 5109
+SHA256sum: 395c1dc08cf17634480410a78685abd45cf2d814e2176c4d309cc1145c6bfb11
 Description:  This package contains an utility to read PPP record file.
 
 Package: pppoe-discovery
@@ -410,10 +438,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 8992
+Installed-Size: 8994
 Filename: pppoe-discovery_2.5.2-2_aarch64_generic.ipk
-Size: 9695
-SHA256sum: 6ad5e6e90cb3c0e8df71d502e3f1522e1f8e4d09052888060cf219f9b4c03566
+Size: 9708
+SHA256sum: 0ee4211ebd1670f6dc1816fc6e046524e964723b74f28209fda7b740fa2ece11
 Description:  This tool performs the same discovery process as pppoe, but does
  not initiate a session. Can be useful to debug pppoe.
 
@@ -424,10 +452,10 @@ License: BSD-4-Clause
 Section: net
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_generic
-Installed-Size: 4481
+Installed-Size: 4482
 Filename: pppstats_2.5.2-2_aarch64_generic.ipk
-Size: 5086
-SHA256sum: 92a52c168b43f4bdd5ba9cd60a8ab5ecf61e7ad0340ab05886413849d1a306ac
+Size: 5085
+SHA256sum: bee7af0c9589e97019fa47269a05180ed14f181f5d27f7e69506e80726b349d2
 Description:  This package contains an utility to report PPP statistics.
 
 Package: rdma
@@ -437,10 +465,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 29638
+Installed-Size: 29639
 Filename: rdma_6.8.0-1_aarch64_generic.ipk
-Size: 30317
-SHA256sum: 4f1b9fc823bdb66ec654e14b2092416d92e187b80a0549a04237572051e4eb89
+Size: 30325
+SHA256sum: 77c9d557e5d304899048737bd1e1a6547f86b27ad95a8ac39d41ce77d4264c53
 Description:  Network rdma utility
 
 Package: rpcapd
@@ -450,10 +478,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:tcpdump:libpcap
 Architecture: aarch64_generic
-Installed-Size: 131658
+Installed-Size: 131665
 Filename: rpcapd_1.11.0-1_aarch64_generic.ipk
-Size: 132203
-SHA256sum: f0fa64c83f91a7237b5ccbde173e718a60a7ce05e705523f391c1de6da59544f
+Size: 132231
+SHA256sum: 827322a4ac246817dc0db864f9efdc3f3562d0ca5457206d6f41085a6ed627ea
 Description:  Capture daemon to be controlled by a remote libpcap application
 
 Package: ss
@@ -463,10 +491,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 45550
+Installed-Size: 45553
 Filename: ss_6.8.0-1_aarch64_generic.ipk
-Size: 46065
-SHA256sum: 8f8d88f4b0d302634777d90b998e67e30808e6271b93ff766fe373f187360367
+Size: 46058
+SHA256sum: d1729bcddfbf52a24164d0497a6d6dde1093c37c67fbd00c3e6aa2de6c1c8d33
 Description:  Socket statistics utility
 
 Package: tc-bpf
@@ -478,10 +506,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 202541
+Installed-Size: 202543
 Filename: tc-bpf_6.8.0-1_aarch64_generic.ipk
-Size: 203213
-SHA256sum: 60b90876bad31670ea199a4602d83c69a4d62a876626f3e8611d050525bb6607
+Size: 203266
+SHA256sum: 7331aea729e11378166cff9fb1ba9fbf8650b6cece60d3c62c858027efa51657
 Description:  Traffic control utility (bpf)
 
 Package: tc-full
@@ -493,10 +521,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 204773
+Installed-Size: 204776
 Filename: tc-full_6.8.0-1_aarch64_generic.ipk
-Size: 205441
-SHA256sum: cf176493efe57b9cbb32c60b56e881c2f4e87849de6bbaec3191b42ff5af9d65
+Size: 205430
+SHA256sum: 1084003e40dcf145ad4803cbfe1543b1f9e5fdbb6d43ba96934664cdb9ea506f
 Description:  Traffic control utility (full)
 
 Package: tc-tiny
@@ -508,10 +536,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: aarch64_generic
-Installed-Size: 167208
+Installed-Size: 167209
 Filename: tc-tiny_6.8.0-1_aarch64_generic.ipk
-Size: 167849
-SHA256sum: 7458d7f5c514431770b3748991a2749bdcd18431a5e0f25337297db80763cc95
+Size: 167853
+SHA256sum: 8663ccc13c7ee5ca2dc0d95d0580151b653708cfb654409f505e421a5b92dda9
 Description:  Traffic control utility (minimal)
 
 Package: ucode-mod-debug
@@ -520,10 +548,10 @@ Depends: libc, ucode, libubox20230523, libucode20230711
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 8662
+Installed-Size: 8665
 Filename: ucode-mod-debug_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 9354
-SHA256sum: d2654e49183f4d7a79d0d72b1588eb0bb642694b0fc004fada9df305b9e9149c
+Size: 9362
+SHA256sum: 0beb39c130042b4172b334fcb7b1be5bb4e89935c5d07bb2f52f28150cc1c9e6
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-digest
@@ -532,10 +560,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 16583
+Installed-Size: 16582
 Filename: ucode-mod-digest_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 17266
-SHA256sum: 61ddc42f899f04b3de6109194b12bb699b2f5131051efd1d0a3efed403548d6a
+Size: 17293
+SHA256sum: 626e15d6e2548e806623294fe279411a8f9cc107045a36122b3f12d2c2df7c26
 Description:  The digest module allows ucode scripts to use libmd digests.
 
 Package: ucode-mod-fs
@@ -544,10 +572,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 12015
+Installed-Size: 12016
 Filename: ucode-mod-fs_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 12665
-SHA256sum: 3f1adf8b8033db413b30dd4da86307963e681e09730c568e54ca8c93b1731fde
+Size: 12674
+SHA256sum: 441dac182335468c9327c26ae804177f00a8fc30d44361a5299c09af9122a815
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
@@ -556,10 +584,10 @@ Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 4602
+Installed-Size: 4606
 Filename: ucode-mod-log_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 5202
-SHA256sum: 5e79e50ef924491b6bc2ab024ca1d5e4ef3b30fb3b4ff50fce369dbcae298be7
+Size: 5207
+SHA256sum: 2922a29bcc1a86c8bb85f65178cb92f971fd495ee094f06bc04d799b2a1d0c83
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
@@ -568,10 +596,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 2924
+Installed-Size: 2927
 Filename: ucode-mod-math_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 3562
-SHA256sum: 8fa0482df6520963ca44782b33cf662df82c25171863506d64b1ff0475d17d90
+Size: 3568
+SHA256sum: d0fd24b2c7e73f5ed831267089e0731889cddfde969388b30e8d9b25154e72ed
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
@@ -580,10 +608,10 @@ Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 22981
+Installed-Size: 22986
 Filename: ucode-mod-nl80211_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 23424
-SHA256sum: 10c9fd8ace9cf55e2b8cfaeb76695fd71f48b07a565ed4133d623e8fefb5734d
+Size: 23429
+SHA256sum: 25812e6e3cf5b15556f1ed78759107df8095e0a7cb134f1785b906cd5156792d
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
@@ -592,10 +620,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 8303
+Installed-Size: 8305
 Filename: ucode-mod-resolv_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 8983
-SHA256sum: a57e8ef26219e696f67557d483a68f85bc1d0f1408baafe71d91edef02061ada
+Size: 8984
+SHA256sum: 527a9a9903f0eee679add8feb72c5db057d77b6110f1030ee0e7035f0f44393d
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
@@ -604,10 +632,10 @@ Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 28261
+Installed-Size: 28265
 Filename: ucode-mod-rtnl_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 28747
-SHA256sum: 555e6d54b869f2a6ec3109502e3dac8c530d024bb78f9c273eaeeb4bf59629f3
+Size: 28751
+SHA256sum: 25f967f5504cd85a31908a4de2ebf83f369b1808fca42bfbf5155b74cec7644a
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-socket
@@ -616,10 +644,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 25132
+Installed-Size: 25134
 Filename: ucode-mod-socket_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 25777
-SHA256sum: 2c9b75d1b0e4980a0e553233d4440882ceaec2790c5e23dc4d5a002d7ff6efef
+Size: 25779
+SHA256sum: bc915d71afa2aa0421ae1fa0d5951fab20c6b3f45838602314cecf3ea89f5a1b
 Description:  The socket plugin provides access to IPv4
 
 Package: ucode-mod-struct
@@ -628,10 +656,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 12155
+Installed-Size: 12157
 Filename: ucode-mod-struct_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 12792
-SHA256sum: d1bb47b01b09184432b2119d8c652b00fe5b5210376d68dd549dd2885cb0182a
+Size: 12803
+SHA256sum: 1b652dca38f4b8fa09cc512c0d9a076c5632210a4d73f0e84b31d4d08a353ee4
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
@@ -640,10 +668,10 @@ Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 17301
+Installed-Size: 17303
 Filename: ucode-mod-ubus_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 18001
-SHA256sum: 429f6e091fd4f281eb11d3a3165926e60d28f96e54decd347f020f733ad8c784
+Size: 18011
+SHA256sum: 7e4c9a06e32f923590530a85e5c977f05a0aaae7f642b63e388247ff59f755e8
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
@@ -652,10 +680,10 @@ Depends: libc, ucode, libuci20130104
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 8430
+Installed-Size: 8432
 Filename: ucode-mod-uci_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 9118
-SHA256sum: af08cb7fd201708a54f098582340130d6697565f539157bf303e5c66f4e8669e
+Size: 9121
+SHA256sum: cfa4021fb70086efde3ace2b8a82e554deaa7f6e717e1d0455869cfbcbcf1af1
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
@@ -664,10 +692,10 @@ Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 8672
+Installed-Size: 8675
 Filename: ucode-mod-uloop_2025-07-18-3f64c808-1_aarch64_generic.ipk
-Size: 9355
-SHA256sum: 65314d3ace0e1ddf7ec5007882db5263410533cf312e0c47692eaf4f48031dbf
+Size: 9366
+SHA256sum: 967060432d65c3469dcbb1090acc7767568fa68b3353136d6f58d65a877472ce
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
@@ -676,10 +704,10 @@ Depends: libc, libucode20230711
 License: ISC
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 6999
+Installed-Size: 7002
 Filename: ucode_2025-07-18-3f64c808-1_aarch64_generic.ipk
 Size: 7701
-SHA256sum: a2806f0997ebc0f611ee6b26937eba1c4be148985772dcfe4d36053224d03812
+SHA256sum: c1ae3e57df064eb54cc1131c2a0c2d41331916ca1c7d83cfbe5e472088f8c083
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -690,10 +718,10 @@ License: Zlib
 Section: devel
 CPE-ID: cpe:/a:zlib:zlib
 Architecture: aarch64_generic
-Installed-Size: 82338
+Installed-Size: 82339
 Filename: zlib-dev_1.3.1-1_aarch64_generic.ipk
-Size: 83053
-SHA256sum: c7b5cc38d217369fa7ca8b59973e45804fdb9ccbcb68e9a67d305ac6d32c7824
+Size: 83066
+SHA256sum: 2d36a43230d289dd87c464ac4e0f31fc99bfdb390c7b7629afb49f1cf0f54aa6
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
@@ -704,10 +732,10 @@ License: Zlib
 Section: libs
 CPE-ID: cpe:/a:zlib:zlib
 Architecture: aarch64_generic
-Installed-Size: 45189
+Installed-Size: 45193
 Filename: zlib_1.3.1-1_aarch64_generic.ipk
-Size: 45662
-SHA256sum: 754b20a8a9d86da122372780a335f40ca5abc6a32b04346ef74ae6e497d68495
+Size: 45671
+SHA256sum: 8655b673fcd0bd8a58c564689dd5bfee1cca72c7d8d013ac881f52bd3b57caae
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 
