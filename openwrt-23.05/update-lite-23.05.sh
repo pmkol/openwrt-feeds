@@ -37,6 +37,7 @@ rm -rf openwrt-mihomo
 # luci-app-momo
 mv openwrt-momo/*/ ./
 rm -rf openwrt-momo
+sed -i '3 a\\t\t"order": 20,' luci-app-momo/root/usr/share/luci/menu.d/luci-app-momo.json
 
 # haproxy
 mv immortalwrt/packages/net/haproxy ./
