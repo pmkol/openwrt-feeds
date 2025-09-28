@@ -10,9 +10,9 @@ git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
 git clone https://github.com/immortalwrt/homeproxy immortalwrt/luci-app-homeproxy --depth 1
 git clone https://github.com/sbwml/openwrt_helloworld --depth 1
-git clone https://github.com/pmkol/openwrt-mihomo --depth 1
+git clone https://github.com/apadpro/openwrt-mihomo --depth 1
 git clone https://github.com/nikkinikki-org/OpenWrt-momo openwrt-momo --depth 1
-git clone https://github.com/pmkol/v2ray-geodata --depth 1
+git clone https://github.com/apadpro/v2ray-geodata --depth 1
 rm -rf immortalwrt/luci-app-homeproxy/{.git,.github,LICENSE,README}
 rm -rf openwrt_helloworld/{luci-app-homeproxy,luci-app-nikki,luci-app-ssr-plus,dns2socks-rust,nikki,v2ray-geodata}
 rm -rf v2ray-geodata/.git
