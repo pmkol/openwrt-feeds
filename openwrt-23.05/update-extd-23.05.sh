@@ -27,17 +27,17 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic --
 git clone https://github.com/asvow/luci-app-tailscale --depth 1
 git clone https://github.com/muink/openwrt-einat-ebpf einat-ebpf --depth 1
 git clone https://github.com/muink/luci-app-einat --depth 1
-git clone https://github.com/pmkol/luci-theme-argon openwrt-argon --depth 1
-git clone https://github.com/pmkol/openwrt-adguardhome --depth 1
-git clone https://github.com/pmkol/openwrt-aria2 --depth 1
-git clone https://github.com/pmkol/openwrt-eqosplus --depth 1
-git clone https://github.com/pmkol/openwrt-oaf --depth 1
-git clone https://github.com/pmkol/packages_net_miniupnpd miniupnpd --depth 1
-git clone https://github.com/pmkol/luci-app-upnp --depth 1
-git clone https://github.com/pmkol/packages_net_qosmate qosmate --depth 1
-git clone https://github.com/pmkol/luci-app-qosmate --depth 1
-git clone https://github.com/pmkol/luci-app-sqm --depth 1
-git clone https://github.com/pmkol/luci-app-timedreboot --depth 1
+git clone https://github.com/apadpro/luci-theme-argon openwrt-argon --depth 1
+git clone https://github.com/apadpro/openwrt-adguardhome --depth 1
+git clone https://github.com/apadpro/openwrt-aria2 --depth 1
+git clone https://github.com/apadpro/openwrt-eqosplus --depth 1
+git clone https://github.com/apadpro/openwrt-oaf --depth 1
+git clone https://github.com/apadpro/packages_net_miniupnpd miniupnpd --depth 1
+git clone https://github.com/apadpro/luci-app-upnp --depth 1
+git clone https://github.com/apadpro/packages_net_qosmate qosmate --depth 1
+git clone https://github.com/apadpro/luci-app-qosmate --depth 1
+git clone https://github.com/apadpro/luci-app-sqm --depth 1
+git clone https://github.com/apadpro/luci-app-timedreboot --depth 1
 rm -rf openwrt_pkgs/{bash-completion,ddns-scripts-aliyun,fw_download_tool,luci-app-adguardhome,luci-app-autoreboot,luci-app-ota,luci-app-vsftpd}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
