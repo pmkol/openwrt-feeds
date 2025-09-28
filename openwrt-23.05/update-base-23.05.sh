@@ -54,7 +54,7 @@ curl -s https://$mirror/openwrt-23.05/patch/firewall4/nftables/002-nftables-add-
 curl -s https://$mirror/openwrt-23.05/patch/firewall4/nftables/003-nftables-add-brcm-fullconenat-support.patch > nftables/patches/003-nftables-add-brcm-fullconenat-support.patch
 
 # iproute2
-git clone https://github.com/pmkol/package_network_utils_iproute2 iproute2 --depth 1
+git clone https://github.com/apadpro/package_network_utils_iproute2 iproute2 --depth 1
 rm -rf iproute2/.git
 
 # libunwind
