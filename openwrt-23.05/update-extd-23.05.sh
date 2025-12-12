@@ -38,7 +38,7 @@ git clone https://github.com/apadpro/packages_net_qosmate qosmate --depth 1
 git clone https://github.com/apadpro/luci-app-qosmate --depth 1
 git clone https://github.com/apadpro/luci-app-sqm --depth 1
 git clone https://github.com/apadpro/luci-app-timedreboot --depth 1
-rm -rf openwrt_pkgs/{bash-completion,ddns-scripts-aliyun,fw_download_tool,luci-app-adguardhome,luci-app-autoreboot,luci-app-ota,luci-app-vsftpd}
+rm -rf openwrt_pkgs/{bash-completion,ddns-scripts-aliyun,fw_download_tool,rtp2httpd,luci-app-adguardhome,luci-app-autoreboot,luci-app-ota,luci-app-rtp2httpd,luci-app-vsftpd}
 rm -rf openwrt-ddns-go/luci-app-ddns-go/README.md
 rm -rf luci-app-filemanager/.git
 rm -rf liburing/.git
