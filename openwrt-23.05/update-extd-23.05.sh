@@ -76,7 +76,7 @@ rm -rf openwrt-aria2
 # luci-app-cifs-mount
 mv immortalwrt/luci/applications/luci-app-cifs-mount ./
 sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|' luci-app-cifs-mount/Makefile
-sed -i 's/"admin", "nas", "cifs"/"admin", "services", "cifs"/g' luci-app-cifs-mount/luasrc/controller/cifs.lua
+sed -i 's/"admin\/nas\/cifs-mount"/"admin\/services\/cifs-mount"/' luci-app-cifs-mount/root/usr/share/luci/menu.d/luci-app-cifs-mount.json
 
 # luci-app-ddns-go
 mv openwrt-ddns-go/*/ ./
