@@ -226,7 +226,11 @@ if [ -n "$TAILSCALE_HASH" ]; then
     sed -ri "s/(PKG_VERSION:=)[^\"]*/\1$TAILSCALE_VERSION/;s/(PKG_HASH:=)[^\"]*/\1$TAILSCALE_HASH/" tailscale/Makefile
 else
     rm -f tailscale/Makefile
-    mv /tmp/extd/tailscale/Makefile tailscale/Makefile
+    cp /tmp/extd/tailscale/Makefile tailscale/Makefile
+fi
+if grep -q "^PKG_VERSION:=null" tailscale/Makefile; then
+    rm -f tailscale/Makefile
+    cp /tmp/extd/tailscale/Makefile tailscale/Makefile
 fi
 rm -f tailscale/files/{tailscale.conf,tailscale.init}
 mv luci-app-tailscale/root/etc/config/tailscale tailscale/files/tailscale.conf
