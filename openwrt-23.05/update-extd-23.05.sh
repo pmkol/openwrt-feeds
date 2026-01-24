@@ -12,7 +12,7 @@ git clone https://github.com/openwrt/packages openwrt/packages-master -b master 
 git clone https://github.com/immortalwrt/luci immortalwrt/luci-23.05 -b openwrt-23.05 --depth 1
 git clone https://github.com/immortalwrt/luci immortalwrt/luci -b master --depth 1
 git clone https://github.com/immortalwrt/packages immortalwrt/packages -b master --depth 1
-git clone https://github.com/sirpdboy/luci-app-ddns-go openwrt-ddns-go --depth 1
+git clone https://github.com/sirpdboy/luci-app-ddns-go openwrt-ddns-go -b "$(git ls-remote --tags https://github.com/sirpdboy/luci-app-ddns-go.git | grep -v '\^{}' | awk -F/ '{print $3}' | sort -V | tail -n1)" --depth 1
 git clone https://github.com/sbwml/openwrt_pkgs --depth 1
 git clone https://github.com/sbwml/luci-app-airconnect openwrt-airconnect --depth 1
 git clone https://github.com/sbwml/luci-app-filemanager luci-app-filemanager --depth 1
