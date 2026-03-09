@@ -5,13 +5,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=daed
-PKG_VERSION:=1.21.1
+PKG_VERSION:=1.24.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/daeuniverse/daed.git
 PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_MIRROR_HASH:=9839ee2d8b968bcdd1ae599e8dc11e43df13bc2e667c59b8f64ee78e5bd8059d
+PKG_MIRROR_HASH:=7ad5835df49e64338a66349fdba69c90b6eddcdbf4b5b93623cc9e7cbe0920e0
 
 PKG_LICENSE:=AGPL-3.0-only MIT
 PKG_LICENSE_FILES:=LICENSE wing/LICENSE
@@ -22,8 +22,12 @@ PKG_BUILD_DEPENDS:=golang/host bpf-headers
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=no-mips16
 
+PATCH_DIR:=patches
+
 ifeq ($(ARCH),arm)
-PATCH_DIR:=patches_arm
+  PATCH_DIR_ARCH:=patches_arm
+else ifeq ($(ARCH),mips)
+  PATCH_DIR_ARCH:=patches_mips
 endif
 
 GO_PKG:=github.com/daeuniverse/dae-wing
@@ -47,13 +51,37 @@ define Package/daed/Default
   URL:=https://github.com/daeuniverse/daed
 endef
 
+define Package/daed/config
+  choice
+    prompt "BPF dependency type"
+    default DAED_USE_VMLINUX_BTF
+    help
+      Select the BPF dependency type.
+      - BPF CO-RE (vmlinux-btf): Recommended. Does not require kernel headers.
+      - Kernel DEBUG_INFO_BTF (bpf-depends): Requires kernel to be compiled with BTF debug info.
+
+    config DAED_USE_VMLINUX_BTF
+      bool "BPF CO-RE (vmlinux-btf)"
+
+    config DAED_USE_BPF_DEPENDS
+      bool "Kernel DEBUG_INFO_BTF (bpf-depends)"
+  endchoice
+endef
+
 define Package/daed
   $(call Package/daed/Default)
   TITLE:=A Modern Dashboard For dae
   # You need enable KERNEL_DEBUG_INFO_BTF and KERNEL_BPF_EVENTS
-  DEPENDS:=$(GO_ARCH_DEPENDS) $(BPF_DEPENDS) \
-    +ca-bundle +kmod-sched-core +kmod-sched-bpf +kmod-xdp-sockets-diag \
+  DEPENDS:=$(GO_ARCH_DEPENDS) \
+    +ca-bundle +kmod-sched-core +kmod-sched-bpf \
     +kmod-veth +v2ray-geoip +v2ray-geosite
+
+  ifeq ($(CONFIG_DAED_USE_VMLINUX_BTF),y)
+    DEPENDS+=+vmlinux-btf
+  endif
+  ifeq ($(CONFIG_DAED_USE_BPF_DEPENDS),y)
+    DEPENDS+=$(BPF_DEPENDS) +kmod-xdp-sockets-diag
+  endif
 endef
 
 define Package/daed/description
@@ -71,7 +99,14 @@ define Download/daed-web
 	URL:=https://github.com/daeuniverse/daed/releases/download/v$(PKG_VERSION)
 	URL_FILE:=web.zip
 	FILE:=$(WEB_FILE)
-	HASH:=ffba0f8b5e9411ad0da10349dfaab2336922d47cd5effd81163ce4415b4d84d7
+	HASH:=30378e7a988b842b5d174af5cb6475ff2074ad948d7d99dbcf2213e1d6e1f277
+endef
+
+define Build/Patch
+	$(call PatchDir,$(PKG_BUILD_DIR),$(PATCH_DIR),)
+ifneq ($(PATCH_DIR_ARCH),)
+	$(call PatchDir,$(PKG_BUILD_DIR),$(PATCH_DIR_ARCH),)
+endif
 endef
 
 define Build/Prepare
