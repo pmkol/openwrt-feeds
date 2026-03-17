@@ -14,7 +14,7 @@ git clone https://github.com/apadpro/openwrt-mihomo --depth 1
 git clone https://github.com/nikkinikki-org/OpenWrt-momo openwrt-momo --depth 1
 git clone https://github.com/apadpro/v2ray-geodata --depth 1
 rm -rf immortalwrt/luci-app-homeproxy/{.git,.github,LICENSE,README}
-rm -rf openwrt_helloworld/{luci-app-homeproxy,luci-app-nikki,luci-app-ssr-plus,dns2socks-rust,nikki,v2ray-geodata}
+rm -rf openwrt_helloworld/{luci-app-homeproxy,luci-app-nikki,luci-app-ssr-plus,dns2socks,dns2socks-rust,nikki,v2ray-geodata}
 rm -rf v2ray-geodata/.git
 
 # helloworld
@@ -38,6 +38,9 @@ rm -rf openwrt-mihomo
 mv openwrt-momo/*/ ./
 rm -rf openwrt-momo
 sed -i '3 a\\t\t"order": 20,' luci-app-momo/root/usr/share/luci/menu.d/luci-app-momo.json
+
+# dns2socks
+mv immortalwrt/packages/net/dns2socks ./
 
 # haproxy
 mv immortalwrt/packages/net/haproxy ./
