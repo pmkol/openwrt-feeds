@@ -11,7 +11,7 @@ PKG_RELEASE:=2
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/sbwml/daed.git
 PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_MIRROR_HASH:=f9ba025697122335d7e00a89947dc8cf740f8f9c0f4d47c4aa074c6d090d1bf2
+PKG_MIRROR_HASH:=c4e7018c5fbee5a362d13fd8e322c935cfa45fdca2136138f87eb4e98d828b51
 
 PKG_LICENSE:=AGPL-3.0-only MIT
 PKG_LICENSE_FILES:=LICENSE wing/LICENSE
@@ -97,7 +97,7 @@ define Download/daed-web
 	URL:=https://github.com/sbwml/daed/releases/download/v$(PKG_VERSION)
 	URL_FILE:=web.zip
 	FILE:=$(WEB_FILE)
-	HASH:=c0addd1f40f8e2018f792d59a39fa8af282dfeae9b03042b85ed01d4de26c802
+	HASH:=265fc469fbbda4bea8193e11b0894a0f28e5a4ac01bbaecdd8fd624554cb2a9d
 endef
 
 define Build/Prepare
