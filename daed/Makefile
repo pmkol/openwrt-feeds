@@ -6,12 +6,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=daed
 PKG_VERSION:=1.24.0
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/daeuniverse/daed.git
+PKG_SOURCE_URL:=https://github.com/sbwml/daed.git
 PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_MIRROR_HASH:=7ad5835df49e64338a66349fdba69c90b6eddcdbf4b5b93623cc9e7cbe0920e0
+PKG_MIRROR_HASH:=f9ba025697122335d7e00a89947dc8cf740f8f9c0f4d47c4aa074c6d090d1bf2
 
 PKG_LICENSE:=AGPL-3.0-only MIT
 PKG_LICENSE_FILES:=LICENSE wing/LICENSE
@@ -22,12 +22,10 @@ PKG_BUILD_DEPENDS:=golang/host bpf-headers
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=no-mips16
 
-PATCH_DIR:=patches
-
 ifeq ($(ARCH),arm)
-  PATCH_DIR_ARCH:=patches_arm
+  PATCH_DIR:=patches_arm
 else ifeq ($(ARCH),mips)
-  PATCH_DIR_ARCH:=patches_mips
+  PATCH_DIR:=patches_mips
 endif
 
 GO_PKG:=github.com/daeuniverse/dae-wing
@@ -96,17 +94,10 @@ endef
 
 WEB_FILE:=$(PKG_NAME)-web-$(PKG_VERSION).zip
 define Download/daed-web
-	URL:=https://github.com/daeuniverse/daed/releases/download/v$(PKG_VERSION)
+	URL:=https://github.com/sbwml/daed/releases/download/v$(PKG_VERSION)
 	URL_FILE:=web.zip
 	FILE:=$(WEB_FILE)
-	HASH:=30378e7a988b842b5d174af5cb6475ff2074ad948d7d99dbcf2213e1d6e1f277
-endef
-
-define Build/Patch
-	$(call PatchDir,$(PKG_BUILD_DIR),$(PATCH_DIR),)
-ifneq ($(PATCH_DIR_ARCH),)
-	$(call PatchDir,$(PKG_BUILD_DIR),$(PATCH_DIR_ARCH),)
-endif
+	HASH:=c0addd1f40f8e2018f792d59a39fa8af282dfeae9b03042b85ed01d4de26c802
 endef
 
 define Build/Prepare
