@@ -64,7 +64,7 @@ jobs:
           sudo sync
           sudo sysctl -w vm.drop_caches=3
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 1
           ref: extd-23.05
@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
           ref: opkg-repo
@@ -126,8 +126,8 @@ jobs:
         run: |
           echo "latest_release=$(TZ='Asia/Hong_Kong' date +'%Y%m%d')" >> $GITHUB_ENV
           git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch openwrt_extd/23.05/**/*.ipk' --prune-empty --tag-name-filter cat HEAD
-          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-23.05/packages-extd-x86_64.tar.xz
-          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-23.05/packages-extd-aarch64_generic.tar.xz
+          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-24.10/packages-extd-x86_64.tar.xz
+          curl -LO https://github.com/${{ github.repository }}/releases/download/openwrt-24.10/packages-extd-aarch64_generic.tar.xz
           rm -rf openwrt_extd/23.05
           mkdir -p openwrt_extd/23.05
           for file in packages-extd-*.tar.xz; do tar -xf "$file" -C openwrt_extd/23.05; done
