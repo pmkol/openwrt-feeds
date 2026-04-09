@@ -26,9 +26,17 @@
             "path": "momo/profile"
         }
     },
+    "admin/services/momo/mixin": {
+        "title": "Mixin Config",
+        "order": 30,
+        "action": {
+            "type": "view",
+            "path": "momo/mixin"
+        }
+    },
     "admin/services/momo/proxy": {
         "title": "Proxy Config",
-        "order": 30,
+        "order": 40,
         "action": {
             "type": "view",
             "path": "momo/proxy"
@@ -36,7 +44,7 @@
     },
     "admin/services/momo/editor": {
         "title": "Editor",
-        "order": 40,
+        "order": 50,
         "action": {
             "type": "view",
             "path": "momo/editor"
@@ -44,7 +52,7 @@
     },
     "admin/services/momo/log": {
         "title": "Log",
-        "order": 50,
+        "order": 60,
         "action": {
             "type": "view",
             "path": "momo/log"
