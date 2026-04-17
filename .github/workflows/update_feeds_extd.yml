@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 1
           ref: extd-23.05
-          token: ${{ secrets.OPENWRT_WORKFLOW_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update Feeds
         run: |
