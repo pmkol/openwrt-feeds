@@ -465,9 +465,9 @@ function gen_config_server(node)
 
 	if node.protocol == "vmess" or node.protocol == "vless" then
 		if node.uuid then
-			local clients = {}
+			local users = {}
 			for i = 1, #node.uuid do
-				clients[i] = {
+				users[i] = {
 					id = node.uuid[i],
 					flow = (node.protocol == "vless"
 					and (node.tls == "1" or (node.decryption and node.decryption ~= "" and node.decryption ~= "none")) 
@@ -475,7 +475,7 @@ function gen_config_server(node)
 				}
 			end
 			settings = {
-				clients = clients,
+				users = users,
 				decryption = (node.protocol == "vless") and ((node.decryption and node.decryption ~= "") and node.decryption or "none") or nil
 			}
 		end
@@ -483,7 +483,7 @@ function gen_config_server(node)
 		settings = {
 			udp = ("1" == node.udp_forward) and true or false,
 			auth = ("1" == node.auth) and "password" or "noauth",
-			accounts = ("1" == node.auth) and {
+			users = ("1" == node.auth) and {
 				{
 					user = node.username,
 					pass = node.password
@@ -493,7 +493,7 @@ function gen_config_server(node)
 	elseif node.protocol == "http" then
 		settings = {
 			allowTransparent = false,
-			accounts = ("1" == node.auth) and {
+			users = ("1" == node.auth) and {
 				{
 					user = node.username,
 					pass = node.password
@@ -511,20 +511,20 @@ function gen_config_server(node)
 		}
 	elseif node.protocol == "trojan" then
 		if node.uuid then
-			local clients = {}
+			local users = {}
 			for i = 1, #node.uuid do
-				clients[i] = {
+				users[i] = {
 					password = node.uuid[i],
 				}
 			end
 			settings = {
-				clients = clients
+				users = users
 			}
 		end
 	elseif node.protocol == "hysteria2" then
 		settings = {
 			version = 2,
-			clients = node.hysteria2_auth_password and {
+			users = node.hysteria2_auth_password and {
 				{ auth = node.hysteria2_auth_password }
 			}
 		}
@@ -888,7 +888,7 @@ function gen_config(var)
 			end
 			if local_socks_username and local_socks_password and local_socks_username ~= "" and local_socks_password ~= "" then
 				inbound.settings.auth = "password"
-				inbound.settings.accounts = {
+				inbound.settings.users = {
 					{
 						user = local_socks_username,
 						pass = local_socks_password
@@ -905,7 +905,7 @@ function gen_config(var)
 				settings = {allowTransparent = false}
 			}
 			if local_http_username and local_http_password and local_http_username ~= "" and local_http_password ~= "" then
-				inbound.settings.accounts = {
+				inbound.settings.users = {
 					{
 						user = local_http_username,
 						pass = local_http_password
@@ -1643,14 +1643,13 @@ function gen_config(var)
 				}
 			})
 		else
-			if COMMON.default_balancer_tag then
-				dns_outbound_tag = nil
-			elseif COMMON.default_outbound_tag then
+			if COMMON.default_outbound_tag then
 				dns_outbound_tag = COMMON.default_outbound_tag
 			end
 		end
 
 		local dns_rule_position = 1
+		local remote_dns_outbound
 		if dns_listen_port then
 			table.insert(inbounds, {
 				listen = "127.0.0.1",
@@ -1663,14 +1662,22 @@ function gen_config(var)
 				}
 			})
 
-			table.insert(outbounds, {
+			-- remote dns outbound
+			local chn_list = uci:get(appname, "@global[0]", "chn_list") or "direct"
+			remote_dns_outbound = {
 				tag = "dns-out",
 				protocol = "dns",
+				proxySettings = dns_outbound_tag and {
+					tag = (dns_outbound_tag ~= "blackhole") and dns_outbound_tag or "direct"
+				} or nil,
 				settings = {
+					address = (chn_list ~= "proxy") and "8.8.8.8" or "223.5.5.5",
+					port = 53,
+					network = "tcp",
 					nonIPQuery = (api.compare_versions(xray_version, "<", "26.4.25")) and "reject" or nil, -- Todo is to remove it
-					rules = (api.compare_versions(xray_version, ">", "26.4.17")) and {{ action = "hijack" }} or nil
+					rules = (api.compare_versions(xray_version, ">", "26.4.17")) and {} or nil
 				}
-			})
+			}
 
 			table.insert(routing.rules, 1, {
 				inboundTag = {
@@ -1694,6 +1701,7 @@ function gen_config(var)
 		end
 
 		--按分流顺序DNS
+		local remote_dns_out_rules = {}
 		if dns_domain_rules and #dns_domain_rules > 0 then
 			for index, value in ipairs(dns_domain_rules) do
 				if value.domain and value.outboundTag then
@@ -1724,6 +1732,21 @@ function gen_config(var)
 						dns_server = nil
 					end
 					]]--
+
+					-- remote dns outbound rules
+					if value.outboundTag == "blackhole" then
+						table.insert(remote_dns_out_rules, {
+							action = "reject",
+							domain = api.clone(value.domain)
+						})
+					else
+						table.insert(remote_dns_out_rules, {
+							action = "hijack",
+							qtype = "1,28",
+							domain = api.clone(value.domain)
+						})
+					end
+
 					if dns_server then
 						--dns_server.finalQuery = true
 						dns_server.domains = value.domain
@@ -1779,6 +1802,21 @@ function gen_config(var)
 
 		if dns_hosts_len == 0 then
 			dns.hosts = nil
+		end
+
+		-- remote dns outbound
+		if remote_dns_outbound then
+			if remote_dns_outbound.settings.rules then
+				table.insert(remote_dns_out_rules, {
+					action = "hijack",
+					qtype = "1,28"
+				})
+				table.insert(remote_dns_out_rules, {
+					action = "direct"
+				})
+				remote_dns_outbound.settings.rules = remote_dns_out_rules
+			end
+			table.insert(outbounds, remote_dns_outbound)
 		end
 
 		-- 自定义节点 DNS
@@ -1925,7 +1963,7 @@ function gen_proto_config(var)
 		}
 		if local_socks_username and local_socks_password and local_socks_username ~= "" and local_socks_password ~= "" then
 			inbound.settings.auth = "password"
-			inbound.settings.accounts = {
+			inbound.settings.users = {
 				{
 					user = local_socks_username,
 					pass = local_socks_password
@@ -1945,7 +1983,7 @@ function gen_proto_config(var)
 			}
 		}
 		if local_http_username and local_http_password and local_http_username ~= "" and local_http_password ~= "" then
-			inbound.settings.accounts = {
+			inbound.settings.users = {
 				{
 					user = local_http_username,
 					pass = local_http_password
