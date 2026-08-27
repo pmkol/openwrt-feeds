@@ -1,7 +1,5 @@
 <%
 local api = require "luci.passwall.api"
-local translate = luci.i18n.translate
-local total_lines_text = translate("Total Lines")
 -%>
 <script type="text/javascript">
 	//<![CDATA[
@@ -14,7 +12,7 @@ local total_lines_text = translate("Total Lines")
 				textarea.innerHTML = data;
 				//textarea.scrollTop = textarea.scrollHeight;
 				var totalLinesLabel = document.getElementById('gfw_total_lines');
-				totalLinesLabel.innerHTML = "<%= total_lines_text %> " + total_lines;
+				totalLinesLabel.innerHTML = "<%:Total Lines%> " + total_lines;
 			})
 	}
 
@@ -27,7 +25,7 @@ local total_lines_text = translate("Total Lines")
 				textarea.innerHTML = data;
 				//textarea.scrollTop = textarea.scrollHeight;
 				var totalLinesLabel = document.getElementById('chn_total_lines');
-				totalLinesLabel.innerHTML = "<%= total_lines_text %> " + total_lines;
+				totalLinesLabel.innerHTML = "<%:Total Lines%> " + total_lines;
 			})
 	}
 
@@ -40,7 +38,7 @@ local total_lines_text = translate("Total Lines")
 				textarea.innerHTML = data;
 				//textarea.scrollTop = textarea.scrollHeight;
 				var totalLinesLabel = document.getElementById('chnroute_total_lines');
-				totalLinesLabel.innerHTML = "<%= total_lines_text %> " + total_lines;
+				totalLinesLabel.innerHTML = "<%:Total Lines%> " + total_lines;
 			})
 	}
 	//]]>
